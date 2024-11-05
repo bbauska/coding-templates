@@ -1,24 +1,108 @@
-# coding-template
-Basic web coding templates; navigation menu, breadcrumbs, button transition (hover, click, submit form), web form, search bar, lightbox modal element, tooltips, progress bar, css accordian, css effects, css tab navigation, css &amp; JS slideshow, JS onclick, video &amp; audio templates, background, css gradient, css overflow, css animation,
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of coding-templates.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+  <meta name="author" content="Brian Bauska (bbauska)" />
+  <meta name="title" content="Coding Templates" />
+  <meta name="description" content="." />
 
-![](./images/media/image1.png){width="3.5in"
+  <title>Coding Templates</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images//favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+ </head>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<body>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<script>
+  <!-- get the button -->
+  var mybutton = document.getElementById("myBtn");
+
+  <!-- when the user scrolls down 10px from the top of the document, show the button -->
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
+  <!-- to table of contents (approx ###), if applicable was; 315 -->
+  function topFunction() {
+    document.getElementById('table-of-contents').scrollIntoView();
+  }
+/*    document.body.scrollTop = table-of-contents;  /* was 0 */
+/*    document.documentElement.scrollTop = table-of-contents;  /* was 0 */
+
+</script>
+<header id="title-block-header">
+  <h1 style="text-align:center">Coding Templates</h1>
+  <h6 style="text-align:center">(by Brian Bauska, Computer Science)
+    <span class="citation" data-cites="CWU">@CWU</span>)</h6>
+</header>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ index.html of Coding Templates in bbauska.github.io ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~ 01/02. javascript (coffee cup) logo /  log (01) ~~~~~~~~~~~~~~~~~~~-->
+<img class="border"
+  src="./images/webp/image001.png"
+  style="width:20%; float: left; margin-left: 30%; margin-bottom: 1em;"
+  title="JavaScript coffee cup logo version"
+  alt="JavaScript coffee cup logo version." />
+<img class="border"
+  src="./images/webp/image002.png"
+  style="width:20%; float: left; margin-left: 5%; margin-bottom: 1em;"
+  title="UC Davis logo"
+  alt="UC Davis logo." />
+<p style="clear: both;"></p>
+
+### coding-template
+Basic web coding templates; navigation menu, breadcrumbs, button transition (hover, 
+click, submit form), web form, search bar, lightbox modal element, tooltips, progress 
+bar, css accordian, css effects, css tab navigation, css &amp; JS slideshow, JS 
+onclick, video &amp; audio templates, background, css gradient, css overflow, css 
+animation.
+
+![](./images/image1.png){width="3.5in"
 height="3.5833333333333335in"}
 
-+-----------------------------------------------------------------------+
-| # 35 Coding Templates for HTML, CSS,                                  |
-|                                                                       |
-| # and JavaScript                                                      |
-+-----------------------------------------------------------------------+
+### 35 Coding Templates for HTML, CSS, and JavaScript
 
-![](./images/media/image1.png){width="3.5in"
-height="3.5833333333333335in"}![](./images/media/image1.png){width="3.5in"
+![](./images/image1.png){width="3.5in"
+height="3.5833333333333335in"}![](./images/image1.png){width="3.5in"
 height="3.5833333333333335in"}
 
 You can edit your own version in one of two ways:
 
 1.  Edit this version to fit your needs
 
-2.  Go to "File" \> "Download As" \> "Microsoft Word" to Download
+2.  Go to "File" &gt; "Download As" &gt; "Microsoft Word" to Download
 
 How to Use This Template
 
@@ -33,381 +117,232 @@ a more optimized site, you're encouraged to do so.
 
 Jump to a Template
 
-  ----------------------------------------------------------------- ------------------------------------------------------------------
-  [[Navigation Menus & Breadcrumbs                                  [[Button Transition
+[[Navigation Menus & Breadcrumbs                                  [[Button Transition
   Templates]{.underline}](#example-1)                               Templates]{.underline}](#button-transition-templates)
-
   [[Web Form & Search Bar Templates]{.underline}](#9jhjudypc6m5)    [[Lightbox Modal Element
                                                                     Templates]{.underline}](#lightbox-modal-element-template)
 
   [[Tooltip Templates]{.underline}](#kdb634vxe28v)                  [[Progress Bar Templates]{.underline}](#progress-bar-templates)
-
   [[CSS Accordion Templates]{.underline}](#css-accordian-templates) [[CSS Effects Templates]{.underline}](#qjxam0b6i3lz)
-
   [[CSS Tab Navigation                                              [[CSS and JavaScript Slideshow
   Templates]{.underline}](#css-tab-navigation-templates)            Templates]{.underline}](#css-and-javascript-slideshow-templates)
-
   [[JavaScript onClick With CSS                                     [[HTML Video & Audio Template]{.underline}](#mbneroay4a95)
   Templates]{.underline}](#javascript-onclick-with-css-templates)   
-
   [[CSS Background Template]{.underline}](#kf5yg3bekuan)            [[CSS Gradient Templates]{.underline}](#glidakkzttia)
-
   [[CSS Overflow Templates]{.underline}](#s2ijn6yz6ci5)             [[CSS Animation Template]{.underline}](#5raj5iklwqr1)
-  ----------------------------------------------------------------- ------------------------------------------------------------------
 
-# Example #1
+### Example #1
 
-![](./images/media/image2.png){width="6.5in"
+![](./images/image2.png){width="6.5in"
 height="0.4479166666666667in"}
 
-## The HTML
+#### The HTML
 
-\<div class=\"container\"\>
+```
+&lt;div class=&quot;container&quot;&gt;
+&lt;nav&gt;
+&lt;ul class=&quot;bar&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Careers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+```
 
-\<nav\>
+<h4>The CSS</h4>
 
-> \<ul class=\"bar\"\>
->
-> \<li\>\<a href=\"#\"\>Home\</a\>\</li\>
->
-> \<li\>\<a href=\"#\"\>About\</a\>\</li\>
->
-> \<li\>\<a href=\"#\" class=\"active\"\>Contact\</a\>\</li\>
->
-> \<li\>\<a href=\"#\"\>Careers\</a\>\</li\>
->
-> \</ul\>
-
-\</nav\>
-
-\</div\>
-
-## The CSS
-
+```
 .bar {
-
 background-color: rgb(245, 193, 97);
-
 width: 100%;
-
 height: 40px;
-
 display: flex;
-
 list-style: none;
-
 padding: 0;
-
 }
-
 .bar li {
-
 height: 100%;
-
 width: 100px;
-
 border-right: 1px solid rgb(235, 177, 69);
-
 }
-
 .bar li a {
-
 color: black;
-
 width: 100%;
-
 height: 100%;
-
 display: flex;
-
 align-items: center;
-
 justify-content: center;
-
 text-decoration: none;
-
 }
-
 .bar li a:hover {
-
 background-color: rgb(235, 177, 69);
-
 }
-
 .bar li a.active {
-
 background-color: rgb(165, 113, 16);
-
 color: white;
-
 }
+```
 
-#  
+### Examples #2
 
-# Examples #2
-
-![](./images/media/image3.png){width="1.7239588801399826in"
+![](./images/image3.png){width="1.7239588801399826in"
 height="1.7239588801399826in"}
 
-## The HTML
+#### The HTML
 
-\<div class=\"container\"\>
+```
+&lt;div class=&quot;container&quot;&gt;
+&lt;nav&gt;
+&lt;ul class=&quot;bar&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Careers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+```
 
-\<nav\>
+<h4>The CSS</h4>
 
-\<ul class=\"bar\"\>
-
-\<li\>\<a href=\"#\"\>Home\</a\>\</li\>
-
-\<li\>\<a href=\"#\"\>About\</a\>\</li\>
-
-\<li\>\<a href=\"#\"\>Contact\</a\>\</li\>
-
-\<li\>\<a href=\"#\" class=\"active\"\>Careers\</a\>\</li\>
-
-\</ul\>
-
-\</nav\>
-
-\</div\>
-
-## The CSS
-
+```
 .bar {
-
 background-color: rgb(245, 193, 97);
-
 max-width: 200px;
-
 width: 100%;
-
 list-style: none;
-
 padding: 0;
-
 }
-
 .bar li {
-
 height: 100%;
-
 width: 100%;
-
 height: 50px;
-
 border-bottom: 1px solid rgb(235, 177, 69);
-
 }
-
 .bar li a {
-
 padding-left: 20px;
-
 text-align: left;
-
 color: black;
-
 max-width: 100%;
-
 height: 100%;
-
 display: flex;
-
 align-items: center;
-
 text-decoration: none;
-
 }
-
 .bar li a:hover {
-
 background-color: rgb(235, 177, 69);
-
 }
-
 .bar li a.active {
-
 background-color: rgb(165, 113, 16);
-
 color: white;
-
 }
+```
 
-#  
+### Third example
 
-# Third example
-
-![](./images/media/image4.png){width="5.947916666666667in"
+![](./images/image4.png){width="5.947916666666667in"
 height="1.09375in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<div class=\"container\"\>
+```
+&lt;div class=&quot;container&quot;&gt;
+&lt;nav&gt;
+&lt;ul class=&quot;bar&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;has-dropdown&quot;&gt;
+&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;
+&lt;ul class=&quot;dropdown&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;The Company&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;The Team&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;has-dropdown&quot;&gt;
+&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+&lt;ul class=&quot;dropdown&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Phone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Careers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+```
 
-\<nav\>
+<h4>The CSS</h4>
 
-\<ul class=\"bar\"\>
-
-\<li\>\<a href=\"#\" class=\"active\"\>Home\</a\>\</li\>
-
-\<li class=\"has-dropdown\"\>
-
-\<a href=\"#\"\>About\</a\>
-
-\<ul class=\"dropdown\"\>
-
-\<li\>\<a href=\"#\"\>The Company\</a\>\</li\>
-
-\<li\>\<a href=\"#\"\>The Team\</a\>\</li\>
-
-\</ul\>
-
-\</li\>
-
-\<li class=\"has-dropdown\"\>
-
-\<a href=\"#\"\>Contact\</a\>
-
-\<ul class=\"dropdown\"\>
-
-\<li\>\<a href=\"#\"\>Email\</a\>\</li\>
-
-\<li\>\<a href=\"#\"\>Phone\</a\>\</li\>
-
-\</ul\>
-
-\</li\>
-
-\<li\>\<a href=\"#\"\>Careers\</a\>\</li\>
-
-\</ul\>
-
-\</nav\>
-
-\</div\>
-
-## The CSS
-
-\* {
-
+```
+&ast; {
 box-sizing: border-box;
-
 }
-
 .bar {
-
 background-color: rgb(245, 193, 97);
-
 width: 100%;
-
 height: 40px;
-
 display: flex;
-
 list-style: none;
-
 padding: 0;
-
 }
-
 .bar li {
-
 height: 100%;
-
 width: 120px;
-
 border-right: 1px solid rgb(235, 177, 69);
-
 }
-
 .bar li a {
-
 color: black;
-
 width: 100%;
-
 height: 100%;
-
 display: flex;
-
 align-items: center;
-
 justify-content: center;
-
 text-decoration: none;
-
 }
-
 .bar .has-dropdown ul li a{
-
 padding: 12px 0;
-
 }
-
 .bar li a:hover {
-
 background-color: rgb(235, 177, 69);
-
 }
-
 .bar li a.active {
-
 background-color: rgb(165, 113, 16);
-
 color: white;
-
 }
-
 .dropdown {
-
 background-color: rgb(245, 193, 97);
-
 padding: 0;
-
 list-style: none;
-
 display: none;
-
 }
-
 .bar li.has-dropdown:hover .dropdown {
-
 display: block;
-
 }
+```
 
-#  
+### Fourth example
 
-# Fourth example
-
-![](./images/media/image5.png){width="6.5in"
+![](./images/image005.png){width="6.5in"
 height="0.5833333333333334in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<div class=\"container\"\>
+```
+&lt;div class=&quot;container&quot;&gt;
+&lt;ul class=&quot;breadcrumb&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Computers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;unique&quot;&gt;Laptops&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+```
 
-\<ul class=\"breadcrumb\"\>
-
-\<li\>\<a href=\"#\" class=\"active\"\>Home\</a\>\</li\>
-
-\<li\>\<span\>\>\</span\>\</li\>
-
-\<li\>\<a href=\"#\"\>Products\</a\>\</li\>
-
-\<li\>\<span\>\>\</span\>\</li\>
-
-\<li\>\<a href=\"#\"\>Computers\</a\>\</li\>
-
-\<li\>\<span\>\>\</span\>\</li\>
-
-\<li\>\<a href=\"#\" class=\"unique\"\>Laptops\</a\>\</li\>
-
-\</ul\>
-
-\</div\>
-
-## The CSS
+<h4>The CSS</h4>
 
 .breadcrumb {
 
@@ -461,18 +396,18 @@ color: rgb(176, 115, 0);
 
 }
 
-# 3 Button Transition Templates
+## 3 Button Transition Templates
 
-# Example #1
+### Example #1
 
-![](./images/media/image6.png){width="6.5in"
+![](./images/image006.png){width="6.5in"
 height="1.5138888888888888in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<button class=\"first\"\>Hover over me\</button\>
+&lt;button class=&quot;first&quot;&gt;Hover over me&lt;/button&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
 .first {
 
@@ -502,17 +437,17 @@ box-shadow: 10px 10px 0 rgb(219, 219, 219);
 
 }
 
-# Example #2
+### Example #2
 
-![](./images/media/image7.png){width="2.557292213473316in"
-height="1.1195516185476815in"}![](./images/media/image8.png){width="4.078125546806649in"
+![](./images/image007.png){width="2.557292213473316in"
+height="1.1195516185476815in"}![](./images/image008.png){width="4.078125546806649in"
 height="1.9507917760279965in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<button class=\"second\"\>Click me\</button\>
+&lt;button class=&quot;second&quot;&gt;Click me&lt;/button&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
 .second {
 
@@ -554,18 +489,18 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 
 }
 
-# Example #3
+### Example #3
 
-![](./images/media/image9.png){width="2.0833333333333335in"
-height="0.53125in"}![](./images/media/image10.png){width="2.2604166666666665in"
-height="0.7291666666666666in"}![](./images/media/image11.png){width="1.8854166666666667in"
+![](./images/image009.png){width="2.0833333333333335in"
+height="0.53125in"}![](./images/image010.png){width="2.2604166666666665in"
+height="0.7291666666666666in"}![](./images/image011.png){width="1.8854166666666667in"
 height="0.6354166666666666in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<button class=\"third\"\>Hover over me\</button\>
+&lt;button class=&quot;third&quot;&gt;Hover over me&lt;/button&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
 .third {
 
@@ -591,7 +526,7 @@ overflow: hidden;
 
 .third::after {
 
-content: \"\";
+content: &quot;&quot;;
 
 background-color: #333;
 
@@ -625,96 +560,96 @@ bottom: 0;
 
 }
 
-# 3 Web Form & Search Bar Templates
+### 3 Web Form & Search Bar Templates
 
 []{#9jhjudypc6m5 .anchor}
 
-# Template #1
+### Template #1
 
-![](./images/media/image12.png){width="6.5in"
+![](./images/image012.png){width="6.5in"
 height="1.7916666666666667in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<form\>
+&lt;form&gt;
 
-\<div class=\"search\"\>
+&lt;div class=&quot;search&quot;&gt;
 
-\<input type=\"text\" placeholder=\"Search products\" /\>
+&lt;input type=&quot;text&quot; placeholder=&quot;Search products&quot; /&gt;
 
-\<button type=\"submit\"\>Search\</button\>
+&lt;button type=&quot;submit&quot;&gt;Search&lt;/button&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"align-center bottom\"\>
+&lt;div class=&quot;align-center bottom&quot;&gt;
 
-\<div class=\"checkbox-block\"\>
+&lt;div class=&quot;checkbox-block&quot;&gt;
 
-\<input
+&lt;input
 
-type=\"checkbox\"
+type=&quot;checkbox&quot;
 
-name=\"companies_included\"
+name=&quot;companies_included&quot;
 
-id=\"companies_included\"
+id=&quot;companies_included&quot;
 
-/\>
+/&gt;
 
-\<label for=\"companies_included\"
+&lt;label for=&quot;companies_included&quot;
 
-\>Also search companies
+&gt;Also search companies
 
-\</label\>
+&lt;/label&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"inline-flex radio-block\"\>
+&lt;div class=&quot;inline-flex radio-block&quot;&gt;
 
-\<span\>Location\</span\>
+&lt;span&gt;Location&lt;/span&gt;
 
-\<div class=\"inline-flex align-center\"\>
+&lt;div class=&quot;inline-flex align-center&quot;&gt;
 
-\<input
+&lt;input
 
-type=\"radio\"
+type=&quot;radio&quot;
 
-name=\"location\"
+name=&quot;location&quot;
 
-value=\"Your location\"
+value=&quot;Your location&quot;
 
-id=\"your_location\"
+id=&quot;your_location&quot;
 
-/\>
+/&gt;
 
-\<label for=\"your_location\"\> Your location \</label\>
+&lt;label for=&quot;your_location&quot;&gt; Your location &lt;/label&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"inline-flex align-center\"\>
+&lt;div class=&quot;inline-flex align-center&quot;&gt;
 
-\<input
+&lt;input
 
-type=\"radio\"
+type=&quot;radio&quot;
 
-name=\"location\"
+name=&quot;location&quot;
 
-value=\"Worldwide\"
+value=&quot;Worldwide&quot;
 
-id=\"worldwide\"
+id=&quot;worldwide&quot;
 
-/\>
+/&gt;
 
-\<label for=\"worldwide\"\> Worldwide \</label\>
+&lt;label for=&quot;worldwide&quot;&gt; Worldwide &lt;/label&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</form\>
+&lt;/form&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
 .align-center {
 
@@ -748,7 +683,7 @@ outline: 1px solid #cccccc;
 
 }
 
-.search \> input {
+.search &gt; input {
 
 flex-grow: 1;
 
@@ -760,13 +695,13 @@ font-size: 1rem;
 
 }
 
-.search \> input:focus {
+.search &gt; input:focus {
 
 outline: none;
 
 }
 
-.search \> button {
+.search &gt; button {
 
 padding: 0.8rem 2rem;
 
@@ -812,124 +747,124 @@ margin: 0 3px 0 10px;
 
 }
 
-# Template #2
+### Template #2
 
-![](./images/media/image13.png){width="6.5in"
+![](./images/image013.png){width="6.5in"
 height="4.513888888888889in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<form\>
+&lt;form&gt;
 
-\<div class=\"input-group\"\>
+&lt;div class=&quot;input-group&quot;&gt;
 
-\<label for=\"fname\"\>Firstname\</label\>
+&lt;label for=&quot;fname&quot;&gt;Firstname&lt;/label&gt;
 
-\<input
+&lt;input
 
-id=\"fname\"
+id=&quot;fname&quot;
 
-name=\"fname\"
+name=&quot;fname&quot;
 
-placeholder=\"Enter firstname\"
+placeholder=&quot;Enter firstname&quot;
 
-required=\"required\"
+required=&quot;required&quot;
 
-/\>
+/&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"input-group\"\>
+&lt;div class=&quot;input-group&quot;&gt;
 
-\<label for=\"lname\"\>Lastname\</label\>
+&lt;label for=&quot;lname&quot;&gt;Lastname&lt;/label&gt;
 
-\<input
+&lt;input
 
-id=\"lname\"
+id=&quot;lname&quot;
 
-name=\"lname\"
+name=&quot;lname&quot;
 
-placeholder=\"Enter lastname\"
+placeholder=&quot;Enter lastname&quot;
 
-required=\"required\"
+required=&quot;required&quot;
 
-/\>
+/&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"input-group\"\>
+&lt;div class=&quot;input-group&quot;&gt;
 
-\<label for=\"email\"\>Email\</label\>
+&lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
 
-\<input
+&lt;input
 
-id=\"email\"
+id=&quot;email&quot;
 
-type=\"email\"
+type=&quot;email&quot;
 
-name=\"email\"
+name=&quot;email&quot;
 
-placeholder=\"Enter your email\"
+placeholder=&quot;Enter your email&quot;
 
-/\>
+/&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"input-group\"\>
+&lt;div class=&quot;input-group&quot;&gt;
 
-\<label\>Country\</label\>
+&lt;label&gt;Country&lt;/label&gt;
 
-\<select name=\"country\" id=\"country\" required=\"required\"\>
+&lt;select name=&quot;country&quot; id=&quot;country&quot; required=&quot;required&quot;&gt;
 
-\<option value=\"\" selected=\"selected\"\>Select country\</option\>
+&lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Select country&lt;/option&gt;
 
-\<option value=\"Afghanistan\"\>Afghanistan\</option\>
+&lt;option value=&quot;Afghanistan&quot;&gt;Afghanistan&lt;/option&gt;
 
-\<option value=\"Albania\"\>Albania\</option\>
+&lt;option value=&quot;Albania&quot;&gt;Albania&lt;/option&gt;
 
-\<option value=\"Algeria\"\>Algeria\</option\>
+&lt;option value=&quot;Algeria&quot;&gt;Algeria&lt;/option&gt;
 
-\<option value=\"American Samoa\"\>American Samoa\</option\>
+&lt;option value=&quot;American Samoa&quot;&gt;American Samoa&lt;/option&gt;
 
-\<option value=\"Andorra\"\>Andorra\</option\>
+&lt;option value=&quot;Andorra&quot;&gt;Andorra&lt;/option&gt;
 
-\<option value=\"Angola\"\>Angola\</option\>
+&lt;option value=&quot;Angola&quot;&gt;Angola&lt;/option&gt;
 
-\<option value=\"Anguilla\"\>Anguilla\</option\>
+&lt;option value=&quot;Anguilla&quot;&gt;Anguilla&lt;/option&gt;
 
-\<option value=\"Antarctica\"\>Antarctica\</option\>
+&lt;option value=&quot;Antarctica&quot;&gt;Antarctica&lt;/option&gt;
 
-\</select\>
+&lt;/select&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"input-group\"\>
+&lt;div class=&quot;input-group&quot;&gt;
 
-\<label for=\"message\"\>Any message?\</label\>
+&lt;label for=&quot;message&quot;&gt;Any message?&lt;/label&gt;
 
-\<textarea
+&lt;textarea
 
-id=\"message\"
+id=&quot;message&quot;
 
-name=\"message\"
+name=&quot;message&quot;
 
-placeholder=\"Optional\"
+placeholder=&quot;Optional&quot;
 
-\>\</textarea\>
+&gt;&lt;/textarea&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"submit-group\"\>
+&lt;div class=&quot;submit-group&quot;&gt;
 
-\<button type=\"submit\"\>Submit form\</button\>
+&lt;button type=&quot;submit&quot;&gt;Submit form&lt;/button&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</form\>
+&lt;/form&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
-\* {
+&ast; {
 
 box-sizing: border-box;
 
@@ -1013,130 +948,130 @@ border-radius: 5px;
 
 }
 
-# Template #2
+### Template #2
 
-![](./images/media/image14.png){width="3.7226859142607176in"
+![](./images/image014.png){width="3.7226859142607176in"
 height="5.776042213473316in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<form\>
+&lt;form&gt;
 
-\<div\>
+&lt;div&gt;
 
-\<span class=\"question\"\>1. How did you hear about us?\</span\>
+&lt;span class=&quot;question&quot;&gt;1. How did you hear about us?&lt;/span&gt;
 
-\<div class=\"radio-group\"\>
+&lt;div class=&quot;radio-group&quot;&gt;
 
-\<div class=\"radio-item\"\>
+&lt;div class=&quot;radio-item&quot;&gt;
 
-\<input type=\"radio\" name=\"hear_about_us\" id=\"twitter\" /\>
+&lt;input type=&quot;radio&quot; name=&quot;hear_about_us&quot; id=&quot;twitter&quot; /&gt;
 
-\<label for=\"twitter\"\>Twitter\</label\>
+&lt;label for=&quot;twitter&quot;&gt;Twitter&lt;/label&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"radio-item\"\>
+&lt;div class=&quot;radio-item&quot;&gt;
 
-\<input type=\"radio\" name=\"hear_about_us\" id=\"facebook\" /\>
+&lt;input type=&quot;radio&quot; name=&quot;hear_about_us&quot; id=&quot;facebook&quot; /&gt;
 
-\<label for=\"facebook\"\>Facebook\</label\>
+&lt;label for=&quot;facebook&quot;&gt;Facebook&lt;/label&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"radio-item\"\>
+&lt;div class=&quot;radio-item&quot;&gt;
 
-\<input type=\"radio\" name=\"hear_about_us\" id=\"other\" /\>
+&lt;input type=&quot;radio&quot; name=&quot;hear_about_us&quot; id=&quot;other&quot; /&gt;
 
-\<label for=\"other\"\>Other\</label\>
+&lt;label for=&quot;other&quot;&gt;Other&lt;/label&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div\>
+&lt;div&gt;
 
-\<span class=\"question\"\>2. Where do you live?\</span\>
+&lt;span class=&quot;question&quot;&gt;2. Where do you live?&lt;/span&gt;
 
-\<select name=\"country\" id=\"country\" required=\"required\"\>
+&lt;select name=&quot;country&quot; id=&quot;country&quot; required=&quot;required&quot;&gt;
 
-\<option value=\"\" selected=\"selected\"\>Select country\</option\>
+&lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Select country&lt;/option&gt;
 
-\<option value=\"Afghanistan\"\>Afghanistan\</option\>
+&lt;option value=&quot;Afghanistan&quot;&gt;Afghanistan&lt;/option&gt;
 
-\<option value=\"Albania\"\>Albania\</option\>
+&lt;option value=&quot;Albania&quot;&gt;Albania&lt;/option&gt;
 
-\<option value=\"Algeria\"\>Algeria\</option\>
+&lt;option value=&quot;Algeria&quot;&gt;Algeria&lt;/option&gt;
 
-\<option value=\"American Samoa\"\>American Samoa\</option\>
+&lt;option value=&quot;American Samoa&quot;&gt;American Samoa&lt;/option&gt;
 
-\<option value=\"Andorra\"\>Andorra\</option\>
+&lt;option value=&quot;Andorra&quot;&gt;Andorra&lt;/option&gt;
 
-\<option value=\"Angola\"\>Angola\</option\>
+&lt;option value=&quot;Angola&quot;&gt;Angola&lt;/option&gt;
 
-\<option value=\"Anguilla\"\>Anguilla\</option\>
+&lt;option value=&quot;Anguilla&quot;&gt;Anguilla&lt;/option&gt;
 
-\<option value=\"Antarctica\"\>Antarctica\</option\>
+&lt;option value=&quot;Antarctica&quot;&gt;Antarctica&lt;/option&gt;
 
-\</select\>
+&lt;/select&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div\>
+&lt;div&gt;
 
-\<span class=\"question\"\>3. You age range\</span\>
+&lt;span class=&quot;question&quot;&gt;3. You age range&lt;/span&gt;
 
-\<div class=\"radio-group\"\>
+&lt;div class=&quot;radio-group&quot;&gt;
 
-\<div class=\"radio-item\"\>
+&lt;div class=&quot;radio-item&quot;&gt;
 
-\<input type=\"radio\" name=\"age_range\" id=\"lower\" /\>
+&lt;input type=&quot;radio&quot; name=&quot;age_range&quot; id=&quot;lower&quot; /&gt;
 
-\<label for=\"lower\"\>18-25\</label\>
+&lt;label for=&quot;lower&quot;&gt;18-25&lt;/label&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"radio-item\"\>
+&lt;div class=&quot;radio-item&quot;&gt;
 
-\<input type=\"radio\" name=\"age_range\" id=\"middle\" /\>
+&lt;input type=&quot;radio&quot; name=&quot;age_range&quot; id=&quot;middle&quot; /&gt;
 
-\<label for=\"middle\"\>26-35\</label\>
+&lt;label for=&quot;middle&quot;&gt;26-35&lt;/label&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"radio-item\"\>
+&lt;div class=&quot;radio-item&quot;&gt;
 
-\<input type=\"radio\" name=\"age_range\" id=\"higher\" /\>
+&lt;input type=&quot;radio&quot; name=&quot;age_range&quot; id=&quot;higher&quot; /&gt;
 
-\<label for=\"higher\"\>36 or more\</label\>
+&lt;label for=&quot;higher&quot;&gt;36 or more&lt;/label&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div\>
+&lt;div&gt;
 
-\<span class=\"question\"\>4. Anything else we should know? \</span\>
+&lt;span class=&quot;question&quot;&gt;4. Anything else we should know? &lt;/span&gt;
 
-\<textarea name=\"message\"\>\</textarea\>
+&lt;textarea name=&quot;message&quot;&gt;&lt;/textarea&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div\>
+&lt;div&gt;
 
-\<button class=\"submit-btn\"\>Submit survey\</button\>
+&lt;button class=&quot;submit-btn&quot;&gt;Submit survey&lt;/button&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</form\>
+&lt;/form&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
-\* {
+&ast; {
 
 box-sizing: border-box;
 
@@ -1154,7 +1089,7 @@ max-width: 400px;
 
 }
 
-form \> div {
+form &gt; div {
 
 margin-bottom: 20px;
 
@@ -1226,80 +1161,80 @@ cursor: pointer;
 
 }
 
-# 1 Lightbox Modal Element Template
+### 1 Lightbox Modal Element Template
 
-# Template
+### Template
 
-![](./images/media/image15.png){width="5.598958880139983in"
+![](./images/image015.png){width="5.598958880139983in"
 height="0.7088429571303587in"}
 
-![](./images/media/image16.png){width="5.619792213473316in"
+![](./images/image016.png){width="5.619792213473316in"
 height="3.2331813210848646in"}
 
-![](./images/media/image17.png){width="5.692708880139983in"
+![](./images/image017.png){width="5.692708880139983in"
 height="3.270278871391076in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<div class=\"images\"\>
+&lt;div class=&quot;images&quot;&gt;
 
-\<img onclick=\"openModal(0)\" id=\"image0\" /\>
+&lt;img onclick=&quot;openModal(0)&quot; id=&quot;image0&quot; /&gt;
 
-\<img onclick=\"openModal(1)\" id=\"image1\" /\>
+&lt;img onclick=&quot;openModal(1)&quot; id=&quot;image1&quot; /&gt;
 
-\<img onclick=\"openModal(2)\" id=\"image2\" /\>
+&lt;img onclick=&quot;openModal(2)&quot; id=&quot;image2&quot; /&gt;
 
-\<img onclick=\"openModal(3)\" id=\"image3\" /\>
+&lt;img onclick=&quot;openModal(3)&quot; id=&quot;image3&quot; /&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div id=\"lightbox\" class=\"lightbox\"\>
+&lt;div id=&quot;lightbox&quot; class=&quot;lightbox&quot;&gt;
 
-\<button onclick=\"closeModal()\" class=\"close-btn\"\>
+&lt;button onclick=&quot;closeModal()&quot; class=&quot;close-btn&quot;&gt;
 
 Close
 
-\</button\>
+&lt;/button&gt;
 
-\<div class=\"image-preview\"\>
+&lt;div class=&quot;image-preview&quot;&gt;
 
-\<img id=\"preview-image\" /\>
+&lt;img id=&quot;preview-image&quot; /&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"control-btns\"\>
+&lt;div class=&quot;control-btns&quot;&gt;
 
-\<button onclick=\"control(-1)\" class=\"control-left\"\>
+&lt;button onclick=&quot;control(-1)&quot; class=&quot;control-left&quot;&gt;
 
 &lt;
 
-\</button\>
+&lt;/button&gt;
 
-\<button onclick=\"control(1)\" class=\"control-left\"\>
+&lt;button onclick=&quot;control(1)&quot; class=&quot;control-left&quot;&gt;
 
 &gt;
 
-\</button\>
+&lt;/button&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div id=\"modal-images-block\" class=\"lightbox\_\_images\"\>
+&lt;div id=&quot;modal-images-block&quot; class=&quot;lightbox\_\_images&quot;&gt;
 
-\<img onclick=\"openModal(0)\" id=\"l-image0\" /\>
+&lt;img onclick=&quot;openModal(0)&quot; id=&quot;l-image0&quot; /&gt;
 
-\<img onclick=\"openModal(1)\" id=\"l-image1\" /\>
+&lt;img onclick=&quot;openModal(1)&quot; id=&quot;l-image1&quot; /&gt;
 
-\<img onclick=\"openModal(2)\" id=\"l-image2\" /\>
+&lt;img onclick=&quot;openModal(2)&quot; id=&quot;l-image2&quot; /&gt;
 
-\<img onclick=\"openModal(3)\" id=\"l-image3\" /\>
+&lt;img onclick=&quot;openModal(3)&quot; id=&quot;l-image3&quot; /&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
-\* {
+&ast; {
 
 box-sizing: border-box;
 
@@ -1449,41 +1384,41 @@ opacity: 1;
 
 }
 
-## The JavaScript
+<h4>The JavaScript</h4>
 
 const IMAGE0 =
 
-\"https://i.picsum.photos/id/229/400/200.jpg?hmac=ULnwo8IFtjR3PshWPNEvFWNU8Xwl_OIeUtVmZIQanhU\"
+&quot;https://i.picsum.photos/id/229/400/200.jpg?hmac=ULnwo8IFtjR3PshWPNEvFWNU8Xwl_OIeUtVmZIQanhU&quot;
 
 const IMAGE1 =
 
-\"https://i.picsum.photos/id/154/400/200.jpg?hmac=uhKcJIPoFcq2xMC16yvZAwA8sTeIbThUr-Njq0DkhSU\"
+&quot;https://i.picsum.photos/id/154/400/200.jpg?hmac=uhKcJIPoFcq2xMC16yvZAwA8sTeIbThUr-Njq0DkhSU&quot;
 
 const IMAGE2 =
 
-\"https://i.picsum.photos/id/690/400/200.jpg?hmac=kOkDXkZEUaSUQviVm67apRu5EPMD_L0rHfKVt32iogQ\"
+&quot;https://i.picsum.photos/id/690/400/200.jpg?hmac=kOkDXkZEUaSUQviVm67apRu5EPMD_L0rHfKVt32iogQ&quot;
 
 const IMAGE3 =
 
-\"https://i.picsum.photos/id/633/400/200.jpg?hmac=-axbA3Zg3r_xPYOy7OdaIb5yTFDBKubd9LYJrnwpHeU\"
+&quot;https://i.picsum.photos/id/633/400/200.jpg?hmac=-axbA3Zg3r_xPYOy7OdaIb5yTFDBKubd9LYJrnwpHeU&quot;
 
-const images = \[IMAGE0, IMAGE1, IMAGE2, IMAGE3\]
+const images = &lbrack;IMAGE0, IMAGE1, IMAGE2, IMAGE3&rbrack;
 
-const image0 = document.getElementById(\"image0\")
+const image0 = document.getElementById(&quot;image0&quot;)
 
-const image1 = document.getElementById(\"image1\")
+const image1 = document.getElementById(&quot;image1&quot;)
 
-const image2 = document.getElementById(\"image2\")
+const image2 = document.getElementById(&quot;image2&quot;)
 
-const image3 = document.getElementById(\"image3\")
+const image3 = document.getElementById(&quot;image3&quot;)
 
-const lightbox = document.getElementById(\"lightbox\")
+const lightbox = document.getElementById(&quot;lightbox&quot;)
 
-const previewImg = document.getElementById(\"preview-image\")
+const previewImg = document.getElementById(&quot;preview-image&quot;)
 
 const modalImagesBlock = document.getElementById(
 
-\"modal-images-block\"
+&quot;modal-images-block&quot;
 
 )
 
@@ -1497,19 +1432,19 @@ image3.src = IMAGE3
 
 let activeId = null
 
-previewImg.src = images\[0\]
+previewImg.src = images&lbrack;0&rbrack;
 
 const modalImagesElements =
 
-modalImagesBlock.getElementsByTagName(\"img\")
+modalImagesBlock.getElementsByTagName(&quot;img&quot;)
 
 const modalImages = Object.values(modalImagesElements)
 
-modalImages.forEach((imageElement, i) =\> {
+modalImages.forEach((imageElement, i) =&gt; {
 
 console.log(imageElement)
 
-imageElement.src = images\[i\]
+imageElement.src = images&lbrack;i&rbrack;
 
 })
 
@@ -1517,23 +1452,23 @@ function openModal(imgId) {
 
 if (activeId !== null) {
 
-modalImages\[activeId\].classList.remove(\"active\")
+modalImages&lbrack;activeId&rbrack;.classList.remove(&quot;active&quot;)
 
 }
 
 activeId = imgId
 
-lightbox.classList.add(\"visible\")
+lightbox.classList.add(&quot;visible&quot;)
 
-previewImg.src = images\[imgId\]
+previewImg.src = images&lbrack;imgId&rbrack;
 
-modalImages\[imgId\].classList.add(\"active\")
+modalImages&lbrack;imgId&rbrack;.classList.add(&quot;active&quot;)
 
 }
 
 function closeModal() {
 
-lightbox.classList.remove(\"visible\")
+lightbox.classList.remove(&quot;visible&quot;)
 
 }
 
@@ -1547,7 +1482,7 @@ if (direction === 1) {
 
 activeId =
 
-activeId + 1 \> images.length - 1
+activeId + 1 &gt; images.length - 1
 
 ? // then go to the beginning
 
@@ -1561,7 +1496,7 @@ activeId + 1 \> images.length - 1
 
 activeId =
 
-activeId - 1 \< 0
+activeId - 1 &lt; 0
 
 ? // then go to the end
 
@@ -1571,32 +1506,32 @@ activeId - 1 \< 0
 
 }
 
-previewImg.src = images\[activeId\]
+previewImg.src = images&lbrack;activeId&rbrack;
 
-modalImages\[activeId\].classList.add(\"active\")
+modalImages&lbrack;activeId&rbrack;.classList.add(&quot;active&quot;)
 
-modalImages\[prevId\].classList.remove(\"active\")
+modalImages&lbrack;prevId&rbrack;.classList.remove(&quot;active&quot;)
 
 }
 
 []{#kdb634vxe28v .anchor}
 
-# Example #1
+### Example #1
 
-![](./images/media/image18.png){width="3.5208333333333335in"
+![](./images/image018.png){width="3.5208333333333335in"
 height="1.4479166666666667in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<div class=\"tooltip\"\>
+&lt;div class=&quot;tooltip&quot;&gt;
 
-\<span\>Top\</span\>
+&lt;span&gt;Top&lt;/span&gt;
 
-\<div class=\"tooltip-text\"\>This is the top of the tooltip\</div\>
+&lt;div class=&quot;tooltip-text&quot;&gt;This is the top of the tooltip&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
 body {
 
@@ -1642,7 +1577,7 @@ visibility: hidden;
 
 .tooltip-text::after {
 
-content: \"\";
+content: &quot;&quot;;
 
 position: absolute;
 
@@ -1668,23 +1603,21 @@ visibility: visible;
 
 }
 
-#  
+### Example #2
 
-# Example #2
+![](./images/image019.png){width="4.0625in" height="1.03125in"}
 
-![](./images/media/image19.png){width="4.0625in" height="1.03125in"}
+<h4>The HTML</h4>
 
-## The HTML
+&lt;div class=&quot;tooltip&quot;&gt;
 
-\<div class=\"tooltip\"\>
+&lt;span&gt;Right&lt;/span&gt;
 
-\<span\>Right\</span\>
+&lt;div class=&quot;tooltip-text&quot;&gt;This is the right of the tooltip&lt;/div&gt;
 
-\<div class=\"tooltip-text\"\>This is the right of the tooltip\</div\>
+&lt;/div&gt;
 
-\</div\>
-
-## The CSS
+<h4>The CSS</h4>
 
 .tooltip {
 
@@ -1722,7 +1655,7 @@ visibility: hidden;
 
 .tooltip-text::after {
 
-content: \"\";
+content: &quot;&quot;;
 
 position: absolute;
 
@@ -1748,25 +1681,23 @@ visibility: visible;
 
 }
 
-#  
+### Example #3
 
-# Example #3
-
-![](./images/media/image20.png){width="3.2916666666666665in"
+![](./images/image020.png){width="3.2916666666666665in"
 height="1.4583333333333333in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<div class=\"tooltip\"\>
+&lt;div class=&quot;tooltip&quot;&gt;
 
-\<span\>Bottom\</span\>
+&lt;span&gt;Bottom&lt;/span&gt;
 
-\<div class=\"tooltip-text\"\> This is the bottom of the tooltip
-\</div\>
+&lt;div class=&quot;tooltip-text&quot;&gt; This is the bottom of the tooltip
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
 .tooltip {
 
@@ -1806,7 +1737,7 @@ visibility: hidden;
 
 .tooltip-text::after {
 
-content: \"\";
+content: &quot;&quot;;
 
 position: absolute;
 
@@ -1832,22 +1763,20 @@ visibility: visible;
 
 }
 
-#  
+### Example #4
 
-# Example #4
-
-![](./images/media/image21.png){width="3.6041666666666665in"
+![](./images/image021.png){width="3.6041666666666665in"
 height="0.9166666666666666in"}
 
-## The HTML
+<h4>The HTML</h4>
 
-\<div class=\"tooltip\"\>
+&lt;div class=&quot;tooltip&quot;&gt;
 
-\<span\>Left\</span\>
+&lt;span&gt;Left&lt;/span&gt;
 
-\<div class=\"tooltip-text\"\>This is the left of the tooltip\</div\>
+&lt;div class=&quot;tooltip-text&quot;&gt;This is the left of the tooltip&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
 The CSS
 
@@ -1893,7 +1822,7 @@ visibility: hidden;
 
 .tooltip-text::after {
 
-content: \"\";
+content: &quot;&quot;;
 
 position: absolute;
 
@@ -1919,19 +1848,17 @@ visibility: visible;
 
 }
 
-# 2 Progress Bar Templates
+### 2 Progress Bar Templates
 
-# 
+### Example #1
 
-# Example #1
+![](./images/image022.png){width="5.375in" height="0.875in"}
 
-## ![](./images/media/image22.png){width="5.375in" height="0.875in"}
+<h4>The HTML</h4>
 
-## The HTML
+&lt;progress class=&quot;first&quot; value=&quot;50&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
 
-\<progress class=\"first\" value=\"50\" max=\"100\"\>\</progress\>
-
-## The CSS
+<h4>The CSS</h4>
 
 .first {
 
@@ -1957,22 +1884,20 @@ background-color: purple;
 
 }
 
-#  
+### Example #2
 
-# Example #2
+<h4>The HTML</h4>
 
-## The HTML
+&lt;progress class=&quot;second&quot; value=&quot;40&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
 
-\<progress class=\"second\" value=\"40\" max=\"100\"\>\</progress\>
-
-![](./images/media/image23.png){width="5.083333333333333in"
+![](./images/image023.png){width="5.083333333333333in"
 height="0.7395833333333334in"}
 
-\<progress class=\"second\" value=\"80\" max=\"100\"\>\</progress\>
+&lt;progress class=&quot;second&quot; value=&quot;80&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
 
-![](./images/media/image24.png){width="5.0in" height="0.78125in"}
+![](./images/image0024.png){width="5.0in" height="0.78125in"}
 
-## The CSS
+<h4>The CSS</h4>
 
 .second {
 
@@ -2016,59 +1941,39 @@ border-radius: 15px;
 
 }
 
-# 2 CSS Accordian Templates
+### 2 CSS Accordian Templates
 
-# Example #1: Accordion Using Only CSS and HTML
+### Example #1: Accordion Using Only CSS and HTML
 
-## The HTML
+<h4>The HTML</h4>
 
-\<!DOCTYPE html\>
+&lt;!DOCTYPE html&gt;
 
-\<html lang=\"en\"\>
+&lt;html lang=&quot;en&quot;&gt;
 
-\<head\>
+&lt;head&gt;
 
-\<title\>Document\</title\>
+&lt;title&gt;Document&lt;/title&gt;
 
-\<link rel=\"stylesheet\" href=\"style.css\" /\>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
 
-\</head\>
+&lt;/head&gt;
 
-\<body\>
+&lt;body&gt;
 
-\<div class=\"container\"\>
+&lt;div class=&quot;container&quot;&gt;
 
-\<h1\>CSS Accordion\</h1\>
+&lt;h1&gt;CSS Accordion&lt;/h1&gt;
 
-\<div class=\"accordion\"\>
+&lt;div class=&quot;accordion&quot;&gt;
 
-\<div class=\"tab\"\>
+&lt;div class=&quot;tab&quot;&gt;
 
-\<input type=\"checkbox\" id=\"tab1\" /\>
+&lt;input type=&quot;checkbox&quot; id=&quot;tab1&quot; /&gt;
 
-\<label class=\"tab-label\" for=\"tab1\"\>Lorem ipsum 1\</label\>
+&lt;label class=&quot;tab-label&quot; for=&quot;tab1&quot;&gt;Lorem ipsum 1&lt;/label&gt;
 
-\<div class=\"tab-content\"\>
-
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-
-perferendis eligendi fugit quaerat consequatur fuga pariatur
-
-ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-
-tempore itaque quas excepturi.
-
-\</div\>
-
-\</div\>
-
-\<div class=\"tab\"\>
-
-\<input type=\"checkbox\" id=\"tab2\" /\>
-
-\<label class=\"tab-label\" for=\"tab2\"\>Lorem ipsum 2\</label\>
-
-\<div class=\"tab-content\"\>
+&lt;div class=&quot;tab-content&quot;&gt;
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 
@@ -2078,17 +1983,17 @@ ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 
 tempore itaque quas excepturi.
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"tab\"\>
+&lt;div class=&quot;tab&quot;&gt;
 
-\<input type=\"checkbox\" id=\"tab3\" /\>
+&lt;input type=&quot;checkbox&quot; id=&quot;tab2&quot; /&gt;
 
-\<label class=\"tab-label\" for=\"tab3\"\>Lorem ipsum 3\</label\>
+&lt;label class=&quot;tab-label&quot; for=&quot;tab2&quot;&gt;Lorem ipsum 2&lt;/label&gt;
 
-\<div class=\"tab-content\"\>
+&lt;div class=&quot;tab-content&quot;&gt;
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 
@@ -2098,22 +2003,42 @@ ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 
 tempore itaque quas excepturi.
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;div class=&quot;tab&quot;&gt;
 
-\</div\>
+&lt;input type=&quot;checkbox&quot; id=&quot;tab3&quot; /&gt;
 
-\</body\>
+&lt;label class=&quot;tab-label&quot; for=&quot;tab3&quot;&gt;Lorem ipsum 3&lt;/label&gt;
 
-\</html\>
+&lt;div class=&quot;tab-content&quot;&gt;
 
-## The CSS
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 
-\@import
-\"https://fonts.googleapis.com/css?family=Montserrat:400,700\|Raleway:300,400\";
+perferendis eligendi fugit quaerat consequatur fuga pariatur
+
+ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+
+tempore itaque quas excepturi.
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+<h4>The CSS</h4>
+
+&commat;import
+&quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400&quot;;
 
 body {
 
@@ -2125,7 +2050,7 @@ width: 100vw;
 
 padding: 0 1em 1em;
 
-font-family: \"Raleway\", sans-serif;
+font-family: &quot;Raleway&quot;, sans-serif;
 
 }
 
@@ -2149,7 +2074,7 @@ z-index: -1;
 
 }
 
-/\* Accordion styles \*/
+/&ast; Accordion styles &ast;/
 
 .accordion {
 
@@ -2205,7 +2130,7 @@ background: #dce7ea;
 
 .tab-label::after {
 
-content: \"❯\";
+content: &quot;❯&quot;;
 
 width: 1em;
 
@@ -2275,57 +2200,37 @@ padding: 1rem;
 
 }
 
-# Example #2: Accordion Using CSS and HTML and JavaScript
+### Example #2: Accordion Using CSS and HTML and JavaScript
 
-## The HTML
+<h4>The HTML</h4>
 
-\<!DOCTYPE html\>
+&lt;!DOCTYPE html&gt;
 
-\<html lang=\"en\"\>
+&lt;html lang=&quot;en&quot;&gt;
 
-\<head\>
+&lt;head&gt;
 
-\<title\>Document\</title\>
+&lt;title&gt;Document&lt;/title&gt;
 
-\<link rel=\"stylesheet\" href=\"style.css\" /\>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
 
-\</head\>
+&lt;/head&gt;
 
-\<body\>
+&lt;body&gt;
 
-\<div class=\"container\"\>
+&lt;div class=&quot;container&quot;&gt;
 
-\<h1\>CSS Accordion With Javascript\</h1\>
+&lt;h1&gt;CSS Accordion With Javascript&lt;/h1&gt;
 
-\<div class=\"accordion\"\>
+&lt;div class=&quot;accordion&quot;&gt;
 
-\<div class=\"tab\"\>
+&lt;div class=&quot;tab&quot;&gt;
 
-\<input type=\"checkbox\" id=\"tab1\" /\>
+&lt;input type=&quot;checkbox&quot; id=&quot;tab1&quot; /&gt;
 
-\<label class=\"tab-label\" for=\"tab1\"\>Lorem ipsum 1\</label\>
+&lt;label class=&quot;tab-label&quot; for=&quot;tab1&quot;&gt;Lorem ipsum 1&lt;/label&gt;
 
-\<div class=\"tab-content\"\>
-
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-
-perferendis eligendi fugit quaerat consequatur fuga pariatur
-
-ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-
-tempore itaque quas excepturi.
-
-\</div\>
-
-\</div\>
-
-\<div class=\"tab\"\>
-
-\<input type=\"checkbox\" id=\"tab2\" /\>
-
-\<label class=\"tab-label\" for=\"tab2\"\>Lorem ipsum 2\</label\>
-
-\<div class=\"tab-content\"\>
+&lt;div class=&quot;tab-content&quot;&gt;
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 
@@ -2335,17 +2240,17 @@ ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 
 tempore itaque quas excepturi.
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"tab\"\>
+&lt;div class=&quot;tab&quot;&gt;
 
-\<input type=\"checkbox\" id=\"tab3\" /\>
+&lt;input type=&quot;checkbox&quot; id=&quot;tab2&quot; /&gt;
 
-\<label class=\"tab-label\" for=\"tab3\"\>Lorem ipsum 3\</label\>
+&lt;label class=&quot;tab-label&quot; for=&quot;tab2&quot;&gt;Lorem ipsum 2&lt;/label&gt;
 
-\<div class=\"tab-content\"\>
+&lt;div class=&quot;tab-content&quot;&gt;
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 
@@ -2355,24 +2260,44 @@ ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 
 tempore itaque quas excepturi.
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;div class=&quot;tab&quot;&gt;
 
-\</div\>
+&lt;input type=&quot;checkbox&quot; id=&quot;tab3&quot; /&gt;
 
-\<script src=\"index.js\"\>\</script\>
+&lt;label class=&quot;tab-label&quot; for=&quot;tab3&quot;&gt;Lorem ipsum 3&lt;/label&gt;
 
-\</body\>
+&lt;div class=&quot;tab-content&quot;&gt;
 
-\</html\>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 
-## The CSS
+perferendis eligendi fugit quaerat consequatur fuga pariatur
 
-\@import
-\"https://fonts.googleapis.com/css?family=Montserrat:400,700\|Raleway:300,400\";
+ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+
+tempore itaque quas excepturi.
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+<h4>The CSS</h4>
+
+&commat;import
+&quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400&quot;;
 
 body {
 
@@ -2384,7 +2309,7 @@ width: 100vw;
 
 padding: 0 1em 1em;
 
-font-family: \"Raleway\", sans-serif;
+font-family: &quot;Raleway&quot;, sans-serif;
 
 }
 
@@ -2410,7 +2335,7 @@ z-index: -1;
 
 }
 
-/\* Accordion styles \*/
+/&ast; Accordion styles &ast;/
 
 .accordion {
 
@@ -2462,7 +2387,7 @@ cursor: pointer;
 
 .tab-label::after {
 
-content: \"❯\";
+content: &quot;❯&quot;;
 
 width: 1em;
 
@@ -2522,72 +2447,72 @@ padding: 1rem;
 
 }
 
-## The JavaScript
+<h4>The JavaScript</h4>
 
-const accordions = document.getElementsByClassName(\"tab\");
+const accordions = document.getElementsByClassName(&quot;tab&quot;);
 
 for (const accordion of accordions) {
 
-accordion.addEventListener(\"click\", function (e) {
+accordion.addEventListener(&quot;click&quot;, function (e) {
 
 e.preventDefault();
 
-accordion.classList.toggle(\"open-tab\");
+accordion.classList.toggle(&quot;open-tab&quot;);
 
 });
 
 }
 
-# 4 CSS Effects Templates
+### 4 CSS Effects Templates
 
 []{#qjxam0b6i3lz .anchor}
 
 Template #1: Opacity
 
-## The HTML
+<h4>The HTML</h4>
 
-\<!DOCTYPE html\>
+&lt;!DOCTYPE html&gt;
 
-\<html lang=\"en\"\>
+&lt;html lang=&quot;en&quot;&gt;
 
-\<head\>
+&lt;head&gt;
 
-\<link rel=\"stylesheet\" href=\"style.css\" /\>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
 
-\</head\>
+&lt;/head&gt;
 
-\<body\>
+&lt;body&gt;
 
-\<div class=\"container\"\>
+&lt;div class=&quot;container&quot;&gt;
 
-\<div class=\"box\"\>
+&lt;div class=&quot;box&quot;&gt;
 
-\<img src=\"./girl-with-guitar.jpeg\" alt=\"img\" /\>\
-\<img
+&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt;\
+&lt;img
 
-src=\"./girl-with-guitar.jpeg\"
+src=&quot;./girl-with-guitar.jpeg&quot;
 
-alt=\"img\"
+alt=&quot;img&quot;
 
-class=\"translucent\"
+class=&quot;translucent&quot;
 
-/\>
+/&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</body\>
+&lt;/body&gt;
 
-\</html\>
+&lt;/html&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
-\*,
+&ast;,
 
-\*::after,
+&ast;::after,
 
-\*::before {
+&ast;::before {
 
 margin: 0;
 
@@ -2613,7 +2538,7 @@ width: 100vw;
 
 background: #c8c7c7;
 
-font-family: \"Roboto\", sans-serif;
+font-family: &quot;Roboto&quot;, sans-serif;
 
 }
 
@@ -2647,54 +2572,52 @@ filter: opacity(35%);
 
 }
 
-#  
+### Template #2: Grayscale
 
-# Template #2: Grayscale
+<h4>The HTML</h4>
 
-## The HTML
+&lt;!DOCTYPE html&gt;
 
-\<!DOCTYPE html\>
+&lt;html lang=&quot;en&quot;&gt;
 
-\<html lang=\"en\"\>
+&lt;head&gt;
 
-\<head\>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
 
-\<link rel=\"stylesheet\" href=\"style.css\" /\>
+&lt;/head&gt;
 
-\</head\>
+&lt;body&gt;
 
-\<body\>
+&lt;div class=&quot;container&quot;&gt;
 
-\<div class=\"container\"\>
+&lt;div class=&quot;box&quot;&gt;
 
-\<div class=\"box\"\>
+&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt;\
+&lt;img
 
-\<img src=\"./girl-with-guitar.jpeg\" alt=\"img\" /\>\
-\<img
+src=&quot;./girl-with-guitar.jpeg&quot;
 
-src=\"./girl-with-guitar.jpeg\"
+alt=&quot;img&quot;
 
-alt=\"img\"
+class=&quot;black-white&quot;
 
-class=\"black-white\"
+/&gt;
 
-/\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/body&gt;
 
-\</body\>
+&lt;/html&gt;
 
-\</html\>
+<h4>The CSS</h4>
 
-## The CSS
+&ast;,
 
-\*,
+&ast;::after,
 
-\*::after,
-
-\*::before {
+&ast;::before {
 
 margin: 0;
 
@@ -2720,7 +2643,7 @@ width: 100vw;
 
 background: #c8c7c7;
 
-font-family: \"Roboto\", sans-serif;
+font-family: &quot;Roboto&quot;, sans-serif;
 
 }
 
@@ -2754,52 +2677,50 @@ filter: grayscale(100%);
 
 }
 
-#  
+### Template #3: Sepia
 
-# Template #3: Sepia
+&lt;!DOCTYPE html&gt;
 
-\<!DOCTYPE html\>
+&lt;html lang=&quot;en&quot;&gt;
 
-\<html lang=\"en\"\>
+&lt;head&gt;
 
-\<head\>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
 
-\<link rel=\"stylesheet\" href=\"style.css\" /\>
+&lt;/head&gt;
 
-\</head\>
+&lt;body&gt;
 
-\<body\>
+&lt;div class=&quot;container&quot;&gt;
 
-\<div class=\"container\"\>
+&lt;div class=&quot;box&quot;&gt;
 
-\<div class=\"box\"\>
+&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt;\
+&lt;img
 
-\<img src=\"./girl-with-guitar.jpeg\" alt=\"img\" /\>\
-\<img
+src=&quot;./girl-with-guitar.jpeg&quot;
 
-src=\"./girl-with-guitar.jpeg\"
+alt=&quot;img&quot;
 
-alt=\"img\"
+class=&quot;nineties-effect&quot;
 
-class=\"nineties-effect\"
+/&gt;
 
-/\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/body&gt;
 
-\</body\>
+&lt;/html&gt;
 
-\</html\>
+<h4>The CSS</h4>
 
-## The CSS
+&ast;,
 
-\*,
+&ast;::after,
 
-\*::after,
-
-\*::before {
+&ast;::before {
 
 margin: 0;
 
@@ -2825,7 +2746,7 @@ width: 100vw;
 
 background: #c8c7c7;
 
-font-family: \"Roboto\", sans-serif;
+font-family: &quot;Roboto&quot;, sans-serif;
 
 }
 
@@ -2859,54 +2780,52 @@ filter: sepia(100%);
 
 }
 
-#  
+### Template #4: Hover
 
-# Template #4: Hover
+<h4>The HTML</h4>
 
-## The HTML
+&lt;!DOCTYPE html&gt;
 
-\<!DOCTYPE html\>
+&lt;html lang=&quot;en&quot;&gt;
 
-\<html lang=\"en\"\>
+&lt;head&gt;
 
-\<head\>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
 
-\<link rel=\"stylesheet\" href=\"style.css\" /\>
+&lt;/head&gt;
 
-\</head\>
+&lt;body&gt;
 
-\<body\>
+&lt;div class=&quot;container&quot;&gt;
 
-\<div class=\"container\"\>
+&lt;div class=&quot;box&quot;&gt;
 
-\<div class=\"box\"\>
+&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt;\
+&lt;img
 
-\<img src=\"./girl-with-guitar.jpeg\" alt=\"img\" /\>\
-\<img
+src=&quot;./girl-with-guitar.jpeg&quot;
 
-src=\"./girl-with-guitar.jpeg\"
+alt=&quot;img&quot;
 
-alt=\"img\"
+class=&quot;hover-effect&quot;
 
-class=\"hover-effect\"
+/&gt;
 
-/\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/body&gt;
 
-\</body\>
+&lt;/html&gt;
 
-\</html\>
+<h4>The CSS</h4>
 
-## The CSS
+&ast;,
 
-\*,
+&ast;::after,
 
-\*::after,
-
-\*::before {
+&ast;::before {
 
 margin: 0;
 
@@ -2932,9 +2851,9 @@ width: 100vw;
 
 background: #fafafa;
 
-/\* background: #c8c7c7; \*/
+/&ast; background: #c8c7c7; &ast;/
 
-font-family: \"Roboto\", sans-serif;
+font-family: &quot;Roboto&quot;, sans-serif;
 
 }
 
@@ -2968,78 +2887,78 @@ filter: grayscale(100%);
 
 }
 
-# 2 CSS Tab Navigation Templates
+### 2 CSS Tab Navigation Templates
 
 Template #1: CSS Tab Navigation with Animation Effects
 
-## The HTML
+<h4>The HTML</h4>
 
-\<!DOCTYPE html\>
+&lt;!DOCTYPE html&gt;
 
-\<html lang=\"en\"\>
+&lt;html lang=&quot;en&quot;&gt;
 
-\<head\>
+&lt;head&gt;
 
-\<title\>Document\</title\>
+&lt;title&gt;Document&lt;/title&gt;
 
-\<link rel=\"stylesheet\" href=\"styles.css\" /\>
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
 
-\</head\>
+&lt;/head&gt;
 
-\<body\>
+&lt;body&gt;
 
-\<!\-- Tabbed image gallery \--\>
+&lt;!&hyphen;- Tabbed image gallery &hyphen;-&gt;
 
-\<div class=\"tabbed-gallery\"\>
+&lt;div class=&quot;tabbed-gallery&quot;&gt;
 
-\<div class=\"btn-row\"\>
+&lt;div class=&quot;btn-row&quot;&gt;
 
-\<button class=\"btn active-btn\"\>New York\</button\>
+&lt;button class=&quot;btn active-btn&quot;&gt;New York&lt;/button&gt;
 
-\<button class=\"btn\"\>Honolulu\</button\>
+&lt;button class=&quot;btn&quot;&gt;Honolulu&lt;/button&gt;
 
-\<button class=\"btn\"\>Seoul\</button\>
+&lt;button class=&quot;btn&quot;&gt;Seoul&lt;/button&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div id=\"New York\" class=\"city\"\>
+&lt;div id=&quot;New York&quot; class=&quot;city&quot;&gt;
 
-\<img src=\"./img/new-york.jpeg\" alt=\"New York\" class=\"\" /\>
+&lt;img src=&quot;./img/new-york.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
 
-\<p\>New York City\</p\>
+&lt;p&gt;New York City&lt;/p&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div id=\"Honolulu\" class=\"city hidden-city\"\>
+&lt;div id=&quot;Honolulu&quot; class=&quot;city hidden-city&quot;&gt;
 
-\<img src=\"./img/honolulu.jpeg\" alt=\"Honolulu\" class=\"\" /\>
+&lt;img src=&quot;./img/honolulu.jpeg&quot; alt=&quot;Honolulu&quot; class=&quot;&quot; /&gt;
 
-\<p\>Honolulu\</p\>
+&lt;p&gt;Honolulu&lt;/p&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div id=\"Seoul\" class=\"city hidden-city\"\>
+&lt;div id=&quot;Seoul&quot; class=&quot;city hidden-city&quot;&gt;
 
-\<img src=\"./img/seoul.jpeg\" alt=\"Seoul\" class=\"\" /\>
+&lt;img src=&quot;./img/seoul.jpeg&quot; alt=&quot;Seoul&quot; class=&quot;&quot; /&gt;
 
-\<p\>Seoul\</p\>
+&lt;p&gt;Seoul&lt;/p&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<script src=\"index.js\"\>\</script\>
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
 
-\</body\>
+&lt;/body&gt;
 
-\</html\>
+&lt;/html&gt;
 
-## The CSS
+<h4>The CSS</h4>
 
-\@import
-url(\"https://fonts.googleapis.com/css2?family=DynaPuff&display=swap\");
+&commat;import
+url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
 
-\* {
+&ast; {
 
 padding: 0;
 
@@ -3047,7 +2966,7 @@ margin: 0;
 
 box-sizing: border-box;
 
-font-family: \"DynaPuff\", cursive, sans-serif;
+font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
 
 }
 
@@ -3159,38 +3078,38 @@ font-size: 3.5rem;
 
 }
 
-## The JavaScript
+<h4>The JavaScript</h4>
 
-const buttons = document.querySelectorAll(\".btn\");
+const buttons = document.querySelectorAll(&quot;.btn&quot;);
 
-const cities = document.querySelectorAll(\".city\");
+const cities = document.querySelectorAll(&quot;.city&quot;);
 
 function showCity(e, index) {
 
 //adds the hidden-city class to all image element and removes the
 active-btn class from all buttons
 
-for (let i = 0; i \< cities.length; i++) {
+for (let i = 0; i &lt; cities.length; i++) {
 
-cities\[i\].classList.add(\"hidden-city\");
+cities&lbrack;i&rbrack;.classList.add(&quot;hidden-city&quot;);
 
-buttons\[i\].classList.remove(\"active-btn\");
+buttons&lbrack;i&rbrack;.classList.remove(&quot;active-btn&quot;);
 
 }
 
 //add the active-btn class to the clicked button
 
-e.target.classList.add(\"active-btn\");
+e.target.classList.add(&quot;active-btn&quot;);
 
 // pick the right city and make it visible
 
-cities\[index\].classList.remove(\"hidden-city\");
+cities&lbrack;index&rbrack;.classList.remove(&quot;hidden-city&quot;);
 
 }
 
-buttons.forEach((button, index) =\> {
+buttons.forEach((button, index) =&gt; {
 
-button.addEventListener(\"click\", (e) =\> {
+button.addEventListener(&quot;click&quot;, (e) =&gt; {
 
 showCity(e, index);
 
@@ -3198,37 +3117,25 @@ showCity(e, index);
 
 });
 
-# Template #2: CSS Tab Navigation with a Simple Tabbed Image Gallery
+### Template #2: CSS Tab Navigation with a Simple Tabbed Image Gallery
 
-## The HTML
+<h4>The HTML</h4>
 
-\<!DOCTYPE html\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<title\>Document\</title\>
-
-\<link rel=\"stylesheet\" href=\"styles.css\" /\>
-
-\</head\>
-
-\<body\>
-
-\<!\-- Tabbed image gallery \--\>
-
-\<div class=\"tabbed-gallery\"\>
-
-\<div class=\"btn-row\"\>
-
-\<button class=\"btn active-btn\"\>
-
-\<svg viewBox=\"0 0 24 24\"\>
-
-\<path
-
-d=\"M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!&hyphen;- Tabbed image gallery &hyphen;-&gt;
+&lt;div class=&quot;tabbed-gallery&quot;&gt;
+&lt;div class=&quot;btn-row&quot;&gt;
+&lt;button class=&quot;btn active-btn&quot;&gt;
+&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;
+&lt;path
+d=&quot;M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
 3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06
 12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88
 20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69
@@ -3238,419 +3145,236 @@ d=\"M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
 2.32,11.14
 2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77
 13.3,15.76
-13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z\"
-
-/\>
-
-\</svg\>
-
-\</button\>
-
-\<button class=\"btn\"\>
-
-\<svg viewBox=\"0 0 24 24\"\>
-
-\<path
-
-d=\"M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
+13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z&quot;
+&gt;
+&lt;/svg&gt;
+&lt;/button&gt;
+&lt;button class=&quot;btn&quot;&gt;
+&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;
+&lt;path
+d=&quot;M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
 18,20A3,3 0 0,0
 21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5
 0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1
 6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0 0,1
-16.5,17A1.5,1.5 0 0,1 18,15.5Z\"
-
-/\>
-
-\</svg\>
-
-\</button\>
-
-\<button class=\"btn\"\>
-
-\<svg viewBox=\"0 0 24 24\"\>
-
-\<path
-
-d=\"M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4
+16.5,17A1.5,1.5 0 0,1 18,15.5Z&quot;
+/&gt;
+&lt;/svg&gt;
+&lt;/button&gt;
+&lt;button class=&quot;btn&quot;&gt;
+&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;
+&lt;path
+d=&quot;M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4
 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0
-12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z\"
+12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z&quot;
+&gt;
+&lt;/svg&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;h2 class=&quot;&quot;&gt;Delivery&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card hidden-card&quot;&gt;
+&lt;h2 class=&quot;&quot;&gt;Shipping&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card hidden-card&quot;&gt;
+&lt;h2 class=&quot;&quot;&gt;Policy&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
-/\>
+<h4>The CSS</h4>
 
-\</svg\>
-
-\</button\>
-
-\</div\>
-
-\<div class=\"card\"\>
-
-\<h2 class=\"\"\>Delivery\</h2\>
-
-\<p\>Lorem ipsum dolor, sit amet consectetur adipisicing elit.\</p\>
-
-\</div\>
-
-\<div class=\"card hidden-card\"\>
-
-\<h2 class=\"\"\>Shipping\</h2\>
-
-\<p\>Lorem ipsum dolor, sit amet consectetur adipisicing elit.\</p\>
-
-\</div\>
-
-\<div class=\"card hidden-card\"\>
-
-\<h2 class=\"\"\>Policy\</h2\>
-
-\<p\>Lorem ipsum dolor, sit amet consectetur adipisicing elit.\</p\>
-
-\</div\>
-
-\</div\>
-
-\<script src=\"index.js\"\>\</script\>
-
-\</body\>
-
-\</html\>
-
-## The CSS
-
-\@import
-\"https://fonts.googleapis.com/css?family=Montserrat:400,700\|Raleway:300,400\";
-
-\* {
-
+```
+&commat;import
+&quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400&quot;;
+&ast; {
 padding: 0;
-
 margin: 0;
-
 box-sizing: border-box;
-
-font-family: \"Raleway\", sans-serif;
-
+font-family: &quot;Raleway&quot;, sans-serif;
 }
-
 body {
-
 width: 100vw;
-
 background: #fff;
-
 }
-
 .tabbed-gallery {
-
 width: 80vw;
-
 height: 75vh;
-
 background-color: #e7e7e7;
-
 color: #1d1d27;
-
 margin: 6rem auto 0;
-
 }
-
 .btn-row {
-
 display: grid;
-
 grid-template-columns: repeat(3, 8rem);
-
 grid-template-rows: 3.5rem;
-
 column-gap: 10rem;
-
 justify-content: center;
-
 padding: 4rem auto !important;
-
 border-bottom: 2px solid #1d1d27;
-
 }
-
 .btn {
-
 border: none;
-
 outline: none;
-
 background-color: #fff;
-
 }
-
 .btn svg {
-
 width: 3rem;
-
 height: 2.2rem;
-
 }
-
 .btn:hover {
-
 cursor: pointer;
-
 }
-
 .active-btn svg {
-
 fill: #4343f5;
-
 }
-
 .card {
-
 width: 100%;
-
 height: 70vh;
-
 position: relative;
-
 display: block;
-
 }
-
 h2 {
-
 text-align: center;
-
 color: #4343f5;
-
 padding: 40px 0 20px 0;
-
 margin-top: 10rem;
-
 font-size: 4rem;
-
 }
-
 .card p {
-
-/\* position: absolute;
-
+/&ast; position: absolute;
 top: 30%;
-
 left: 50%;
-
-transform: translate(-50%); \*/
-
+transform: translate(-50%); &ast;/
 margin: 0 auto;
-
 width: 60%;
-
 text-align: center;
-
 color: #1d1d27;
-
 font-size: 1.5rem;
-
 }
-
 .animate h2,
-
 .animate p {
-
 -webkit-animation-name: content;
-
 animation-name: content;
-
 -webkit-animation-direction: normal;
-
 animation-direction: normal;
-
 -webkit-animation-duration: 0.5s;
-
 animation-duration: 0.5s;
-
 -webkit-animation-timing-function: ease-in-out;
-
 animation-timing-function: ease-in-out;
-
 -webkit-animation-iteration-count: 1;
-
 animation-iteration-count: 1;
-
 line-height: 1.4;
-
 }
-
 .hidden-card {
-
 display: none;
-
 }
-
-/\* text slide up animation \*/
-
+/&ast; text slide up animation &ast;/
 @-webkit-keyframes content {
-
 from {
-
 opacity: 0;
-
 transform: translateY(30%);
-
 }
-
 to {
-
 opacity: 1;
-
 transform: translateY(0%);
-
 }
-
 }
-
-\@keyframes content {
-
+&commat;keyframes content {
 from {
-
 opacity: 0;
-
 transform: translateY(30%);
-
 }
-
 to {
-
 opacity: 1;
-
 transform: translateY(0%);
-
 }
-
 }
+```
 
-## The JavaScript
+<h4>The JavaScript</h4>
 
-const buttons = document.querySelectorAll(\".btn\");
-
-const cards = document.querySelectorAll(\".card\");
-
+```
+const buttons = document.querySelectorAll(&quot;.btn&quot;);
+const cards = document.querySelectorAll(&quot;.card&quot;);
 function showCard(e, index) {
-
 //adds the hidden-city class to all city element and removes the
 active-btn class from all buttons
-
-for (let i = 0; i \< cards.length; i++) {
-
-cards\[i\].classList.add(\"hidden-card\");
-
-cards\[i\].classList.remove(\"animate\");
-
-buttons\[i\].classList.remove(\"active-btn\");
-
+for (let i = 0; i &lt; cards.length; i++) {
+cards&lbrack;i&rbrack;.classList.add(&quot;hidden-card&quot;);
+cards&lbrack;i&rbrack;.classList.remove(&quot;animate&quot;);
+buttons&lbrack;i&rbrack;.classList.remove(&quot;active-btn&quot;);
 }
-
 //adding the active-btn class to the clicked button
-
-e.target.classList.add(\"active-btn\");
-
+e.target.classList.add(&quot;active-btn&quot;);
 // picking the right card and make it visible
-
-cards\[index\].classList.remove(\"hidden-card\");
-
-cards\[index\].classList.add(\"animate\");
-
+cards&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
+cards&lbrack;index&rbrack;.classList.add(&quot;animate&quot;);
 }
-
-buttons.forEach((button, index) =\> {
-
-button.addEventListener(\"click\", (e) =\> {
-
+buttons.forEach((button, index) =&gt; {
+button.addEventListener(&quot;click&quot;, (e) =&gt; {
 showCard(e, index);
-
 });
-
 });
+```
 
-# 2 CSS and JavaScript Slideshow Templates
+## 2 CSS and JavaScript Slideshow Templates
 
-Template #1: Slideshow That Progresses Manually
+### Template #1: Slideshow That Progresses Manually
 
-## The HTML
+<h4>The HTML</h4>
 
-\<!DOCTYPE html\>
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;carousel&quot;&gt;
+&lt;!&hyphen;- Photo 1 &hyphen;-&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;img src=&quot;./img/1.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;1/4&lt;/p&gt;
+&lt;/div&gt;
+&lt;!&hyphen;- Photo 2 &hyphen;-&gt;
+&lt;div class=&quot;card hidden-card&quot;&gt;
+&lt;img src=&quot;./img/2.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;2/4&lt;/p&gt;
+&lt;/div&gt;
+&lt;!&hyphen;- Photo 3 &hyphen;-&gt;
+&lt;div class=&quot;card hidden-card&quot;&gt;
+&lt;img src=&quot;./img/3.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;3/4&lt;/p&gt;
+&lt;/div&gt;
+&lt;!&hyphen;- Photo 4 &hyphen;-&gt;
+&lt;div class=&quot;card hidden-card&quot;&gt;
+&lt;img src=&quot;./img/4.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;4/4&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;navigation&quot;&gt;
+&lt;button class=&quot;prev nav-btn&quot;&gt;&lt;&lt;/button&gt;
+&lt;button class=&quot;next nav-btn&quot;&gt;&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;/html&gt;
+```
 
-\<html lang=\"en\"\>
+<h4>The CSS</h4>
 
-\<head\>
+&commat;import
+url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
 
-\<link rel=\"stylesheet\" href=\"style.css\" /\>
-
-\</head\>
-
-\<body\>
-
-\<div class=\"carousel\"\>
-
-\<!\-- Photo 1 \--\>
-
-\<div class=\"card\"\>
-
-\<img src=\"./img/1.jpeg\" alt=\"New York\" class=\"\" /\>
-
-\<p\>1/4\</p\>
-
-\</div\>
-
-\<!\-- Photo 2 \--\>
-
-\<div class=\"card hidden-card\"\>
-
-\<img src=\"./img/2.jpeg\" alt=\"New York\" class=\"\" /\>
-
-\<p\>2/4\</p\>
-
-\</div\>
-
-\<!\-- Photo 3 \--\>
-
-\<div class=\"card hidden-card\"\>
-
-\<img src=\"./img/3.jpeg\" alt=\"New York\" class=\"\" /\>
-
-\<p\>3/4\</p\>
-
-\</div\>
-
-\<!\-- Photo 4 \--\>
-
-\<div class=\"card hidden-card\"\>
-
-\<img src=\"./img/4.jpeg\" alt=\"New York\" class=\"\" /\>
-
-\<p\>4/4\</p\>
-
-\</div\>
-
-\<div class=\"navigation\"\>
-
-\<button class=\"prev nav-btn\"\>\<\</button\>
-
-\<button class=\"next nav-btn\"\>\>\</button\>
-
-\</div\>
-
-\</div\>
-
-\</body\>
-
-\<script src=\"index.js\"\>\</script\>
-
-\</html\>
-
-## The CSS
-
-\@import
-url(\"https://fonts.googleapis.com/css2?family=DynaPuff&display=swap\");
-
-\* {
+&ast; {
 
 padding: 0;
 
@@ -3658,7 +3382,7 @@ margin: 0;
 
 box-sizing: border-box;
 
-font-family: \"DynaPuff\", cursive, sans-serif;
+font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
 
 }
 
@@ -3818,849 +3542,486 @@ background: white;
 
 }
 
-## The JavaScript
+<h4>The JavaScript</h4>
 
-const prev = document.querySelector(\".prev\");
-
-const next = document.querySelector(\".next\");
-
-const images = document.querySelectorAll(\".card\");
-
+```
+const prev = document.querySelector(&quot;.prev&quot;);
+const next = document.querySelector(&quot;.next&quot;);
+const images = document.querySelectorAll(&quot;.card&quot;);
 const totalImages = images.length;
-
 let index = 0;
-
-prev.addEventListener(\"click\", () =\> {
-
-nextImage(\"prev\");
-
+prev.addEventListener(&quot;click&quot;, () =&gt; {
+nextImage(&quot;prev&quot;);
 });
-
-next.addEventListener(\"click\", () =\> {
-
-nextImage(\"next\");
-
+next.addEventListener(&quot;click&quot;, () =&gt; {
+nextImage(&quot;next&quot;);
 });
-
 function nextImage(direction) {
-
-if (direction === \"next\") {
-
+if (direction === &quot;next&quot;) {
 index++;
-
 if (index === totalImages) {
-
 index = 0;
-
 }
-
-} else if (direction === \"prev\") {
-
+} else if (direction === &quot;prev&quot;) {
 if (index == 0) {
-
 index = totalImages - 1;
-
 } else {
-
-index\--;
-
+index&hyphen;-;
 }
-
 }
-
-for (let i = 0; i \< images.length; i++) {
-
-images\[i\].classList.add(\"hidden-card\");
-
+for (let i = 0; i &lt; images.length; i++) {
+images&lbrack;i&rbrack;.classList.add(&quot;hidden-card&quot;);
 }
-
-images\[index\].classList.remove(\"hidden-card\");
-
+images&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
 }
+```
 
-#  
+<h3 id="template-2">Template #2: Slideshow That Progresses Automatically</h3>
 
-# Template #2: Slideshow That Progresses Automatically
+<h4>The HTML</h4>
 
-### The HTML
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;carousel&quot;&gt;
+&lt;!&hyphen;- Photo 1 &hyphen;-&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;img src=&quot;./img/1.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;1/4&lt;/p&gt;
+&lt;/div&gt;
+&lt;!&hyphen;- Photo 2 &hyphen;-&gt;
+&lt;div class=&quot;card hidden-card&quot;&gt;
+&lt;img src=&quot;./img/2.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;2/4&lt;/p&gt;
+&lt;/div&gt;
+&lt;!&hyphen;- Photo 3 &hyphen;-&gt;
+&lt;div class=&quot;card hidden-card&quot;&gt;
+&lt;img src=&quot;./img/3.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;3/4&lt;/p&gt;
+&lt;/div&gt;
+&lt;!&hyphen;- Photo 4 &hyphen;-&gt;
+&lt;div class=&quot;card hidden-card&quot;&gt;
+&lt;img src=&quot;./img/4.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;4/4&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;navigation&quot;&gt;
+&lt;button class=&quot;prev nav-btn&quot;&gt;&lt;&lt;/button&gt;
+&lt;button class=&quot;next nav-btn&quot;&gt;&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;/html&gt;
+```
 
-\<!DOCTYPE html\>
+<h4>The CSS</h4>
 
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<title\>Document\</title\>
-
-\<link rel=\"stylesheet\" href=\"style.css\" /\>
-
-\</head\>
-
-\<body\>
-
-\<div class=\"carousel\"\>
-
-\<!\-- Photo 1 \--\>
-
-\<div class=\"card\"\>
-
-\<img src=\"./img/1.jpeg\" alt=\"New York\" class=\"\" /\>
-
-\<p\>1/4\</p\>
-
-\</div\>
-
-\<!\-- Photo 2 \--\>
-
-\<div class=\"card hidden-card\"\>
-
-\<img src=\"./img/2.jpeg\" alt=\"New York\" class=\"\" /\>
-
-\<p\>2/4\</p\>
-
-\</div\>
-
-\<!\-- Photo 3 \--\>
-
-\<div class=\"card hidden-card\"\>
-
-\<img src=\"./img/3.jpeg\" alt=\"New York\" class=\"\" /\>
-
-\<p\>3/4\</p\>
-
-\</div\>
-
-\<!\-- Photo 4 \--\>
-
-\<div class=\"card hidden-card\"\>
-
-\<img src=\"./img/4.jpeg\" alt=\"New York\" class=\"\" /\>
-
-\<p\>4/4\</p\>
-
-\</div\>
-
-\<div class=\"navigation\"\>
-
-\<button class=\"prev nav-btn\"\>\<\</button\>
-
-\<button class=\"next nav-btn\"\>\>\</button\>
-
-\</div\>
-
-\</div\>
-
-\</body\>
-
-\<script src=\"index.js\"\>\</script\>
-
-\</html\>
-
-### The CSS
-
-\@import
-url(\"https://fonts.googleapis.com/css2?family=DynaPuff&display=swap\");
-
-\* {
-
+```
+&commat;import
+url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
+&ast; {
 padding: 0;
-
 margin: 0;
-
 box-sizing: border-box;
-
-font-family: \"DynaPuff\", cursive, sans-serif;
-
+font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
 }
-
 html,
-
 body {
-
 display: flex;
-
 align-items: center;
-
 justify-content: center;
-
 align-items: center;
-
 width: 100vw;
-
 height: 100vh;
-
 background-color: #3c3c3c;
-
 }
-
 .carousel {
-
 width: 80%;
-
 height: 75vh;
-
 position: relative;
-
 display: block;
-
 transition: all 400ms ease;
-
 }
-
 .card {
-
 display: block;
-
 height: 100%;
-
 width: 100%;
-
 }
-
 .card p {
-
 position: absolute;
-
 bottom: 12%;
-
 left: 50%;
-
 transform: translate(-50%);
-
 text-align: center;
-
 color: #fafafa;
-
 font-size: 3.5rem;
-
 }
-
 .card img {
-
 width: 100%;
-
 height: 100%;
-
 image-rendering: optimizeQuality;
-
 transition: all 0.3s ease;
-
 border: 8px solid white;
-
 }
-
 .hidden-card {
-
 display: none;
-
 }
-
 .carousel img {
-
 width: 100%;
-
 transition: all 0.3s ease;
-
 border: 8px solid white;
-
 }
-
 .navigation .prev {
-
 position: absolute;
-
 z-index: 10;
-
 font-size: 25px;
-
 top: 40%;
-
 left: 20px;
-
 font-weight: 700;
-
 }
-
 .navigation .next {
-
 right: 20px;
-
 position: absolute;
-
 font-size: 25px;
-
 z-index: 10;
-
 top: 40%;
-
 }
-
 .navigation .nav-btn {
-
 background: rgba(255, 255, 255, 0.55);
-
 border: none;
-
 outline: none;
-
 cursor: pointer;
-
 border-radius: 50%;
-
 width: 40px;
-
 height: 40px;
-
 display: flex;
-
 justify-content: center;
-
 align-items: center;
-
 padding: 10px;
-
 box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-
 }
-
 .navigation .nav-btn:hover {
-
 background: white;
-
 }
+```
 
-### The JavaScript
+<h4>The JavaScript</h4>
 
-const prev = document.querySelector(\".prev\");
-
-const next = document.querySelector(\".next\");
-
-const images = document.querySelectorAll(\".card\");
-
+```
+const prev = document.querySelector(&quot;.prev&quot;);
+const next = document.querySelector(&quot;.next&quot;);
+const images = document.querySelectorAll(&quot;.card&quot;);
 const totalImages = images.length;
-
 let index = 0;
-
-prev.addEventListener(\"click\", () =\> {
-
-nextImage(\"prev\");
-
+prev.addEventListener(&quot;click&quot;, () =&gt; {
+nextImage(&quot;prev&quot;);
 });
-
-next.addEventListener(\"click\", () =\> {
-
-nextImage(\"next\");
-
+next.addEventListener(&quot;click&quot;, () =&gt; {
+nextImage(&quot;next&quot;);
 });
-
 function nextImage(direction) {
-
-if (direction === \"next\") {
-
+if (direction === &quot;next&quot;) {
 index++;
-
 if (index === totalImages) {
-
 index = 0;
-
 }
-
-} else if (direction === \"prev\") {
-
+} else if (direction === &quot;prev&quot;) {
 if (index == 0) {
-
 index = totalImages - 1;
-
 } else {
-
-index\--;
-
+index&hyphen;-;
 }
-
 }
-
-for (let i = 0; i \< images.length; i++) {
-
-images\[i\].classList.add(\"hidden-card\");
-
+for (let i = 0; i &lt; images.length; i++) {
+images&lbrack;i&rbrack;.classList.add(&quot;hidden-card&quot;);
 }
-
-images\[index\].classList.remove(\"hidden-card\");
-
+images&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
 }
-
-setInterval(() =\> {
-
-nextImage(\"next\");
-
+setInterval(() =&gt; {
+nextImage(&quot;next&quot;);
 }, 5000);
+```
 
-# 3 JavaScript onClick with CSS Templates
+<h3>3 JavaScript onClick with CSS Templates</h3>
 
-##  Template #1: Display a Hidden Element
+<h3>Template #1: Display a Hidden Element</h3>
 
-## The HTML
+<h4>The HTML</h4>
 
-\<!DOCTYPE html\>
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;container hidden-container&quot;&gt;
+&lt;img src=&quot;./honolulu.jpeg&quot; alt=&quot;Honolulu&quot; class=&quot;img&quot; /&gt;
+&lt;button class=&quot;fixed-btn&quot;&gt;Toggle image&lt;/button&gt;
+&lt;/div&gt;
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
-\<html lang=\"en\"\>
+<h4>The CSS</h4>
 
-\<head\>
-
-\<title\>Document\</title\>
-
-\<link rel=\"stylesheet\" href=\"styles.css\" /\>
-
-\</head\>
-
-\<body\>
-
-\<div class=\"container hidden-container\"\>
-
-\<img src=\"./honolulu.jpeg\" alt=\"Honolulu\" class=\"img\" /\>
-
-\<button class=\"fixed-btn\"\>Toggle image\</button\>
-
-\</div\>
-
-\<script src=\"index.js\"\>\</script\>
-
-\</body\>
-
-\</html\>
-
-## The CSS
-
-\@import
-url(\"https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700\|Raleway:300,400\");
-
-\* {
-
+```
+&commat;import
+url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400&quot;);
+&ast; {
 padding: 0;
-
 margin: 0;
-
 box-sizing: border-box;
-
-font-family: \"DynaPuff\", cursive, sans-serif;
-
+font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
 }
-
 body {
-
 width: 100vw;
-
 min-height: 100vh;
-
 background: #fafafa;
-
 }
-
 .container {
-
 height: 100vh;
-
 width: 100%;
-
 display: flex;
-
 justify-content: center;
-
 align-items: center;
-
 position: relative;
-
 }
-
 .fixed-btn {
-
 border: none;
-
 outline: none;
-
 background-color: #1d1d27;
-
 color: #fafafa;
-
 padding: 1.5rem 1rem;
-
 font-size: 1.2rem;
-
 position: absolute;
-
 bottom: 10%;
-
 left: 50%;
-
 transform: translate(-50%);
-
 cursor: pointer;
-
 }
-
 .hidden-container {
-
 display: flex;
-
 justify-content: center;
-
 align-items: center;
-
 }
-
 .hidden-container img {
-
 transform: translateY(-2rem);
-
 width: 50%;
-
 height: 70vh;
-
 }
-
 .hidden {
-
 visibility: hidden;
-
 transition: all 400ms ease;
-
 }
+```
 
-## The JavaScript
+<h4>The JavaScript</h4>
 
-const toggleBtn = document.querySelector(\".fixed-btn\");
-
-const hiddenImage = document.querySelector(\".hidden-container img\");
-
-toggleBtn.addEventListener(\"click\", (e) =\> {
-
-hiddenImage.classList.toggle(\"hidden\");
-
+```
+const toggleBtn = document.querySelector(&quot;.fixed-btn&quot;);
+const hiddenImage = document.querySelector(&quot;.hidden-container img&quot;);
+toggleBtn.addEventListener(&quot;click&quot;, (e) =&gt; {
+hiddenImage.classList.toggle(&quot;hidden&quot;);
 });
+```
 
-Template #2: Update a Field
+### Template #2: Update a Field
 
-## The HTML
+<h4>The HTML</h4>
 
-\<!DOCTYPE html\>
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;textarea id=&quot;text-area&quot; cols=&quot;50&quot; rows=&quot;20&quot;&gt; &lt;/textarea&gt;
+&lt;button class=&quot;fill-btn&quot;&gt;Fill text&lt;/button&gt;
+&lt;/div&gt;
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
-\<html lang=\"en\"\>
+<h4>The CSS</h4>
 
-\<head\>
-
-\<title\>Document\</title\>
-
-\<link rel=\"stylesheet\" href=\"styles.css\" /\>
-
-\</head\>
-
-\<body\>
-
-\<div class=\"container\"\>
-
-\<textarea id=\"text-area\" cols=\"50\" rows=\"20\"\> \</textarea\>
-
-\<button class=\"fill-btn\"\>Fill text\</button\>
-
-\</div\>
-
-\<script src=\"index.js\"\>\</script\>
-
-\</body\>
-
-\</html\>
-
-## The CSS
-
-\@import
-url(\"https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700\|Raleway:300,400\");
-
-\* {
-
+```
+&commat;import
+url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400&quot;);
+&ast; {
 padding: 0;
-
 margin: 0;
-
 box-sizing: border-box;
-
-font-family: \"DynaPuff\", cursive, sans-serif;
-
+font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
 }
-
 body {
-
 width: 100vw;
-
 min-height: 100vh;
-
 background: #fafafa;
-
 }
-
 .container {
-
 height: 100vh;
-
 width: 100%;
-
 display: flex;
-
 justify-content: center;
-
 align-items: center;
-
 position: relative;
-
 }
-
 .fixed-btn {
-
 border: none;
-
 outline: none;
-
 background-color: #1d1d27;
-
 color: #fafafa;
-
 padding: 1.5rem 1rem;
-
 font-size: 1.2rem;
-
 position: absolute;
-
 bottom: 10%;
-
 left: 50%;
-
 transform: translate(-50%);
-
 cursor: pointer;
-
 }
-
 textarea {
-
 color: #1d1d27;
-
 font-size: 1.5rem;
-
 line-height: 2rem;
-
 letter-spacing: 0.1rem;
-
 }
+```
 
-## The JavaScript
+<h4>The JavaScript</h4>
 
-const fillBtn = document.querySelector(\".fill-btn\");
-
-const textarea = document.getElementById(\"text-area\");
-
-fillBtn.addEventListener(\"click\", () =\> {
-
+```
+const fillBtn = document.querySelector(&quot;.fill-btn&quot;);
+const textarea = document.getElementById(&quot;text-area&quot;);
+fillBtn.addEventListener(&quot;click&quot;, () =&gt; {
 textarea.innerHTML =
-
-\"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic a
+&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic a
 vel perspiciatis asperiores, repudiandae rem nemo velit doloribus odit
 fugit, sed recusandae, minus voluptatem possimus autem molestias non
 aperiam\\n\\nLorem ipsum dolor sit amet consectetur adipisicing elit.
-Magnam hic a vel perspiciatis asperiores\";
-
+Magnam hic a vel perspiciatis asperiores&quot;;
 });
+```
 
-#  
+### Template #3: Change Colors or Other Visual Effects
 
-# Template #3: Change Colors or Other Visual Effects
+<h4>The HTML</h4>
 
-## The HTML
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;container bg-container&quot;&gt;
+&lt;button class=&quot;fixed-btn&quot;&gt;New Color!&lt;/button&gt;
+&lt;/div&gt;
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
-\<!DOCTYPE html\>
+<h4>The CSS</h4>
 
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<title\>Document\</title\>
-
-\<link rel=\"stylesheet\" href=\"styles.css\" /\>
-
-\</head\>
-
-\<body\>
-
-\<div class=\"container bg-container\"\>
-
-\<button class=\"fixed-btn\"\>New Color!\</button\>
-
-\</div\>
-
-\<script src=\"index.js\"\>\</script\>
-
-\</body\>
-
-\</html\>
-
-## The CSS
-
-\@import
-url(\"https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700\|Raleway:300,400\");
-
-\* {
-
+```
+&commat;import
+url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400&quot;);
+&ast; {
 padding: 0;
-
 margin: 0;
-
 box-sizing: border-box;
-
-font-family: \"DynaPuff\", cursive, sans-serif;
-
+font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
 }
-
 body {
-
 width: 100vw;
-
 min-height: 100vh;
-
 background: #fafafa;
-
 }
-
 .container {
-
 height: 100vh;
-
 width: 100%;
-
 display: flex;
-
 justify-content: center;
-
 align-items: center;
-
 position: relative;
-
 }
-
 .fixed-btn {
-
 border: none;
-
 outline: none;
-
 background-color: #1d1d27;
-
 color: #fafafa;
-
 padding: 1.5rem 1rem;
-
 font-size: 1.2rem;
-
 position: absolute;
-
 bottom: 10%;
-
 left: 50%;
-
 transform: translate(-50%);
-
 }
-
 .bg-container {
-
 background-color: #4343f5;
-
 }
+```
 
-## The JavaScript
+<h4>The JavaScript</h4>
 
-const toggleBtn = document.querySelector(\".bg-container .fixed-btn\");
-
-const container = document.querySelector(\".bg-container\");
-
-const colors = \[
-
-\"#cdb4db\",
-
-\"#ffc8dd\",
-
-\"#ffafcc\",
-
-\"#bde0fe\",
-
-\"#a2d2ff\",
-
-\"#00b4d8\",
-
-\"#6f2dbd\",
-
-\"#f27059\",
-
-\];
-
-toggleBtn.addEventListener(\"click\", (e) =\> {
-
+```
+const toggleBtn = document.querySelector(&quot;.bg-container .fixed-btn&quot;);
+const container = document.querySelector(&quot;.bg-container&quot;);
+const colors = &lbrack;
+&quot;#cdb4db&quot;,
+&quot;#ffc8dd&quot;,
+&quot;#ffafcc&quot;,
+&quot;#bde0fe&quot;,
+&quot;#a2d2ff&quot;,
+&quot;#00b4d8&quot;,
+&quot;#6f2dbd&quot;,
+&quot;#f27059&quot;,
+&rbrack;;
+toggleBtn.addEventListener(&quot;click&quot;, (e) =&gt; {
 e.preventDefault();
-
 container.style.backgroundColor =
-
-colors\[Math.floor(Math.random() \* colors.length)\];
-
+colors&lbrack;Math.floor(Math.random() &ast; colors.length)&rbrack;;
 });
-
 []{#mbneroay4a95 .anchor}HTML Video & Audio Templates
-
-\<!\-- Basic video element \--\>
-
-\<video src=\"./media/example-video.mp4\"\>\</video\>
-
-\<!\-- Features standard controls to user \--\>
-
-\<video controls src=\"./media/example-video.mp4\"\>\</video\>
-
-\<!\-- Width and height in pixels \--\>
-
-\<video width=\"500\" height=\"500\"
-src=\"./media/example-video.mp4\"\>\</video\>
-
-\<!\-- Autoplay video \--\>
-
-\<video autoplay src=\"./media/example-video.mp4\"\>\</video\>
-
-\<style\>
-
-/\* Stylized video element \*/
-
-video { /\* Give video elements a red border \*/
-
+&lt;!&hyphen;- Basic video element &hyphen;-&gt;
+&lt;video src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
+&lt;!&hyphen;- Features standard controls to user &hyphen;-&gt;
+&lt;video controls src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
+&lt;!&hyphen;- Width and height in pixels &hyphen;-&gt;
+&lt;video width=&quot;500&quot; height=&quot;500&quot;
+  src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
+&lt;!&hyphen;- Autoplay video &hyphen;-&gt;
+&lt;video autoplay src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
+&lt;style&gt;
+/&ast; Stylized video element &ast;/
+video { /&ast; Give video elements a red border &ast;/
 border-width: 5px;
-
 border-color: red;
-
 }
-
-\</style\>
-
-\<!\-- Audio element with controls \--\>
-
-\<audio controls src=\"./media/example-audio.mp3\"\>\</audio\>
-
-\<style\>
-
-/\* Stylized audio element. Note: Only applicable if controls are
-visible \*/
-
+&lt;/style&gt;
+&lt;!&hyphen;- Audio element with controls &hyphen;-&gt;
+&lt;audio controls src=&quot;./media/example-audio.mp3&quot;&gt;&lt;/audio&gt;
+&lt;style&gt;
+/&ast; Stylized audio element. Note: Only applicable if controls are visible &ast;/
 audio {
-
 border-width: 5px;
-
 border-radius: green;
-
 }
-
-\</style\>
+&lt;/style&gt;
+```
 
 CSS Background Template
 
@@ -4668,258 +4029,163 @@ CSS Background Template
 
 Template
 
-![](./images/media/image25.jpg){width="4.880208880139983in"
+![](./images/image025.jpg){width="4.880208880139983in"
 height="3.2534722222222223in"}
 
-[[Example]{.underline}](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
+[Example](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
 
-/\* Set entire page background to a color \*/
-
+```
+/&ast; Set entire page background to a color &ast;/
 body {
-
 background: red;
-
 }
-
-/\* To an image URL \*/
-
+/&ast; To an image URL &ast;/
 body {
-
-background: url(\"./images/image.png\");
-
+background: url(&quot;./images/image.png&quot;);
 }
-
-/\*multiple backgrounds\*/
-
+/&ast;multiple backgrounds&ast;/
 body {
-
 background-image: url(rose.png), url(Android-Logo.png);
-
 background-position: right bottom, left top;
-
 background-repeat: no-repeat, repeat;
-
 }
-
-/\* Transparent background \*/
-
+/&ast; Transparent background &ast;/
 body {
-
 background: green;
-
-opacity: 0.5; /\* 50% opacity \*/
-
+opacity: 0.5; /&ast; 50% opacity &ast;/
 }
-
-/\* Position image in center \*/
-
+/&ast; Position image in center &ast;/
 body {
-
-background: center url(\"./images/image.png\");
-
+background: center url(&quot;./images/image.png&quot;);
 }
-
-/\* Repeat an image \*/
-
+/&ast; Repeat an image &ast;/
 body {
-
-background: repeat-x url(\"./images/image.png\");
-
+background: repeat-x url(&quot;./images/image.png&quot;);
 }
-
-/\* Don\'t repeat an image \*/
-
+/&ast; Don\'t repeat an image &ast;/
 body {
-
-background: no-repeat url(\"./images/image.png\");
-
+background: no-repeat url(&quot;./images/image.png&quot;);
 }
-
-/\* Set background for particular element with id \'my-element\' \*/
-
+/&ast; Set background for particular element with id \'my-element\' &ast;/
 #my-element {
-
 background: red;
-
 }
-
-/\* background-blend-mode \*/
-
+/&ast; background-blend-mode &ast;/
 body{
-
 background:
-
 radial-gradient(
-
 red 40px,
-
 transparent 0,
-
 transparent 100%
-
 ),
-
 radial-gradient(
-
 green 40px,
-
 transparent 0,
-
 transparent 100%
-
 ),
-
 radial-gradient(
-
 blue 40px,
-
 transparent 0,
-
 transparent 100%
-
 ), snow;
-
 background-blend-mode: multiply;
-
 background-size: 100px 100px;
-
 background-position: 0 0, 33px 33px, -33px -33px;
-
 }
-
-/\* This demonstrates how a background image filter can be added \*/
-
+/&ast; This demonstrates how a background image filter can be added &ast;/
 body{
-
 background-image:
-
 conic-gradient(red, white, green, yellow, brown),
-
 url(rose.png);
-
 background-blend-mode: color-burn;
-
 }
+```
 
 []{#glidakkzttia .anchor}CSS Gradient Templates
 
-\<div class=\"container\"\>
-
-\<div class=\"square left-gradient\"\>\</div\>
-
-\<div class=\"square right-gradient\"\>\</div\>
-
-\<div class=\"square diagonal-gradient\"\>\</div\>
-
-\<div class=\"square angled-gradient\"\>\</div\>
-
-\<div class=\"square rainbow-gradient\"\>\</div\>
-
-\<div class=\"square transparent-gradient\"\>\</div\>
-
-\<div class=\"square repeating-gradient\"\>\</div\>
-
-\<div class=\"square conic-gradient\"\>\</div\>
-
-\<div class=\"square radial-gradient\"\>\</div\>
-
-\<div class=\"square multiple-gradient\"\>\</div\>
-
-\</div\>
-
-\<style\>
-
+```
+&lt;div class=&quot;container&quot;&gt;
+&lt;div class=&quot;square left-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;square right-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;square diagonal-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;square angled-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;square rainbow-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;square transparent-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;square repeating-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;square conic-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;square radial-gradient&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;square multiple-gradient&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
 .left-gradient {
-
 background: linear-gradient(to left, red, green);
-
 }
-
-/\* Right-to-left gradient \*/
-
+/&ast; Right-to-left gradient &ast;/
 .right-gradient {
-
 background: linear-gradient(to right, red, green);
-
 }
-
-/\* Diagonal gradient \*/
-
+/&ast; Diagonal gradient &ast;/
 .diagonal-gradient {
-
 background: linear-gradient(to top left, red, green);
-
 }
-
-/\* Angled (33 degree) gradient \*/
-
+/&ast; Angled (33 degree) gradient &ast;/
 .angled-gradient {
-
 background: linear-gradient(33deg, red, green);
-
 }
-
-/\* Multi-colored gradient \*/
-
+/&ast; Multi-colored gradient &ast;/
 .rainbow-gradient {
-
-background: linear-gradient(to left, red, orange, yellow, green, blue,
-indigo, violet);
-
+background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
 }
-
-/\* Partially transparent gradient \*/
-
+/&ast; Partially transparent gradient &ast;/
 .transparent-gradient {
-
 background: linear-gradient(to left, red, green);
-
 opacity: 0.5;
-
 }
-
 .radial-gradient {
-
 background: radial-gradient(white, yellow, brown);
-
 }
-
 .conic-gradient {
-
 background: conic-gradient(red, white, green, yellow, brown);
-
 height: 400px;
-
 width: 400px;
-
 }
-
 .repeating-gradient {
-
 height: 400px;
-
 background-image: repeating-linear-gradient(white, yellow, brown);
-
 }
-
 .multiple-gradient {
-
 background-image:
-
 linear-gradient(to left, red, green), radial-gradient(white, yellow,
 brown);
-
 }
-
-\</style\>
+&lt;/style&gt;
+```
 
 []{#s2ijn6yz6ci5 .anchor}
 
 CSS overflow templates
 
-\<div class=\"container\"\>
+&lt;div class=&quot;container&quot;&gt;
 
-\<div class=\"square hidden-overflow\"\>
+&lt;div class=&quot;square hidden-overflow&quot;&gt;
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam,
+
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non
+
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+&lt;/div&gt;
+
+&lt;div class=&quot;square scroll-overflow&quot;&gt;
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 
@@ -4936,28 +4202,9 @@ cupidatat non
 
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"square scroll-overflow\"\>
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-\</div\>
-
-\<div class=\"square auto-overflow\"\>
+&lt;div class=&quot;square auto-overflow&quot;&gt;
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 
@@ -4974,9 +4221,9 @@ cupidatat non
 
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"square visible-overflow\"\>
+&lt;div class=&quot;square visible-overflow&quot;&gt;
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 
@@ -4993,87 +4240,87 @@ cupidatat non
 
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"square visible-overflow-x\"\>
+&lt;div class=&quot;square visible-overflow-x&quot;&gt;
 
-\<ol\>
+&lt;ol&gt;
 
-\<li\>John\</li\>
+&lt;li&gt;John&lt;/li&gt;
 
-\<li\>Doe\</li\>
+&lt;li&gt;Doe&lt;/li&gt;
 
-\<li\>Mike\</li\>
+&lt;li&gt;Mike&lt;/li&gt;
 
-\<li\>Gee\</li\>
+&lt;li&gt;Gee&lt;/li&gt;
 
-\<li\>Stella\</li\>
+&lt;li&gt;Stella&lt;/li&gt;
 
-\<li\>Jane\</li\>
+&lt;li&gt;Jane&lt;/li&gt;
 
-\<li\>Mary\</li\>
+&lt;li&gt;Mary&lt;/li&gt;
 
-\<li\>Lawrence\</li\>
+&lt;li&gt;Lawrence&lt;/li&gt;
 
-\<li\>Nancy\</li\>
+&lt;li&gt;Nancy&lt;/li&gt;
 
-\<li\>Kennedy\</li\>
+&lt;li&gt;Kennedy&lt;/li&gt;
 
-\<li\>Stanely\</li\>
+&lt;li&gt;Stanely&lt;/li&gt;
 
-\</ol\>
+&lt;/ol&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"square hidden-overflow-y\"\>
+&lt;div class=&quot;square hidden-overflow-y&quot;&gt;
 
-\<ol\>
+&lt;ol&gt;
 
-\<li\>John\</li\>
+&lt;li&gt;John&lt;/li&gt;
 
-\<li\>Doe\</li\>
+&lt;li&gt;Doe&lt;/li&gt;
 
-\<li\>Mike\</li\>
+&lt;li&gt;Mike&lt;/li&gt;
 
-\<li\>Gee\</li\>
+&lt;li&gt;Gee&lt;/li&gt;
 
-\<li\>Stella\</li\>
+&lt;li&gt;Stella&lt;/li&gt;
 
-\<li\>Jane\</li\>
+&lt;li&gt;Jane&lt;/li&gt;
 
-\<li\>Mary\</li\>
+&lt;li&gt;Mary&lt;/li&gt;
 
-\<li\>Lawrence\</li\>
+&lt;li&gt;Lawrence&lt;/li&gt;
 
-\<li\>Nancy\</li\>
+&lt;li&gt;Nancy&lt;/li&gt;
 
-\<li\>Kennedy\</li\>
+&lt;li&gt;Kennedy&lt;/li&gt;
 
-\<li\>Stanely\</li\>
+&lt;li&gt;Stanely&lt;/li&gt;
 
-\</ol\>
+&lt;/ol&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"container\" style=\"margin-top: 10%\"\>
+&lt;div class=&quot;container&quot; style=&quot;margin-top: 10%&quot;&gt;
 
-\<div class=\"rectangle overflow-wrap-normal\"\>
+&lt;div class=&quot;rectangle overflow-wrap-normal&quot;&gt;
 
 This is the longest English word,
 Pneumonoultramicroscopicsilicovolcanoconiosis
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"rectangle overflow-wrap-break\"\>
+&lt;div class=&quot;rectangle overflow-wrap-break&quot;&gt;
 
 This is the longest English word,
 Pneumonoultramicroscopicsilicovolcanoconiosis
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"rectangle-max-height visible-overflow-x\"\>
+&lt;div class=&quot;rectangle-max-height visible-overflow-x&quot;&gt;
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 
@@ -5090,20 +4337,20 @@ cupidatat non
 
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-\</div\>
+&lt;/div&gt;
 
-\</div\>
+&lt;/div&gt;
 
-\<div class=\"rectangle-max-width visible-overflow\"\>
+&lt;div class=&quot;rectangle-max-width visible-overflow&quot;&gt;
 
 This is the longest English word,
 Pneumonoultramicroscopicsilicovolcanoconiosis
 
-\</div\>
+&lt;/div&gt;
 
-\<style type=\"text/css\"\>
+&lt;style type=&quot;text/css&quot;&gt;
 
-/\* visible overflow \*/
+/&ast; visible overflow &ast;/
 
 .container {
 
@@ -5112,301 +4359,154 @@ display: flex;
 }
 
 .square {
-
 width: 150px;
-
 height: 150px;
-
 background-color: lightblue;
-
 margin: 1em;
-
 display: flex;
-
 flex-direction: column;
-
 justify-content: center;
-
 align-items: center;
-
 }
-
 .rectangle {
-
 width: 300px;
-
 height: 50px;
-
 background-color: lightblue;
-
 margin: 1em;
-
 justify-content: center;
-
 align-items: center;
-
 }
-
 .rectangle-max-height{
-
 width: 250px;
-
 max-height: 50px;
-
 background-color: lightblue;
-
 margin: 1em;
-
 justify-content: center;
-
 align-items: center;
-
 }
-
 .rectangle-max-width{
-
 max-width: 350px;
-
 max-height: 20px;
-
 background-color: lightblue;
-
 margin: 1em;
-
 }
-
 .visible-overflow {
-
 overflow: visible;
-
 }
-
 .hidden-overflow {
-
 overflow: hidden;
-
 }
-
 .scroll-overflow {
-
 overflow: scroll;
-
 }
-
 .auto-overflow {
-
 overflow: auto;
-
 }
-
 .visible-overflow-x {
-
 overflow-x: visible;
-
 }
-
 .visible-overflow-y {
-
 overflow-y: visible;
-
 }
-
 .hidden-overflow-y {
-
 overflow-y: hidden;
-
 }
-
 .overflow-wrap-normal {
-
 overflow-wrap: normal;
-
 }
-
 .overflow-wrap-break {
-
 overflow-wrap: break-word;
-
 }
-
-\</style\>
-
+&lt;/style&gt;
 []{#5raj5iklwqr1 .anchor}CSS Animation Template
-
-\<html\>
-
-\<body\>
-
-\<div class=\"container\"\>
-
-\<!\-- Example 1: Changing Color \--\>
-
-\<div class=\"green-square green-red-alternate\"\>\</div\>
-
-\<!\-- Example 2: Moving across the screen \--\>
-
-\<div class=\"black-circle vertical-alternate-fast\"\>\</div\>
-
-\<!\-- Example 3: On hover, changing color\--\>
-
-\<div class=\"green-rounded-square color-transition\"\>\</div\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
-
-\<style\>
-
+&lt;html&gt;
+&lt;body&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;!&hyphen;- Example 1: Changing Color &hyphen;-&gt;
+&lt;div class=&quot;green-square green-red-alternate&quot;&gt;&lt;/div&gt;
+&lt;!&hyphen;- Example 2: Moving across the screen &hyphen;-&gt;
+&lt;div class=&quot;black-circle vertical-alternate-fast&quot;&gt;&lt;/div&gt;
+&lt;!&hyphen;- Example 3: On hover, changing color&hyphen;-&gt;
+&lt;div class=&quot;green-rounded-square color-transition&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;style&gt;
 .container {
-
 display: flex;
-
 flex-direction: row;
-
 overflow: hidden;
-
 }
-
-/\* Example 1: Changing Color \*/
-
+/&ast; Example 1: Changing Color &ast;/
 .green-square {
-
 width: 200px;
-
 height: 200px;
-
 background-color: green;
-
 }
-
 .green-red-alternate {
-
 animation-name: to-red;
-
 animation-duration: 3s;
-
 animation-iteration-count: infinite;
-
 animation-direction: alternate;
-
 }
-
-\@keyframes to-red {
-
+&commat;keyframes to-red {
 from {
-
 background-color: green;
-
 }
-
 to {
-
 background-color: red;
-
 }
-
 }
-
-/\* Example 2: Moving across the screen \*/
-
+/&ast; Example 2: Moving across the screen &ast;/
 .black-circle {
-
 width: 200px;
-
 height: 200px;
-
 border-radius: 100%;
-
 background-color: black;
-
 }
-
-/\* Example 2a: Moving horizontal slowly \*/
-
+/&ast; Example 2a: Moving horizontal slowly &ast;/
 .horizontal-alternate {
-
 animation-name: left-to-right;
-
 animation-duration: 3s;
-
 animation-iteration-count: infinite;
-
 animation-direction: alternate;
-
 }
-
-\@keyframes left-to-right {
-
+&commat;keyframes left-to-right {
 from {
-
 margin-left: 0%;
-
 }
-
 to {
-
 margin-left: 100%;
-
 }
-
 }
-
-/\* Example 2b: Moving vertically quickly \*/
-
+/&ast; Example 2b: Moving vertically quickly &ast;/
 .vertical-alternate-fast {
-
 animation-name: top-to-bottom;
-
 animation-duration: 1s;
-
 animation-iteration-count: infinite;
-
 animation-direction: alternate;
-
 }
-
-\@keyframes top-to-bottom {
-
+&commat;keyframes top-to-bottom {
 from {
-
 margin-top: 0%;
-
 }
-
 to {
-
 margin-top: 100%;
-
 }
-
 }
-
-/\* Example 3: Animation on hover \*/
-
+/&ast; Example 3: Animation on hover &ast;/
 .green-rounded-square {
-
 width: 200px;
-
 height: 200px;
-
 background-color: green;
-
 border-radius: 1em;
-
 }
-
 .color-transition:hover {
-
 animation-name: to-red;
-
 animation-duration: 3s;
-
 animation-iteration-count: infinite;
-
 animation-direction: alternate;
-
 }
+</style&gt;
+```
 
-\</style\>
