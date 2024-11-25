@@ -8,8 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <meta name="author" content="Brian Bauska (bbauska)" />
   <meta name="title" content="Coding Templates" />
-  <meta name="description" content="." />
-
+  <meta name="description" content="Coding Templates: 42 coding templates for HTML, CSS &amp; JavaScript. See table of contents
+    at the start of document for list. Navigation Menus &amp; Breadcrumbs, Button Transition Template, Web Form &mp; Search Bar Templates, 
+    Lightbox Modal Element Templates, Tooltip Templates, Progress Bar Templates..." />
   <title>Coding Templates</title>
   <link rel="stylesheet" type="text/css" href="./css/styles.css" />
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
