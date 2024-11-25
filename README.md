@@ -145,7 +145,7 @@ optimized site, you're encouraged to do so.</p>
 <img src="./images/image003.png" 
   title="Menu; four options with 3rd one active"
   alt="Menu; four options with 3rd one active."
-  style="width:1.72in;" />
+  style="width:0.72in;" />
 </p>
 <!-- ![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"} -->
 <h3>The HTML</h3>
