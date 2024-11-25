@@ -2915,7 +2915,6 @@ background-position: right bottom, left top;
 background-repeat: no-repeat, repeat;
 }
 /&ast; Transparent background &ast;/
-
 body {
 background: green;
 opacity: 0.5; /&ast; 50% opacity &ast;/
@@ -2964,7 +2963,8 @@ background-image:
 conic-gradient(red, white, green, yellow, brown),
 url(rose.png);
 background-blend-mode: color-burn;
-}```
+}
+```
 
 ## CSS Gradient Templates
 
