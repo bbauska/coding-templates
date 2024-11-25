@@ -72,12 +72,12 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 01/02. javascript (coffee cup) logo /  log (01) ~~~~~~~~~~~~~~~~~~~-->
 <img class="border"
-  src="./images/webp/image001.png"
+  src="./images/image001.png"
   style="width:20%; float: left; margin-left: 30%; margin-bottom: 1em;"
   title="JavaScript coffee cup logo version"
   alt="JavaScript coffee cup logo version." />
 <img class="border"
-  src="./images/webp/image002.png"
+  src="./images/image002.png"
   style="width:20%; float: left; margin-left: 5%; margin-bottom: 1em;"
   title="UC Davis logo"
   alt="UC Davis logo." />
@@ -90,14 +90,13 @@ bar, css accordian, css effects, css tab navigation, css &amp; JS slideshow, JS
 onclick, video &amp; audio templates, background, css gradient, css overflow, css 
 animation.
 
-![](./images/image1.png){width="3.5in"
+![](./images/image001.png){width="3.5in"
 height="3.5833333333333335in"}
 
 ### 35 Coding Templates for HTML, CSS, and JavaScript
 
-![](./images/image1.png){width="3.5in"
-height="3.5833333333333335in"}![](./images/image1.png){width="3.5in"
-height="3.5833333333333335in"}
+![](./images/image001.png){width="3.5in" height="3.5833333333333335in"}
+![](./images/image001.png){width="3.5in" height="3.5833333333333335in"}
 
 You can edit your own version in one of two ways:
 
@@ -134,7 +133,7 @@ Jump to a Template
 
 ### Example #1
 
-![](./images/image2.png){width="6.5in"
+![](./images/image002.png){width="6.5in"
 height="0.4479166666666667in"}
 
 #### The HTML
@@ -188,7 +187,7 @@ color: white;
 
 ### Examples #2
 
-![](./images/image3.png){width="1.7239588801399826in"
+![](./images/image003.png){width="1.7239588801399826in"
 height="1.7239588801399826in"}
 
 #### The HTML
@@ -243,8 +242,7 @@ color: white;
 
 ### Third example
 
-![](./images/image4.png){width="5.947916666666667in"
-height="1.09375in"}
+![](./images/image004.png){width="5.947916666666667in" height="1.09375in"}
 
 <h4>The HTML</h4>
 
@@ -401,8 +399,7 @@ color: rgb(176, 115, 0);
 
 ### Example #1
 
-![](./images/image006.png){width="6.5in"
-height="1.5138888888888888in"}
+![](./images/image006.png){width="6.5in" height="1.5138888888888888in"}
 
 <h4>The HTML</h4>
 
@@ -440,9 +437,8 @@ box-shadow: 10px 10px 0 rgb(219, 219, 219);
 
 ### Example #2
 
-![](./images/image007.png){width="2.557292213473316in"
-height="1.1195516185476815in"}![](./images/image008.png){width="4.078125546806649in"
-height="1.9507917760279965in"}
+![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"}
+![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"}
 
 <h4>The HTML</h4>
 
@@ -492,10 +488,9 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 
 ### Example #3
 
-![](./images/image009.png){width="2.0833333333333335in"
-height="0.53125in"}![](./images/image010.png){width="2.2604166666666665in"
-height="0.7291666666666666in"}![](./images/image011.png){width="1.8854166666666667in"
-height="0.6354166666666666in"}
+![](./images/image009.png){width="2.0833333333333335in" height="0.53125in"}
+![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"}
+![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"}
 
 <h4>The HTML</h4>
 
@@ -567,8 +562,7 @@ bottom: 0;
 
 ### Template #1
 
-![](./images/image012.png){width="6.5in"
-height="1.7916666666666667in"}
+![](./images/image012.png){width="6.5in" height="1.7916666666666667in"}
 
 <h4>The HTML</h4>
 
@@ -750,8 +744,7 @@ margin: 0 3px 0 10px;
 
 ### Template #2
 
-![](./images/image013.png){width="6.5in"
-height="4.513888888888889in"}
+![](./images/image013.png){width="6.5in" height="4.513888888888889in"}
 
 <h4>The HTML</h4>
 
@@ -951,8 +944,7 @@ border-radius: 5px;
 
 ### Template #2
 
-![](./images/image014.png){width="3.7226859142607176in"
-height="5.776042213473316in"}
+![](./images/image014.png){width="3.7226859142607176in" height="5.776042213473316in"}
 
 <h4>The HTML</h4>
 
@@ -1166,14 +1158,11 @@ cursor: pointer;
 
 ### Template
 
-![](./images/image015.png){width="5.598958880139983in"
-height="0.7088429571303587in"}
+![](./images/image015.png){width="5.598958880139983in" height="0.7088429571303587in"}
 
-![](./images/image016.png){width="5.619792213473316in"
-height="3.2331813210848646in"}
+![](./images/image016.png){width="5.619792213473316in" height="3.2331813210848646in"}
 
-![](./images/image017.png){width="5.692708880139983in"
-height="3.270278871391076in"}
+![](./images/image017.png){width="5.692708880139983in" height="3.270278871391076in"}
 
 <h4>The HTML</h4>
 
@@ -1519,8 +1508,7 @@ modalImages&lbrack;prevId&rbrack;.classList.remove(&quot;active&quot;)
 
 ### Example #1
 
-![](./images/image018.png){width="3.5208333333333335in"
-height="1.4479166666666667in"}
+![](./images/image018.png){width="3.5208333333333335in" height="1.4479166666666667in"}
 
 <h4>The HTML</h4>
 
@@ -1684,8 +1672,7 @@ visibility: visible;
 
 ### Example #3
 
-![](./images/image020.png){width="3.2916666666666665in"
-height="1.4583333333333333in"}
+![](./images/image020.png){width="3.2916666666666665in" height="1.4583333333333333in"}
 
 <h4>The HTML</h4>
 
@@ -1766,8 +1753,7 @@ visibility: visible;
 
 ### Example #4
 
-![](./images/image021.png){width="3.6041666666666665in"
-height="0.9166666666666666in"}
+![](./images/image021.png){width="3.6041666666666665in" height="0.9166666666666666in"}
 
 <h4>The HTML</h4>
 
@@ -4030,8 +4016,7 @@ CSS Background Template
 
 Template
 
-![](./images/image025.jpg){width="4.880208880139983in"
-height="3.2534722222222223in"}
+![](./images/image025.jpg){width="4.880208880139983in" height="3.2534722222222223in"}
 
 [Example](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
 
