@@ -15,13 +15,8 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of coding-templates.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01/02.  & (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02.  & (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image001.png"
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:400px;" />
-&nbsp;&nbsp;&nbsp;
 <img src="./images/image002.png" 
   title=""
   alt="."
@@ -36,8 +31,8 @@ You can edit your own version in one of two ways:
 
 How to Use This Template
 
-Copy and paste these code templates into your CMS for the desired
-product on your website.
+Copy and paste these code templates into your server for the desired 
+product on your website.  Or, add to github project.
 
 Remember that you can adjust these to suit your needs. These templates
 are designed to be completely customizable.
@@ -47,28 +42,42 @@ a more optimized site, you're encouraged to do so.
 
 Jump to a Template
 
-<h3 id="ex1">
-  [Navigation Menus & Breadcrumbs](#ex1) 
-  [Button Transition Templates]](#ex2)
-  [Web Form & Search Bar Templates](#ex3)
-  [Lightbox Modal Element Templates](#ex4)
-  [Tooltip Templates](#ex5)
-  [Progress Bar Templates](#ex6)
-  [CSS Accordion Templates](#ex7)
-  [CSS Effects Templates](#ex8)
-  [CSS Tab Navigation](#ex9)
-  [CSS and JavaScript Slideshow Templates](#ex10)
-  [Templates](#ex11)
-  [JavaScript onClick With CSS](#ex12)
-  [HTML Video & Audio Template](#ex13)
-  [CSS Background Template](#ex14)
-  [CSS Gradient Templates](#ex15)
-  [CSS Overflow Templates](#ex16)
-  [CSS Animation Template](#ex17)
+<h3 id="ex1">01. Navigation Menus & Breadcrumbs</h3>
+<h3 id="ex2">02. Button Transition Templates</h3>
+<h3 id="ex3">03. Web Form & Search Bar Templates</h3>
+<h3 id="ex4">04. Lightbox Modal Element Templates</h3>
+<h3 id="ex5">05. Tooltip Templates</h3>
+<h3 id="ex6">06. Progress Bar Templates</h3>
+<h3 id="ex7">07. CSS Accordion Templates</h3>
+<h3 id="ex8">08. CSS Effects Templates</h3>
+<h3 id="ex9">09. CSS Tab Navigation</h3>
+<h3 id="ex10">10. CSS and JavaScript Slideshow Templates</h3>
+<h3 id="ex11">11. Templates</h3>
+<h3 id="ex12">12. JavaScript onClick With CSS</h3>
+<h3 id="ex13">13. HTML Video & Audio Template</h3>
+<h3 id="ex14">14. CSS Background Template</h3>
+<h3 id="ex15">15. CSS Gradient Templates</h3>
+<h3 id="ex16">16. CSS Overflow Templates</h3>
+<h3 id="ex17">17. CSS Animation Template</h3>
+<h2 id="ex36">36. Email Signature Gallery Templates</h2>
+<h3 id="ex37">37. Build Using Artificial Intelligence (AI) Template</h2>
+<h3 id="ex38">38. GitHub Full-On Readme Template</h3>
+<h3 id="ex39">39. GitHub Skeleton Template</h3>
+<ul>
+  <li><h4 id="ex39-1">39.1 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.</h4></li>
+</ul>
+<h3 id="ex40">40. Table of Contents Template</h3>
+<h3 id="ex41">41. Bootstrap Templates</h3>
+<h3 id="ex42">42. Login Form Template</h3>
 
 <h2 id="ex1">Example #1</h2>
 
-![](./images/image002.png){width="6.5in" height="0.4479166666666667in"}
+<p align="center">
+<img src="./images/image002.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
+</p>
 
 ### The HTML
 
@@ -121,7 +130,13 @@ color: white;
 
 <h2 id="ex2">Examples #2</h2>
 
-![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"}
+<p align="center">
+<img src="./images/image003.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.7in;" />
+</p>
+<!-- ![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"} -->
 
 ### The HTML
 
@@ -175,7 +190,13 @@ color: white;
 
 <h2 id="ex3">Example #3</h2>
 
-![](./images/image004.png){width="5.947916666666667in" height="1.09375in"}
+<p align="center">
+<img src="./images/image004.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.9in;" />
+</p>
+<!-- ![](./images/image004.png){width="5.947916666666667in" height="1.09375in"} -->
 
 ### The HTML
 
@@ -255,7 +276,13 @@ display: block;
 
 <h2 id="ex4">Example #4</h2>
 
-![](./images/image005.png){width="6.5in" height="0.5833333333333334in"}
+<p align="center">
+<img src="./images/image005.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
+</p>
+<!-- ![](./images/image005.png){width="6.5in" height="0.5833333333333334in"} -->
 
 ### The HTML
 
@@ -310,7 +337,13 @@ color: rgb(176, 115, 0);
 
 ## Example #1
 
-![](./images/image006.png){width="6.5in" height="1.5138888888888888in"}
+<p align="center">
+<img src="./images/image006.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
+</p>
+<!-- ![](./images/image006.png){width="6.5in" height="1.5138888888888888in"} -->
 
 ### The HTML
 
@@ -341,11 +374,23 @@ box-shadow: 10px 10px 0 rgb(219, 219, 219);
 
 <h2 id="ex6">Example #6</h2>
 
-![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"}
+<p align="center">
+<img src="./images/image007.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.5in;" />
+</p>
+<!-- ![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
 
 <h2 id="ex7">Example #7</h2>
 
-![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"}
+<p align="center">
+<img src="./images/image008.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.07in;" />
+</p>
+<!-- ![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"} -->
 
 ### The HTML
 
@@ -381,16 +426,32 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 ## Example #3
 
 <h2 id="ex8">Example #8</h2>
-
-![](./images/image009.png){width="2.0833333333333335in" height="0.53125in"}
+<p align="center">
+<img src="./images/image009.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.08in;" />
+</p>
+<!-- ![](./images/image009.png){width="2.0833333333333335in" height="0.53125in"} -->
 
 <h2 id="ex9">Example #9</h2>
-
-![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"}
+<p align="center">
+<img src="./images/image010.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.26in;" />
+</p>
+<!-- ![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"} -->
 
 <h2 id="ex10">Example #10</h2>
 
-![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"}
+<p align="center">
+<img src="./images/image011.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:1.88in;" />
+</p>
+<!-- ![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"} -->
 
 ### The HTML
 
@@ -438,7 +499,13 @@ bottom: 0;
 
 ## Template #1
 
-![](./images/image012.png){width="6.5in" height="1.7916666666666667in"}
+<p align="center">
+<img src="./images/image012.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
+</p>
+<!-- ![](./images/image012.png){width="6.5in" height="1.7916666666666667in"} -->
 
 ### The HTML
 
@@ -541,7 +608,13 @@ margin: 0 3px 0 10px;
 
 <h2 id="ex12">Example #12</h2>
 
-![](./images/image013.png){width="6.5in" height="4.513888888888889in"}
+<p align="center">
+<img src="./images/image013.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
+</p>
+<!-- ![](./images/image013.png){width="6.5in" height="4.513888888888889in"} -->
 
 ### The HTML
 
@@ -653,7 +726,13 @@ border-radius: 5px;
 
 ## Template #2
 
-![](./images/image14.png){width="3.7226859142607176in" height="5.776042213473316in"}
+<p align="center">
+<img src="./images/image014.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.72in;" />
+</p>
+<!-- ![](./images/image14.png){width="3.7226859142607176in" height="5.776042213473316in"} -->
 
 ### The HTML
 
@@ -772,19 +851,31 @@ cursor: pointer;
 ## 1 Lightbox Modal Element Template
 
 ## Template
-
-![](./images/image015.png){width="5.598958880139983in"
-height="0.7088429571303587in"}
+<p align="center">
+<img src="./images/image015.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.59in;" />
+</p>
+<!-- ![](./images/image015.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
 
 <h2 id="ex15">Example #15</h2>
-
-![](./images/image016.png){width="5.619792213473316in"
-height="3.2331813210848646in"}
+<p align="center">
+<img src="./images/image016.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.6in;" />
+</p>
+<!-- ![](./images/image016.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
 
 <h2 id="ex16">Example #16</h2>
-
-![](./images/image017.png){width="5.692708880139983in"
-height="3.270278871391076in"}
+<p align="center">
+<img src="./images/image017.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.69in;" />
+</p>
+<!-- ![](./images/image017.png){width="5.692708880139983in" height="3.270278871391076in"} -->
 
 ### The HTML
 
@@ -976,7 +1067,13 @@ modalImages&lbrack;prevId&rbrack;.classList.remove(&quot;active&quot;)
 
 ## Example #1
 
-![](./images/image018.png){width="3.5208333333333335in" height="1.4479166666666667in"}
+<p align="center">
+<img src="./images/image018.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.52in;" />
+</p>
+<!-- ![](./images/image018.png){width="3.5208333333333335in" height="1.4479166666666667in"} -->
 
 ### The HTML
 
@@ -1030,6 +1127,13 @@ visibility: visible;
 
 ## Example #2
 
+<p align="center">
+<img src="./images/image019.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.06in;" />
+</p>
+
 ![](./images/image019.png){width="4.0625in" height="1.03125in"}
 
 ### The HTML
@@ -1082,7 +1186,13 @@ visibility: visible;
 
 <h2 id="ex19">Example #19</h2>
 
-![](./images/image020.png){width="3.2916666666666665in" height="1.4583333333333333in"}
+<p align="center">
+<img src="./images/image020.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.29in;" />
+</p>
+<!-- ![](./images/image020.png){width="3.2916666666666665in" height="1.4583333333333333in"} -->
 
 ### The HTML
 
@@ -1135,7 +1245,13 @@ visibility: visible;
 
 <h2 id="ex20">Example #20</h2>
 
-![](./images/image021.png){width="3.6041666666666665in" height="0.9166666666666666in"}
+<p align="center">
+<img src="./images/image021.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:3.6in;" />
+</p>
+<!-- ![](./images/image021.png){width="3.6041666666666665in" height="0.9166666666666666in"} -->
 
 ### The HTML
 
@@ -1191,7 +1307,13 @@ visibility: visible;
 
 <h2 id="ex21">Example #21</h2>
 
-![](./images/image022.png){width="5.375in" height="0.875in"}
+<p align="center">
+<img src="./images/image022.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.375in;" />
+</p>
+<!-- ![](./images/image022.png){width="5.375in" height="0.875in"} -->
 
 ### The HTML
 
@@ -1223,6 +1345,20 @@ background-color: purple;
 <h2 id="ex23">Example #23</h2>
 
 ### The HTML
+
+<p align="center">
+<img src="./images/image023.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.08in;" />
+</p>
+
+<p align="center">
+<img src="./images/image024.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:5.0in;" />
+</p>
 
 ```
 &lt;progress class=&quot;second&quot; value=&quot;40&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
@@ -2752,7 +2888,14 @@ border-radius: green;
 
 <h2 id="ex24">Example #24</h2>
 
-![](./images/image025.jpg){width="4.880208880139983in" height="3.2534722222222223in"}
+<p align="center">
+<img src="./images/image025.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:4.88in;" />
+</p>
+
+<!-- ![](./images/image025.jpg){width="4.880208880139983in" height="3.2534722222222223in"} -->
 
 [Example](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
 
@@ -3145,3 +3288,19 @@ animation-direction: alternate;
 }
 &lt;/style&gt;
 ```
+
+<h2 id="ex36">36. Email Signature Gallery Templates</h2>
+
+
+<h2 id="ex37">37. Build Using Artificial Intelligence (AI) Template</h2>
+
+<h2 id="ex38">38. GitHub Full-On Readme Template</h2>
+
+<h2 id="ex39">39. GitHub Skeleton Template</h2>
+<h3>Skeleton is a simple, responsive boilerplate to kickstart any responsive project.</h3>
+
+<h2 id="ex40">40. Table of Contents Template</h2>
+
+<h2 id="ex41">41. Bootstrap Templates</h2>
+
+<h2 id="ex42">42. Login Form Template</h2>
