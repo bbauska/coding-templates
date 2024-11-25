@@ -14,15 +14,6 @@ output:
 <p align="center"><small><small>(by bbauska)</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of coding-templates.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02.  & (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
-<img src="./images/image002.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:500px;" />
-</p>
-
 <p>You can edit your own version in one of two ways:</p>
 
 <ol start="1">
@@ -72,14 +63,15 @@ optimized site, you're encouraged to do so.</p>
 <h3 id="ex40">40. Table of Contents Template</h3>
 <h3 id="ex41">41. Bootstrap Templates</h3>
 <h3 id="ex42">42. Login Form Template</h3>
-
-<h2 id="ex1">Example #1</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex1">Example #1: MENU; 4 horizontal options, 3rd active</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 02. menu; four horizontal options with 3rd one active (01) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image002.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:6.5in;" />
+  title="Menu; four horizontal options with 3rd one active"
+  alt="Menu; four horizontal options with 3rd one active."
+  style="width:500px;" />
 </p>
 
 <h3>The HTML</h3>
@@ -101,58 +93,58 @@ optimized site, you're encouraged to do so.</p>
 
 ```
 .bar {
-background-color: rgb(245, 193, 97);
-width: 100%;
-height: 40px;
-display: flex;
-list-style: none;
-padding: 0;
+  background-color: rgb(245, 193, 97);
+  width: 100%;
+  height: 40px;
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 .bar li {
-height: 100%;
-width: 100px;
-border-right: 1px solid rgb(235, 177, 69);
+  height: 100%;
+  width: 100px;
+  border-right: 1px solid rgb(235, 177, 69);
 }
 .bar li a {
-color: black;
-width: 100%;
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 .bar li a:hover {
-background-color: rgb(235, 177, 69);
+  background-color: rgb(235, 177, 69);
 }
 .bar li a.active {
-background-color: rgb(165, 113, 16);
-color: white;
+  background-color: rgb(165, 113, 16);
+  color: white;
 }
 ```
 
-<h2 id="ex2">Examples #2</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex2">Example #2: MENU; 4 vertical options, 4th active</h2>
+<!--~~~~~~~~~~~~~~~~~ 03. menu; four vertical options with 4th one active (01) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image003.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:1.7in;" />
+  title="Menu; four options with 3rd one active"
+  alt="Menu; four options with 3rd one active."
+  style="width:1.72in;" />
 </p>
 <!-- ![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"} -->
-
 <h3>The HTML</h3>
 
 ```
 <div class="container">
-<nav>
-<ul class="bar">
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Contact</a></li>
-<li><a href="#" class="active">Careers</a></li>
-</ul>
-</nav>
+  <nav>
+    <ul class="bar">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#" class="active">Careers</a></li>
+    </ul>
+  </nav>
 </div>
 ```
 
@@ -160,34 +152,34 @@ color: white;
 
 ```
 .bar {
-background-color: rgb(245, 193, 97);
-max-width: 200px;
-width: 100%;
-list-style: none;
-padding: 0;
+  background-color: rgb(245, 193, 97);
+  max-width: 200px;
+  width: 100%;
+  list-style: none;
+  padding: 0;
 }
 .bar li {
-height: 100%;
-width: 100%;
-height: 50px;
-border-bottom: 1px solid rgb(235, 177, 69);
+  height: 100%;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgb(235, 177, 69);
 }
 .bar li a {
-padding-left: 20px;
-text-align: left;
-color: black;
-max-width: 100%;
-height: 100%;
-display: flex;
-align-items: center;
-text-decoration: none;
+  padding-left: 20px;
+  text-align: left;
+  color: black;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 .bar li a:hover {
-background-color: rgb(235, 177, 69);
+  background-color: rgb(235, 177, 69);
 }
 .bar li a.active {
-background-color: rgb(165, 113, 16);
-color: white;
+  background-color: rgb(165, 113, 16);
+  color: white;
 }
 ```
 
