@@ -1,102 +1,6 @@
-<!DOCTYPE html>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of coding-templates.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-  <meta name="author" content="Brian Bauska (bbauska)" />
-  <meta name="title" content="Coding Templates" />
-  <meta name="description" content="Coding Templates: 42 coding templates for HTML, CSS &amp; JavaScript. See table of contents
-    at the start of document for list. Navigation Menus &amp; Breadcrumbs, Button Transition Template, Web Form &mp; Search Bar Templates, 
-    Lightbox Modal Element Templates, Tooltip Templates, Progress Bar Templates..." />
-  <title>Coding Templates</title>
-  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images//favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
- </head>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<body>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<script>
-  <!-- get the button -->
-  var mybutton = document.getElementById("myBtn");
+### 40+ Coding Templates for HTML, CSS, and JavaScript
 
-  <!-- when the user scrolls down 10px from the top of the document, show the button -->
-  window.onscroll = function() {scrollFunction()};
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-
-  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
-  <!-- to table of contents (approx ###), if applicable was; 315 -->
-  function topFunction() {
-    document.getElementById('table-of-contents').scrollIntoView();
-  }
-/*    document.body.scrollTop = table-of-contents;  /* was 0 */
-/*    document.documentElement.scrollTop = table-of-contents;  /* was 0 */
-
-</script>
-<header id="title-block-header">
-  <h1 style="text-align:center">Coding Templates</h1>
-  <h6 style="text-align:center">(by Brian Bauska, Computer Science)
-    <span class="citation" data-cites="CWU">@CWU</span>)</h6>
-</header>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ index.html of Coding Templates in bbauska.github.io ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~ 01/02. javascript (coffee cup) logo /  log (01) ~~~~~~~~~~~~~~~~~~~-->
-<img class="border"
-  src="./images/image001.png"
-  style="width:20%; float: left; margin-left: 30%; margin-bottom: 1em;"
-  title="JavaScript coffee cup logo version"
-  alt="JavaScript coffee cup logo version." />
-<img class="border"
-  src="./images/image002.png"
-  style="width:20%; float: left; margin-left: 5%; margin-bottom: 1em;"
-  title="UC Davis logo"
-  alt="UC Davis logo." />
-<p style="clear: both;"></p>
-
-### coding-template
-Basic web coding templates; navigation menu, breadcrumbs, button transition (hover, 
-click, submit form), web form, search bar, lightbox modal element, tooltips, progress 
-bar, css accordian, css effects, css tab navigation, css &amp; JS slideshow, JS 
-onclick, video &amp; audio templates, background, css gradient, css overflow, css 
-animation.
-
-![](./images/image001.png){width="3.5in"
-height="3.5833333333333335in"}
-
-### 35 Coding Templates for HTML, CSS, and JavaScript
-
-![](./images/image001.png){width="3.5in" height="3.5833333333333335in"}
-![](./images/image001.png){width="3.5in" height="3.5833333333333335in"}
+<!-- ![](./images/image001.png){width="3.5in" height="3.5833333333333335in"} -->
 
 You can edit your own version in one of two ways:
 
@@ -117,26 +21,20 @@ a more optimized site, you're encouraged to do so.
 
 Jump to a Template
 
-[[Navigation Menus & Breadcrumbs                                  [[Button Transition
-  Templates]{.underline}](#example-1)                               Templates]{.underline}](#button-transition-templates)
-  [[Web Form & Search Bar Templates]{.underline}](#9jhjudypc6m5)    [[Lightbox Modal Element
-                                                                    Templates]{.underline}](#lightbox-modal-element-template)
+  [Navigation Menus & Breadcrumbs                                  [[Button Transition Templates]](#example-1)                               Templates](#button-transition-templates)
+  [Web Form & Search Bar Templates]    [Lightbox Modal Element                                                                    Templates](#lightbox-modal-element-template)
+  [Tooltip Templates]         [Progress Bar Templates](#progress-bar-templates)
+  [CSS Accordion Templates](#css-accordian-templates) [CSS Effects Templates]
+  [CSS Tab Navigation                                              [CSS and JavaScript Slideshow Templates](#css-tab-navigation-templates)            Templates](#css-and-javascript-slideshow-templates)
+  [JavaScript onClick With CSS                                     [HTML Video & Audio Template] Templates](#javascript-onclick-with-css-templates)
+  [CSS Background Template]            [CSS Gradient Templates]
+  [CSS Overflow Templates]             [CSS Animation Template]
 
-  [[Tooltip Templates]{.underline}](#kdb634vxe28v)                  [[Progress Bar Templates]{.underline}](#progress-bar-templates)
-  [[CSS Accordion Templates]{.underline}](#css-accordian-templates) [[CSS Effects Templates]{.underline}](#qjxam0b6i3lz)
-  [[CSS Tab Navigation                                              [[CSS and JavaScript Slideshow
-  Templates]{.underline}](#css-tab-navigation-templates)            Templates]{.underline}](#css-and-javascript-slideshow-templates)
-  [[JavaScript onClick With CSS                                     [[HTML Video & Audio Template]{.underline}](#mbneroay4a95)
-  Templates]{.underline}](#javascript-onclick-with-css-templates)   
-  [[CSS Background Template]{.underline}](#kf5yg3bekuan)            [[CSS Gradient Templates]{.underline}](#glidakkzttia)
-  [[CSS Overflow Templates]{.underline}](#s2ijn6yz6ci5)             [[CSS Animation Template]{.underline}](#5raj5iklwqr1)
+## Example #1
 
-### Example #1
+![](./images/image002.png){width="6.5in" height="0.4479166666666667in"}
 
-![](./images/image002.png){width="6.5in"
-height="0.4479166666666667in"}
-
-#### The HTML
+### The HTML
 
 ```
 &lt;div class=&quot;container&quot;&gt;
@@ -151,7 +49,7 @@ height="0.4479166666666667in"}
 &lt;/div&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
 ```
 .bar {
@@ -185,12 +83,13 @@ color: white;
 }
 ```
 
-### Examples #2
+#  
 
-![](./images/image003.png){width="1.7239588801399826in"
-height="1.7239588801399826in"}
+# Examples #2
 
-#### The HTML
+![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"}
+
+### The HTML
 
 ```
 &lt;div class=&quot;container&quot;&gt;
@@ -205,7 +104,7 @@ height="1.7239588801399826in"}
 &lt;/div&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
 ```
 .bar {
@@ -240,11 +139,13 @@ color: white;
 }
 ```
 
-### Third example
+#  
+
+# Third example
 
 ![](./images/image004.png){width="5.947916666666667in" height="1.09375in"}
 
-<h4>The HTML</h4>
+### The HTML
 
 ```
 &lt;div class=&quot;container&quot;&gt;
@@ -271,7 +172,7 @@ color: white;
 &lt;/div&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
 ```
 &ast; {
@@ -320,12 +221,11 @@ display: block;
 }
 ```
 
-### Fourth example
+# Fourth example
 
-![](./images/image005.png){width="6.5in"
-height="0.5833333333333334in"}
+![](./images/image005.png){width="6.5in" height="0.5833333333333334in"}
 
-<h4>The HTML</h4>
+### The HTML
 
 ```
 &lt;div class=&quot;container&quot;&gt;
@@ -341,2772 +241,1485 @@ height="0.5833333333333334in"}
 &lt;/div&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 .breadcrumb {
-
 list-style: none;
-
 padding: 0;
-
 display: flex;
-
 font-size: 20px;
-
 justify-content: space-around;
-
 max-width: 450px;
-
 }
-
 .breadcrumb a {
-
 text-decoration: none;
-
 color: rgb(110, 110, 110);
-
 font-weight: bold;
-
 }
-
 .breadcrumb li span{
-
 color: gray;
-
 }
-
 .breadcrumb li a {
-
 color: orange;
-
 transition: color 300ms;
-
 }
-
 .breadcrumb li .unique {
-
 color: #000;
-
 }
-
 .breadcrumb li a:hover {
-
 color: rgb(176, 115, 0);
-
 }
+```
 
-## 3 Button Transition Templates
-
-### Example #1
+# 3 Button Transition Templates
+# Example #1
 
 ![](./images/image006.png){width="6.5in" height="1.5138888888888888in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;button class=&quot;first&quot;&gt;Hover over me&lt;/button&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 .first {
-
 padding: 10px;
-
 font-size: 20px;
-
 background-color: black;
-
 color: white;
-
 border: none;
-
 cursor: pointer;
-
 box-shadow: 0 0 0 #ccc;
-
 transition: box-shadow 300ms, color 300ms;
-
 }
-
 .first:hover {
-
 color: yellow;
-
 box-shadow: 10px 10px 0 rgb(219, 219, 219);
-
 }
+```
 
-### Example #2
+# Example #2
 
 ![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"}
+
 ![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;button class=&quot;second&quot;&gt;Click me&lt;/button&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 .second {
-
 width: 180px;
-
 height: 60px;
-
 display: flex;
-
 align-items: center;
-
 justify-content: center;
-
 font-size: 20px;
-
 background-color: rgb(85, 16, 16);
-
 color: white;
-
 border: none;
-
 cursor: pointer;
-
 transition: transform 150ms,
-
 font-size 150ms, color 150ms;
-
 }
-
 .second:active {
-
 background-color: rgb(63, 5, 5);
-
 font-size: 12px;
-
 transform: scale(1.3);
-
 box-shadow: 5px 5px 10px rgb(119, 119, 119);
-
 }
+```
 
-### Example #3
+# Example #3
 
 ![](./images/image009.png){width="2.0833333333333335in" height="0.53125in"}
 ![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"}
 ![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;button class=&quot;third&quot;&gt;Hover over me&lt;/button&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 .third {
-
 border: none;
-
 background: none;
-
 width: 120px;
-
 height: 40px;
-
 cursor: pointer;
-
 position: relative;
-
 color: black;
-
 transition: color 500ms;
-
 overflow: hidden;
-
 }
-
 .third::after {
-
 content: &quot;&quot;;
-
 background-color: #333;
-
 color: white;
-
 position: absolute;
-
 left: 0;
-
 bottom: -40px;
-
 width: 100%;
-
 height: 100%;
-
 transition: bottom 500ms;
-
 z-index: -1;
-
 }
-
 .third:hover {
-
 color: white;
-
 }
-
 .third:hover::after {
-
 bottom: 0;
-
 }
+```
 
-### 3 Web Form & Search Bar Templates
+## 3 Web Form & Search Bar Templates
 
-[]{#9jhjudypc6m5 .anchor}
-
-### Template #1
+## Template #1
 
 ![](./images/image012.png){width="6.5in" height="1.7916666666666667in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;form&gt;
-
 &lt;div class=&quot;search&quot;&gt;
-
 &lt;input type=&quot;text&quot; placeholder=&quot;Search products&quot; /&gt;
-
 &lt;button type=&quot;submit&quot;&gt;Search&lt;/button&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;align-center bottom&quot;&gt;
-
 &lt;div class=&quot;checkbox-block&quot;&gt;
-
 &lt;input
-
 type=&quot;checkbox&quot;
-
 name=&quot;companies_included&quot;
-
 id=&quot;companies_included&quot;
-
 /&gt;
-
 &lt;label for=&quot;companies_included&quot;
-
 &gt;Also search companies
-
 &lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;inline-flex radio-block&quot;&gt;
-
 &lt;span&gt;Location&lt;/span&gt;
-
 &lt;div class=&quot;inline-flex align-center&quot;&gt;
-
 &lt;input
-
 type=&quot;radio&quot;
-
 name=&quot;location&quot;
-
 value=&quot;Your location&quot;
-
 id=&quot;your_location&quot;
-
 /&gt;
-
 &lt;label for=&quot;your_location&quot;&gt; Your location &lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;inline-flex align-center&quot;&gt;
-
 &lt;input
-
 type=&quot;radio&quot;
-
 name=&quot;location&quot;
-
 value=&quot;Worldwide&quot;
-
 id=&quot;worldwide&quot;
-
 /&gt;
-
 &lt;label for=&quot;worldwide&quot;&gt; Worldwide &lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/form&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 .align-center {
-
 display: flex;
-
 align-items: center;
-
 }
-
 .inline-flex {
-
 display: inline-flex;
-
 }
-
 form {
-
 padding: 20px 0;
-
 max-width: 500px;
-
 border-bottom: 1px solid #ccc;
-
 }
-
 .search {
-
 display: flex;
-
 outline: 1px solid #cccccc;
-
 }
-
 .search &gt; input {
-
 flex-grow: 1;
-
 border: 0;
-
 padding: 0.5rem 1rem;
-
 font-size: 1rem;
-
 }
-
 .search &gt; input:focus {
-
 outline: none;
-
 }
-
 .search &gt; button {
-
 padding: 0.8rem 2rem;
-
 border: 0;
-
 cursor: pointer;
-
 font-size: 1rem;
-
 background: #cccccc;
-
 }
-
 .bottom {
-
 margin-top: 10px;
-
 font-size: 14px;
-
 }
-
 .checkbox-block {
-
 display: flex;
-
 align-items: center;
-
 margin-right: 30px;
-
 }
-
 .checkbox-block input {
-
 margin-right: 5px;
-
 cursor: pointer;
-
 }
-
 .radio-block input {
-
 margin: 0 3px 0 10px;
-
 }
+```
 
-### Template #2
+# Template #2
 
 ![](./images/image013.png){width="6.5in" height="4.513888888888889in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;form&gt;
-
 &lt;div class=&quot;input-group&quot;&gt;
-
 &lt;label for=&quot;fname&quot;&gt;Firstname&lt;/label&gt;
-
 &lt;input
-
 id=&quot;fname&quot;
-
 name=&quot;fname&quot;
-
 placeholder=&quot;Enter firstname&quot;
-
 required=&quot;required&quot;
-
 /&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;input-group&quot;&gt;
-
 &lt;label for=&quot;lname&quot;&gt;Lastname&lt;/label&gt;
-
 &lt;input
-
 id=&quot;lname&quot;
-
 name=&quot;lname&quot;
-
 placeholder=&quot;Enter lastname&quot;
-
 required=&quot;required&quot;
-
 /&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;input-group&quot;&gt;
-
 &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-
 &lt;input
-
 id=&quot;email&quot;
-
 type=&quot;email&quot;
-
 name=&quot;email&quot;
-
 placeholder=&quot;Enter your email&quot;
-
 /&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;input-group&quot;&gt;
-
 &lt;label&gt;Country&lt;/label&gt;
-
 &lt;select name=&quot;country&quot; id=&quot;country&quot; required=&quot;required&quot;&gt;
-
 &lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Select country&lt;/option&gt;
-
 &lt;option value=&quot;Afghanistan&quot;&gt;Afghanistan&lt;/option&gt;
-
 &lt;option value=&quot;Albania&quot;&gt;Albania&lt;/option&gt;
-
 &lt;option value=&quot;Algeria&quot;&gt;Algeria&lt;/option&gt;
-
 &lt;option value=&quot;American Samoa&quot;&gt;American Samoa&lt;/option&gt;
-
 &lt;option value=&quot;Andorra&quot;&gt;Andorra&lt;/option&gt;
-
 &lt;option value=&quot;Angola&quot;&gt;Angola&lt;/option&gt;
-
 &lt;option value=&quot;Anguilla&quot;&gt;Anguilla&lt;/option&gt;
-
 &lt;option value=&quot;Antarctica&quot;&gt;Antarctica&lt;/option&gt;
-
 &lt;/select&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;input-group&quot;&gt;
-
 &lt;label for=&quot;message&quot;&gt;Any message?&lt;/label&gt;
-
 &lt;textarea
-
 id=&quot;message&quot;
-
 name=&quot;message&quot;
-
 placeholder=&quot;Optional&quot;
-
 &gt;&lt;/textarea&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;submit-group&quot;&gt;
-
 &lt;button type=&quot;submit&quot;&gt;Submit form&lt;/button&gt;
-
 &lt;/div&gt;
-
 &lt;/form&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 &ast; {
-
 box-sizing: border-box;
-
 }
-
 body {
-
 margin: 30px;
-
 }
-
 form {
-
 border: 1px solid #333;
-
 padding: 20px;
-
 max-width: 400px;
-
 margin: 0 auto;
-
 border-radius: 5px;
-
 }
-
 .input-group {
-
 display: flex;
-
 margin-bottom: 10px;
-
 }
-
 label {
-
 width: 100px;
-
 }
-
 input,
-
 select,
-
 textarea {
-
 flex: 1;
-
 padding: 3px 5px;
-
 }
-
 .submit-group {
-
 display: flex;
-
 align-items: center;
-
 justify-content: center;
-
 margin-top: 20px;
-
 }
-
 button {
-
 width: 100px;
-
 margin: 0 auto;
-
 background-color: black;
-
 color: white;
-
 border: none;
-
 padding: 10px;
-
 cursor: pointer;
-
 border-radius: 5px;
-
 }
+```
 
-### Template #2
+# Template #2
 
-![](./images/image014.png){width="3.7226859142607176in" height="5.776042213473316in"}
+![](./images/image14.png){width="3.7226859142607176in"
+height="5.776042213473316in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;form&gt;
-
 &lt;div&gt;
-
 &lt;span class=&quot;question&quot;&gt;1. How did you hear about us?&lt;/span&gt;
-
 &lt;div class=&quot;radio-group&quot;&gt;
-
 &lt;div class=&quot;radio-item&quot;&gt;
-
 &lt;input type=&quot;radio&quot; name=&quot;hear_about_us&quot; id=&quot;twitter&quot; /&gt;
-
 &lt;label for=&quot;twitter&quot;&gt;Twitter&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;radio-item&quot;&gt;
-
 &lt;input type=&quot;radio&quot; name=&quot;hear_about_us&quot; id=&quot;facebook&quot; /&gt;
-
 &lt;label for=&quot;facebook&quot;&gt;Facebook&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;radio-item&quot;&gt;
-
 &lt;input type=&quot;radio&quot; name=&quot;hear_about_us&quot; id=&quot;other&quot; /&gt;
-
 &lt;label for=&quot;other&quot;&gt;Other&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div&gt;
-
 &lt;span class=&quot;question&quot;&gt;2. Where do you live?&lt;/span&gt;
-
 &lt;select name=&quot;country&quot; id=&quot;country&quot; required=&quot;required&quot;&gt;
-
 &lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Select country&lt;/option&gt;
-
 &lt;option value=&quot;Afghanistan&quot;&gt;Afghanistan&lt;/option&gt;
-
 &lt;option value=&quot;Albania&quot;&gt;Albania&lt;/option&gt;
-
 &lt;option value=&quot;Algeria&quot;&gt;Algeria&lt;/option&gt;
-
 &lt;option value=&quot;American Samoa&quot;&gt;American Samoa&lt;/option&gt;
-
 &lt;option value=&quot;Andorra&quot;&gt;Andorra&lt;/option&gt;
-
 &lt;option value=&quot;Angola&quot;&gt;Angola&lt;/option&gt;
-
 &lt;option value=&quot;Anguilla&quot;&gt;Anguilla&lt;/option&gt;
-
 &lt;option value=&quot;Antarctica&quot;&gt;Antarctica&lt;/option&gt;
-
 &lt;/select&gt;
-
 &lt;/div&gt;
-
 &lt;div&gt;
-
 &lt;span class=&quot;question&quot;&gt;3. You age range&lt;/span&gt;
-
 &lt;div class=&quot;radio-group&quot;&gt;
-
 &lt;div class=&quot;radio-item&quot;&gt;
-
 &lt;input type=&quot;radio&quot; name=&quot;age_range&quot; id=&quot;lower&quot; /&gt;
-
 &lt;label for=&quot;lower&quot;&gt;18-25&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;radio-item&quot;&gt;
-
 &lt;input type=&quot;radio&quot; name=&quot;age_range&quot; id=&quot;middle&quot; /&gt;
-
 &lt;label for=&quot;middle&quot;&gt;26-35&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;radio-item&quot;&gt;
-
 &lt;input type=&quot;radio&quot; name=&quot;age_range&quot; id=&quot;higher&quot; /&gt;
-
 &lt;label for=&quot;higher&quot;&gt;36 or more&lt;/label&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div&gt;
-
 &lt;span class=&quot;question&quot;&gt;4. Anything else we should know? &lt;/span&gt;
-
 &lt;textarea name=&quot;message&quot;&gt;&lt;/textarea&gt;
-
 &lt;/div&gt;
-
 &lt;div&gt;
-
 &lt;button class=&quot;submit-btn&quot;&gt;Submit survey&lt;/button&gt;
-
 &lt;/div&gt;
-
 &lt;/form&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 &ast; {
-
 box-sizing: border-box;
-
 }
-
 body {
-
 margin: 30px;
-
 }
-
 form {
-
 max-width: 400px;
-
 }
-
 form &gt; div {
-
 margin-bottom: 20px;
-
 }
-
 .question {
-
 font-weight: bold;
-
 display: block;
-
 margin-bottom: 5px;
-
 }
-
 .radio-group,
-
 select,
-
 textarea {
-
 margin-left: 15px;
-
 width: 200px;
-
 }
-
 textarea {
-
 padding: 10px;
-
 }
-
 .radio-item {
-
 display: flex;
-
 align-items: center;
-
 margin-bottom: 3px;
-
 }
-
 .radio-item label {
-
 margin-left: 5px;
-
 }
-
 .radio-item input {
-
 margin: 0;
-
 }
-
 .submit-btn {
-
 margin-left: 15px;
-
 background-color: #555;
-
 border: 1px solid #555;
-
 color: white;
-
 padding: 10px;
-
 cursor: pointer;
-
 }
+```
 
-### 1 Lightbox Modal Element Template
+# 1 Lightbox Modal Element Template
 
-### Template
+# Template
 
-![](./images/image015.png){width="5.598958880139983in" height="0.7088429571303587in"}
+![](./images/image015.png){width="5.598958880139983in"
+height="0.7088429571303587in"}
 
-![](./images/image016.png){width="5.619792213473316in" height="3.2331813210848646in"}
+![](./images/image016.png){width="5.619792213473316in"
+height="3.2331813210848646in"}
 
-![](./images/image017.png){width="5.692708880139983in" height="3.270278871391076in"}
+![](./images/image017.png){width="5.692708880139983in"
+height="3.270278871391076in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;div class=&quot;images&quot;&gt;
-
 &lt;img onclick=&quot;openModal(0)&quot; id=&quot;image0&quot; /&gt;
-
 &lt;img onclick=&quot;openModal(1)&quot; id=&quot;image1&quot; /&gt;
-
 &lt;img onclick=&quot;openModal(2)&quot; id=&quot;image2&quot; /&gt;
-
 &lt;img onclick=&quot;openModal(3)&quot; id=&quot;image3&quot; /&gt;
-
 &lt;/div&gt;
-
 &lt;div id=&quot;lightbox&quot; class=&quot;lightbox&quot;&gt;
-
 &lt;button onclick=&quot;closeModal()&quot; class=&quot;close-btn&quot;&gt;
+```
 
 Close
 
+```
 &lt;/button&gt;
-
 &lt;div class=&quot;image-preview&quot;&gt;
-
 &lt;img id=&quot;preview-image&quot; /&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;control-btns&quot;&gt;
-
 &lt;button onclick=&quot;control(-1)&quot; class=&quot;control-left&quot;&gt;
-
 &lt;
-
 &lt;/button&gt;
-
 &lt;button onclick=&quot;control(1)&quot; class=&quot;control-left&quot;&gt;
-
 &gt;
-
 &lt;/button&gt;
-
 &lt;/div&gt;
-
-&lt;div id=&quot;modal-images-block&quot; class=&quot;lightbox\_\_images&quot;&gt;
-
+&lt;div id=&quot;modal-images-block&quot; class=&quot;lightbox&#95;&#95;images&quot;&gt;
 &lt;img onclick=&quot;openModal(0)&quot; id=&quot;l-image0&quot; /&gt;
-
 &lt;img onclick=&quot;openModal(1)&quot; id=&quot;l-image1&quot; /&gt;
-
 &lt;img onclick=&quot;openModal(2)&quot; id=&quot;l-image2&quot; /&gt;
-
 &lt;img onclick=&quot;openModal(3)&quot; id=&quot;l-image3&quot; /&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 &ast; {
-
 box-sizing: border-box;
-
 }
-
 .images {
-
 display: grid;
-
 grid-template-columns: repeat(4, 1fr);
-
 grid-gap: 20px;
-
 }
-
 .images img {
-
 width: 100%;
-
 height: 100%;
-
 cursor: pointer;
-
 }
-
 .lightbox {
-
 position: absolute;
-
 left: 0;
-
 top: 0;
-
 padding: 0 50px 30px;
-
 width: 100%;
-
 height: 100vh;
-
 background-color: rgb(18, 7, 7);
-
 display: none;
-
 flex-direction: column;
-
 }
-
 .lightbox.visible {
-
 display: flex;
-
 }
-
 .lightbox .close-btn {
-
 width: 80px;
-
 align-self: flex-end;
-
 height: 40px;
-
 margin: 20px 0;
-
 }
-
 .lightbox .image-preview {
-
 width: 100%;
-
 margin: 0 auto;
-
 flex: 1;
-
 height: 100%;
-
 overflow: hidden;
-
 display: flex;
-
 flex-direction: column;
-
 align-items: center;
-
 }
-
 .image-preview img {
-
 width: 100%;
-
 height: 100%;
-
 object-fit: cover;
-
 }
-
 .control-btns {
-
 position: relative;
-
 top: -10px;
-
 margin: 0 auto;
-
 }
-
 .control-btns button {
-
 cursor: pointer;
-
 }
-
 .control-left {
-
 margin-right: 50px;
-
 }
-
-.lightbox\_\_images {
-
+.lightbox&#95;&#95;images {
 height: 300px;
-
 display: grid;
-
 grid-template-columns: repeat(4, 1fr);
-
 grid-gap: 20px;
-
 align-items: center;
-
 }
-
-.lightbox\_\_images img {
-
+.lightbox&#95;&#95;images img {
 width: 100%;
-
 opacity: 0.3;
-
 cursor: pointer;
-
 }
-
-.lightbox\_\_images img.active {
-
+.lightbox&#95;&#95;images img.active {
 width: 100%;
-
 opacity: 1;
-
 }
+```
 
-<h4>The JavaScript</h4>
+### The JavaScript
 
+```
 const IMAGE0 =
-
 &quot;https://i.picsum.photos/id/229/400/200.jpg?hmac=ULnwo8IFtjR3PshWPNEvFWNU8Xwl_OIeUtVmZIQanhU&quot;
-
 const IMAGE1 =
-
 &quot;https://i.picsum.photos/id/154/400/200.jpg?hmac=uhKcJIPoFcq2xMC16yvZAwA8sTeIbThUr-Njq0DkhSU&quot;
-
 const IMAGE2 =
-
 &quot;https://i.picsum.photos/id/690/400/200.jpg?hmac=kOkDXkZEUaSUQviVm67apRu5EPMD_L0rHfKVt32iogQ&quot;
-
 const IMAGE3 =
-
 &quot;https://i.picsum.photos/id/633/400/200.jpg?hmac=-axbA3Zg3r_xPYOy7OdaIb5yTFDBKubd9LYJrnwpHeU&quot;
-
 const images = &lbrack;IMAGE0, IMAGE1, IMAGE2, IMAGE3&rbrack;
-
 const image0 = document.getElementById(&quot;image0&quot;)
-
 const image1 = document.getElementById(&quot;image1&quot;)
-
 const image2 = document.getElementById(&quot;image2&quot;)
-
 const image3 = document.getElementById(&quot;image3&quot;)
-
 const lightbox = document.getElementById(&quot;lightbox&quot;)
-
 const previewImg = document.getElementById(&quot;preview-image&quot;)
-
 const modalImagesBlock = document.getElementById(
-
 &quot;modal-images-block&quot;
-
 )
-
 image0.src = IMAGE0
-
 image1.src = IMAGE1
-
 image2.src = IMAGE2
-
 image3.src = IMAGE3
-
 let activeId = null
-
 previewImg.src = images&lbrack;0&rbrack;
-
 const modalImagesElements =
-
 modalImagesBlock.getElementsByTagName(&quot;img&quot;)
-
 const modalImages = Object.values(modalImagesElements)
-
 modalImages.forEach((imageElement, i) =&gt; {
-
 console.log(imageElement)
-
 imageElement.src = images&lbrack;i&rbrack;
-
 })
-
 function openModal(imgId) {
-
 if (activeId !== null) {
-
 modalImages&lbrack;activeId&rbrack;.classList.remove(&quot;active&quot;)
-
 }
-
 activeId = imgId
-
 lightbox.classList.add(&quot;visible&quot;)
-
 previewImg.src = images&lbrack;imgId&rbrack;
-
 modalImages&lbrack;imgId&rbrack;.classList.add(&quot;active&quot;)
-
 }
-
 function closeModal() {
-
 lightbox.classList.remove(&quot;visible&quot;)
-
 }
-
 function control(direction) {
-
 const prevId = activeId
-
 if (direction === 1) {
-
 // next
-
 activeId =
-
 activeId + 1 &gt; images.length - 1
-
 ? // then go to the beginning
-
 (activeId = 0)
-
 : (activeId = activeId + 1)
-
 } else {
-
 // previous
-
 activeId =
-
 activeId - 1 &lt; 0
-
 ? // then go to the end
-
 (activeId = images.length - 1)
-
 : activeId - 1
-
 }
-
 previewImg.src = images&lbrack;activeId&rbrack;
-
 modalImages&lbrack;activeId&rbrack;.classList.add(&quot;active&quot;)
-
 modalImages&lbrack;prevId&rbrack;.classList.remove(&quot;active&quot;)
-
 }
+```
 
-[]{#kdb634vxe28v .anchor}
-
-### Example #1
+## Example #1
 
 ![](./images/image018.png){width="3.5208333333333335in" height="1.4479166666666667in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;div class=&quot;tooltip&quot;&gt;
-
 &lt;span&gt;Top&lt;/span&gt;
-
 &lt;div class=&quot;tooltip-text&quot;&gt;This is the top of the tooltip&lt;/div&gt;
-
 &lt;/div&gt;
+```
+### The CSS
 
-<h4>The CSS</h4>
-
+```
 body {
-
 margin: 60px;
-
 }
-
 .tooltip {
-
 position: relative;
-
 display: inline-block;
-
 }
-
 .tooltip-text {
-
 padding: 6px;
-
 background-color: #333;
-
 color: white;
-
 font-size: 12px;
-
 position: absolute;
-
 border-radius: 5px;
-
 width: 100px;
-
 text-align: center;
-
 display: inline-block;
-
 top: -45px;
-
 left: -12px;
-
 visibility: hidden;
-
 }
-
 .tooltip-text::after {
-
 content: &quot;&quot;;
-
 position: absolute;
-
 left: 10px;
-
 bottom: -5px;
-
 width: 0;
-
 height: 0;
-
 border-left: 7px solid transparent;
-
 border-right: 7px solid transparent;
-
 border-top: 10px solid #333;
-
 }
-
 .tooltip:hover .tooltip-text {
-
 visibility: visible;
-
 }
+```
 
-### Example #2
+# Example #2
 
 ![](./images/image019.png){width="4.0625in" height="1.03125in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;div class=&quot;tooltip&quot;&gt;
-
 &lt;span&gt;Right&lt;/span&gt;
-
 &lt;div class=&quot;tooltip-text&quot;&gt;This is the right of the tooltip&lt;/div&gt;
-
 &lt;/div&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 .tooltip {
-
 position: relative;
-
 display: inline-block;
-
 }
-
 .tooltip-text {
 
 padding: 6px;
-
 background-color: #333;
-
 color: white;
-
 font-size: 12px;
-
 position: absolute;
-
 border-radius: 5px;
-
 width: 100px;
-
 text-align: center;
-
 right: -120px;
-
 bottom: -7px;
-
 visibility: hidden;
-
 }
-
 .tooltip-text::after {
-
 content: &quot;&quot;;
-
 position: absolute;
-
 left: -5px;
-
 bottom: 10px;
-
 width: 0;
-
 height: 0;
-
 border-top: 7px solid transparent;
-
 border-bottom: 7px solid transparent;
-
 border-right: 10px solid #333;
-
 }
-
 .tooltip:hover .tooltip-text {
-
 visibility: visible;
-
 }
+```
 
-### Example #3
+# Example #3
 
 ![](./images/image020.png){width="3.2916666666666665in" height="1.4583333333333333in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;div class=&quot;tooltip&quot;&gt;
-
 &lt;span&gt;Bottom&lt;/span&gt;
-
 &lt;div class=&quot;tooltip-text&quot;&gt; This is the bottom of the tooltip
 &lt;/div&gt;
-
 &lt;/div&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 .tooltip {
-
 position: relative;
-
 display: inline-block;
-
 }
-
 .tooltip-text {
-
 padding: 6px;
-
 background-color: #333;
-
 color: white;
-
 font-size: 12px;
-
 position: absolute;
-
 border-radius: 5px;
-
 width: 100px;
-
 text-align: center;
-
 display: inline-block;
-
 bottom: -46px;
-
 left: -10px;
-
 visibility: hidden;
-
 }
-
 .tooltip-text::after {
-
 content: &quot;&quot;;
-
 position: absolute;
-
 left: 10px;
-
 top: -5px;
-
 width: 0;
-
 height: 0;
-
 border-left: 7px solid transparent;
-
 border-right: 7px solid transparent;
-
 border-bottom: 10px solid #333;
-
 }
-
 .tooltip:hover .tooltip-text {
-
 visibility: visible;
-
 }
+```
 
-### Example #4
+# Example #4
 
 ![](./images/image021.png){width="3.6041666666666665in" height="0.9166666666666666in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;div class=&quot;tooltip&quot;&gt;
-
 &lt;span&gt;Left&lt;/span&gt;
-
 &lt;div class=&quot;tooltip-text&quot;&gt;This is the left of the tooltip&lt;/div&gt;
-
 &lt;/div&gt;
+```
 
 The CSS
 
+```
 body {
-
 margin: 60px 130px;
-
 }
-
 .tooltip {
-
 position: relative;
-
 display: inline-block;
-
 }
-
 .tooltip-text {
-
 padding: 6px;
-
 background-color: #333;
-
 color: white;
-
 font-size: 12px;
-
 position: absolute;
-
 border-radius: 5px;
-
 width: 100px;
-
 text-align: center;
-
 left: -120px;
-
 bottom: -11px;
-
 visibility: hidden;
-
 }
-
 .tooltip-text::after {
-
 content: &quot;&quot;;
-
 position: absolute;
-
 right: -5px;
-
 top: 12px;
-
 width: 0;
-
 height: 0;
-
 border-top: 7px solid transparent;
-
 border-bottom: 7px solid transparent;
-
 border-left: 10px solid #333;
-
 }
-
 .tooltip:hover .tooltip-text {
-
 visibility: visible;
-
 }
+```
 
-### 2 Progress Bar Templates
+## 2 Progress Bar Templates
 
-### Example #1
+## Example #1
 
 ![](./images/image022.png){width="5.375in" height="0.875in"}
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;progress class=&quot;first&quot; value=&quot;50&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 .first {
-
 border-radius: 0;
-
 border: 2px solid purple;
-
 height: 30px;
-
 width: 250px;
-
 }
-
 .first::-webkit-progress-bar {
-
 background-color: white;
-
 }
-
 .first::-webkit-progress-value {
-
 background-color: purple;
-
 }
+```
 
-### Example #2
+## Example #2
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;progress class=&quot;second&quot; value=&quot;40&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
-
-![](./images/image023.png){width="5.083333333333333in"
-height="0.7395833333333334in"}
-
+![](./images/image023.png){width="5.083333333333333in" height="0.7395833333333334in"}
 &lt;progress class=&quot;second&quot; value=&quot;80&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
+![](./images/image024.png){width="5.0in" height="0.78125in"}
+```
 
-![](./images/image0024.png){width="5.0in" height="0.78125in"}
+### The CSS
 
-<h4>The CSS</h4>
-
+```
 .second {
-
 overflow: hidden;
-
 border-radius: 15px;
-
 height: 30px;
-
 width: 200px;
-
 }
-
 .second::-webkit-progress-bar {
-
 border-radius: 15px;
-
 background-color: white;
-
 border: 1px solid #ccc;
-
 }
-
 .second::-webkit-progress-value {
-
 background-image: linear-gradient(
-
 90deg,
-
 hsl(0deg 91% 46%) 25px,
-
 hsl(41deg 100% 50%) 50px,
-
 hsl(63deg 100% 37%) 75px,
-
 rgb(85, 255, 0) 100px
-
 );
-
 border-radius: 15px;
-
 }
+```
 
-### 2 CSS Accordian Templates
+## 2 CSS Accordian Templates
 
-### Example #1: Accordion Using Only CSS and HTML
+## Example #1: Accordion Using Only CSS and HTML
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Document&lt;/title&gt;
-
 &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&quot;container&quot;&gt;
-
 &lt;h1&gt;CSS Accordion&lt;/h1&gt;
-
 &lt;div class=&quot;accordion&quot;&gt;
-
 &lt;div class=&quot;tab&quot;&gt;
-
 &lt;input type=&quot;checkbox&quot; id=&quot;tab1&quot; /&gt;
-
 &lt;label class=&quot;tab-label&quot; for=&quot;tab1&quot;&gt;Lorem ipsum 1&lt;/label&gt;
-
 &lt;div class=&quot;tab-content&quot;&gt;
-
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-
 perferendis eligendi fugit quaerat consequatur fuga pariatur
-
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-
 tempore itaque quas excepturi.
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;tab&quot;&gt;
-
 &lt;input type=&quot;checkbox&quot; id=&quot;tab2&quot; /&gt;
-
 &lt;label class=&quot;tab-label&quot; for=&quot;tab2&quot;&gt;Lorem ipsum 2&lt;/label&gt;
-
 &lt;div class=&quot;tab-content&quot;&gt;
-
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-
 perferendis eligendi fugit quaerat consequatur fuga pariatur
-
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-
 tempore itaque quas excepturi.
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;tab&quot;&gt;
-
 &lt;input type=&quot;checkbox&quot; id=&quot;tab3&quot; /&gt;
-
 &lt;label class=&quot;tab-label&quot; for=&quot;tab3&quot;&gt;Lorem ipsum 3&lt;/label&gt;
-
 &lt;div class=&quot;tab-content&quot;&gt;
-
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-
 perferendis eligendi fugit quaerat consequatur fuga pariatur
-
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-
 tempore itaque quas excepturi.
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
-&commat;import
+```
+&#64;import
 &quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400&quot;;
-
 body {
-
 color: #2c3e50;
-
 background: #ecf0f1;
-
 width: 100vw;
-
 padding: 0 1em 1em;
-
 font-family: &quot;Raleway&quot;, sans-serif;
-
 }
-
 h1 {
-
 margin: 0;
-
 line-height: 2;
-
 text-align: center;
-
 }
-
 input {
-
 position: absolute;
-
 opacity: 0;
-
 z-index: -1;
-
 }
-
 /&ast; Accordion styles &ast;/
-
 .accordion {
-
 border-radius: 8px;
-
 width: 70vw;
-
 margin: 5rem auto 0;
-
 overflow: hidden;
-
 padding: 2rem 2.5rem;
-
 background-color: white;
-
 box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
-
 }
-
 .tab {
-
 width: 100%;
-
 color: #1a252f;
-
 overflow: hidden;
-
 margin: 1rem 0;
-
 }
-
 .tab-label {
-
 display: flex;
-
 justify-content: space-between;
-
 padding: 1rem;
-
 background: white;
-
 font-weight: bold;
-
 cursor: pointer;
-
 }
-
 .tab-label:hover {
-
 background: #dce7ea;
-
 }
-
 .tab-label::after {
-
 content: &quot;❯&quot;;
-
 width: 1em;
-
 height: 1em;
-
 text-align: center;
-
 transition: all 0.35s;
-
 }
-
 .tab-content {
-
 max-height: 0;
-
 padding: 0 1em;
-
 line-height: 2rem;
-
 color: #1a252f;
-
 background: white;
-
 transition: all 0.35s;
-
 }
-
 .tab-close {
-
 display: flex;
-
 justify-content: flex-end;
-
 padding: 1em;
-
 font-size: 0.75em;
-
 background: #2c3e50;
-
 cursor: pointer;
-
 }
-
 .tab-close:hover {
-
 background: #dce7ea;
-
 }
-
 input:checked + .tab-label {
-
 background: #dce7ea;
-
 }
-
 input:checked + .tab-label::after {
-
 transform: rotate(90deg);
-
 }
-
-input:checked \~ .tab-content {
-
+input:checked &#126; .tab-content {
 max-height: 100vh;
-
 padding: 1rem;
-
 }
+```
 
-### Example #2: Accordion Using CSS and HTML and JavaScript
+## Example #2: Accordion Using CSS and HTML and JavaScript
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;title&gt;Document&lt;/title&gt;
-
 &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&quot;container&quot;&gt;
-
 &lt;h1&gt;CSS Accordion With Javascript&lt;/h1&gt;
-
 &lt;div class=&quot;accordion&quot;&gt;
-
 &lt;div class=&quot;tab&quot;&gt;
-
 &lt;input type=&quot;checkbox&quot; id=&quot;tab1&quot; /&gt;
-
 &lt;label class=&quot;tab-label&quot; for=&quot;tab1&quot;&gt;Lorem ipsum 1&lt;/label&gt;
-
 &lt;div class=&quot;tab-content&quot;&gt;
-
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-
 perferendis eligendi fugit quaerat consequatur fuga pariatur
-
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-
 tempore itaque quas excepturi.
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;tab&quot;&gt;
-
 &lt;input type=&quot;checkbox&quot; id=&quot;tab2&quot; /&gt;
-
 &lt;label class=&quot;tab-label&quot; for=&quot;tab2&quot;&gt;Lorem ipsum 2&lt;/label&gt;
-
 &lt;div class=&quot;tab-content&quot;&gt;
-
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-
 perferendis eligendi fugit quaerat consequatur fuga pariatur
-
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-
 tempore itaque quas excepturi.
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;tab&quot;&gt;
-
 &lt;input type=&quot;checkbox&quot; id=&quot;tab3&quot; /&gt;
-
 &lt;label class=&quot;tab-label&quot; for=&quot;tab3&quot;&gt;Lorem ipsum 3&lt;/label&gt;
-
 &lt;div class=&quot;tab-content&quot;&gt;
-
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-
 perferendis eligendi fugit quaerat consequatur fuga pariatur
-
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-
 tempore itaque quas excepturi.
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
-&commat;import
+```
+&#64;import
 &quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400&quot;;
-
 body {
-
 color: #2c3e50;
-
 background: #ecf0f1;
-
 width: 100vw;
-
 padding: 0 1em 1em;
-
 font-family: &quot;Raleway&quot;, sans-serif;
-
 }
-
 h1 {
-
 margin: 0;
-
 line-height: 2;
-
 text-align: center;
-
 color: #ff6873;
-
 }
-
 input {
-
 position: absolute;
-
 opacity: 0;
-
 z-index: -1;
-
 }
-
 /&ast; Accordion styles &ast;/
-
 .accordion {
-
 border-radius: 8px;
-
 width: 70vw;
-
 margin: 5rem auto 0;
-
 overflow: hidden;
-
 padding: 2rem 2.5rem;
-
 background-color: white;
-
 box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
-
 }
-
 .tab {
-
 width: 100%;
-
 color: #1a252f;
-
 overflow: hidden;
-
 margin: 1.4rem 0;
-
 }
-
 .tab-label {
-
 display: flex;
-
 justify-content: space-between;
-
 padding: 1rem;
-
 font-size: 1.2rem;
-
 color: #ff6873;
-
 font-weight: bold;
-
 cursor: pointer;
-
 }
-
 .tab-label::after {
-
 content: &quot;❯&quot;;
-
 width: 1em;
-
 height: 1em;
-
 color: #ff6873;
-
 text-align: center;
-
 transition: all 0.35s;
-
 }
-
 .tab-content {
-
 max-height: 0;
-
 padding: 0 1em;
-
 line-height: 2rem;
-
 color: #1a252f;
-
 background: white;
-
 transition: all 0.35s;
-
 }
-
 .tab-close {
-
 display: flex;
-
 justify-content: flex-end;
-
 padding: 1em;
-
 font-size: 0.75em;
-
 background: #2c3e50;
-
 cursor: pointer;
-
 }
-
 .open-tab .tab-label::after {
-
 transform: rotate(90deg);
-
 }
-
 .open-tab .tab-content {
-
 max-height: 100vh;
-
 padding: 1rem;
-
 }
+```
 
-<h4>The JavaScript</h4>
+### The JavaScript
 
+```
 const accordions = document.getElementsByClassName(&quot;tab&quot;);
-
 for (const accordion of accordions) {
-
 accordion.addEventListener(&quot;click&quot;, function (e) {
-
 e.preventDefault();
-
 accordion.classList.toggle(&quot;open-tab&quot;);
-
 });
-
 }
+```
 
-### 4 CSS Effects Templates
+## 4 CSS Effects Templates
 
-[]{#qjxam0b6i3lz .anchor}
+## Template #1: Opacity
 
-Template #1: Opacity
+### The HTML
 
-<h4>The HTML</h4>
-
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&quot;container&quot;&gt;
-
 &lt;div class=&quot;box&quot;&gt;
-
-&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt;\
-&lt;img
-
+&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt; &lt;img
 src=&quot;./girl-with-guitar.jpeg&quot;
-
 alt=&quot;img&quot;
-
 class=&quot;translucent&quot;
-
 /&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 &ast;,
-
 &ast;::after,
-
 &ast;::before {
-
 margin: 0;
-
 padding: 0;
-
 box-sizing: border-box;
-
 }
-
 .container {
-
 display: flex;
-
 flex-flow: column nowrap;
-
 justify-content: space-around;
-
 align-items: center;
-
 min-height: 100vh;
-
 width: 100vw;
-
 background: #c8c7c7;
-
 font-family: &quot;Roboto&quot;, sans-serif;
-
 }
-
 .box {
-
 width: 90%;
-
 height: 60%;
-
 display: flex;
-
 flex-flow: row nowrap;
-
 justify-content: space-around;
-
 align-items: center;
-
 margin: 1rem 0;
-
 }
-
 .box img {
-
 width: 48%;
-
 }
-
 .translucent {
-
 filter: opacity(35%);
-
 }
+```
 
-### Template #2: Grayscale
+## Template #2: Grayscale
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&quot;container&quot;&gt;
-
 &lt;div class=&quot;box&quot;&gt;
-
-&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt;\
-&lt;img
-
+&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt; &lt;img
 src=&quot;./girl-with-guitar.jpeg&quot;
-
 alt=&quot;img&quot;
-
 class=&quot;black-white&quot;
-
 /&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 &ast;,
-
 &ast;::after,
-
 &ast;::before {
-
 margin: 0;
-
 padding: 0;
-
 box-sizing: border-box;
-
 }
-
 .container {
-
 display: flex;
-
 flex-flow: column nowrap;
-
 justify-content: space-around;
-
 align-items: center;
-
 min-height: 100vh;
-
 width: 100vw;
-
 background: #c8c7c7;
-
 font-family: &quot;Roboto&quot;, sans-serif;
-
 }
-
 .box {
-
 width: 90%;
-
 height: 60%;
-
 display: flex;
-
 flex-flow: row nowrap;
-
 justify-content: space-around;
-
 align-items: center;
-
 margin: 1rem 0;
-
 }
-
 .box img {
-
 width: 48%;
-
 }
-
 .black-white {
-
 filter: grayscale(100%);
-
 }
+```
 
-### Template #3: Sepia
+## Template #3: Sepia
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&quot;container&quot;&gt;
-
 &lt;div class=&quot;box&quot;&gt;
-
-&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt;\
-&lt;img
-
+&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt; &lt;img
 src=&quot;./girl-with-guitar.jpeg&quot;
-
 alt=&quot;img&quot;
-
 class=&quot;nineties-effect&quot;
-
 /&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 &ast;,
-
 &ast;::after,
-
 &ast;::before {
-
 margin: 0;
-
 padding: 0;
-
 box-sizing: border-box;
-
 }
-
 .container {
-
 display: flex;
-
 flex-flow: column nowrap;
-
 justify-content: space-around;
-
 align-items: center;
-
 min-height: 100vh;
-
 width: 100vw;
-
 background: #c8c7c7;
-
 font-family: &quot;Roboto&quot;, sans-serif;
-
 }
-
 .box {
-
 width: 90%;
-
 height: 60%;
-
 display: flex;
-
 flex-flow: row nowrap;
-
 justify-content: space-around;
-
 align-items: center;
-
 margin: 1rem 0;
-
 }
-
 .box img {
-
 width: 48%;
-
 }
-
 .nineties-effect {
-
 filter: sepia(100%);
-
 }
+```
 
-### Template #4: Hover
+## Template #4: Hover
 
-<h4>The HTML</h4>
+### The HTML
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&quot;en&quot;&gt;
-
 &lt;head&gt;
-
 &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&quot;container&quot;&gt;
-
 &lt;div class=&quot;box&quot;&gt;
-
-&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt;\
-&lt;img
-
+&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt; &lt;img
 src=&quot;./girl-with-guitar.jpeg&quot;
-
 alt=&quot;img&quot;
-
 class=&quot;hover-effect&quot;
-
 /&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-<h4>The CSS</h4>
+### The CSS
 
+```
 &ast;,
-
 &ast;::after,
-
 &ast;::before {
-
 margin: 0;
-
 padding: 0;
-
 box-sizing: border-box;
-
 }
-
 .container {
-
 display: flex;
-
 flex-flow: column nowrap;
-
 justify-content: space-around;
-
 align-items: center;
-
 min-height: 100vh;
-
 width: 100vw;
-
 background: #fafafa;
-
 /&ast; background: #c8c7c7; &ast;/
-
 font-family: &quot;Roboto&quot;, sans-serif;
-
 }
-
 .box {
-
 width: 90%;
-
 height: 60%;
-
 display: flex;
-
 flex-flow: row nowrap;
-
 justify-content: space-around;
-
 align-items: center;
-
 margin: 1rem 0;
-
 }
-
 .box img {
-
 width: 48%;
-
 }
-
 .hover-effect:hover {
-
 filter: grayscale(100%);
-
 }
+```
 
-### 2 CSS Tab Navigation Templates
+## 2 CSS Tab Navigation Templates
 
-Template #1: CSS Tab Navigation with Animation Effects
+## Template #1: CSS Tab Navigation with Animation Effects
 
-<h4>The HTML</h4>
-
-&lt;!DOCTYPE html&gt;
-
-&lt;html lang=&quot;en&quot;&gt;
-
-&lt;head&gt;
-
-&lt;title&gt;Document&lt;/title&gt;
-
-&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
-
-&lt;/head&gt;
-
-&lt;body&gt;
-
-&lt;!&hyphen;- Tabbed image gallery &hyphen;-&gt;
-
-&lt;div class=&quot;tabbed-gallery&quot;&gt;
-
-&lt;div class=&quot;btn-row&quot;&gt;
-
-&lt;button class=&quot;btn active-btn&quot;&gt;New York&lt;/button&gt;
-
-&lt;button class=&quot;btn&quot;&gt;Honolulu&lt;/button&gt;
-
-&lt;button class=&quot;btn&quot;&gt;Seoul&lt;/button&gt;
-
-&lt;/div&gt;
-
-&lt;div id=&quot;New York&quot; class=&quot;city&quot;&gt;
-
-&lt;img src=&quot;./img/new-york.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-
-&lt;p&gt;New York City&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div id=&quot;Honolulu&quot; class=&quot;city hidden-city&quot;&gt;
-
-&lt;img src=&quot;./img/honolulu.jpeg&quot; alt=&quot;Honolulu&quot; class=&quot;&quot; /&gt;
-
-&lt;p&gt;Honolulu&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;div id=&quot;Seoul&quot; class=&quot;city hidden-city&quot;&gt;
-
-&lt;img src=&quot;./img/seoul.jpeg&quot; alt=&quot;Seoul&quot; class=&quot;&quot; /&gt;
-
-&lt;p&gt;Seoul&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-
-&lt;/body&gt;
-
-&lt;/html&gt;
-
-<h4>The CSS</h4>
-
-&commat;import
-url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
-
-&ast; {
-
-padding: 0;
-
-margin: 0;
-
-box-sizing: border-box;
-
-font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
-
-}
-
-body {
-
-width: 100vw;
-
-}
-
-.tabbed-gallery {
-
-width: 80vw;
-
-margin: 6rem auto 0;
-
-}
-
-.btn-row {
-
-display: grid;
-
-grid-template-columns: repeat(3, 8rem);
-
-grid-template-rows: 3.5rem;
-
-column-gap: 8rem;
-
-justify-content: center;
-
-padding: 2rem auto;
-
-background-color: #1d1d27;
-
-}
-
-.btn {
-
-padding: 4px 2px;
-
-font-size: 1.2rem;
-
-border: none;
-
-outline: none;
-
-transition: all 300ms ease;
-
-}
-
-.btn:hover {
-
-cursor: pointer;
-
-}
-
-.active-btn {
-
-color: #fafafa;
-
-background-color: #4343f5;
-
-}
-
-.city {
-
-width: 100%;
-
-height: 75vh;
-
-position: relative;
-
-display: block;
-
-transition: all 400ms ease;
-
-}
-
-.hidden-city {
-
-display: none;
-
-}
-
-.city img {
-
-width: 100%;
-
-height: 100%;
-
-image-rendering: optimizeQuality;
-
-}
-
-.city p {
-
-position: absolute;
-
-bottom: 15%;
-
-left: 50%;
-
-transform: translate(-50%);
-
-text-align: center;
-
-color: #fafafa;
-
-font-size: 3.5rem;
-
-}
-
-<h4>The JavaScript</h4>
-
-const buttons = document.querySelectorAll(&quot;.btn&quot;);
-
-const cities = document.querySelectorAll(&quot;.city&quot;);
-
-function showCity(e, index) {
-
-//adds the hidden-city class to all image element and removes the
-active-btn class from all buttons
-
-for (let i = 0; i &lt; cities.length; i++) {
-
-cities&lbrack;i&rbrack;.classList.add(&quot;hidden-city&quot;);
-
-buttons&lbrack;i&rbrack;.classList.remove(&quot;active-btn&quot;);
-
-}
-
-//add the active-btn class to the clicked button
-
-e.target.classList.add(&quot;active-btn&quot;);
-
-// pick the right city and make it visible
-
-cities&lbrack;index&rbrack;.classList.remove(&quot;hidden-city&quot;);
-
-}
-
-buttons.forEach((button, index) =&gt; {
-
-button.addEventListener(&quot;click&quot;, (e) =&gt; {
-
-showCity(e, index);
-
-});
-
-});
-
-### Template #2: CSS Tab Navigation with a Simple Tabbed Image Gallery
-
-<h4>The HTML</h4>
+### The HTML
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -3116,7 +1729,135 @@ showCity(e, index);
 &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;!&hyphen;- Tabbed image gallery &hyphen;-&gt;
+&lt;!&dash;- Tabbed image gallery &dash;-&gt;
+&lt;div class=&quot;tabbed-gallery&quot;&gt;
+&lt;div class=&quot;btn-row&quot;&gt;
+&lt;button class=&quot;btn active-btn&quot;&gt;New York&lt;/button&gt;
+&lt;button class=&quot;btn&quot;&gt;Honolulu&lt;/button&gt;
+&lt;button class=&quot;btn&quot;&gt;Seoul&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&quot;New York&quot; class=&quot;city&quot;&gt;
+&lt;img src=&quot;./img/new-york.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;New York City&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;Honolulu&quot; class=&quot;city hidden-city&quot;&gt;
+&lt;img src=&quot;./img/honolulu.jpeg&quot; alt=&quot;Honolulu&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;Honolulu&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;Seoul&quot; class=&quot;city hidden-city&quot;&gt;
+&lt;img src=&quot;./img/seoul.jpeg&quot; alt=&quot;Seoul&quot; class=&quot;&quot; /&gt;
+&lt;p&gt;Seoul&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
+
+### The CSS
+
+```
+&#64;import
+url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
+&ast; {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
+}
+body {
+width: 100vw;
+}
+.tabbed-gallery {
+width: 80vw;
+margin: 6rem auto 0;
+}
+.btn-row {
+display: grid;
+grid-template-columns: repeat(3, 8rem);
+grid-template-rows: 3.5rem;
+column-gap: 8rem;
+justify-content: center;
+padding: 2rem auto;
+background-color: #1d1d27;
+}
+.btn {
+padding: 4px 2px;
+font-size: 1.2rem;
+border: none;
+outline: none;
+transition: all 300ms ease;
+}
+.btn:hover {
+cursor: pointer;
+}
+.active-btn {
+color: #fafafa;
+background-color: #4343f5;
+}
+.city {
+width: 100%;
+height: 75vh;
+position: relative;
+display: block;
+transition: all 400ms ease;
+}
+.hidden-city {
+display: none;
+}
+.city img {
+width: 100%;
+height: 100%;
+image-rendering: optimizeQuality;
+}
+.city p {
+position: absolute;
+bottom: 15%;
+left: 50%;
+transform: translate(-50%);
+text-align: center;
+color: #fafafa;
+font-size: 3.5rem;
+}
+```
+
+### The JavaScript
+
+```
+const buttons = document.querySelectorAll(&quot;.btn&quot;);
+const cities = document.querySelectorAll(&quot;.city&quot;);
+function showCity(e, index) {
+// adds the hidden-city class to all image element and removes the
+// active-btn class from all buttons
+for (let i = 0; i &lt; cities.length; i++) {
+cities&lbrack;i&rbrack;.classList.add(&quot;hidden-city&quot;);
+buttons&lbrack;i&rbrack;.classList.remove(&quot;active-btn&quot;);
+}
+// add the active-btn class to the clicked button
+e.target.classList.add(&quot;active-btn&quot;);
+// pick the right city and make it visible
+cities&lbrack;index&rbrack;.classList.remove(&quot;hidden-city&quot;);
+}
+buttons.forEach((button, index) =&gt; {
+button.addEventListener(&quot;click&quot;, (e) =&gt; {
+showCity(e, index);
+});
+});
+```
+
+## Template #2: CSS Tab Navigation with a Simple Tabbed Image Gallery
+
+### The HTML
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!&dash;- Tabbed image gallery &dash;-&gt;
 &lt;div class=&quot;tabbed-gallery&quot;&gt;
 &lt;div class=&quot;btn-row&quot;&gt;
 &lt;button class=&quot;btn active-btn&quot;&gt;
@@ -3133,7 +1874,7 @@ d=&quot;M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
 2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77
 13.3,15.76
 13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z&quot;
-&gt;
+/&gt;
 &lt;/svg&gt;
 &lt;/button&gt;
 &lt;button class=&quot;btn&quot;&gt;
@@ -3154,7 +1895,7 @@ d=&quot;M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
 d=&quot;M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4
 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0
 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z&quot;
-&gt;
+/&gt;
 &lt;/svg&gt;
 &lt;/button&gt;
 &lt;/div&gt;
@@ -3176,10 +1917,10 @@ d=&quot;M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4
 &lt;/html&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
 ```
-&commat;import
+&#64;import
 &quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400&quot;;
 &ast; {
 padding: 0;
@@ -3274,7 +2015,7 @@ opacity: 1;
 transform: translateY(0%);
 }
 }
-&commat;keyframes content {
+&#64;keyframes content {
 from {
 opacity: 0;
 transform: translateY(30%);
@@ -3286,22 +2027,22 @@ transform: translateY(0%);
 }
 ```
 
-<h4>The JavaScript</h4>
+### The JavaScript
 
 ```
 const buttons = document.querySelectorAll(&quot;.btn&quot;);
 const cards = document.querySelectorAll(&quot;.card&quot;);
 function showCard(e, index) {
-//adds the hidden-city class to all city element and removes the
-active-btn class from all buttons
+// adds the hidden-city class to all city element and removes the
+// active-btn class from all buttons.
 for (let i = 0; i &lt; cards.length; i++) {
 cards&lbrack;i&rbrack;.classList.add(&quot;hidden-card&quot;);
 cards&lbrack;i&rbrack;.classList.remove(&quot;animate&quot;);
 buttons&lbrack;i&rbrack;.classList.remove(&quot;active-btn&quot;);
 }
-//adding the active-btn class to the clicked button
+// adding the active-btn class to the clicked button.
 e.target.classList.add(&quot;active-btn&quot;);
-// picking the right card and make it visible
+// picking the right card and make it visible.
 cards&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
 cards&lbrack;index&rbrack;.classList.add(&quot;animate&quot;);
 }
@@ -3314,9 +2055,9 @@ showCard(e, index);
 
 ## 2 CSS and JavaScript Slideshow Templates
 
-### Template #1: Slideshow That Progresses Manually
+Template #1: Slideshow That Progresses Manually
 
-<h4>The HTML</h4>
+### The HTML
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -3326,22 +2067,22 @@ showCard(e, index);
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&quot;carousel&quot;&gt;
-&lt;!&hyphen;- Photo 1 &hyphen;-&gt;
+&lt;!&dash;- Photo 1 &dash;-&gt;
 &lt;div class=&quot;card&quot;&gt;
 &lt;img src=&quot;./img/1.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
 &lt;p&gt;1/4&lt;/p&gt;
 &lt;/div&gt;
-&lt;!&hyphen;- Photo 2 &hyphen;-&gt;
+&lt;!&dash;- Photo 2 &dash;-&gt;
 &lt;div class=&quot;card hidden-card&quot;&gt;
 &lt;img src=&quot;./img/2.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
 &lt;p&gt;2/4&lt;/p&gt;
 &lt;/div&gt;
-&lt;!&hyphen;- Photo 3 &hyphen;-&gt;
+&lt;!&dash;- Photo 3 &dash;-&gt;
 &lt;div class=&quot;card hidden-card&quot;&gt;
 &lt;img src=&quot;./img/3.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
 &lt;p&gt;3/4&lt;/p&gt;
 &lt;/div&gt;
-&lt;!&hyphen;- Photo 4 &hyphen;-&gt;
+&lt;!&dash;- Photo 4 &dash;-&gt;
 &lt;div class=&quot;card hidden-card&quot;&gt;
 &lt;img src=&quot;./img/4.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
 &lt;p&gt;4/4&lt;/p&gt;
@@ -3356,180 +2097,98 @@ showCard(e, index);
 &lt;/html&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
-&commat;import
+```
+&#64;import
 url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
-
 &ast; {
-
 padding: 0;
-
 margin: 0;
-
 box-sizing: border-box;
-
 font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
-
 }
-
 html,
-
 body {
-
 display: flex;
-
 align-items: center;
-
 justify-content: center;
-
 align-items: center;
-
 width: 100vw;
-
 height: 100vh;
-
 background-color: #3c3c3c;
-
 }
-
 .carousel {
-
 width: 80%;
-
 height: 75vh;
-
 position: relative;
-
 display: block;
-
 transition: all 400ms ease;
-
 }
-
 .card {
-
 display: block;
-
 height: 100%;
-
 width: 100%;
-
 }
-
 .card p {
-
 position: absolute;
-
 bottom: 12%;
-
 left: 50%;
-
 transform: translate(-50%);
-
 text-align: center;
-
 color: #fafafa;
-
 font-size: 3.5rem;
-
 }
-
 .card img {
-
 width: 100%;
-
 height: 100%;
-
 image-rendering: optimizeQuality;
-
 transition: all 0.3s ease;
-
 border: 8px solid white;
-
 }
-
 .hidden-card {
-
 display: none;
-
 }
-
 .carousel img {
-
 width: 100%;
-
 transition: all 0.3s ease;
-
 border: 8px solid white;
-
 }
-
 .navigation .prev {
-
 position: absolute;
-
 z-index: 10;
-
 font-size: 25px;
-
 top: 40%;
-
 left: 20px;
-
 font-weight: 700;
-
 }
-
 .navigation .next {
-
 right: 20px;
-
 position: absolute;
-
 font-size: 25px;
-
 z-index: 10;
-
 top: 40%;
-
 }
-
 .navigation .nav-btn {
-
 background: rgba(255, 255, 255, 0.55);
-
 border: none;
-
 outline: none;
-
 cursor: pointer;
-
 border-radius: 50%;
-
 width: 40px;
-
 height: 40px;
-
 display: flex;
-
 justify-content: center;
-
 align-items: center;
-
 padding: 10px;
-
 box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-
 }
-
 .navigation .nav-btn:hover {
-
 background: white;
-
 }
+```
 
-<h4>The JavaScript</h4>
+### The JavaScript
 
 ```
 const prev = document.querySelector(&quot;.prev&quot;);
@@ -3553,7 +2212,7 @@ index = 0;
 if (index == 0) {
 index = totalImages - 1;
 } else {
-index&hyphen;-;
+index&dash;-;
 }
 }
 for (let i = 0; i &lt; images.length; i++) {
@@ -3563,9 +2222,9 @@ images&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
 }
 ```
 
-<h3 id="template-2">Template #2: Slideshow That Progresses Automatically</h3>
+## Template #2: Slideshow That Progresses Automatically
 
-<h4>The HTML</h4>
+### The HTML
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -3576,22 +2235,22 @@ images&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&quot;carousel&quot;&gt;
-&lt;!&hyphen;- Photo 1 &hyphen;-&gt;
+&lt;!&dash;- Photo 1 &dash;-&gt;
 &lt;div class=&quot;card&quot;&gt;
 &lt;img src=&quot;./img/1.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
 &lt;p&gt;1/4&lt;/p&gt;
 &lt;/div&gt;
-&lt;!&hyphen;- Photo 2 &hyphen;-&gt;
+&lt;!&dash;- Photo 2 &dash;-&gt;
 &lt;div class=&quot;card hidden-card&quot;&gt;
 &lt;img src=&quot;./img/2.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
 &lt;p&gt;2/4&lt;/p&gt;
 &lt;/div&gt;
-&lt;!&hyphen;- Photo 3 &hyphen;-&gt;
+&lt;!&dash;- Photo 3 &dash;-&gt;
 &lt;div class=&quot;card hidden-card&quot;&gt;
 &lt;img src=&quot;./img/3.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
 &lt;p&gt;3/4&lt;/p&gt;
 &lt;/div&gt;
-&lt;!&hyphen;- Photo 4 &hyphen;-&gt;
+&lt;!&dash;- Photo 4 &dash;-&gt;
 &lt;div class=&quot;card hidden-card&quot;&gt;
 &lt;img src=&quot;./img/4.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
 &lt;p&gt;4/4&lt;/p&gt;
@@ -3606,10 +2265,10 @@ images&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
 &lt;/html&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
 ```
-&commat;import
+&#64;import
 url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
 &ast; {
 padding: 0;
@@ -3697,7 +2356,7 @@ background: white;
 }
 ```
 
-<h4>The JavaScript</h4>
+### The JavaScript
 
 ```
 const prev = document.querySelector(&quot;.prev&quot;);
@@ -3721,7 +2380,7 @@ index = 0;
 if (index == 0) {
 index = totalImages - 1;
 } else {
-index&hyphen;-;
+index&dash;-;
 }
 }
 for (let i = 0; i &lt; images.length; i++) {
@@ -3734,11 +2393,11 @@ nextImage(&quot;next&quot;);
 }, 5000);
 ```
 
-<h3>3 JavaScript onClick with CSS Templates</h3>
+## 3 JavaScript onClick with CSS Templates
 
-<h3>Template #1: Display a Hidden Element</h3>
+##  Template #1: Display a Hidden Element
 
-<h4>The HTML</h4>
+### The HTML
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -3757,10 +2416,10 @@ nextImage(&quot;next&quot;);
 &lt;/html&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
 ```
-&commat;import
+&#64;import
 url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400&quot;);
 &ast; {
 padding: 0;
@@ -3810,7 +2469,7 @@ transition: all 400ms ease;
 }
 ```
 
-<h4>The JavaScript</h4>
+### The JavaScript
 
 ```
 const toggleBtn = document.querySelector(&quot;.fixed-btn&quot;);
@@ -3820,9 +2479,9 @@ hiddenImage.classList.toggle(&quot;hidden&quot;);
 });
 ```
 
-### Template #2: Update a Field
+Template #2: Update a Field
 
-<h4>The HTML</h4>
+### The HTML
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -3841,10 +2500,10 @@ hiddenImage.classList.toggle(&quot;hidden&quot;);
 &lt;/html&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
 ```
-&commat;import
+&#64;import
 url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400&quot;);
 &ast; {
 padding: 0;
@@ -3886,7 +2545,7 @@ letter-spacing: 0.1rem;
 }
 ```
 
-<h4>The JavaScript</h4>
+### The JavaScript
 
 ```
 const fillBtn = document.querySelector(&quot;.fill-btn&quot;);
@@ -3901,9 +2560,9 @@ Magnam hic a vel perspiciatis asperiores&quot;;
 });
 ```
 
-### Template #3: Change Colors or Other Visual Effects
+## Template #3: Change Colors or Other Visual Effects
 
-<h4>The HTML</h4>
+### The HTML
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -3921,10 +2580,10 @@ Magnam hic a vel perspiciatis asperiores&quot;;
 &lt;/html&gt;
 ```
 
-<h4>The CSS</h4>
+### The CSS
 
 ```
-&commat;import
+&#64;import
 url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400&quot;);
 &ast; {
 padding: 0;
@@ -3962,7 +2621,7 @@ background-color: #4343f5;
 }
 ```
 
-<h4>The JavaScript</h4>
+### The JavaScript
 
 ```
 const toggleBtn = document.querySelector(&quot;.bg-container .fixed-btn&quot;);
@@ -3982,15 +2641,19 @@ e.preventDefault();
 container.style.backgroundColor =
 colors&lbrack;Math.floor(Math.random() &ast; colors.length)&rbrack;;
 });
-[]{#mbneroay4a95 .anchor}HTML Video & Audio Templates
-&lt;!&hyphen;- Basic video element &hyphen;-&gt;
+```
+
+## HTML Video & Audio Templates
+
+```
+&lt;!&dash;- Basic video element &dash;-&gt;
 &lt;video src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
-&lt;!&hyphen;- Features standard controls to user &hyphen;-&gt;
+&lt;!&dash;- Features standard controls to user &dash;-&gt;
 &lt;video controls src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
-&lt;!&hyphen;- Width and height in pixels &hyphen;-&gt;
+&lt;!&dash;- Width and height in pixels &dash;-&gt;
 &lt;video width=&quot;500&quot; height=&quot;500&quot;
-  src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
-&lt;!&hyphen;- Autoplay video &hyphen;-&gt;
+src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
+&lt;!&dash;- Autoplay video &dash;-&gt;
 &lt;video autoplay src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
 &lt;style&gt;
 /&ast; Stylized video element &ast;/
@@ -3999,10 +2662,11 @@ border-width: 5px;
 border-color: red;
 }
 &lt;/style&gt;
-&lt;!&hyphen;- Audio element with controls &hyphen;-&gt;
+&lt;!&dash;- Audio element with controls &dash;-&gt;
 &lt;audio controls src=&quot;./media/example-audio.mp3&quot;&gt;&lt;/audio&gt;
 &lt;style&gt;
-/&ast; Stylized audio element. Note: Only applicable if controls are visible &ast;/
+/&ast; Stylized audio element. Note: Only applicable if controls are
+visible &ast;/
 audio {
 border-width: 5px;
 border-radius: green;
@@ -4010,11 +2674,9 @@ border-radius: green;
 &lt;/style&gt;
 ```
 
-CSS Background Template
+## CSS Background Template
 
-[]{#kf5yg3bekuan .anchor}
-
-Template
+### Template
 
 ![](./images/image025.jpg){width="4.880208880139983in" height="3.2534722222222223in"}
 
@@ -4036,6 +2698,7 @@ background-position: right bottom, left top;
 background-repeat: no-repeat, repeat;
 }
 /&ast; Transparent background &ast;/
+
 body {
 background: green;
 opacity: 0.5; /&ast; 50% opacity &ast;/
@@ -4048,11 +2711,11 @@ background: center url(&quot;./images/image.png&quot;);
 body {
 background: repeat-x url(&quot;./images/image.png&quot;);
 }
-/&ast; Don\'t repeat an image &ast;/
+/&ast; Don&apos;t repeat an image &ast;/
 body {
 background: no-repeat url(&quot;./images/image.png&quot;);
 }
-/&ast; Set background for particular element with id \'my-element\' &ast;/
+/&ast; Set background for particular element with id &apos;my-element&apos; &ast;/
 #my-element {
 background: red;
 }
@@ -4084,10 +2747,9 @@ background-image:
 conic-gradient(red, white, green, yellow, brown),
 url(rose.png);
 background-blend-mode: color-burn;
-}
-```
+}```
 
-[]{#glidakkzttia .anchor}CSS Gradient Templates
+### CSS Gradient Templates
 
 ```
 &lt;div class=&quot;container&quot;&gt;
@@ -4136,214 +2798,124 @@ height: 400px;
 width: 400px;
 }
 .repeating-gradient {
+
 height: 400px;
 background-image: repeating-linear-gradient(white, yellow, brown);
 }
 .multiple-gradient {
 background-image:
-linear-gradient(to left, red, green), radial-gradient(white, yellow,
-brown);
+linear-gradient(to left, red, green), radial-gradient(white, yellow, brown);
 }
 &lt;/style&gt;
 ```
 
-[]{#s2ijn6yz6ci5 .anchor}
+## CSS overflow templates
 
-CSS overflow templates
-
+```
 &lt;div class=&quot;container&quot;&gt;
-
 &lt;div class=&quot;square hidden-overflow&quot;&gt;
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-
+eniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 &lt;/div&gt;
-
 &lt;div class=&quot;square scroll-overflow&quot;&gt;
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 &lt;/div&gt;
-
 &lt;div class=&quot;square auto-overflow&quot;&gt;
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 &lt;/div&gt;
-
 &lt;div class=&quot;square visible-overflow&quot;&gt;
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 &lt;/div&gt;
-
 &lt;div class=&quot;square visible-overflow-x&quot;&gt;
-
 &lt;ol&gt;
-
 &lt;li&gt;John&lt;/li&gt;
-
 &lt;li&gt;Doe&lt;/li&gt;
-
 &lt;li&gt;Mike&lt;/li&gt;
-
 &lt;li&gt;Gee&lt;/li&gt;
-
 &lt;li&gt;Stella&lt;/li&gt;
-
 &lt;li&gt;Jane&lt;/li&gt;
-
 &lt;li&gt;Mary&lt;/li&gt;
-
 &lt;li&gt;Lawrence&lt;/li&gt;
-
 &lt;li&gt;Nancy&lt;/li&gt;
-
 &lt;li&gt;Kennedy&lt;/li&gt;
-
 &lt;li&gt;Stanely&lt;/li&gt;
-
 &lt;/ol&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;square hidden-overflow-y&quot;&gt;
-
 &lt;ol&gt;
-
 &lt;li&gt;John&lt;/li&gt;
-
 &lt;li&gt;Doe&lt;/li&gt;
-
 &lt;li&gt;Mike&lt;/li&gt;
-
 &lt;li&gt;Gee&lt;/li&gt;
-
 &lt;li&gt;Stella&lt;/li&gt;
-
 &lt;li&gt;Jane&lt;/li&gt;
-
 &lt;li&gt;Mary&lt;/li&gt;
-
 &lt;li&gt;Lawrence&lt;/li&gt;
-
 &lt;li&gt;Nancy&lt;/li&gt;
-
 &lt;li&gt;Kennedy&lt;/li&gt;
-
 &lt;li&gt;Stanely&lt;/li&gt;
-
 &lt;/ol&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;container&quot; style=&quot;margin-top: 10%&quot;&gt;
-
 &lt;div class=&quot;rectangle overflow-wrap-normal&quot;&gt;
+```
 
 This is the longest English word,
 Pneumonoultramicroscopicsilicovolcanoconiosis
 
+```
 &lt;/div&gt;
-
 &lt;div class=&quot;rectangle overflow-wrap-break&quot;&gt;
+```
 
 This is the longest English word,
 Pneumonoultramicroscopicsilicovolcanoconiosis
 
+```
 &lt;/div&gt;
-
 &lt;div class=&quot;rectangle-max-height visible-overflow-x&quot;&gt;
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&quot;rectangle-max-width visible-overflow&quot;&gt;
+```
 
 This is the longest English word,
 Pneumonoultramicroscopicsilicovolcanoconiosis
 
+```
 &lt;/div&gt;
-
 &lt;style type=&quot;text/css&quot;&gt;
-
 /&ast; visible overflow &ast;/
-
 .container {
-
 display: flex;
-
 }
-
 .square {
 width: 150px;
 height: 150px;
@@ -4404,15 +2976,19 @@ overflow-wrap: normal;
 overflow-wrap: break-word;
 }
 &lt;/style&gt;
-[]{#5raj5iklwqr1 .anchor}CSS Animation Template
+```
+
+### CSS Animation Template
+
+```
 &lt;html&gt;
 &lt;body&gt;
 &lt;div class=&quot;container&quot;&gt;
-&lt;!&hyphen;- Example 1: Changing Color &hyphen;-&gt;
+&lt;!&dash;- Example 1: Changing Color &dash;-&gt;
 &lt;div class=&quot;green-square green-red-alternate&quot;&gt;&lt;/div&gt;
-&lt;!&hyphen;- Example 2: Moving across the screen &hyphen;-&gt;
+&lt;!&dash;- Example 2: Moving across the screen &dash;-&gt;
 &lt;div class=&quot;black-circle vertical-alternate-fast&quot;&gt;&lt;/div&gt;
-&lt;!&hyphen;- Example 3: On hover, changing color&hyphen;-&gt;
+&lt;!&dash;- Example 3: On hover, changing color&dash;-&gt;
 &lt;div class=&quot;green-rounded-square color-transition&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/body&gt;
@@ -4435,7 +3011,7 @@ animation-duration: 3s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 }
-&commat;keyframes to-red {
+&#64;keyframes to-red {
 from {
 background-color: green;
 }
@@ -4457,7 +3033,7 @@ animation-duration: 3s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 }
-&commat;keyframes left-to-right {
+&#64;keyframes left-to-right {
 from {
 margin-left: 0%;
 }
@@ -4472,7 +3048,7 @@ animation-duration: 1s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 }
-&commat;keyframes top-to-bottom {
+&#64;keyframes top-to-bottom {
 from {
 margin-top: 0%;
 }
@@ -4493,6 +3069,5 @@ animation-duration: 3s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 }
-</style&gt;
+&lt;/style&gt;
 ```
-
