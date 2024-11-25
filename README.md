@@ -1,6 +1,32 @@
-### 40+ Coding Templates for HTML, CSS, and JavaScript
+---
+title: "Coding Templates"
+author: "bbauska"
+date created: "MM/DD/20YY XX+pm"
+date prior editted: "11/24/2024 10+pm"
+date last editted: "11/24/2024 10+pm"
+output: 
+  markdown:
+    with some style
+---
 
-<!-- ![](./images/image001.png){width="3.5in" height="3.5833333333333335in"} -->
+<h1 align="center">40+ Coding Templates for HTML, CSS &amp; JS</h1>
+
+<h6 align="center">(by bbauska)</h6>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of coding-templates.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01/02.  & (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image001.png"
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:400px;" />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image002.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:261px;" />
+</p>
 
 You can edit your own version in one of two ways:
 
@@ -21,16 +47,26 @@ a more optimized site, you're encouraged to do so.
 
 Jump to a Template
 
-  [Navigation Menus & Breadcrumbs                                  [[Button Transition Templates]](#example-1)                               Templates](#button-transition-templates)
-  [Web Form & Search Bar Templates]    [Lightbox Modal Element                                                                    Templates](#lightbox-modal-element-template)
-  [Tooltip Templates]         [Progress Bar Templates](#progress-bar-templates)
-  [CSS Accordion Templates](#css-accordian-templates) [CSS Effects Templates]
-  [CSS Tab Navigation                                              [CSS and JavaScript Slideshow Templates](#css-tab-navigation-templates)            Templates](#css-and-javascript-slideshow-templates)
-  [JavaScript onClick With CSS                                     [HTML Video & Audio Template] Templates](#javascript-onclick-with-css-templates)
-  [CSS Background Template]            [CSS Gradient Templates]
-  [CSS Overflow Templates]             [CSS Animation Template]
+<h3 id="ex1">
+  [Navigation Menus & Breadcrumbs](#ex1) 
+  [Button Transition Templates]](#ex2)
+  [Web Form & Search Bar Templates](#ex3)
+  [Lightbox Modal Element Templates](#ex4)
+  [Tooltip Templates](#ex5)
+  [Progress Bar Templates](#ex6)
+  [CSS Accordion Templates](#ex7)
+  [CSS Effects Templates](#ex8)
+  [CSS Tab Navigation](#ex9)
+  [CSS and JavaScript Slideshow Templates](#ex10)
+  [Templates](#ex11)
+  [JavaScript onClick With CSS](#ex12)
+  [HTML Video & Audio Template](#ex13)
+  [CSS Background Template](#ex14)
+  [CSS Gradient Templates](#ex15)
+  [CSS Overflow Templates](#ex16)
+  [CSS Animation Template](#ex17)
 
-## Example #1
+<h2 id="ex1">Example #1</h2>
 
 ![](./images/image002.png){width="6.5in" height="0.4479166666666667in"}
 
@@ -83,9 +119,7 @@ color: white;
 }
 ```
 
-#  
-
-# Examples #2
+<h2 id="ex2">Examples #2</h2>
 
 ![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"}
 
@@ -139,9 +173,7 @@ color: white;
 }
 ```
 
-#  
-
-# Third example
+<h2 id="ex3">Example #3</h2>
 
 ![](./images/image004.png){width="5.947916666666667in" height="1.09375in"}
 
@@ -221,7 +253,7 @@ display: block;
 }
 ```
 
-# Fourth example
+<h2 id="ex4">Example #4</h2>
 
 ![](./images/image005.png){width="6.5in" height="0.5833333333333334in"}
 
@@ -272,8 +304,11 @@ color: rgb(176, 115, 0);
 }
 ```
 
-# 3 Button Transition Templates
-# Example #1
+<h2 id="ex5">Example #5</h2>
+
+## 3 Button Transition Templates
+
+## Example #1
 
 ![](./images/image006.png){width="6.5in" height="1.5138888888888888in"}
 
@@ -302,9 +337,13 @@ box-shadow: 10px 10px 0 rgb(219, 219, 219);
 }
 ```
 
-# Example #2
+## Example #2
+
+<h2 id="ex6">Example #6</h2>
 
 ![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"}
+
+<h2 id="ex7">Example #7</h2>
 
 ![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"}
 
@@ -339,10 +378,18 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 }
 ```
 
-# Example #3
+## Example #3
+
+<h2 id="ex8">Example #8</h2>
 
 ![](./images/image009.png){width="2.0833333333333335in" height="0.53125in"}
+
+<h2 id="ex9">Example #9</h2>
+
 ![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"}
+
+<h2 id="ex10">Example #10</h2>
+
 ![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"}
 
 ### The HTML
@@ -386,6 +433,8 @@ bottom: 0;
 ```
 
 ## 3 Web Form & Search Bar Templates
+
+<h2 id="ex11">Example #11</h2>
 
 ## Template #1
 
@@ -488,7 +537,9 @@ margin: 0 3px 0 10px;
 }
 ```
 
-# Template #2
+## Template #2
+
+<h2 id="ex12">Example #12</h2>
 
 ![](./images/image013.png){width="6.5in" height="4.513888888888889in"}
 
@@ -598,10 +649,11 @@ border-radius: 5px;
 }
 ```
 
-# Template #2
+<h2 id="ex13">Example #13</h2>
 
-![](./images/image14.png){width="3.7226859142607176in"
-height="5.776042213473316in"}
+## Template #2
+
+![](./images/image14.png){width="3.7226859142607176in" height="5.776042213473316in"}
 
 ### The HTML
 
@@ -715,15 +767,21 @@ cursor: pointer;
 }
 ```
 
-# 1 Lightbox Modal Element Template
+<h2 id="ex14">Example #14</h2>
 
-# Template
+## 1 Lightbox Modal Element Template
+
+## Template
 
 ![](./images/image015.png){width="5.598958880139983in"
 height="0.7088429571303587in"}
 
+<h2 id="ex15">Example #15</h2>
+
 ![](./images/image016.png){width="5.619792213473316in"
 height="3.2331813210848646in"}
+
+<h2 id="ex16">Example #16</h2>
 
 ![](./images/image017.png){width="5.692708880139983in"
 height="3.270278871391076in"}
@@ -741,7 +799,7 @@ height="3.270278871391076in"}
 &lt;button onclick=&quot;closeModal()&quot; class=&quot;close-btn&quot;&gt;
 ```
 
-Close
+#### Close
 
 ```
 &lt;/button&gt;
@@ -914,6 +972,8 @@ modalImages&lbrack;prevId&rbrack;.classList.remove(&quot;active&quot;)
 }
 ```
 
+<h2 id="ex17">Example #17</h2>
+
 ## Example #1
 
 ![](./images/image018.png){width="3.5208333333333335in" height="1.4479166666666667in"}
@@ -966,7 +1026,9 @@ visibility: visible;
 }
 ```
 
-# Example #2
+<h2 id="ex18">Example #18</h2>
+
+## Example #2
 
 ![](./images/image019.png){width="4.0625in" height="1.03125in"}
 
@@ -1016,7 +1078,9 @@ visibility: visible;
 }
 ```
 
-# Example #3
+## Example #3
+
+<h2 id="ex19">Example #19</h2>
 
 ![](./images/image020.png){width="3.2916666666666665in" height="1.4583333333333333in"}
 
@@ -1067,7 +1131,9 @@ visibility: visible;
 }
 ```
 
-# Example #4
+## Example #4
+
+<h2 id="ex20">Example #20</h2>
 
 ![](./images/image021.png){width="3.6041666666666665in" height="0.9166666666666666in"}
 
@@ -1080,7 +1146,7 @@ visibility: visible;
 &lt;/div&gt;
 ```
 
-The CSS
+### The CSS
 
 ```
 body {
@@ -1123,6 +1189,8 @@ visibility: visible;
 
 ## Example #1
 
+<h2 id="ex21">Example #21</h2>
+
 ![](./images/image022.png){width="5.375in" height="0.875in"}
 
 ### The HTML
@@ -1149,6 +1217,10 @@ background-color: purple;
 ```
 
 ## Example #2
+
+<h2 id="ex22">Example #22</h2>
+
+<h2 id="ex23">Example #23</h2>
 
 ### The HTML
 
@@ -2055,7 +2127,7 @@ showCard(e, index);
 
 ## 2 CSS and JavaScript Slideshow Templates
 
-Template #1: Slideshow That Progresses Manually
+## Template #1: Slideshow That Progresses Manually
 
 ### The HTML
 
@@ -2479,7 +2551,7 @@ hiddenImage.classList.toggle(&quot;hidden&quot;);
 });
 ```
 
-Template #2: Update a Field
+## Template #2: Update a Field
 
 ### The HTML
 
@@ -2678,6 +2750,8 @@ border-radius: green;
 
 ### Template
 
+<h2 id="ex24">Example #24</h2>
+
 ![](./images/image025.jpg){width="4.880208880139983in" height="3.2534722222222223in"}
 
 [Example](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
@@ -2749,7 +2823,7 @@ url(rose.png);
 background-blend-mode: color-burn;
 }```
 
-### CSS Gradient Templates
+## CSS Gradient Templates
 
 ```
 &lt;div class=&quot;container&quot;&gt;
@@ -2881,16 +2955,16 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 &lt;div class=&quot;rectangle overflow-wrap-normal&quot;&gt;
 ```
 
-This is the longest English word,
-Pneumonoultramicroscopicsilicovolcanoconiosis
+### This is the longest English word,
+### Pneumonoultramicroscopicsilicovolcanoconiosis
 
 ```
 &lt;/div&gt;
 &lt;div class=&quot;rectangle overflow-wrap-break&quot;&gt;
 ```
 
-This is the longest English word,
-Pneumonoultramicroscopicsilicovolcanoconiosis
+### This is the longest English word,
+### Pneumonoultramicroscopicsilicovolcanoconiosis
 
 ```
 &lt;/div&gt;
@@ -2906,8 +2980,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 &lt;div class=&quot;rectangle-max-width visible-overflow&quot;&gt;
 ```
 
-This is the longest English word,
-Pneumonoultramicroscopicsilicovolcanoconiosis
+### This is the longest English word,
+### Pneumonoultramicroscopicsilicovolcanoconiosis
 
 ```
 &lt;/div&gt;
@@ -2978,7 +3052,7 @@ overflow-wrap: break-word;
 &lt;/style&gt;
 ```
 
-### CSS Animation Template
+## CSS Animation Template
 
 ```
 &lt;html&gt;
