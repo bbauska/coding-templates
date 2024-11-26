@@ -1259,8 +1259,8 @@ body {
 
 ```
 <div class="tooltip">
-<span>Left</span>
-<div class="tooltip-text">This is the left of the tooltip</div>
+  <span>Left</span>
+  <div class="tooltip-text">This is the left of the tooltip</div>
 </div>
 ```
 
@@ -1325,16 +1325,16 @@ body {
 
 ```
 .first {
-border-radius: 0;
-border: 2px solid purple;
-height: 30px;
-width: 250px;
+  border-radius: 0;
+  border: 2px solid purple;
+  height: 30px;
+  width: 250px;
 }
 .first::-webkit-progress-bar {
-background-color: white;
+  background-color: white;
 }
 .first::-webkit-progress-value {
-background-color: purple;
+  background-color: purple;
 }
 ```
 
@@ -1401,45 +1401,45 @@ border-radius: 15px;
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Document</title>
-<link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="container">
-<h1>CSS Accordion</h1>
-<div class="accordion">
-<div class="tab">
-<input type="checkbox" id="tab1" />
-<label class="tab-label" for="tab1">Lorem ipsum 1</label>
-<div class="tab-content">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-perferendis eligendi fugit quaerat consequatur fuga pariatur
-ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-tempore itaque quas excepturi.
-</div>
-</div>
-<div class="tab">
-<input type="checkbox" id="tab2" />
-<label class="tab-label" for="tab2">Lorem ipsum 2</label>
-<div class="tab-content">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-perferendis eligendi fugit quaerat consequatur fuga pariatur
-ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-tempore itaque quas excepturi.
-</div>
-</div>
-<div class="tab">
-<input type="checkbox" id="tab3" />
-<label class="tab-label" for="tab3">Lorem ipsum 3</label>
-<div class="tab-content">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-perferendis eligendi fugit quaerat consequatur fuga pariatur
-ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-tempore itaque quas excepturi.
-</div>
-</div>
-</div>
-</div>
+  <div class="container">
+    <h1>CSS Accordion</h1>
+    <div class="accordion">
+      <div class="tab">
+        <input type="checkbox" id="tab1" />
+        <label class="tab-label" for="tab1">Lorem ipsum 1</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+          perferendis eligendi fugit quaerat consequatur fuga pariatur
+          ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+          tempore itaque quas excepturi.
+        </div>
+      </div>
+      <div class="tab">
+        <input type="checkbox" id="tab2" />
+        <label class="tab-label" for="tab2">Lorem ipsum 2</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+          perferendis eligendi fugit quaerat consequatur fuga pariatur
+          ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+          tempore itaque quas excepturi.
+        </div>
+      </div>
+      <div class="tab">
+        <input type="checkbox" id="tab3" />
+        <label class="tab-label" for="tab3">Lorem ipsum 3</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+          perferendis eligendi fugit quaerat consequatur fuga pariatur
+          ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+          tempore itaque quas excepturi.
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
 ```
@@ -1450,84 +1450,84 @@ tempore itaque quas excepturi.
 @import
 "https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400";
 body {
-color: #2c3e50;
-background: #ecf0f1;
-width: 100vw;
-padding: 0 1em 1em;
-font-family: "Raleway", sans-serif;
+  color: #2c3e50;
+  background: #ecf0f1;
+  width: 100vw;
+  padding: 0 1em 1em;
+  font-family: "Raleway", sans-serif;
 }
 h1 {
-margin: 0;
-line-height: 2;
-text-align: center;
+  margin: 0;
+  line-height: 2;
+  text-align: center;
 }
 input {
-position: absolute;
-opacity: 0;
-z-index: -1;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
 }
 /* Accordion styles */
 .accordion {
-border-radius: 8px;
-width: 70vw;
-margin: 5rem auto 0;
-overflow: hidden;
-padding: 2rem 2.5rem;
-background-color: white;
-box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 70vw;
+  margin: 5rem auto 0;
+  overflow: hidden;
+  padding: 2rem 2.5rem;
+  background-color: white;
+  box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
 }
 .tab {
-width: 100%;
-color: #1a252f;
-overflow: hidden;
-margin: 1rem 0;
+  width: 100%;
+  color: #1a252f;
+  overflow: hidden;
+  margin: 1rem 0;
 }
 .tab-label {
-display: flex;
-justify-content: space-between;
-padding: 1rem;
-background: white;
-font-weight: bold;
-cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: white;
+  font-weight: bold;
+  cursor: pointer;
 }
 .tab-label:hover {
-background: #dce7ea;
+  background: #dce7ea;
 }
 .tab-label::after {
-content: "❯";
-width: 1em;
-height: 1em;
-text-align: center;
-transition: all 0.35s;
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
 }
 .tab-content {
-max-height: 0;
-padding: 0 1em;
-line-height: 2rem;
-color: #1a252f;
-background: white;
-transition: all 0.35s;
+  max-height: 0;
+  padding: 0 1em;
+  line-height: 2rem;
+  color: #1a252f;
+  background: white;
+  transition: all 0.35s;
 }
 .tab-close {
-display: flex;
-justify-content: flex-end;
-padding: 1em;
-font-size: 0.75em;
-background: #2c3e50;
-cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
 }
 .tab-close:hover {
-background: #dce7ea;
+  background: #dce7ea;
 }
 input:checked + .tab-label {
-background: #dce7ea;
+  background: #dce7ea;
 }
 input:checked + .tab-label::after {
-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 input:checked ~ .tab-content {
-max-height: 100vh;
-padding: 1rem;
+  max-height: 100vh;
+  padding: 1rem;
 }
 ```
 
@@ -1539,46 +1539,46 @@ padding: 1rem;
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Document</title>
-<link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="container">
-<h1>CSS Accordion With Javascript</h1>
-<div class="accordion">
-<div class="tab">
-<input type="checkbox" id="tab1" />
-<label class="tab-label" for="tab1">Lorem ipsum 1</label>
-<div class="tab-content">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-perferendis eligendi fugit quaerat consequatur fuga pariatur
-ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-tempore itaque quas excepturi.
-</div>
-</div>
-<div class="tab">
-<input type="checkbox" id="tab2" />
-<label class="tab-label" for="tab2">Lorem ipsum 2</label>
-<div class="tab-content">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-perferendis eligendi fugit quaerat consequatur fuga pariatur
-ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-tempore itaque quas excepturi.
-</div>
-</div>
-<div class="tab">
-<input type="checkbox" id="tab3" />
-<label class="tab-label" for="tab3">Lorem ipsum 3</label>
-<div class="tab-content">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-perferendis eligendi fugit quaerat consequatur fuga pariatur
-ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
-tempore itaque quas excepturi.
-</div>
-</div>
-</div>
-</div>
-<script src="index.js"></script>
+  <div class="container">
+    <h1>CSS Accordion With Javascript</h1>
+    <div class="accordion">
+      <div class="tab">
+        <input type="checkbox" id="tab1" />
+        <label class="tab-label" for="tab1">Lorem ipsum 1</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+          perferendis eligendi fugit quaerat consequatur fuga pariatur
+          ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+          tempore itaque quas excepturi.
+        </div>
+      </div>
+      <div class="tab">
+        <input type="checkbox" id="tab2" />
+        <label class="tab-label" for="tab2">Lorem ipsum 2</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+          perferendis eligendi fugit quaerat consequatur fuga pariatur
+          ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+          tempore itaque quas excepturi.
+        </div>
+      </div>
+    <div class="tab">
+      <input type="checkbox" id="tab3" />
+        <label class="tab-label" for="tab3">Lorem ipsum 3</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+          perferendis eligendi fugit quaerat consequatur fuga pariatur
+          ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+          tempore itaque quas excepturi.
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
 ```
@@ -1589,78 +1589,78 @@ tempore itaque quas excepturi.
 @import
 "https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400";
 body {
-color: #2c3e50;
-background: #ecf0f1;
-width: 100vw;
-padding: 0 1em 1em;
-font-family: "Raleway", sans-serif;
+  color: #2c3e50;
+  background: #ecf0f1;
+  width: 100vw;
+  padding: 0 1em 1em;
+  font-family: "Raleway", sans-serif;
 }
 h1 {
-margin: 0;
-line-height: 2;
-text-align: center;
-color: #ff6873;
+  margin: 0;
+  line-height: 2;
+  text-align: center;
+  color: #ff6873;
 }
 input {
-position: absolute;
-opacity: 0;
-z-index: -1;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
 }
 /* Accordion styles */
 .accordion {
-border-radius: 8px;
-width: 70vw;
-margin: 5rem auto 0;
-overflow: hidden;
-padding: 2rem 2.5rem;
-background-color: white;
-box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 70vw;
+  margin: 5rem auto 0;
+  overflow: hidden;
+  padding: 2rem 2.5rem;
+  background-color: white;
+  box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
 }
 .tab {
-width: 100%;
-color: #1a252f;
-overflow: hidden;
-margin: 1.4rem 0;
+  width: 100%;
+  color: #1a252f;
+  overflow: hidden;
+  margin: 1.4rem 0;
 }
 .tab-label {
-display: flex;
-justify-content: space-between;
-padding: 1rem;
-font-size: 1.2rem;
-color: #ff6873;
-font-weight: bold;
-cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #ff6873;
+  font-weight: bold;
+  cursor: pointer;
 }
 .tab-label::after {
-content: "❯";
-width: 1em;
-height: 1em;
-color: #ff6873;
-text-align: center;
-transition: all 0.35s;
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  color: #ff6873;
+  text-align: center;
+  transition: all 0.35s;
 }
 .tab-content {
-max-height: 0;
-padding: 0 1em;
-line-height: 2rem;
-color: #1a252f;
-background: white;
-transition: all 0.35s;
+  max-height: 0;
+  padding: 0 1em;
+  line-height: 2rem;
+  color: #1a252f;
+  background: white;
+  transition: all 0.35s;
 }
 .tab-close {
-display: flex;
-justify-content: flex-end;
-padding: 1em;
-font-size: 0.75em;
-background: #2c3e50;
-cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
 }
 .open-tab .tab-label::after {
-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 .open-tab .tab-content {
-max-height: 100vh;
-padding: 1rem;
+  max-height: 100vh;
+  padding: 1rem;
 }
 ```
 
@@ -1686,18 +1686,18 @@ const accordions = document.getElementsByClassName("tab");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="container">
-<div class="box">
-<img src="./girl-with-guitar.jpeg" alt="img" /> <img
-src="./girl-with-guitar.jpeg"
-alt="img"
-class="translucent"
-/>
-</div>
-</div>
+  <div class="container">
+    <div class="box">
+      <img src="./girl-with-guitar.jpeg" alt="img" /> <img
+        src="./girl-with-guitar.jpeg"
+        alt="img"
+        class="translucent"
+      />
+    </div>
+  </div>
 </body>
 </html>
 ```
@@ -1828,34 +1828,34 @@ class="translucent"
 *,
 *::after,
 *::before {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-display: flex;
-flex-flow: column nowrap;
-justify-content: space-around;
-align-items: center;
-min-height: 100vh;
-width: 100vw;
-background: #c8c7c7;
-font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: #c8c7c7;
+  font-family: "Roboto", sans-serif;
 }
 .box {
-width: 90%;
-height: 60%;
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-around;
-align-items: center;
-margin: 1rem 0;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
 }
 .box img {
-width: 48%;
+  width: 48%;
 }
 .nineties-effect {
-filter: sepia(100%);
+  filter: sepia(100%);
 }
 ```
 
@@ -1867,18 +1867,18 @@ filter: sepia(100%);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="container">
-<div class="box">
-<img src="./girl-with-guitar.jpeg" alt="img" /> <img
-src="./girl-with-guitar.jpeg"
-alt="img"
-class="hover-effect"
-/>
-</div>
-</div>
+  <div class="container">
+    <div class="box">
+      <img src="./girl-with-guitar.jpeg" alt="img" /> <img
+        src="./girl-with-guitar.jpeg"
+        alt="img"
+        class="hover-effect"
+      />
+    </div>
+  </div>
 </body>
 </html>
 ```
@@ -1889,35 +1889,35 @@ class="hover-effect"
 *,
 *::after,
 *::before {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-display: flex;
-flex-flow: column nowrap;
-justify-content: space-around;
-align-items: center;
-min-height: 100vh;
-width: 100vw;
-background: #fafafa;
-/* background: #c8c7c7; */
-font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: #fafafa;
+  /* background: #c8c7c7; */
+  font-family: "Roboto", sans-serif;
 }
 .box {
-width: 90%;
-height: 60%;
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-around;
-align-items: center;
-margin: 1rem 0;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
 }
 .box img {
-width: 48%;
+  width: 48%;
 }
 .hover-effect:hover {
-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 ```
 
@@ -1931,31 +1931,31 @@ filter: grayscale(100%);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Document</title>
-<link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<!-- Tabbed image gallery -->
-<div class="tabbed-gallery">
-<div class="btn-row">
-<button class="btn active-btn">New York</button>
-<button class="btn">Honolulu</button>
-<button class="btn">Seoul</button>
-</div>
-<div id="New York" class="city">
-<img src="./img/new-york.jpeg" alt="New York" class="" />
-<p>New York City</p>
-</div>
-<div id="Honolulu" class="city hidden-city">
-<img src="./img/honolulu.jpeg" alt="Honolulu" class="" />
-<p>Honolulu</p>
-</div>
-<div id="Seoul" class="city hidden-city">
-<img src="./img/seoul.jpeg" alt="Seoul" class="" />
-<p>Seoul</p>
-</div>
-</div>
-<script src="index.js"></script>
+  <!-- Tabbed image gallery -->
+  <div class="tabbed-gallery">
+    <div class="btn-row">
+      <button class="btn active-btn">New York</button>
+      <button class="btn">Honolulu</button>
+      <button class="btn">Seoul</button>
+    </div>
+    <div id="New York" class="city">
+      <img src="./img/new-york.jpeg" alt="New York" class="" />
+      <p>New York City</p>
+    </div>
+    <div id="Honolulu" class="city hidden-city">
+      <img src="./img/honolulu.jpeg" alt="Honolulu" class="" />
+      <p>Honolulu</p>
+    </div>
+    <div id="Seoul" class="city hidden-city">
+      <img src="./img/seoul.jpeg" alt="Seoul" class="" />
+        <p>Seoul</p>
+    </div>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
 ```
@@ -1966,64 +1966,64 @@ filter: grayscale(100%);
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "DynaPuff", cursive, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
-width: 100vw;
+  width: 100vw;
 }
 .tabbed-gallery {
-width: 80vw;
-margin: 6rem auto 0;
+  width: 80vw;
+  margin: 6rem auto 0;
 }
 .btn-row {
-display: grid;
-grid-template-columns: repeat(3, 8rem);
-grid-template-rows: 3.5rem;
-column-gap: 8rem;
-justify-content: center;
-padding: 2rem auto;
-background-color: #1d1d27;
+  display: grid;
+  grid-template-columns: repeat(3, 8rem);
+  grid-template-rows: 3.5rem;
+  column-gap: 8rem;
+  justify-content: center;
+  padding: 2rem auto;
+  background-color: #1d1d27;
 }
 .btn {
-padding: 4px 2px;
-font-size: 1.2rem;
-border: none;
-outline: none;
-transition: all 300ms ease;
+  padding: 4px 2px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  transition: all 300ms ease;
 }
 .btn:hover {
-cursor: pointer;
+  cursor: pointer;
 }
 .active-btn {
-color: #fafafa;
-background-color: #4343f5;
+  color: #fafafa;
+  background-color: #4343f5;
 }
 .city {
-width: 100%;
-height: 75vh;
-position: relative;
-display: block;
-transition: all 400ms ease;
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  display: block;
+  transition: all 400ms ease;
 }
 .hidden-city {
-display: none;
+  display: none;
 }
 .city img {
-width: 100%;
-height: 100%;
-image-rendering: optimizeQuality;
+  width: 100%;
+  height: 100%;
+  image-rendering: optimizeQuality;
 }
 .city p {
-position: absolute;
-bottom: 15%;
-left: 50%;
-transform: translate(-50%);
-text-align: center;
-color: #fafafa;
-font-size: 3.5rem;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: #fafafa;
+  font-size: 3.5rem;
 }
 ```
 
@@ -2033,21 +2033,21 @@ font-size: 3.5rem;
 const buttons = document.querySelectorAll(".btn");
 const cities = document.querySelectorAll(".city");
 function showCity(e, index) {
-// adds the hidden-city class to all image element and removes the
-// active-btn class from all buttons
-for (let i = 0; i < cities.length; i++) {
-cities[i].classList.add("hidden-city");
-buttons[i].classList.remove("active-btn");
-}
-// add the active-btn class to the clicked button
-e.target.classList.add("active-btn");
-// pick the right city and make it visible
-cities[index].classList.remove("hidden-city");
+  // adds the hidden-city class to all image element and removes the
+  // active-btn class from all buttons
+  for (let i = 0; i < cities.length; i++) {
+    cities[i].classList.add("hidden-city");
+    buttons[i].classList.remove("active-btn");
+  }
+  // add the active-btn class to the clicked button
+  e.target.classList.add("active-btn");
+  // pick the right city and make it visible
+  cities[index].classList.remove("hidden-city");
 }
 buttons.forEach((button, index) => {
-button.addEventListener("click", (e) => {
-showCity(e, index);
-});
+  button.addEventListener("click", (e) => {
+    showCity(e, index);
+  });
 });
 ```
 
@@ -2059,66 +2059,66 @@ showCity(e, index);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Document</title>
-<link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<!-- Tabbed image gallery -->
-<div class="tabbed-gallery">
-<div class="btn-row">
-<button class="btn active-btn">
-<svg viewBox="0 0 24 24">
-<path
-d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
-3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06
-12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88
-20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69
-22,10.96L21,11.54V16.5C21,16.88 20.79,17.21
-20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94
-11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V10.96C2.7,11.13
-2.32,11.14
-2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77
-13.3,15.76
-13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z"
-/>
-</svg>
-</button>
-<button class="btn">
-<svg viewBox="0 0 24 24">
-<path
-d="M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
-18,20A3,3 0 0,0
-21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5
-0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1
-6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0 0,1
-16.5,17A1.5,1.5 0 0,1 18,15.5Z"
-/>
-</svg>
-</button>
-<button class="btn">
-<svg viewBox="0 0 24 24">
-<path
-d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4
-20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0
-12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z"
-/>
-</svg>
-</button>
-</div>
-<div class="card">
-<h2 class="">Delivery</h2>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-</div>
-<div class="card hidden-card">
-<h2 class="">Shipping</h2>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-</div>
-<div class="card hidden-card">
-<h2 class="">Policy</h2>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-</div>
-</div>
-<script src="index.js"></script>
+  <!-- Tabbed image gallery -->
+  <div class="tabbed-gallery">
+    <div class="btn-row">
+      <button class="btn active-btn">
+        <svg viewBox="0 0 24 24">
+          <path
+          d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
+          3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06
+          12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88
+          20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69
+          22,10.96L21,11.54V16.5C21,16.88 20.79,17.21
+          20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94
+          11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V10.96C2.7,11.13
+          2.32,11.14
+          2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77
+          13.3,15.76
+          13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z"
+          />
+        </svg>
+      </button>
+      <button class="btn">
+        <svg viewBox="0 0 24 24">
+          <path
+          d="M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
+          18,20A3,3 0 0,0
+          21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5
+          0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1
+          6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0 0,1
+          16.5,17A1.5,1.5 0 0,1 18,15.5Z"
+          />
+        </svg>
+      </button>
+      <button class="btn">
+        <svg viewBox="0 0 24 24">
+        <path
+        d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4
+        20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0
+        12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z"
+        />
+        </svg>
+      </button>
+    </div>
+    <div class="card">
+      <h2 class="">Delivery</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="card hidden-card">
+      <h2 class="">Shipping</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="card hidden-card">
+      <h2 class="">Policy</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
 ```
@@ -2129,107 +2129,107 @@ d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4
 @import
 "https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400";
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 body {
-width: 100vw;
-background: #fff;
+  width: 100vw;
+  background: #fff;
 }
 .tabbed-gallery {
-width: 80vw;
-height: 75vh;
-background-color: #e7e7e7;
-color: #1d1d27;
-margin: 6rem auto 0;
+  width: 80vw;
+  height: 75vh;
+  background-color: #e7e7e7;
+  color: #1d1d27;
+  margin: 6rem auto 0;
 }
 .btn-row {
-display: grid;
-grid-template-columns: repeat(3, 8rem);
-grid-template-rows: 3.5rem;
-column-gap: 10rem;
-justify-content: center;
-padding: 4rem auto !important;
-border-bottom: 2px solid #1d1d27;
+  display: grid;
+  grid-template-columns: repeat(3, 8rem);
+  grid-template-rows: 3.5rem;
+  column-gap: 10rem;
+  justify-content: center;
+  padding: 4rem auto !important;
+  border-bottom: 2px solid #1d1d27;
 }
 .btn {
-border: none;
-outline: none;
-background-color: #fff;
+  border: none;
+  outline: none;
+  background-color: #fff;
 }
 .btn svg {
-width: 3rem;
-height: 2.2rem;
+  width: 3rem;
+  height: 2.2rem;
 }
 .btn:hover {
-cursor: pointer;
+  cursor: pointer;
 }
 .active-btn svg {
-fill: #4343f5;
+  fill: #4343f5;
 }
 .card {
-width: 100%;
-height: 70vh;
-position: relative;
-display: block;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  display: block;
 }
 h2 {
-text-align: center;
-color: #4343f5;
-padding: 40px 0 20px 0;
-margin-top: 10rem;
-font-size: 4rem;
+  text-align: center;
+  color: #4343f5;
+  padding: 40px 0 20px 0;
+  margin-top: 10rem;
+  font-size: 4rem;
 }
 .card p {
-/* position: absolute;
-top: 30%;
-left: 50%;
-transform: translate(-50%); */
-margin: 0 auto;
-width: 60%;
-text-align: center;
-color: #1d1d27;
-font-size: 1.5rem;
+  /* position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%); */
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  color: #1d1d27;
+  font-size: 1.5rem;
 }
 .animate h2,
 .animate p {
--webkit-animation-name: content;
-animation-name: content;
--webkit-animation-direction: normal;
-animation-direction: normal;
--webkit-animation-duration: 0.5s;
-animation-duration: 0.5s;
--webkit-animation-timing-function: ease-in-out;
-animation-timing-function: ease-in-out;
--webkit-animation-iteration-count: 1;
-animation-iteration-count: 1;
-line-height: 1.4;
+  -webkit-animation-name: content;
+  animation-name: content;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  line-height: 1.4;
 }
 .hidden-card {
-display: none;
+  display: none;
 }
 /* text slide up animation */
 @-webkit-keyframes content {
-from {
-opacity: 0;
-transform: translateY(30%);
-}
-to {
-opacity: 1;
-transform: translateY(0%);
-}
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 @keyframes content {
-from {
-opacity: 0;
-transform: translateY(30%);
-}
-to {
-opacity: 1;
-transform: translateY(0%);
-}
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 ```
 
@@ -2239,23 +2239,23 @@ transform: translateY(0%);
 const buttons = document.querySelectorAll(".btn");
 const cards = document.querySelectorAll(".card");
 function showCard(e, index) {
-// adds the hidden-city class to all city element and removes the
-// active-btn class from all buttons.
-for (let i = 0; i < cards.length; i++) {
-cards[i].classList.add("hidden-card");
-cards[i].classList.remove("animate");
-buttons[i].classList.remove("active-btn");
-}
-// adding the active-btn class to the clicked button.
-e.target.classList.add("active-btn");
-// picking the right card and make it visible.
-cards[index].classList.remove("hidden-card");
-cards[index].classList.add("animate");
+  // adds the hidden-city class to all city element and removes the
+  // active-btn class from all buttons.
+  for (let i = 0; i < cards.length; i++) {
+    cards[i].classList.add("hidden-card");
+    cards[i].classList.remove("animate");
+    buttons[i].classList.remove("active-btn");
+  }
+  // adding the active-btn class to the clicked button.
+  e.target.classList.add("active-btn");
+  // picking the right card and make it visible.
+  cards[index].classList.remove("hidden-card");
+  cards[index].classList.add("animate");
 }
 buttons.forEach((button, index) => {
-button.addEventListener("click", (e) => {
-showCard(e, index);
-});
+  button.addEventListener("click", (e) => {
+    showCard(e, index);
+  });
 });
 ```
 
@@ -2269,35 +2269,35 @@ showCard(e, index);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="carousel">
-<!-- Photo 1 -->
-<div class="card">
-<img src="./img/1.jpeg" alt="New York" class="" />
-<p>1/4</p>
-</div>
-<!-- Photo 2 -->
-<div class="card hidden-card">
-<img src="./img/2.jpeg" alt="New York" class="" />
-<p>2/4</p>
-</div>
-<!-- Photo 3 -->
-<div class="card hidden-card">
-<img src="./img/3.jpeg" alt="New York" class="" />
-<p>3/4</p>
-</div>
-<!-- Photo 4 -->
-<div class="card hidden-card">
-<img src="./img/4.jpeg" alt="New York" class="" />
-<p>4/4</p>
-</div>
-<div class="navigation">
-<button class="prev nav-btn"><</button>
-<button class="next nav-btn">></button>
-</div>
-</div>
+  <div class="carousel">
+    <!-- Photo 1 -->
+    <div class="card">
+      <img src="./img/1.jpeg" alt="New York" class="" />
+      <p>1/4</p>
+    </div>
+    <!-- Photo 2 -->
+    <div class="card hidden-card">
+      <img src="./img/2.jpeg" alt="New York" class="" />
+      <p>2/4</p>
+    </div>
+    <!-- Photo 3 -->
+    <div class="card hidden-card">
+      <img src="./img/3.jpeg" alt="New York" class="" />
+      <p>3/4</p>
+    </div>
+    <!-- Photo 4 -->
+    <div class="card hidden-card">
+      <img src="./img/4.jpeg" alt="New York" class="" />
+      <p>4/4</p>
+    </div>
+    <div class="navigation">
+      <button class="prev nav-btn"><</button>
+      <button class="next nav-btn">></button>
+    </div>
+  </div>
 </body>
 <script src="index.js"></script>
 </html>
@@ -2309,88 +2309,88 @@ showCard(e, index);
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "DynaPuff", cursive, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 html,
 body {
-display: flex;
-align-items: center;
-justify-content: center;
-align-items: center;
-width: 100vw;
-height: 100vh;
-background-color: #3c3c3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3c3c3c;
 }
 .carousel {
-width: 80%;
-height: 75vh;
-position: relative;
-display: block;
-transition: all 400ms ease;
+  width: 80%;
+  height: 75vh;
+  position: relative;
+  display: block;
+  transition: all 400ms ease;
 }
 .card {
-display: block;
-height: 100%;
-width: 100%;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 .card p {
-position: absolute;
-bottom: 12%;
-left: 50%;
-transform: translate(-50%);
-text-align: center;
-color: #fafafa;
-font-size: 3.5rem;
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: #fafafa;
+  font-size: 3.5rem;
 }
 .card img {
-width: 100%;
-height: 100%;
-image-rendering: optimizeQuality;
-transition: all 0.3s ease;
-border: 8px solid white;
+  width: 100%;
+  height: 100%;
+  image-rendering: optimizeQuality;
+  transition: all 0.3s ease;
+  border: 8px solid white;
 }
 .hidden-card {
-display: none;
+  display: none;
 }
 .carousel img {
-width: 100%;
-transition: all 0.3s ease;
-border: 8px solid white;
+  width: 100%;
+  transition: all 0.3s ease;
+  border: 8px solid white;
 }
 .navigation .prev {
-position: absolute;
-z-index: 10;
-font-size: 25px;
-top: 40%;
-left: 20px;
-font-weight: 700;
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 40%;
+  left: 20px;
+  font-weight: 700;
 }
 .navigation .next {
-right: 20px;
-position: absolute;
-font-size: 25px;
-z-index: 10;
-top: 40%;
+  right: 20px;
+  position: absolute;
+  font-size: 25px;
+  z-index: 10;
+  top: 40%;
 }
 .navigation .nav-btn {
-background: rgba(255, 255, 255, 0.55);
-border: none;
-outline: none;
-cursor: pointer;
-border-radius: 50%;
-width: 40px;
-height: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px;
-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.55);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 .navigation .nav-btn:hover {
-background: white;
+  background: white;
 }
 ```
 
@@ -2403,28 +2403,28 @@ const images = document.querySelectorAll(".card");
 const totalImages = images.length;
 let index = 0;
 prev.addEventListener("click", () => {
-nextImage("prev");
+  nextImage("prev");
 });
 next.addEventListener("click", () => {
-nextImage("next");
+  nextImage("next");
 });
 function nextImage(direction) {
-if (direction === "next") {
-index++;
-if (index === totalImages) {
-index = 0;
-}
-} else if (direction === "prev") {
-if (index == 0) {
-index = totalImages - 1;
-} else {
-index--;
-}
-}
-for (let i = 0; i < images.length; i++) {
-images[i].classList.add("hidden-card");
-}
-images[index].classList.remove("hidden-card");
+  if (direction === "next") {
+    index++;
+    if (index === totalImages) {
+      index = 0;
+    }
+  } else if (direction === "prev") {
+    if (index == 0) {
+      index = totalImages - 1;
+    } else {
+      index--;
+    }
+  }
+  for (let i = 0; i < images.length; i++) {
+    images[i].classList.add("hidden-card");
+  }
+  images[index].classList.remove("hidden-card");
 }
 ```
 
@@ -2436,36 +2436,36 @@ images[index].classList.remove("hidden-card");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Document</title>
-<link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="carousel">
-<!-- Photo 1 -->
-<div class="card">
-<img src="./img/1.jpeg" alt="New York" class="" />
-<p>1/4</p>
-</div>
-<!-- Photo 2 -->
-<div class="card hidden-card">
-<img src="./img/2.jpeg" alt="New York" class="" />
-<p>2/4</p>
-</div>
-<!-- Photo 3 -->
-<div class="card hidden-card">
-<img src="./img/3.jpeg" alt="New York" class="" />
-<p>3/4</p>
-</div>
-<!-- Photo 4 -->
-<div class="card hidden-card">
-<img src="./img/4.jpeg" alt="New York" class="" />
-<p>4/4</p>
-</div>
-<div class="navigation">
-<button class="prev nav-btn"><</button>
-<button class="next nav-btn">></button>
-</div>
-</div>
+  <div class="carousel">
+    <!-- Photo 1 -->
+    <div class="card">
+      <img src="./img/1.jpeg" alt="New York" class="" />
+      <p>1/4</p>
+    </div>
+    <!-- Photo 2 -->
+    <div class="card hidden-card">
+      <img src="./img/2.jpeg" alt="New York" class="" />
+      <p>2/4</p>
+    </div>
+    <!-- Photo 3 -->
+    <div class="card hidden-card">
+      <img src="./img/3.jpeg" alt="New York" class="" />
+      <p>3/4</p>
+    </div>
+    <!-- Photo 4 -->
+    <div class="card hidden-card">
+      <img src="./img/4.jpeg" alt="New York" class="" />
+      <p>4/4</p>
+    </div>
+    <div class="navigation">
+      <button class="prev nav-btn"><</button>
+      <button class="next nav-btn">></button>
+    </div>
+  </div>
 </body>
 <script src="index.js"></script>
 </html>
@@ -2477,88 +2477,88 @@ images[index].classList.remove("hidden-card");
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "DynaPuff", cursive, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 html,
 body {
-display: flex;
-align-items: center;
-justify-content: center;
-align-items: center;
-width: 100vw;
-height: 100vh;
-background-color: #3c3c3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3c3c3c;
 }
 .carousel {
-width: 80%;
-height: 75vh;
-position: relative;
-display: block;
-transition: all 400ms ease;
+  width: 80%;
+  height: 75vh;
+  position: relative;
+  display: block;
+  transition: all 400ms ease;
 }
 .card {
-display: block;
-height: 100%;
-width: 100%;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 .card p {
-position: absolute;
-bottom: 12%;
-left: 50%;
-transform: translate(-50%);
-text-align: center;
-color: #fafafa;
-font-size: 3.5rem;
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: #fafafa;
+  font-size: 3.5rem;
 }
 .card img {
-width: 100%;
-height: 100%;
-image-rendering: optimizeQuality;
-transition: all 0.3s ease;
-border: 8px solid white;
+  width: 100%;
+  height: 100%;
+  image-rendering: optimizeQuality;
+  transition: all 0.3s ease;
+  border: 8px solid white;
 }
 .hidden-card {
-display: none;
+  display: none;
 }
 .carousel img {
-width: 100%;
-transition: all 0.3s ease;
-border: 8px solid white;
+  width: 100%;
+  transition: all 0.3s ease;
+  border: 8px solid white;
 }
 .navigation .prev {
-position: absolute;
-z-index: 10;
-font-size: 25px;
-top: 40%;
-left: 20px;
-font-weight: 700;
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 40%;
+  left: 20px;
+  font-weight: 700;
 }
 .navigation .next {
-right: 20px;
-position: absolute;
-font-size: 25px;
-z-index: 10;
-top: 40%;
+  right: 20px;
+  position: absolute;
+  font-size: 25px;
+  z-index: 10;
+  top: 40%;
 }
 .navigation .nav-btn {
-background: rgba(255, 255, 255, 0.55);
-border: none;
-outline: none;
-cursor: pointer;
-border-radius: 50%;
-width: 40px;
-height: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px;
-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.55);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 .navigation .nav-btn:hover {
-background: white;
+  background: white;
 }
 ```
 
@@ -2571,31 +2571,31 @@ const images = document.querySelectorAll(".card");
 const totalImages = images.length;
 let index = 0;
 prev.addEventListener("click", () => {
-nextImage("prev");
+  nextImage("prev");
 });
 next.addEventListener("click", () => {
-nextImage("next");
+  nextImage("next");
 });
 function nextImage(direction) {
-if (direction === "next") {
-index++;
-if (index === totalImages) {
-index = 0;
-}
-} else if (direction === "prev") {
-if (index == 0) {
-index = totalImages - 1;
-} else {
-index--;
-}
+  if (direction === "next") {
+    index++;
+    if (index === totalImages) {
+      index = 0;
+    }
+  } else if (direction === "prev") {
+    if (index == 0) {
+    index = totalImages - 1;
+  } else {
+    index--;
+  }
 }
 for (let i = 0; i < images.length; i++) {
-images[i].classList.add("hidden-card");
+  images[i].classList.add("hidden-card");
 }
-images[index].classList.remove("hidden-card");
+  images[index].classList.remove("hidden-card");
 }
 setInterval(() => {
-nextImage("next");
+  nextImage("next");
 }, 5000);
 ```
 
@@ -2609,15 +2609,15 @@ nextImage("next");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Document</title>
-<link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="container hidden-container">
-<img src="./honolulu.jpeg" alt="Honolulu" class="img" />
-<button class="fixed-btn">Toggle image</button>
-</div>
-<script src="index.js"></script>
+  <div class="container hidden-container">
+    <img src="./honolulu.jpeg" alt="Honolulu" class="img" />
+    <button class="fixed-btn">Toggle image</button>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
 ```
@@ -2681,7 +2681,7 @@ width: 100vw;
 const toggleBtn = document.querySelector(".fixed-btn");
 const hiddenImage = document.querySelector(".hidden-container img");
 toggleBtn.addEventListener("click", (e) => {
-hiddenImage.classList.toggle("hidden");
+  hiddenImage.classList.toggle("hidden");
 });
 ```
 
@@ -3027,65 +3027,65 @@ body{
 
 ```
 <div class="container">
-<div class="square hidden-overflow">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-eniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</div>
-<div class="square scroll-overflow">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</div>
-<div class="square auto-overflow">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</div>
-<div class="square visible-overflow">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</div>
-<div class="square visible-overflow-x">
-<ol>
-<li>John</li>
-<li>Doe</li>
-<li>Mike</li>
-<li>Gee</li>
-<li>Stella</li>
-<li>Jane</li>
-<li>Mary</li>
-<li>Lawrence</li>
-<li>Nancy</li>
-<li>Kennedy</li>
-<li>Stanely</li>
-</ol>
-</div>
-<div class="square hidden-overflow-y">
-<ol>
-<li>John</li>
-<li>Doe</li>
-<li>Mike</li>
-<li>Gee</li>
-<li>Stella</li>
-<li>Jane</li>
-<li>Mary</li>
-<li>Lawrence</li>
-<li>Nancy</li>
+  <div class="square hidden-overflow">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    eniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="square scroll-overflow">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="square auto-overflow">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="square visible-overflow">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="square visible-overflow-x">
+    <ol>
+      <li>John</li>
+      <li>Doe</li>
+      <li>Mike</li>
+      <li>Gee</li>
+      <li>Stella</li>
+      <li>Jane</li>
+      <li>Mary</li>
+      <li>Lawrence</li>
+      <li>Nancy</li>
+      <li>Kennedy</li>
+      <li>Stanely</li>
+    </ol>
+  </div>
+  <div class="square hidden-overflow-y">
+    <ol>
+      <li>John</li>
+      <li>Doe</li>
+      <li>Mike</li>
+      <li>Gee</li>
+      <li>Stella</li>
+      <li>Jane</li>
+      <li>Mary</li>
+      <li>Lawrence</li>
+      <li>Nancy</li>
       <li>Kennedy</li>
       <li>Stanely</li>
     </ol>
