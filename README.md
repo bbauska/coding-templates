@@ -200,12 +200,12 @@ optimized site, you're encouraged to do so.</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ex3">Example #3: Menu: four horizontal options, 1st active</h2>
-<!--~~~~~~~~~~~~~~~~~~ 03. menu: four horizontal options, 1st one active (01) ~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex3">Example #3: Menu: four horizontal options with 2 dropdowns, 1st is active</h2>
+<!--~~~~~~~~~~ 03. menu: four horizontal options with 2 dropdowns, 1st option active ~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image003.png" 
-  title="Menu; four horizontal options, 1st one active"
-  alt="Menu; four horizontal options, 1st one active."
+  title="Menu: four horizontal options with 2 dropdowns, 1st option active"
+  alt="Menu: four horizontal options with 2 dropdowns, 1st option active."
   style="width:55%;" />
 </p>
 <!-- ![](./images/image003.png){width="5.947916666666667in" height="1.09375in"} -->
@@ -214,26 +214,26 @@ optimized site, you're encouraged to do so.</p>
 
 ```
 <div class="container">
-<nav>
-<ul class="bar">
-<li><a href="#" class="active">Home</a></li>
-<li class="has-dropdown">
-<a href="#">About</a>
-<ul class="dropdown">
-<li><a href="#">The Company</a></li>
-<li><a href="#">The Team</a></li>
-</ul>
-</li>
-<li class="has-dropdown">
-<a href="#">Contact</a>
-<ul class="dropdown">
-<li><a href="#">Email</a></li>
-<li><a href="#">Phone</a></li>
-</ul>
-</li>
-<li><a href="#">Careers</a></li>
-</ul>
-</nav>
+  <nav>
+    <ul class="bar">
+      <li><a href="#" class="active">Home</a></li>
+      <li class="has-dropdown">
+        <a href="#">About</a>
+        <ul class="dropdown">
+          <li><a href="#">The Company</a></li>
+          <li><a href="#">The Team</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <a href="#">Contact</a>
+        <ul class="dropdown">
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Phone</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+  </nav>
 </div>
 ```
 
@@ -287,12 +287,12 @@ display: block;
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ex3">Example #4: Menu: four horizontal options, 4th active</h2>
-<!--~~~~~~~~~~~~~~~~~~ 04. menu: four horizontal options, 4th one active (01) ~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex4">Example #4: Menu: four horizontal options, 4th unique, 1st active</h2>
+<!--~~~~~~~~~~~~ 04. menu: four horizontal options, 4th one unique, 1st active (01) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image004.png" 
-  title="Menu; four horizontal options, 4th one active"
-  alt="Menu; four horizontal options, 4th one active."
+  title="Menu; four horizontal options, 4th one unique, 1st one active"
+  alt="Menu; four horizontal options, 4th one unique, 1st one active."
   style="width:55%;" />
 </p>
 <!-- ![](./images/image004.png){width="6.5in" height="0.5833333333333334in"} -->
@@ -301,15 +301,15 @@ display: block;
 
 ```
 <div class="container">
-<ul class="breadcrumb">
-<li><a href="#" class="active">Home</a></li>
-<li><span>></span></li>
-<li><a href="#">Products</a></li>
-<li><span>></span></li>
-<li><a href="#">Computers</a></li>
-<li><span>></span></li>
-<li><a href="#" class="unique">Laptops</a></li>
-</ul>
+  <ul class="breadcrumb">
+    <li><a href="#" class="active">Home</a></li>
+    <li><span></span></li>
+    <li><a href="#">Products</a></li>
+    <li><span></span></li>
+    <li><a href="#">Computers</a></li>
+    <li><span></span></li>
+    <li><a href="#" class="unique">Laptops</a></li>
+  </ul>
 </div>
 ```
 
@@ -434,9 +434,8 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 }
 ```
 
-<h2>Example #3</h2>
-
 <h2 id="ex8">Example #8</h2>
+
 <p align="center">
 <img src="./images/image008.png" 
   title=""
@@ -446,6 +445,7 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 <!-- ![](./images/image008.png){width="2.0833333333333335in" height="0.53125in"} -->
 
 <h2 id="ex9">Example #9</h2>
+
 <p align="center">
 <img src="./images/image009.png" 
   title=""
@@ -522,43 +522,43 @@ bottom: 0;
 
 ```
 <form>
-<div class="search">
-<input type="text" placeholder="Search products" />
-<button type="submit">Search</button>
-</div>
-<div class="align-center bottom">
-<div class="checkbox-block">
-<input
-type="checkbox"
-name="companies_included"
-id="companies_included"
-/>
-<label for="companies_included"
->Also search companies
-</label>
-</div>
-<div class="inline-flex radio-block">
-<span>Location</span>
-<div class="inline-flex align-center">
-<input
-type="radio"
-name="location"
-value="Your location"
-id="your_location"
-/>
-<label for="your_location"> Your location </label>
-</div>
-<div class="inline-flex align-center">
-<input
-type="radio"
-name="location"
-value="Worldwide"
-id="worldwide"
-/>
-<label for="worldwide"> Worldwide </label>
-</div>
-</div>
-</div>
+  <div class="search">
+    <input type="text" placeholder="Search products" />
+    <button type="submit">Search</button>
+  </div>
+  <div class="align-center bottom">
+    <div class="checkbox-block">
+      <input
+        type="checkbox"
+        name="companies_included"
+        id="companies_included"
+      />
+      <label for="companies_included"
+        >Also search companies
+      </label>
+    </div>
+    <div class="inline-flex radio-block">
+      <span>Location</span>
+      <div class="inline-flex align-center">
+        <input
+          type="radio"
+          name="location"
+          value="Your location"
+          id="your_location"
+        />
+        <label for="your_location"> Your location </label>
+      </div>
+      <div class="inline-flex align-center">
+        <input
+          type="radio"
+          name="location"
+          value="Worldwide"
+          id="worldwide"
+        />
+        <label for="worldwide"> Worldwide </label>
+      </div>
+    </div>
+  </div>
 </form>
 ```
 
@@ -566,52 +566,52 @@ id="worldwide"
 
 ```
 .align-center {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 .inline-flex {
-display: inline-flex;
+  display: inline-flex;
 }
 form {
-padding: 20px 0;
-max-width: 500px;
-border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  max-width: 500px;
+  border-bottom: 1px solid #ccc;
 }
 .search {
-display: flex;
-outline: 1px solid #cccccc;
+  display: flex;
+  outline: 1px solid #cccccc;
 }
 .search > input {
-flex-grow: 1;
-border: 0;
-padding: 0.5rem 1rem;
-font-size: 1rem;
+  flex-grow: 1;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
 }
 .search > input:focus {
-outline: none;
+  outline: none;
 }
 .search > button {
-padding: 0.8rem 2rem;
-border: 0;
-cursor: pointer;
-font-size: 1rem;
-background: #cccccc;
+  padding: 0.8rem 2rem;
+  border: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  background: #cccccc;
 }
 .bottom {
-margin-top: 10px;
-font-size: 14px;
+  margin-top: 10px;
+  font-size: 14px;
 }
 .checkbox-block {
-display: flex;
-align-items: center;
-margin-right: 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
 }
 .checkbox-block input {
-margin-right: 5px;
-cursor: pointer;
+  margin-right: 5px;
+  cursor: pointer;
 }
 .radio-block input {
-margin: 0 3px 0 10px;
+  margin: 0 3px 0 10px;
 }
 ```
 
@@ -631,58 +631,58 @@ margin: 0 3px 0 10px;
 
 ```
 <form>
-<div class="input-group">
-<label for="fname">Firstname</label>
-<input
-id="fname"
-name="fname"
-placeholder="Enter firstname"
-required="required"
-/>
-</div>
-<div class="input-group">
-<label for="lname">Lastname</label>
-<input
-id="lname"
-name="lname"
-placeholder="Enter lastname"
-required="required"
-/>
-</div>
-<div class="input-group">
-<label for="email">Email</label>
-<input
-id="email"
-type="email"
-name="email"
-placeholder="Enter your email"
-/>
-</div>
-<div class="input-group">
-<label>Country</label>
-<select name="country" id="country" required="required">
-<option value="" selected="selected">Select country</option>
-<option value="Afghanistan">Afghanistan</option>
-<option value="Albania">Albania</option>
-<option value="Algeria">Algeria</option>
-<option value="American Samoa">American Samoa</option>
-<option value="Andorra">Andorra</option>
-<option value="Angola">Angola</option>
-<option value="Anguilla">Anguilla</option>
-<option value="Antarctica">Antarctica</option>
-</select>
-</div>
-<div class="input-group">
-<label for="message">Any message?</label>
-<textarea
-id="message"
-name="message"
-placeholder="Optional"
-></textarea>
-</div>
-<div class="submit-group">
-<button type="submit">Submit form</button>
-</div>
+  <div class="input-group">
+    <label for="fname">Firstname</label>
+    <input
+      id="fname"
+      name="fname"
+      placeholder="Enter firstname"
+      required="required"
+    />
+  </div>
+  <div class="input-group">
+    <label for="lname">Lastname</label>
+    <input
+      id="lname"
+      name="lname"
+      placeholder="Enter lastname"
+      required="required"
+    />
+  </div>
+  <div class="input-group">
+    <label for="email">Email</label>
+    <input
+      id="email"
+      type="email"
+      name="email"
+      placeholder="Enter your email"
+    />
+  </div>
+  <div class="input-group">
+    <label>Country</label>
+    <select name="country" id="country" required="required">
+      <option value="" selected="selected">Select country</option>
+      <option value="Afghanistan">Afghanistan</option>
+      <option value="Albania">Albania</option>
+      <option value="Algeria">Algeria</option>
+      <option value="American Samoa">American Samoa</option>
+      <option value="Andorra">Andorra</option>
+      <option value="Angola">Angola</option>
+      <option value="Anguilla">Anguilla</option>
+      <option value="Antarctica">Antarctica</option>
+    </select>
+  </div>
+  <div class="input-group">
+    <label for="message">Any message?</label>
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Optional"
+    ></textarea>
+  </div>
+  <div class="submit-group">
+    <button type="submit">Submit form</button>
+  </div>
 </form>
 ```
 
@@ -690,46 +690,46 @@ placeholder="Optional"
 
 ```
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-margin: 30px;
+  margin: 30px;
 }
 form {
-border: 1px solid #333;
-padding: 20px;
-max-width: 400px;
-margin: 0 auto;
-border-radius: 5px;
+  border: 1px solid #333;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 .input-group {
-display: flex;
-margin-bottom: 10px;
+  display: flex;
+  margin-bottom: 10px;
 }
 label {
-width: 100px;
+  width: 100px;
 }
 input,
 select,
 textarea {
-flex: 1;
-padding: 3px 5px;
+  flex: 1;
+  padding: 3px 5px;
 }
 .submit-group {
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 button {
-width: 100px;
-margin: 0 auto;
-background-color: black;
-color: white;
-border: none;
-padding: 10px;
-cursor: pointer;
-border-radius: 5px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 ```
 
@@ -749,61 +749,61 @@ border-radius: 5px;
 
 ```
 <form>
-<div>
-<span class="question">1. How did you hear about us?</span>
-<div class="radio-group">
-<div class="radio-item">
-<input type="radio" name="hear_about_us" id="twitter" />
-<label for="twitter">Twitter</label>
-</div>
-<div class="radio-item">
-<input type="radio" name="hear_about_us" id="facebook" />
-<label for="facebook">Facebook</label>
-</div>
-<div class="radio-item">
-<input type="radio" name="hear_about_us" id="other" />
-<label for="other">Other</label>
-</div>
-</div>
-</div>
-<div>
-<span class="question">2. Where do you live?</span>
-<select name="country" id="country" required="required">
-<option value="" selected="selected">Select country</option>
-<option value="Afghanistan">Afghanistan</option>
-<option value="Albania">Albania</option>
-<option value="Algeria">Algeria</option>
-<option value="American Samoa">American Samoa</option>
-<option value="Andorra">Andorra</option>
-<option value="Angola">Angola</option>
-<option value="Anguilla">Anguilla</option>
-<option value="Antarctica">Antarctica</option>
-</select>
-</div>
-<div>
-<span class="question">3. You age range</span>
-<div class="radio-group">
-<div class="radio-item">
-<input type="radio" name="age_range" id="lower" />
-<label for="lower">18-25</label>
-</div>
-<div class="radio-item">
-<input type="radio" name="age_range" id="middle" />
-<label for="middle">26-35</label>
-</div>
-<div class="radio-item">
-<input type="radio" name="age_range" id="higher" />
-<label for="higher">36 or more</label>
-</div>
-</div>
-</div>
-<div>
-<span class="question">4. Anything else we should know? </span>
-<textarea name="message"></textarea>
-</div>
-<div>
-<button class="submit-btn">Submit survey</button>
-</div>
+  <div>
+    <span class="question">1. How did you hear about us?</span>
+    <div class="radio-group">
+      <div class="radio-item">
+        <input type="radio" name="hear_about_us" id="twitter" />
+        <label for="twitter">Twitter</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="hear_about_us" id="facebook" />
+        <label for="facebook">Facebook</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="hear_about_us" id="other" />
+        <label for="other">Other</label>
+      </div>
+    </div>
+  </div>
+  <div>
+    <span class="question">2. Where do you live?</span>
+    <select name="country" id="country" required="required">
+      <option value="" selected="selected">Select country</option>
+      <option value="Afghanistan">Afghanistan</option>
+      <option value="Albania">Albania</option>
+      <option value="Algeria">Algeria</option>
+      <option value="American Samoa">American Samoa</option>
+      <option value="Andorra">Andorra</option>
+      <option value="Angola">Angola</option>
+      <option value="Anguilla">Anguilla</option>
+      <option value="Antarctica">Antarctica</option>
+    </select>
+  </div>
+  <div>
+    <span class="question">3. You age range</span>
+    <div class="radio-group">
+      <div class="radio-item">
+        <input type="radio" name="age_range" id="lower" />
+        <label for="lower">18-25</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="age_range" id="middle" />
+        <label for="middle">26-35</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="age_range" id="higher" />
+        <label for="higher">36 or more</label>
+      </div>
+    </div>
+  </div>
+  <div>
+    <span class="question">4. Anything else we should know? </span>
+    <textarea name="message"></textarea>
+  </div>
+  <div>
+    <button class="submit-btn">Submit survey</button>
+  </div>
 </form>
 ```
 
@@ -811,57 +811,55 @@ border-radius: 5px;
 
 ```
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-margin: 30px;
+  margin: 30px;
 }
 form {
-max-width: 400px;
+  max-width: 400px;
 }
 form > div {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .question {
-font-weight: bold;
-display: block;
-margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
 }
 .radio-group,
 select,
 textarea {
-margin-left: 15px;
-width: 200px;
+  margin-left: 15px;
+  width: 200px;
 }
 textarea {
-padding: 10px;
+  padding: 10px;
 }
 .radio-item {
-display: flex;
-align-items: center;
-margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
 }
 .radio-item label {
-margin-left: 5px;
+  margin-left: 5px;
 }
 .radio-item input {
-margin: 0;
+  margin: 0;
 }
 .submit-btn {
-margin-left: 15px;
-background-color: #555;
-border: 1px solid #555;
-color: white;
-padding: 10px;
-cursor: pointer;
+  margin-left: 15px;
+  background-color: #555;
+  border: 1px solid #555;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
 }
 ```
 
 <h2 id="ex14">Example #14</h2>
 
-<h2>1 Lightbox Modal Element Template</h2>
-
-<h2>Template</h2>
+<h2>Lightbox Modal Element Template</h2>
 
 <p align="center">
 <img src="./images/image014.png" 
@@ -907,24 +905,22 @@ cursor: pointer;
 <h3>Close</h3>
 
 ```
-</button>
-<div class="image-preview">
-<img id="preview-image" />
-</div>
-<div class="control-btns">
-<button onclick="control(-1)" class="control-left">
-<
-</button>
-<button onclick="control(1)" class="control-left">
->
-</button>
-</div>
-<div id="modal-images-block" class="lightbox__images">
-<img onclick="openModal(0)" id="l-image0" />
-<img onclick="openModal(1)" id="l-image1" />
-<img onclick="openModal(2)" id="l-image2" />
-<img onclick="openModal(3)" id="l-image3" />
-</div>
+  </button>
+  <div class="image-preview">
+    <img id="preview-image" />
+  </div>
+  <div class="control-btns">
+    <button onclick="control(-1)" class="control-left">
+    </button>
+    <button onclick="control(1)" class="control-left">
+    </button>
+  </div>
+  <div id="modal-images-block" class="lightbox__images">
+    <img onclick="openModal(0)" id="l-image0" />
+    <img onclick="openModal(1)" id="l-image1" />
+    <img onclick="openModal(2)" id="l-image2" />
+    <img onclick="openModal(3)" id="l-image3" />
+  </div>
 </div>
 ```
 
@@ -932,79 +928,79 @@ cursor: pointer;
 
 ```
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .images {
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }
 .images img {
-width: 100%;
-height: 100%;
-cursor: pointer;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 .lightbox {
-position: absolute;
-left: 0;
-top: 0;
-padding: 0 50px 30px;
-width: 100%;
-height: 100vh;
-background-color: rgb(18, 7, 7);
-display: none;
-flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 50px 30px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(18, 7, 7);
+  display: none;
+  flex-direction: column;
 }
 .lightbox.visible {
-display: flex;
+  display: flex;
 }
 .lightbox .close-btn {
-width: 80px;
-align-self: flex-end;
-height: 40px;
-margin: 20px 0;
+  width: 80px;
+  align-self: flex-end;
+  height: 40px;
+  margin: 20px 0;
 }
 .lightbox .image-preview {
-width: 100%;
-margin: 0 auto;
-flex: 1;
-height: 100%;
-overflow: hidden;
-display: flex;
-flex-direction: column;
-align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .image-preview img {
-width: 100%;
-height: 100%;
-object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .control-btns {
-position: relative;
-top: -10px;
-margin: 0 auto;
+  position: relative;
+  top: -10px;
+  margin: 0 auto;
 }
 .control-btns button {
-cursor: pointer;
+  cursor: pointer;
 }
 .control-left {
-margin-right: 50px;
+  margin-right: 50px;
 }
 .lightbox__images {
-height: 300px;
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-gap: 20px;
-align-items: center;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  align-items: center;
 }
 .lightbox__images img {
-width: 100%;
-opacity: 0.3;
-cursor: pointer;
+  width: 100%;
+  opacity: 0.3;
+  cursor: pointer;
 }
 .lightbox__images img.active {
-width: 100%;
-opacity: 1;
+  width: 100%;
+  opacity: 1;
 }
 ```
 
@@ -1027,7 +1023,7 @@ const image3 = document.getElementById("image3")
 const lightbox = document.getElementById("lightbox")
 const previewImg = document.getElementById("preview-image")
 const modalImagesBlock = document.getElementById(
-"modal-images-block"
+  "modal-images-block"
 )
 image0.src = IMAGE0
 image1.src = IMAGE1
@@ -1039,41 +1035,41 @@ const modalImagesElements =
 modalImagesBlock.getElementsByTagName("img")
 const modalImages = Object.values(modalImagesElements)
 modalImages.forEach((imageElement, i) => {
-console.log(imageElement)
-imageElement.src = images[i]
+  console.log(imageElement)
+  imageElement.src = images[i]
 })
 function openModal(imgId) {
-if (activeId !== null) {
-modalImages[activeId].classList.remove("active")
-}
-activeId = imgId
-lightbox.classList.add("visible")
-previewImg.src = images[imgId]
-modalImages[imgId].classList.add("active")
+  if (activeId !== null) {
+    modalImages[activeId].classList.remove("active")
+  }
+  activeId = imgId
+  lightbox.classList.add("visible")
+  previewImg.src = images[imgId]
+  modalImages[imgId].classList.add("active")
 }
 function closeModal() {
-lightbox.classList.remove("visible")
+  lightbox.classList.remove("visible")
 }
 function control(direction) {
-const prevId = activeId
-if (direction === 1) {
-// next
-activeId =
-activeId + 1 > images.length - 1
-? // then go to the beginning
-(activeId = 0)
-: (activeId = activeId + 1)
-} else {
-// previous
-activeId =
-activeId - 1 < 0
-? // then go to the end
-(activeId = images.length - 1)
-: activeId - 1
-}
-previewImg.src = images[activeId]
-modalImages[activeId].classList.add("active")
-modalImages[prevId].classList.remove("active")
+  const prevId = activeId
+  if (direction === 1) {
+    // next
+    activeId =
+    activeId + 1 > images.length - 1
+    ? // then go to the beginning
+    (activeId = 0)
+    : (activeId = activeId + 1)
+  } else {
+    // previous
+    activeId =
+    activeId - 1 < 0
+    ? // then go to the end
+    (activeId = images.length - 1)
+    : activeId - 1
+  }
+  previewImg.src = images[activeId]
+  modalImages[activeId].classList.add("active")
+  modalImages[prevId].classList.remove("active")
 }
 ```
 
@@ -1091,8 +1087,8 @@ modalImages[prevId].classList.remove("active")
 
 ```
 <div class="tooltip">
-<span>Top</span>
-<div class="tooltip-text">This is the top of the tooltip</div>
+  <span>Top</span>
+  <div class="tooltip-text">This is the top of the tooltip</div>
 </div>
 ```
 
@@ -1100,39 +1096,39 @@ modalImages[prevId].classList.remove("active")
 
 ```
 body {
-margin: 60px;
+  margin: 60px;
 }
 .tooltip {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .tooltip-text {
-padding: 6px;
-background-color: #333;
-color: white;
-font-size: 12px;
-position: absolute;
-border-radius: 5px;
-width: 100px;
-text-align: center;
-display: inline-block;
-top: -45px;
-left: -12px;
-visibility: hidden;
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  top: -45px;
+  left: -12px;
+  visibility: hidden;
 }
 .tooltip-text::after {
-content: "";
-position: absolute;
-left: 10px;
-bottom: -5px;
-width: 0;
-height: 0;
-border-left: 7px solid transparent;
-border-right: 7px solid transparent;
-border-top: 10px solid #333;
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #333;
 }
 .tooltip:hover .tooltip-text {
-visibility: visible;
+  visibility: visible;
 }
 ```
 
@@ -1151,8 +1147,8 @@ visibility: visible;
 
 ```
 <div class="tooltip">
-<span>Right</span>
-<div class="tooltip-text">This is the right of the tooltip</div>
+  <span>Right</span>
+  <div class="tooltip-text">This is the right of the tooltip</div>
 </div>
 ```
 
@@ -1160,36 +1156,35 @@ visibility: visible;
 
 ```
 .tooltip {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .tooltip-text {
-
-padding: 6px;
-background-color: #333;
-color: white;
-font-size: 12px;
-position: absolute;
-border-radius: 5px;
-width: 100px;
-text-align: center;
-right: -120px;
-bottom: -7px;
-visibility: hidden;
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  right: -120px;
+  bottom: -7px;
+  visibility: hidden;
 }
 .tooltip-text::after {
-content: "";
-position: absolute;
-left: -5px;
-bottom: 10px;
-width: 0;
-height: 0;
-border-top: 7px solid transparent;
-border-bottom: 7px solid transparent;
-border-right: 10px solid #333;
+  content: "";
+  position: absolute;
+  left: -5px;
+  bottom: 10px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-right: 10px solid #333;
 }
 .tooltip:hover .tooltip-text {
-visibility: visible;
+  visibility: visible;
 }
 ```
 
@@ -1207,9 +1202,9 @@ visibility: visible;
 
 ```
 <div class="tooltip">
-<span>Bottom</span>
-<div class="tooltip-text"> This is the bottom of the tooltip
-</div>
+  <span>Bottom</span>
+  <div class="tooltip-text"> This is the bottom of the tooltip
+  </div>
 </div>
 ```
 
@@ -1217,36 +1212,36 @@ visibility: visible;
 
 ```
 .tooltip {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .tooltip-text {
-padding: 6px;
-background-color: #333;
-color: white;
-font-size: 12px;
-position: absolute;
-border-radius: 5px;
-width: 100px;
-text-align: center;
-display: inline-block;
-bottom: -46px;
-left: -10px;
-visibility: hidden;
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  bottom: -46px;
+  left: -10px;
+  visibility: hidden;
 }
 .tooltip-text::after {
-content: "";
-position: absolute;
-left: 10px;
-top: -5px;
-width: 0;
-height: 0;
-border-left: 7px solid transparent;
-border-right: 7px solid transparent;
-border-bottom: 10px solid #333;
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid #333;
 }
 .tooltip:hover .tooltip-text {
-visibility: visible;
+  visibility: visible;
 }
 ```
 
@@ -1273,38 +1268,38 @@ visibility: visible;
 
 ```
 body {
-margin: 60px 130px;
+  margin: 60px 130px;
 }
 .tooltip {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .tooltip-text {
-padding: 6px;
-background-color: #333;
-color: white;
-font-size: 12px;
-position: absolute;
-border-radius: 5px;
-width: 100px;
-text-align: center;
-left: -120px;
-bottom: -11px;
-visibility: hidden;
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  left: -120px;
+  bottom: -11px;
+  visibility: hidden;
 }
 .tooltip-text::after {
-content: "";
-position: absolute;
-right: -5px;
-top: 12px;
-width: 0;
-height: 0;
-border-top: 7px solid transparent;
-border-bottom: 7px solid transparent;
-border-left: 10px solid #333;
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 10px solid #333;
 }
 .tooltip:hover .tooltip-text {
-visibility: visible;
+  visibility: visible;
 }
 ```
 
