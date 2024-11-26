@@ -79,11 +79,11 @@ optimized site, you're encouraged to do so.</p>
 <h3 id="ex41">41. Bootstrap Templates</h3>
 <h3 id="ex42">42. Login Form Template</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ex1">Example #1: MENU; 4 horizontal options, 3rd active</h2>
+<h2 id="ex1">Example #1: Menu: 4 horizontal options, 3rd active</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 02. menu; four horizontal options with 3rd one active (01) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 01. menu; four horizontal options with 3rd one active (01) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image002.png" 
+<img src="./images/image001.png" 
   title="Menu; four horizontal options with 3rd one active"
   alt="Menu; four horizontal options with 3rd one active."
   style="width:55%;" />
@@ -139,15 +139,15 @@ optimized site, you're encouraged to do so.</p>
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ex2">Example #2: MENU; 4 vertical options, 4th active</h2>
-<!--~~~~~~~~~~~~~~~~~ 03. menu; four vertical options with 4th one active (01) ~~~~~~~~~~~~~~~~~-->
+<h2 id="ex2">Example #2: Menu: 4 vertical options, 4th active</h2>
+<!--~~~~~~~~~~~~~~~~~ 02. menu: four vertical options with 4th one active (01) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image003.png" 
+<img src="./images/image002.png" 
   title="Menu; four options with 3rd one active"
   alt="Menu; four options with 3rd one active."
   style="width:25%;" />
 </p>
-<!-- ![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"} -->
+<!-- ![](./images/image002.png){width="1.7239588801399826in" height="1.7239588801399826in"} -->
 <h3>The HTML</h3>
 
 ```
@@ -198,15 +198,16 @@ optimized site, you're encouraged to do so.</p>
 }
 ```
 
-<h2 id="ex3">Example #3</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex3">Example #3: Menu: four horizontal options, 1st active</h2>
+<!--~~~~~~~~~~~~~~~~~~ 03. menu: four horizontal options, 1st one active (01) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image004.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:5.9in;" />
+<img src="./images/image003.png" 
+  title="Menu; four horizontal options, 1st one active"
+  alt="Menu; four horizontal options, 1st one active."
+  style="width:55%;" />
 </p>
-<!-- ![](./images/image004.png){width="5.947916666666667in" height="1.09375in"} -->
+<!-- ![](./images/image003.png){width="5.947916666666667in" height="1.09375in"} -->
 
 <h3>The HTML</h3>
 
@@ -284,15 +285,16 @@ display: block;
 }
 ```
 
-<h2 id="ex4">Example #4</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex3">Example #4: Menu: four horizontal options, 4th active</h2>
+<!--~~~~~~~~~~~~~~~~~~ 04. menu: four horizontal options, 4th one active (01) ~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image005.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:6.5in;" />
+<img src="./images/image004.png" 
+  title="Menu; four horizontal options, 4th one active"
+  alt="Menu; four horizontal options, 4th one active."
+  style="width:55%;" />
 </p>
-<!-- ![](./images/image005.png){width="6.5in" height="0.5833333333333334in"} -->
+<!-- ![](./images/image004.png){width="6.5in" height="0.5833333333333334in"} -->
 
 <h3>The HTML</h3>
 
@@ -348,12 +350,12 @@ color: rgb(176, 115, 0);
 <h2>Example #1
 
 <p align="center">
-<img src="./images/image006.png" 
+<img src="./images/image005.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image006.png){width="6.5in" height="1.5138888888888888in"} -->
+<!-- ![](./images/image005.png){width="6.5in" height="1.5138888888888888in"} -->
 
 <h3>The HTML</h3>
 
@@ -380,27 +382,25 @@ box-shadow: 10px 10px 0 rgb(219, 219, 219);
 }
 ```
 
-<h2>Example #2
-
 <h2 id="ex6">Example #6</h2>
+
+<p align="center">
+<img src="./images/image006.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:2.5in;" />
+</p>
+<!-- ![](./images/image006.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
+
+<h2 id="ex7">Example #7</h2>
 
 <p align="center">
 <img src="./images/image007.png" 
   title=""
   alt="."
-  style="border: 2px solid #000000; width:2.5in;" />
-</p>
-<!-- ![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
-
-<h2 id="ex7">Example #7</h2>
-
-<p align="center">
-<img src="./images/image008.png" 
-  title=""
-  alt="."
   style="border: 2px solid #000000; width:4.07in;" />
 </p>
-<!-- ![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"} -->
+<!-- ![](./images/image007.png){width="4.078125546806649in" height="1.9507917760279965in"} -->
 
 <h3>The HTML</h3>
 
@@ -437,31 +437,31 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 
 <h2 id="ex8">Example #8</h2>
 <p align="center">
-<img src="./images/image009.png" 
+<img src="./images/image008.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:2.08in;" />
 </p>
-<!-- ![](./images/image009.png){width="2.0833333333333335in" height="0.53125in"} -->
+<!-- ![](./images/image008.png){width="2.0833333333333335in" height="0.53125in"} -->
 
 <h2 id="ex9">Example #9</h2>
 <p align="center">
-<img src="./images/image010.png" 
+<img src="./images/image009.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:2.26in;" />
 </p>
-<!-- ![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"} -->
+<!-- ![](./images/image009.png){width="2.2604166666666665in" height="0.7291666666666666in"} -->
 
 <h2 id="ex10">Example #10</h2>
 
 <p align="center">
-<img src="./images/image011.png" 
+<img src="./images/image010.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:1.88in;" />
 </p>
-<!-- ![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"} -->
+<!-- ![](./images/image010.png){width="1.8854166666666667in" height="0.6354166666666666in"} -->
 
 <h3>The HTML</h3>
 
@@ -510,12 +510,12 @@ bottom: 0;
 <h2>Template #1
 
 <p align="center">
-<img src="./images/image012.png" 
+<img src="./images/image011.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image012.png){width="6.5in" height="1.7916666666666667in"} -->
+<!-- ![](./images/image011.png){width="6.5in" height="1.7916666666666667in"} -->
 
 <h3>The HTML</h3>
 
@@ -619,12 +619,12 @@ margin: 0 3px 0 10px;
 <h2 id="ex12">Example #12</h2>
 
 <p align="center">
-<img src="./images/image013.png" 
+<img src="./images/image012.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image013.png){width="6.5in" height="4.513888888888889in"} -->
+<!-- ![](./images/image012.png){width="6.5in" height="4.513888888888889in"} -->
 
 <h3>The HTML</h3>
 
@@ -737,12 +737,12 @@ border-radius: 5px;
 <h2>Template #2
 
 <p align="center">
-<img src="./images/image014.png" 
+<img src="./images/image013.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:3.72in;" />
 </p>
-<!-- ![](./images/image14.png){width="3.7226859142607176in" height="5.776042213473316in"} -->
+<!-- ![](./images/image13.png){width="3.7226859142607176in" height="5.776042213473316in"} -->
 
 <h3>The HTML</h3>
 
@@ -862,30 +862,30 @@ cursor: pointer;
 
 <h2>Template
 <p align="center">
-<img src="./images/image015.png" 
+<img src="./images/image014.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.59in;" />
 </p>
-<!-- ![](./images/image015.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
+<!-- ![](./images/image014.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
 
 <h2 id="ex15">Example #15</h2>
 <p align="center">
-<img src="./images/image016.png" 
+<img src="./images/image015.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.6in;" />
 </p>
-<!-- ![](./images/image016.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
+<!-- ![](./images/image015.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
 
 <h2 id="ex16">Example #16</h2>
 <p align="center">
-<img src="./images/image017.png" 
+<img src="./images/image016.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.69in;" />
 </p>
-<!-- ![](./images/image017.png){width="5.692708880139983in" height="3.270278871391076in"} -->
+<!-- ![](./images/image016.png){width="5.692708880139983in" height="3.270278871391076in"} -->
 
 <h3>The HTML</h3>
 
@@ -1075,15 +1075,13 @@ modalImages[prevId].classList.remove("active")
 
 <h2 id="ex17">Example #17</h2>
 
-<h2>Example #1
-
 <p align="center">
-<img src="./images/image018.png" 
+<img src="./images/image017.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:3.52in;" />
 </p>
-<!-- ![](./images/image018.png){width="3.5208333333333335in" height="1.4479166666666667in"} -->
+<!-- ![](./images/image017.png){width="3.5208333333333335in" height="1.4479166666666667in"} -->
 
 <h3>The HTML</h3>
 
@@ -1136,16 +1134,14 @@ visibility: visible;
 
 <h2 id="ex18">Example #18</h2>
 
-<h2>Example #2
-
 <p align="center">
-<img src="./images/image019.png" 
+<img src="./images/image018.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:4.06in;" />
 </p>
 
-![](./images/image019.png){width="4.0625in" height="1.03125in"}
+![](./images/image018.png){width="4.0625in" height="1.03125in"}
 
 <h3>The HTML</h3>
 
@@ -1193,17 +1189,15 @@ visibility: visible;
 }
 ```
 
-<h2>Example #3
-
 <h2 id="ex19">Example #19</h2>
 
 <p align="center">
-<img src="./images/image020.png" 
+<img src="./images/image019.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:3.29in;" />
 </p>
-<!-- ![](./images/image020.png){width="3.2916666666666665in" height="1.4583333333333333in"} -->
+<!-- ![](./images/image019.png){width="3.2916666666666665in" height="1.4583333333333333in"} -->
 
 <h3>The HTML</h3>
 
@@ -1257,12 +1251,12 @@ visibility: visible;
 <h2 id="ex20">Example #20</h2>
 
 <p align="center">
-<img src="./images/image021.png" 
+<img src="./images/image020.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:3.6in;" />
 </p>
-<!-- ![](./images/image021.png){width="3.6041666666666665in" height="0.9166666666666666in"} -->
+<!-- ![](./images/image020.png){width="3.6041666666666665in" height="0.9166666666666666in"} -->
 
 <h3>The HTML</h3>
 
@@ -1314,17 +1308,15 @@ visibility: visible;
 
 <h2>2 Progress Bar Templates
 
-<h2>Example #1
-
 <h2 id="ex21">Example #21</h2>
 
 <p align="center">
-<img src="./images/image022.png" 
+<img src="./images/image021.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.375in;" />
 </p>
-<!-- ![](./images/image022.png){width="5.375in" height="0.875in"} -->
+<!-- ![](./images/image021.png){width="5.375in" height="0.875in"} -->
 
 <h3>The HTML</h3>
 
@@ -1349,23 +1341,21 @@ background-color: purple;
 }
 ```
 
-<h2>Example #2
-
 <h2 id="ex22">Example #22</h2>
-
-<h2 id="ex23">Example #23</h2>
 
 <h3>The HTML</h3>
 
 <p align="center">
-<img src="./images/image023.png" 
+<img src="./images/image022.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.08in;" />
 </p>
 
+<h2 id="ex23">Example #23</h2>
+
 <p align="center">
-<img src="./images/image024.png" 
+<img src="./images/image023.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.0in;" />
@@ -1681,17 +1671,17 @@ padding: 1rem;
 
 ```
 const accordions = document.getElementsByClassName("tab");
-for (const accordion of accordions) {
-accordion.addEventListener("click", function (e) {
-e.preventDefault();
-accordion.classList.toggle("open-tab");
-});
-}
+  for (const accordion of accordions) {
+    accordion.addEventListener("click", function (e) {
+      e.preventDefault();
+      accordion.classList.toggle("open-tab");
+    });
+  }
 ```
 
-<h2>4 CSS Effects Templates
+<h2>4 CSS Effects Templates</h2>
 
-<h2>Template #1: Opacity
+<h2>Template #1: Opacity</h2>
 
 <h3>The HTML</h3>
 
@@ -1721,34 +1711,34 @@ class="translucent"
 *,
 *::after,
 *::before {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-display: flex;
-flex-flow: column nowrap;
-justify-content: space-around;
-align-items: center;
-min-height: 100vh;
-width: 100vw;
-background: #c8c7c7;
-font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: #c8c7c7;
+  font-family: "Roboto", sans-serif;
 }
 .box {
-width: 90%;
-height: 60%;
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-around;
-align-items: center;
-margin: 1rem 0;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
 }
 .box img {
-width: 48%;
+  width: 48%;
 }
 .translucent {
-filter: opacity(35%);
+  filter: opacity(35%);
 }
 ```
 
@@ -1760,18 +1750,18 @@ filter: opacity(35%);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="container">
-<div class="box">
-<img src="./girl-with-guitar.jpeg" alt="img" /> <img
-src="./girl-with-guitar.jpeg"
-alt="img"
-class="black-white"
-/>
-</div>
-</div>
+  <div class="container">
+    <div class="box">
+      <img src="./girl-with-guitar.jpeg" alt="img" /> <img
+        src="./girl-with-guitar.jpeg"
+        alt="img"
+        class="black-white"
+      />
+    </div>
+  </div>
 </body>
 </html>
 ```
@@ -1782,34 +1772,34 @@ class="black-white"
 *,
 *::after,
 *::before {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-display: flex;
-flex-flow: column nowrap;
-justify-content: space-around;
-align-items: center;
-min-height: 100vh;
-width: 100vw;
-background: #c8c7c7;
-font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: #c8c7c7;
+  font-family: "Roboto", sans-serif;
 }
 .box {
-width: 90%;
-height: 60%;
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-around;
-align-items: center;
-margin: 1rem 0;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
 }
 .box img {
-width: 48%;
+  width: 48%;
 }
 .black-white {
-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 ```
 
@@ -1819,18 +1809,18 @@ filter: grayscale(100%);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="container">
-<div class="box">
-<img src="./girl-with-guitar.jpeg" alt="img" /> <img
-src="./girl-with-guitar.jpeg"
-alt="img"
-class="nineties-effect"
-/>
-</div>
-</div>
+  <div class="container">
+    <div class="box">
+      <img src="./girl-with-guitar.jpeg" alt="img" /> <img
+        src="./girl-with-guitar.jpeg"
+        alt="img"
+        class="nineties-effect"
+      />
+    </div>
+  </div>
 </body>
 </html>
 ```
@@ -2900,13 +2890,13 @@ border-radius: green;
 <h2 id="ex24">Example #24</h2>
 
 <p align="center">
-<img src="./images/image025.png" 
+<img src="./images/image024.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:4.88in;" />
 </p>
 
-<!-- ![](./images/image025.jpg){width="4.880208880139983in" height="3.2534722222222223in"} -->
+<!-- ![](./images/image024.jpg){width="4.880208880139983in" height="3.2534722222222223in"} -->
 
 [Example](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
 
