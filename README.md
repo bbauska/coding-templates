@@ -2628,50 +2628,50 @@ nextImage("next");
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "DynaPuff", cursive, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
 width: 100vw;
-min-height: 100vh;
-background: #fafafa;
+  min-height: 100vh;
+  background: #fafafa;
 }
 .container {
-height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .fixed-btn {
-border: none;
-outline: none;
-background-color: #1d1d27;
-color: #fafafa;
-padding: 1.5rem 1rem;
-font-size: 1.2rem;
-position: absolute;
-bottom: 10%;
-left: 50%;
-transform: translate(-50%);
-cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #1d1d27;
+  color: #fafafa;
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
 }
 .hidden-container {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hidden-container img {
-transform: translateY(-2rem);
-width: 50%;
-height: 70vh;
+  transform: translateY(-2rem);
+  width: 50%;
+  height: 70vh;
 }
 .hidden {
-visibility: hidden;
-transition: all 400ms ease;
+  visibility: hidden;
+  transition: all 400ms ease;
 }
 ```
 
@@ -2693,15 +2693,15 @@ hiddenImage.classList.toggle("hidden");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Document</title>
-<link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="container">
-<textarea id="text-area" cols="50" rows="20"> </textarea>
-<button class="fill-btn">Fill text</button>
-</div>
-<script src="index.js"></script>
+  <div class="container">
+    <textarea id="text-area" cols="50" rows="20"> </textarea>
+    <button class="fill-btn">Fill text</button>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
 ```
@@ -2712,42 +2712,42 @@ hiddenImage.classList.toggle("hidden");
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "DynaPuff", cursive, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
-width: 100vw;
-min-height: 100vh;
-background: #fafafa;
+  width: 100vw;
+  min-height: 100vh;
+  background: #fafafa;
 }
 .container {
-height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .fixed-btn {
-border: none;
-outline: none;
-background-color: #1d1d27;
-color: #fafafa;
-padding: 1.5rem 1rem;
-font-size: 1.2rem;
-position: absolute;
-bottom: 10%;
-left: 50%;
-transform: translate(-50%);
-cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #1d1d27;
+  color: #fafafa;
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
 }
 textarea {
-color: #1d1d27;
-font-size: 1.5rem;
-line-height: 2rem;
-letter-spacing: 0.1rem;
+  color: #1d1d27;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
 }
 ```
 
@@ -2757,12 +2757,12 @@ letter-spacing: 0.1rem;
 const fillBtn = document.querySelector(".fill-btn");
 const textarea = document.getElementById("text-area");
 fillBtn.addEventListener("click", () => {
-textarea.innerHTML =
-"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic a
-vel perspiciatis asperiores, repudiandae rem nemo velit doloribus odit
-fugit, sed recusandae, minus voluptatem possimus autem molestias non
-aperiam\\n\\nLorem ipsum dolor sit amet consectetur adipisicing elit.
-Magnam hic a vel perspiciatis asperiores";
+  textarea.innerHTML =
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic a
+  vel perspiciatis asperiores, repudiandae rem nemo velit doloribus odit
+  fugit, sed recusandae, minus voluptatem possimus autem molestias non
+  aperiam\\n\\nLorem ipsum dolor sit amet consectetur adipisicing elit.
+  Magnam hic a vel perspiciatis asperiores";
 });
 ```
 
@@ -2774,14 +2774,14 @@ Magnam hic a vel perspiciatis asperiores";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Document</title>
-<link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="container bg-container">
-<button class="fixed-btn">New Color!</button>
-</div>
-<script src="index.js"></script>
+  <div class="container bg-container">
+    <button class="fixed-btn">New Color!</button>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
 ```
@@ -2792,38 +2792,38 @@ Magnam hic a vel perspiciatis asperiores";
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "DynaPuff", cursive, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
-width: 100vw;
-min-height: 100vh;
-background: #fafafa;
+  width: 100vw;
+  min-height: 100vh;
+  background: #fafafa;
 }
 .container {
-height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .fixed-btn {
-border: none;
-outline: none;
-background-color: #1d1d27;
-color: #fafafa;
-padding: 1.5rem 1rem;
-font-size: 1.2rem;
-position: absolute;
-bottom: 10%;
-left: 50%;
-transform: translate(-50%);
+  border: none;
+  outline: none;
+  background-color: #1d1d27;
+  color: #fafafa;
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
 }
 .bg-container {
-background-color: #4343f5;
+  background-color: #4343f5;
 }
 ```
 
@@ -2833,19 +2833,19 @@ background-color: #4343f5;
 const toggleBtn = document.querySelector(".bg-container .fixed-btn");
 const container = document.querySelector(".bg-container");
 const colors = [
-"#cdb4db",
-"#ffc8dd",
-"#ffafcc",
-"#bde0fe",
-"#a2d2ff",
-"#00b4d8",
-"#6f2dbd",
-"#f27059",
+  "#cdb4db",
+  "#ffc8dd",
+  "#ffafcc",
+  "#bde0fe",
+  "#a2d2ff",
+  "#00b4d8",
+  "#6f2dbd",
+  "#f27059",
 ];
 toggleBtn.addEventListener("click", (e) => {
-e.preventDefault();
-container.style.backgroundColor =
-colors[Math.floor(Math.random() * colors.length)];
+  e.preventDefault();
+  container.style.backgroundColor =
+  colors[Math.floor(Math.random() * colors.length)];
 });
 ```
 
@@ -2858,25 +2858,25 @@ colors[Math.floor(Math.random() * colors.length)];
 <video controls src="./media/example-video.mp4"></video>
 <!-- Width and height in pixels -->
 <video width="500" height="500"
-src="./media/example-video.mp4"></video>
+  src="./media/example-video.mp4"></video>
 <!-- Autoplay video -->
 <video autoplay src="./media/example-video.mp4"></video>
 <style>
-/* Stylized video element */
-video { /* Give video elements a red border */
-border-width: 5px;
-border-color: red;
-}
+  /* Stylized video element */
+  video { /* Give video elements a red border */
+    border-width: 5px;
+    border-color: red;
+  }
 </style>
 <!-- Audio element with controls -->
 <audio controls src="./media/example-audio.mp3"></audio>
 <style>
-/* Stylized audio element. Note: Only applicable if controls are
-visible */
-audio {
-border-width: 5px;
-border-radius: green;
-}
+  /* Stylized audio element. Note: Only applicable if controls are
+  visible */
+  audio {
+    border-width: 5px;
+    border-radius: green;
+  }
 </style>
 ```
 
@@ -2900,56 +2900,56 @@ border-radius: green;
 ```
 /* Set entire page background to a color */
 body {
-background: red;
+  background: red;
 }
 /* To an image URL */
 body {
-background: url("./images/image.png");
+  background: url("./images/image.png");
 }
 /*multiple backgrounds*/
 body {
-background-image: url(rose.png), url(Android-Logo.png);
-background-position: right bottom, left top;
-background-repeat: no-repeat, repeat;
+  background-image: url(rose.png), url(Android-Logo.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
 }
 /* Transparent background */
 body {
-background: green;
-opacity: 0.5; /* 50% opacity */
+  background: green;
+  opacity: 0.5; /* 50% opacity */
 }
 /* Position image in center */
 body {
-background: center url("./images/image.png");
+  background: center url("./images/image.png");
 }
 /* Repeat an image */
 body {
-background: repeat-x url("./images/image.png");
+  background: repeat-x url("./images/image.png");
 }
 /* Don't repeat an image */
 body {
-background: no-repeat url("./images/image.png");
+  background: no-repeat url("./images/image.png");
 }
 /* Set background for particular element with id 'my-element' */
 #my-element {
-background: red;
+  background: red;
 }
 /* background-blend-mode */
 body{
-background:
-radial-gradient(
-red 40px,
-transparent 0,
-transparent 100%
+  background:
+  radial-gradient(
+  red 40px,
+  transparent 0,
+  transparent 100%
 ),
 radial-gradient(
-green 40px,
-transparent 0,
-transparent 100%
+  green 40px,
+  transparent 0,
+  transparent 100%
 ),
 radial-gradient(
-blue 40px,
-transparent 0,
-transparent 100%
+  blue 40px,
+  transparent 0,
+  transparent 100%
 ), snow;
 background-blend-mode: multiply;
 background-size: 100px 100px;
@@ -2957,10 +2957,10 @@ background-position: 0 0, 33px 33px, -33px -33px;
 }
 /* This demonstrates how a background image filter can be added */
 body{
-background-image:
-conic-gradient(red, white, green, yellow, brown),
-url(rose.png);
-background-blend-mode: color-burn;
+  background-image:
+  conic-gradient(red, white, green, yellow, brown),
+  url(rose.png);
+  background-blend-mode: color-burn;
 }
 ```
 
@@ -2968,58 +2968,57 @@ background-blend-mode: color-burn;
 
 ```
 <div class="container">
-<div class="square left-gradient"></div>
-<div class="square right-gradient"></div>
-<div class="square diagonal-gradient"></div>
-<div class="square angled-gradient"></div>
-<div class="square rainbow-gradient"></div>
-<div class="square transparent-gradient"></div>
-<div class="square repeating-gradient"></div>
-<div class="square conic-gradient"></div>
-<div class="square radial-gradient"></div>
-<div class="square multiple-gradient"></div>
+  <div class="square left-gradient"></div>
+  <div class="square right-gradient"></div>
+  <div class="square diagonal-gradient"></div>
+  <div class="square angled-gradient"></div>
+  <div class="square rainbow-gradient"></div>
+  <div class="square transparent-gradient"></div>
+  <div class="square repeating-gradient"></div>
+  <div class="square conic-gradient"></div>
+  <div class="square radial-gradient"></div>
+  <div class="square multiple-gradient"></div>
 </div>
 <style>
 .left-gradient {
-background: linear-gradient(to left, red, green);
+  background: linear-gradient(to left, red, green);
 }
 /* Right-to-left gradient */
 .right-gradient {
-background: linear-gradient(to right, red, green);
+  background: linear-gradient(to right, red, green);
 }
 /* Diagonal gradient */
 .diagonal-gradient {
-background: linear-gradient(to top left, red, green);
+  background: linear-gradient(to top left, red, green);
 }
 /* Angled (33 degree) gradient */
 .angled-gradient {
-background: linear-gradient(33deg, red, green);
+  background: linear-gradient(33deg, red, green);
 }
 /* Multi-colored gradient */
 .rainbow-gradient {
-background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
 }
 /* Partially transparent gradient */
 .transparent-gradient {
-background: linear-gradient(to left, red, green);
-opacity: 0.5;
+  background: linear-gradient(to left, red, green);
+  opacity: 0.5;
 }
 .radial-gradient {
-background: radial-gradient(white, yellow, brown);
+  background: radial-gradient(white, yellow, brown);
 }
 .conic-gradient {
-background: conic-gradient(red, white, green, yellow, brown);
-height: 400px;
-width: 400px;
+  background: conic-gradient(red, white, green, yellow, brown);
+  height: 400px;
+  width: 400px;
 }
 .repeating-gradient {
-
-height: 400px;
-background-image: repeating-linear-gradient(white, yellow, brown);
+  height: 400px;
+  background-image: repeating-linear-gradient(white, yellow, brown);
 }
 .multiple-gradient {
-background-image:
-linear-gradient(to left, red, green), radial-gradient(white, yellow, brown);
+  background-image:
+  linear-gradient(to left, red, green), radial-gradient(white, yellow, brown);
 }
 </style>
 ```
@@ -3087,20 +3086,16 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <li>Mary</li>
 <li>Lawrence</li>
 <li>Nancy</li>
-<li>Kennedy</li>
-<li>Stanely</li>
-</ol>
-</div>
+      <li>Kennedy</li>
+      <li>Stanely</li>
+    </ol>
+  </div>
 </div>
 <div class="container" style="margin-top: 10%">
-<div class="rectangle overflow-wrap-normal">
-```
-
-### This is the longest English word,
-### Pneumonoultramicroscopicsilicovolcanoconiosis
-
-```
-</div>
+  <div class="rectangle overflow-wrap-normal">
+    <h3>This is the longest English word,</h3>
+    <h3>Pneumonoultramicroscopicsilicovolcanoconiosis</h3>
+  </div>
 <div class="rectangle overflow-wrap-break">
 ```
 
@@ -3109,14 +3104,14 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ```
 </div>
-<div class="rectangle-max-height visible-overflow-x">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</div>
+  <div class="rectangle-max-height visible-overflow-x">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
 </div>
 <div class="rectangle-max-width visible-overflow">
 ```
@@ -3129,66 +3124,66 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <style type="text/css">
 /* visible overflow */
 .container {
-display: flex;
+  display: flex;
 }
 .square {
-width: 150px;
-height: 150px;
-background-color: lightblue;
-margin: 1em;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .rectangle {
-width: 300px;
-height: 50px;
-background-color: lightblue;
-margin: 1em;
-justify-content: center;
-align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: lightblue;
+  margin: 1em;
+  justify-content: center;
+  align-items: center;
 }
 .rectangle-max-height{
-width: 250px;
-max-height: 50px;
-background-color: lightblue;
-margin: 1em;
-justify-content: center;
-align-items: center;
+  width: 250px;
+  max-height: 50px;
+  background-color: lightblue;
+  margin: 1em;
+  justify-content: center;
+  align-items: center;
 }
 .rectangle-max-width{
-max-width: 350px;
-max-height: 20px;
-background-color: lightblue;
-margin: 1em;
+  max-width: 350px;
+  max-height: 20px;
+  background-color: lightblue;
+  margin: 1em;
 }
 .visible-overflow {
-overflow: visible;
+  overflow: visible;
 }
 .hidden-overflow {
-overflow: hidden;
+  overflow: hidden;
 }
 .scroll-overflow {
-overflow: scroll;
+  overflow: scroll;
 }
 .auto-overflow {
-overflow: auto;
+  overflow: auto;
 }
 .visible-overflow-x {
-overflow-x: visible;
+  overflow-x: visible;
 }
 .visible-overflow-y {
-overflow-y: visible;
+  overflow-y: visible;
 }
 .hidden-overflow-y {
-overflow-y: hidden;
+  overflow-y: hidden;
 }
 .overflow-wrap-normal {
-overflow-wrap: normal;
+  overflow-wrap: normal;
 }
 .overflow-wrap-break {
-overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 </style>
 ```
@@ -3198,97 +3193,96 @@ overflow-wrap: break-word;
 ```
 <html>
 <body>
-<div class="container">
-<!-- Example 1: Changing Color -->
-<div class="green-square green-red-alternate"></div>
-<!-- Example 2: Moving across the screen -->
-<div class="black-circle vertical-alternate-fast"></div>
-<!-- Example 3: On hover, changing color-->
-<div class="green-rounded-square color-transition"></div>
-</div>
+  <div class="container">
+    <!-- Example 1: Changing Color -->
+    <div class="green-square green-red-alternate"></div>
+    <!-- Example 2: Moving across the screen -->
+    <div class="black-circle vertical-alternate-fast"></div>
+    <!-- Example 3: On hover, changing color-->
+    <div class="green-rounded-square color-transition"></div>
+  </div>
 </body>
 </html>
 <style>
 .container {
-display: flex;
-flex-direction: row;
-overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
 }
 /* Example 1: Changing Color */
 .green-square {
-width: 200px;
-height: 200px;
-background-color: green;
+  width: 200px;
+  height: 200px;
+  background-color: green;
 }
 .green-red-alternate {
-animation-name: to-red;
-animation-duration: 3s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  animation-name: to-red;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 @keyframes to-red {
-from {
-background-color: green;
-}
-to {
-background-color: red;
-}
+  from {
+    background-color: green;
+  }
+  to {
+    background-color: red;
+  }
 }
 /* Example 2: Moving across the screen */
 .black-circle {
-width: 200px;
-height: 200px;
-border-radius: 100%;
-background-color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
 }
 /* Example 2a: Moving horizontal slowly */
 .horizontal-alternate {
-animation-name: left-to-right;
-animation-duration: 3s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  animation-name: left-to-right;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 @keyframes left-to-right {
-from {
-margin-left: 0%;
-}
-to {
-margin-left: 100%;
-}
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 100%;
+  }
 }
 /* Example 2b: Moving vertically quickly */
 .vertical-alternate-fast {
-animation-name: top-to-bottom;
-animation-duration: 1s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  animation-name: top-to-bottom;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 @keyframes top-to-bottom {
-from {
-margin-top: 0%;
-}
-to {
-margin-top: 100%;
-}
+  from {
+    margin-top: 0%;
+    }
+  to {
+    margin-top: 100%;
+  }
 }
 /* Example 3: Animation on hover */
 .green-rounded-square {
-width: 200px;
-height: 200px;
-background-color: green;
-border-radius: 1em;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 1em;
 }
 .color-transition:hover {
-animation-name: to-red;
-animation-duration: 3s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  animation-name: to-red;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 </style>
 ```
 
 <h2 id="ex36">36. Email Signature Gallery Templates</h2>
-
 
 <h2 id="ex37">37. Build Using Artificial Intelligence (AI) Template</h2>
 
