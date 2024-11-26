@@ -1,74 +1,3 @@
-<!DOCTYPE html>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of coding-templates.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-  <meta name="author" content="Brian Bauska (bbauska)" />
-  <meta name="title" content="Coding Templates" />
-  <meta name="description" content="." />
-
-  <title>Coding Templates</title>
-  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images//favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
- </head>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<body>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<script>
-  <!-- get the button -->
-  var mybutton = document.getElementById("myBtn");
-
-  <!-- when the user scrolls down 10px from the top of the document, show the button -->
-  window.onscroll = function() {scrollFunction()};
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-
-  <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or -->
-  <!-- to table of contents (approx ###), if applicable was; 315 -->
-  function topFunction() {
-    document.getElementById('table-of-contents').scrollIntoView();
-  }
-/*    document.body.scrollTop = table-of-contents;  /* was 0 */
-/*    document.documentElement.scrollTop = table-of-contents;  /* was 0 */
-
-</script>
-<header id="title-block-header">
-  <h1 style="text-align:center">Coding Templates</h1>
-  <h6 style="text-align:center">(by Brian Bauska, Computer Science)
-    <span class="citation" data-cites="CWU">@CWU</span>)</h6>
-</header>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~ index.html of Coding Templates in bbauska.github.io ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ---
 title: "Coding Templates"
 author: "bbauska"
@@ -80,42 +9,49 @@ output:
     with some style
 ---
 
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
 <h1 align="center">40+ Coding Templates for HTML, CSS &amp; JS</h1>
 
-<h6 align="center">(by bbauska)</h6>
+<p align="center"><small><small>(by bbauska)</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of coding-templates.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02.  & (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center">
-<img src="./images/image002.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:261px;" />
-</p>
+<p>You can edit your own version in one of two ways:</p>
 
-You can edit your own version in one of two ways:
+<ol start="1">
+  <li>Edit this version to fit your needs</li>
+  <li>Go to "File" > "Download As" > "Microsoft Word" to Download</li>
+</ol>
 
-1.  Edit this version to fit your needs
+<p>How to Use This Template</p>
 
-2.  Go to "File" &gt; "Download As" &gt; "Microsoft Word" to Download
+<p>Copy and paste these code templates into your server for the desired product on your 
+website.  Or, add to github project.</p>
 
-How to Use This Template
+<p>Remember that you can adjust these to suit your needs. These templates are designed 
+to be completely customizable.</p>
 
-Copy and paste these code templates into your server for the desired 
-product on your website.  Or, add to github project.
+<p>As such, if you need to make any adjustments to these code snippets for a more 
+optimized site, you're encouraged to do so.</p>
 
-Remember that you can adjust these to suit your needs. These templates
-are designed to be completely customizable.
+<p>Jump to a Template</p>
 
-As such, if you need to make any adjustments to these code snippets for
-a more optimized site, you're encouraged to do so.
-
-Jump to a Template
-
-<h3 id="ex1">01. Navigation Menus & Breadcrumbs</h3>
+<h3 id="ex1">01. Navigation Menus &amp; Breadcrumbs</h3>
 <h3 id="ex2">02. Button Transition Templates</h3>
-<h3 id="ex3">03. Web Form & Search Bar Templates</h3>
+<h3 id="ex3">03. Web Form &amp; Search Bar Templates</h3>
 <h3 id="ex4">04. Lightbox Modal Element Templates</h3>
 <h3 id="ex5">05. Tooltip Templates</h3>
 <h3 id="ex6">06. Progress Bar Templates</h3>
@@ -125,304 +61,309 @@ Jump to a Template
 <h3 id="ex10">10. CSS and JavaScript Slideshow Templates</h3>
 <h3 id="ex11">11. Templates</h3>
 <h3 id="ex12">12. JavaScript onClick With CSS</h3>
-<h3 id="ex13">13. HTML Video & Audio Template</h3>
+<h3 id="ex13">13. HTML Video &amp; Audio Template</h3>
 <h3 id="ex14">14. CSS Background Template</h3>
 <h3 id="ex15">15. CSS Gradient Templates</h3>
 <h3 id="ex16">16. CSS Overflow Templates</h3>
 <h3 id="ex17">17. CSS Animation Template</h3>
-<h2 id="ex36">36. Email Signature Gallery Templates</h2>
-<h3 id="ex37">37. Build Using Artificial Intelligence (AI) Template</h2>
+
+<h3 id="ex36">36. Email Signature Gallery Templates</h3>
+<h3 id="ex37">37. Build Using Artificial Intelligence (AI) Template</h3>
 <h3 id="ex38">38. GitHub Full-On Readme Template</h3>
 <h3 id="ex39">39. GitHub Skeleton Template</h3>
 <ul>
-  <li><h4 id="ex39-1">39.1 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.</h4></li>
+  <li><h4 id="ex39-1">39.1 Skeleton is a simple, responsive boilerplate to kickstart any 
+    responsive project.</h4></li>
 </ul>
 <h3 id="ex40">40. Table of Contents Template</h3>
 <h3 id="ex41">41. Bootstrap Templates</h3>
 <h3 id="ex42">42. Login Form Template</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex1">Example #1: Menu: 4 horizontal options, 3rd active</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 01. menu; four horizontal options with 3rd one active (01) ~~~~~~~~~~~~~~~~~-->
 
-<h2 id="ex1">Example #1</h2>
+<p align="center">
+<img src="./images/image001.png" 
+  title="Menu; four horizontal options with 3rd one active"
+  alt="Menu; four horizontal options with 3rd one active."
+  style="width:55%;" />
+</p>
 
+<h3>The HTML</h3>
+
+```
+<div class="container">
+  <nav>
+    <ul class="bar">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#" class="active">Contact</a></li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+  </nav>
+</div>
+```
+
+<h3>The CSS</h3>
+
+```
+.bar {
+  background-color: rgb(245, 193, 97);
+  width: 100%;
+  height: 40px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.bar li {
+  height: 100%;
+  width: 100px;
+  border-right: 1px solid rgb(235, 177, 69);
+}
+.bar li a {
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.bar li a:hover {
+  background-color: rgb(235, 177, 69);
+}
+.bar li a.active {
+  background-color: rgb(165, 113, 16);
+  color: white;
+}
+```
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex2">Example #2: Menu: 4 vertical options, 4th active</h2>
+<!--~~~~~~~~~~~~~~~~~ 02. menu: four vertical options with 4th one active (01) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image002.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:6.5in;" />
+  title="Menu; four options with 3rd one active"
+  alt="Menu; four options with 3rd one active."
+  style="width:25%;" />
 </p>
-
-### The HTML
+<!-- ![](./images/image002.png){width="1.7239588801399826in" height="1.7239588801399826in"} -->
+<h3>The HTML</h3>
 
 ```
-&lt;div class=&quot;container&quot;&gt;
-&lt;nav&gt;
-&lt;ul class=&quot;bar&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Careers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
+<div class="container">
+  <nav>
+    <ul class="bar">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#" class="active">Careers</a></li>
+    </ul>
+  </nav>
+</div>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 .bar {
-background-color: rgb(245, 193, 97);
-width: 100%;
-height: 40px;
-display: flex;
-list-style: none;
-padding: 0;
+  background-color: rgb(245, 193, 97);
+  max-width: 200px;
+  width: 100%;
+  list-style: none;
+  padding: 0;
 }
 .bar li {
-height: 100%;
-width: 100px;
-border-right: 1px solid rgb(235, 177, 69);
+  height: 100%;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgb(235, 177, 69);
 }
 .bar li a {
-color: black;
-width: 100%;
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-text-decoration: none;
+  padding-left: 20px;
+  text-align: left;
+  color: black;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 .bar li a:hover {
-background-color: rgb(235, 177, 69);
+  background-color: rgb(235, 177, 69);
 }
 .bar li a.active {
-background-color: rgb(165, 113, 16);
-color: white;
+  background-color: rgb(165, 113, 16);
+  color: white;
 }
 ```
 
-<h2 id="ex2">Examples #2</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex3">Example #3: Menu: four horizontal options with 2 dropdowns, 1st is active</h2>
+<!--~~~~~~~~~~ 03. menu: four horizontal options with 2 dropdowns, 1st option active ~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image003.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:1.7in;" />
+  title="Menu: four horizontal options with 2 dropdowns, 1st option active"
+  alt="Menu: four horizontal options with 2 dropdowns, 1st option active."
+  style="width:55%;" />
 </p>
-<!-- ![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"} -->
+<!-- ![](./images/image003.png){width="5.947916666666667in" height="1.09375in"} -->
 
-### The HTML
-
-```
-&lt;div class=&quot;container&quot;&gt;
-&lt;nav&gt;
-&lt;ul class=&quot;bar&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Careers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-.bar {
-background-color: rgb(245, 193, 97);
-max-width: 200px;
-width: 100%;
-list-style: none;
-padding: 0;
-}
-.bar li {
-height: 100%;
-width: 100%;
-height: 50px;
-border-bottom: 1px solid rgb(235, 177, 69);
-}
-.bar li a {
-padding-left: 20px;
-text-align: left;
-color: black;
-max-width: 100%;
-height: 100%;
-display: flex;
-align-items: center;
-text-decoration: none;
-}
-.bar li a:hover {
-background-color: rgb(235, 177, 69);
-}
-.bar li a.active {
-background-color: rgb(165, 113, 16);
-color: white;
-}
+<div class="container">
+  <nav>
+    <ul class="bar">
+      <li><a href="#" class="active">Home</a></li>
+      <li class="has-dropdown">
+        <a href="#">About</a>
+        <ul class="dropdown">
+          <li><a href="#">The Company</a></li>
+          <li><a href="#">The Team</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <a href="#">Contact</a>
+        <ul class="dropdown">
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Phone</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+  </nav>
+</div>
 ```
 
-<h2 id="ex3">Example #3</h2>
-
-<p align="center">
-<img src="./images/image004.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:5.9in;" />
-</p>
-<!-- ![](./images/image004.png){width="5.947916666666667in" height="1.09375in"} -->
-
-### The HTML
+<h3>The CSS</h3>
 
 ```
-&lt;div class=&quot;container&quot;&gt;
-&lt;nav&gt;
-&lt;ul class=&quot;bar&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-&lt;li class=&quot;has-dropdown&quot;&gt;
-&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;
-&lt;ul class=&quot;dropdown&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;The Company&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;The Team&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li class=&quot;has-dropdown&quot;&gt;
-&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
-&lt;ul class=&quot;dropdown&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Email&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Phone&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Careers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-```
-
-### The CSS
-
-```
-&ast; {
+* {
 box-sizing: border-box;
 }
 .bar {
-background-color: rgb(245, 193, 97);
-width: 100%;
-height: 40px;
-display: flex;
-list-style: none;
-padding: 0;
+  background-color: rgb(245, 193, 97);
+  width: 100%;
+  height: 40px;
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 .bar li {
-height: 100%;
-width: 120px;
-border-right: 1px solid rgb(235, 177, 69);
+  height: 100%;
+  width: 120px;
+  border-right: 1px solid rgb(235, 177, 69);
 }
 .bar li a {
-color: black;
-width: 100%;
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 .bar .has-dropdown ul li a{
-padding: 12px 0;
+  padding: 12px 0;
 }
 .bar li a:hover {
-background-color: rgb(235, 177, 69);
+  background-color: rgb(235, 177, 69);
 }
 .bar li a.active {
-background-color: rgb(165, 113, 16);
-color: white;
+  background-color: rgb(165, 113, 16);
+  color: white;
 }
 .dropdown {
-background-color: rgb(245, 193, 97);
-padding: 0;
-list-style: none;
-display: none;
+  background-color: rgb(245, 193, 97);
+  padding: 0;
+  list-style: none;
+  display: none;
 }
 .bar li.has-dropdown:hover .dropdown {
-display: block;
+  display: block;
 }
 ```
 
-<h2 id="ex4">Example #4</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex4">Example #4: Menu: four horizontal options, 4th unique, 1st active</h2>
+<!--~~~~~~~~~~~~ 04. menu: four horizontal options, 4th one unique, 1st active (01) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image005.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:6.5in;" />
+<img src="./images/image004.png" 
+  title="Menu; four horizontal options, 4th one unique, 1st one active"
+  alt="Menu; four horizontal options, 4th one unique, 1st one active."
+  style="width:55%;" />
 </p>
-<!-- ![](./images/image005.png){width="6.5in" height="0.5833333333333334in"} -->
+<!-- ![](./images/image004.png){width="6.5in" height="0.5833333333333334in"} -->
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;div class=&quot;container&quot;&gt;
-&lt;ul class=&quot;breadcrumb&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Computers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span&gt;&gt;&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;unique&quot;&gt;Laptops&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
+<div class="container">
+  <ul class="breadcrumb">
+    <li><a href="#" class="active">Home</a></li>
+    <li><span></span></li>
+    <li><a href="#">Products</a></li>
+    <li><span></span></li>
+    <li><a href="#">Computers</a></li>
+    <li><span></span></li>
+    <li><a href="#" class="unique">Laptops</a></li>
+  </ul>
+</div>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 .breadcrumb {
-list-style: none;
-padding: 0;
-display: flex;
-font-size: 20px;
-justify-content: space-around;
-max-width: 450px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+  max-width: 450px;
 }
 .breadcrumb a {
-text-decoration: none;
-color: rgb(110, 110, 110);
-font-weight: bold;
+  text-decoration: none;
+  color: rgb(110, 110, 110);
+  font-weight: bold;
 }
 .breadcrumb li span{
-color: gray;
+  color: gray;
 }
 .breadcrumb li a {
-color: orange;
-transition: color 300ms;
+  color: orange;
+  transition: color 300ms;
 }
 .breadcrumb li .unique {
-color: #000;
+  color: #000;
 }
 .breadcrumb li a:hover {
-color: rgb(176, 115, 0);
+  color: rgb(176, 115, 0);
 }
 ```
 
-<h2 id="ex5">Example #5</h2>
-
-## 3 Button Transition Templates
-
-## Example #1
-
+<!-- <h2 id="ex5">Example #5</h2> -->
+<!-- <h2>3 Button Transition Templates</h2> -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex5">Example #5: hover over me, twice, 2nd with shadow</h2>
+<!--~~~~~~~~~~~~ 05. hover over me signage: twice, 2nd with shadow (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image006.png" 
-  title=""
-  alt="."
+<img src="./images/image005.png" 
+  title="Hover over me signage: twice, 2nd with shadow"
+  alt="Hover over me signage: twice, 2nd with shadow."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image006.png){width="6.5in" height="1.5138888888888888in"} -->
+<!-- ![](./images/image005.png){width="6.5in" height="1.5138888888888888in"} -->
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;button class=&quot;first&quot;&gt;Hover over me&lt;/button&gt;
+<button class="first">Hover over me</button>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 .first {
@@ -441,35 +382,37 @@ box-shadow: 10px 10px 0 rgb(219, 219, 219);
 }
 ```
 
-## Example #2
-
-<h2 id="ex6">Example #6</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex6">Example #6: </h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 06. click me (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image007.png" 
+<img src="./images/image006.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:2.5in;" />
 </p>
-<!-- ![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
+<!-- ![](./images/image006.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex7">Example #7</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 07. click me (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image008.png" 
+<img src="./images/image007.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:4.07in;" />
 </p>
-<!-- ![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"} -->
+<!-- ![](./images/image007.png){width="4.078125546806649in" height="1.9507917760279965in"} -->
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;button class=&quot;second&quot;&gt;Click me&lt;/button&gt;
+<button class="second">Click me</button>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 .second {
@@ -494,43 +437,50 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 }
 ```
 
-## Example #3
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex8">Example #8</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 08. hover over me (xx) ~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image008.png" 
+  title="Hover over me"
+  alt="Hover over me."
+  style="border: 2px solid #000000; width:2.08in;" />
+</p>
+<!-- ![](./images/image008.png){width="2.0833333333333335in" height="0.53125in"} -->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex9">Example #9</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 09. hover over me, bottom shaded (xx) ~~~~~~~~~~~~-->
+
 <p align="center">
 <img src="./images/image009.png" 
   title=""
   alt="."
-  style="border: 2px solid #000000; width:2.08in;" />
+  style="border: 2px solid #000000; width:2.26in;" />
 </p>
-<!-- ![](./images/image009.png){width="2.0833333333333335in" height="0.53125in"} -->
+<!-- ![](./images/image009.png){width="2.2604166666666665in" height="0.7291666666666666in"} -->
 
-<h2 id="ex9">Example #9</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex10">Example #10</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 10. hover over me (xx) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image010.png" 
   title=""
   alt="."
-  style="border: 2px solid #000000; width:2.26in;" />
-</p>
-<!-- ![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"} -->
-
-<h2 id="ex10">Example #10</h2>
-
-<p align="center">
-<img src="./images/image011.png" 
-  title=""
-  alt="."
   style="border: 2px solid #000000; width:1.88in;" />
 </p>
-<!-- ![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"} -->
+<!-- ![](./images/image010.png){width="1.8854166666666667in" height="0.6354166666666666in"} -->
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;button class=&quot;third&quot;&gt;Hover over me&lt;/button&gt;
+<button class="third">Hover over me</button>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 .third {
@@ -545,7 +495,7 @@ transition: color 500ms;
 overflow: hidden;
 }
 .third::after {
-content: &quot;&quot;;
+content: "";
 background-color: #333;
 color: white;
 position: absolute;
@@ -564,835 +514,843 @@ bottom: 0;
 }
 ```
 
-## 3 Web Form & Search Bar Templates
-
+<h2>3 Web Form & Search Bar Templates</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex11">Example #11</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Template #1</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 11. search & checkbox (xx) ~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image011.png" 
+  title=""
+  alt="."
+  style="border: 2px solid #000000; width:6.5in;" />
+</p>
+<!-- ![](./images/image011.png){width="6.5in" height="1.7916666666666667in"} -->
 
-## Template #1
+<h3>The HTML</h3>
 
+```
+<form>
+  <div class="search">
+    <input type="text" placeholder="Search products" />
+    <button type="submit">Search</button>
+  </div>
+  <div class="align-center bottom">
+    <div class="checkbox-block">
+      <input
+        type="checkbox"
+        name="companies_included"
+        id="companies_included"
+      />
+      <label for="companies_included"
+        >Also search companies
+      </label>
+    </div>
+    <div class="inline-flex radio-block">
+      <span>Location</span>
+      <div class="inline-flex align-center">
+        <input
+          type="radio"
+          name="location"
+          value="Your location"
+          id="your_location"
+        />
+        <label for="your_location"> Your location </label>
+      </div>
+      <div class="inline-flex align-center">
+        <input
+          type="radio"
+          name="location"
+          value="Worldwide"
+          id="worldwide"
+        />
+        <label for="worldwide"> Worldwide </label>
+      </div>
+    </div>
+  </div>
+</form>
+```
+
+<h3>The CSS</h3>
+
+```
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.inline-flex {
+  display: inline-flex;
+}
+form {
+  padding: 20px 0;
+  max-width: 500px;
+  border-bottom: 1px solid #ccc;
+}
+.search {
+  display: flex;
+  outline: 1px solid #cccccc;
+}
+.search > input {
+  flex-grow: 1;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.search > input:focus {
+  outline: none;
+}
+.search > button {
+  padding: 0.8rem 2rem;
+  border: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  background: #cccccc;
+}
+.bottom {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.checkbox-block {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.checkbox-block input {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.radio-block input {
+  margin: 0 3px 0 10px;
+}
+```
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Template #2</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex12">Example #12</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 12. form with name, email, country, message (xx) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image012.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
-<!-- ![](./images/image012.png){width="6.5in" height="1.7916666666666667in"} -->
+<!-- ![](./images/image012.png){width="6.5in" height="4.513888888888889in"} -->
 
-### The HTML
-
-```
-&lt;form&gt;
-&lt;div class=&quot;search&quot;&gt;
-&lt;input type=&quot;text&quot; placeholder=&quot;Search products&quot; /&gt;
-&lt;button type=&quot;submit&quot;&gt;Search&lt;/button&gt;
-&lt;/div&gt;
-&lt;div class=&quot;align-center bottom&quot;&gt;
-&lt;div class=&quot;checkbox-block&quot;&gt;
-&lt;input
-type=&quot;checkbox&quot;
-name=&quot;companies_included&quot;
-id=&quot;companies_included&quot;
-/&gt;
-&lt;label for=&quot;companies_included&quot;
-&gt;Also search companies
-&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;inline-flex radio-block&quot;&gt;
-&lt;span&gt;Location&lt;/span&gt;
-&lt;div class=&quot;inline-flex align-center&quot;&gt;
-&lt;input
-type=&quot;radio&quot;
-name=&quot;location&quot;
-value=&quot;Your location&quot;
-id=&quot;your_location&quot;
-/&gt;
-&lt;label for=&quot;your_location&quot;&gt; Your location &lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;inline-flex align-center&quot;&gt;
-&lt;input
-type=&quot;radio&quot;
-name=&quot;location&quot;
-value=&quot;Worldwide&quot;
-id=&quot;worldwide&quot;
-/&gt;
-&lt;label for=&quot;worldwide&quot;&gt; Worldwide &lt;/label&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/form&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-.align-center {
-display: flex;
-align-items: center;
-}
-.inline-flex {
-display: inline-flex;
-}
-form {
-padding: 20px 0;
-max-width: 500px;
-border-bottom: 1px solid #ccc;
-}
-.search {
-display: flex;
-outline: 1px solid #cccccc;
-}
-.search &gt; input {
-flex-grow: 1;
-border: 0;
-padding: 0.5rem 1rem;
-font-size: 1rem;
-}
-.search &gt; input:focus {
-outline: none;
-}
-.search &gt; button {
-padding: 0.8rem 2rem;
-border: 0;
-cursor: pointer;
-font-size: 1rem;
-background: #cccccc;
-}
-.bottom {
-margin-top: 10px;
-font-size: 14px;
-}
-.checkbox-block {
-display: flex;
-align-items: center;
-margin-right: 30px;
-}
-.checkbox-block input {
-margin-right: 5px;
-cursor: pointer;
-}
-.radio-block input {
-margin: 0 3px 0 10px;
-}
+<form>
+  <div class="input-group">
+    <label for="fname">Firstname</label>
+    <input
+      id="fname"
+      name="fname"
+      placeholder="Enter firstname"
+      required="required"
+    />
+  </div>
+  <div class="input-group">
+    <label for="lname">Lastname</label>
+    <input
+      id="lname"
+      name="lname"
+      placeholder="Enter lastname"
+      required="required"
+    />
+  </div>
+  <div class="input-group">
+    <label for="email">Email</label>
+    <input
+      id="email"
+      type="email"
+      name="email"
+      placeholder="Enter your email"
+    />
+  </div>
+  <div class="input-group">
+    <label>Country</label>
+    <select name="country" id="country" required="required">
+      <option value="" selected="selected">Select country</option>
+      <option value="Afghanistan">Afghanistan</option>
+      <option value="Albania">Albania</option>
+      <option value="Algeria">Algeria</option>
+      <option value="American Samoa">American Samoa</option>
+      <option value="Andorra">Andorra</option>
+      <option value="Angola">Angola</option>
+      <option value="Anguilla">Anguilla</option>
+      <option value="Antarctica">Antarctica</option>
+    </select>
+  </div>
+  <div class="input-group">
+    <label for="message">Any message?</label>
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Optional"
+    ></textarea>
+  </div>
+  <div class="submit-group">
+    <button type="submit">Submit form</button>
+  </div>
+</form>
 ```
 
-## Template #2
-
-<h2 id="ex12">Example #12</h2>
-
-<p align="center">
-<img src="./images/image013.png" 
-  title=""
-  alt="."
-  style="border: 2px solid #000000; width:6.5in;" />
-</p>
-<!-- ![](./images/image013.png){width="6.5in" height="4.513888888888889in"} -->
-
-### The HTML
+<h3>The CSS</h3>
 
 ```
-&lt;form&gt;
-&lt;div class=&quot;input-group&quot;&gt;
-&lt;label for=&quot;fname&quot;&gt;Firstname&lt;/label&gt;
-&lt;input
-id=&quot;fname&quot;
-name=&quot;fname&quot;
-placeholder=&quot;Enter firstname&quot;
-required=&quot;required&quot;
-/&gt;
-&lt;/div&gt;
-&lt;div class=&quot;input-group&quot;&gt;
-&lt;label for=&quot;lname&quot;&gt;Lastname&lt;/label&gt;
-&lt;input
-id=&quot;lname&quot;
-name=&quot;lname&quot;
-placeholder=&quot;Enter lastname&quot;
-required=&quot;required&quot;
-/&gt;
-&lt;/div&gt;
-&lt;div class=&quot;input-group&quot;&gt;
-&lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-&lt;input
-id=&quot;email&quot;
-type=&quot;email&quot;
-name=&quot;email&quot;
-placeholder=&quot;Enter your email&quot;
-/&gt;
-&lt;/div&gt;
-&lt;div class=&quot;input-group&quot;&gt;
-&lt;label&gt;Country&lt;/label&gt;
-&lt;select name=&quot;country&quot; id=&quot;country&quot; required=&quot;required&quot;&gt;
-&lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Select country&lt;/option&gt;
-&lt;option value=&quot;Afghanistan&quot;&gt;Afghanistan&lt;/option&gt;
-&lt;option value=&quot;Albania&quot;&gt;Albania&lt;/option&gt;
-&lt;option value=&quot;Algeria&quot;&gt;Algeria&lt;/option&gt;
-&lt;option value=&quot;American Samoa&quot;&gt;American Samoa&lt;/option&gt;
-&lt;option value=&quot;Andorra&quot;&gt;Andorra&lt;/option&gt;
-&lt;option value=&quot;Angola&quot;&gt;Angola&lt;/option&gt;
-&lt;option value=&quot;Anguilla&quot;&gt;Anguilla&lt;/option&gt;
-&lt;option value=&quot;Antarctica&quot;&gt;Antarctica&lt;/option&gt;
-&lt;/select&gt;
-&lt;/div&gt;
-&lt;div class=&quot;input-group&quot;&gt;
-&lt;label for=&quot;message&quot;&gt;Any message?&lt;/label&gt;
-&lt;textarea
-id=&quot;message&quot;
-name=&quot;message&quot;
-placeholder=&quot;Optional&quot;
-&gt;&lt;/textarea&gt;
-&lt;/div&gt;
-&lt;div class=&quot;submit-group&quot;&gt;
-&lt;button type=&quot;submit&quot;&gt;Submit form&lt;/button&gt;
-&lt;/div&gt;
-&lt;/form&gt;
-```
-
-### The CSS
-
-```
-&ast; {
-box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 body {
-margin: 30px;
+  margin: 30px;
 }
 form {
-border: 1px solid #333;
-padding: 20px;
-max-width: 400px;
-margin: 0 auto;
-border-radius: 5px;
+  border: 1px solid #333;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 .input-group {
-display: flex;
-margin-bottom: 10px;
+  display: flex;
+  margin-bottom: 10px;
 }
 label {
-width: 100px;
+  width: 100px;
 }
 input,
 select,
 textarea {
-flex: 1;
-padding: 3px 5px;
+  flex: 1;
+  padding: 3px 5px;
 }
 .submit-group {
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 button {
-width: 100px;
-margin: 0 auto;
-background-color: black;
-color: white;
-border: none;
-padding: 10px;
-cursor: pointer;
-border-radius: 5px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex13">Example #13</h2>
-
-## Template #2
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Template #2</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 13. form with radio buttons & message (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image014.png" 
+<img src="./images/image013.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:3.72in;" />
 </p>
-<!-- ![](./images/image14.png){width="3.7226859142607176in" height="5.776042213473316in"} -->
+<!-- ![](./images/image13.png){width="3.7226859142607176in" height="5.776042213473316in"} -->
 
-### The HTML
-
-```
-&lt;form&gt;
-&lt;div&gt;
-&lt;span class=&quot;question&quot;&gt;1. How did you hear about us?&lt;/span&gt;
-&lt;div class=&quot;radio-group&quot;&gt;
-&lt;div class=&quot;radio-item&quot;&gt;
-&lt;input type=&quot;radio&quot; name=&quot;hear_about_us&quot; id=&quot;twitter&quot; /&gt;
-&lt;label for=&quot;twitter&quot;&gt;Twitter&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;radio-item&quot;&gt;
-&lt;input type=&quot;radio&quot; name=&quot;hear_about_us&quot; id=&quot;facebook&quot; /&gt;
-&lt;label for=&quot;facebook&quot;&gt;Facebook&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;radio-item&quot;&gt;
-&lt;input type=&quot;radio&quot; name=&quot;hear_about_us&quot; id=&quot;other&quot; /&gt;
-&lt;label for=&quot;other&quot;&gt;Other&lt;/label&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;span class=&quot;question&quot;&gt;2. Where do you live?&lt;/span&gt;
-&lt;select name=&quot;country&quot; id=&quot;country&quot; required=&quot;required&quot;&gt;
-&lt;option value=&quot;&quot; selected=&quot;selected&quot;&gt;Select country&lt;/option&gt;
-&lt;option value=&quot;Afghanistan&quot;&gt;Afghanistan&lt;/option&gt;
-&lt;option value=&quot;Albania&quot;&gt;Albania&lt;/option&gt;
-&lt;option value=&quot;Algeria&quot;&gt;Algeria&lt;/option&gt;
-&lt;option value=&quot;American Samoa&quot;&gt;American Samoa&lt;/option&gt;
-&lt;option value=&quot;Andorra&quot;&gt;Andorra&lt;/option&gt;
-&lt;option value=&quot;Angola&quot;&gt;Angola&lt;/option&gt;
-&lt;option value=&quot;Anguilla&quot;&gt;Anguilla&lt;/option&gt;
-&lt;option value=&quot;Antarctica&quot;&gt;Antarctica&lt;/option&gt;
-&lt;/select&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;span class=&quot;question&quot;&gt;3. You age range&lt;/span&gt;
-&lt;div class=&quot;radio-group&quot;&gt;
-&lt;div class=&quot;radio-item&quot;&gt;
-&lt;input type=&quot;radio&quot; name=&quot;age_range&quot; id=&quot;lower&quot; /&gt;
-&lt;label for=&quot;lower&quot;&gt;18-25&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;radio-item&quot;&gt;
-&lt;input type=&quot;radio&quot; name=&quot;age_range&quot; id=&quot;middle&quot; /&gt;
-&lt;label for=&quot;middle&quot;&gt;26-35&lt;/label&gt;
-&lt;/div&gt;
-&lt;div class=&quot;radio-item&quot;&gt;
-&lt;input type=&quot;radio&quot; name=&quot;age_range&quot; id=&quot;higher&quot; /&gt;
-&lt;label for=&quot;higher&quot;&gt;36 or more&lt;/label&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;span class=&quot;question&quot;&gt;4. Anything else we should know? &lt;/span&gt;
-&lt;textarea name=&quot;message&quot;&gt;&lt;/textarea&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;button class=&quot;submit-btn&quot;&gt;Submit survey&lt;/button&gt;
-&lt;/div&gt;
-&lt;/form&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-&ast; {
-box-sizing: border-box;
+<form>
+  <div>
+    <span class="question">1. How did you hear about us?</span>
+    <div class="radio-group">
+      <div class="radio-item">
+        <input type="radio" name="hear_about_us" id="twitter" />
+        <label for="twitter">Twitter</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="hear_about_us" id="facebook" />
+        <label for="facebook">Facebook</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="hear_about_us" id="other" />
+        <label for="other">Other</label>
+      </div>
+    </div>
+  </div>
+  <div>
+    <span class="question">2. Where do you live?</span>
+    <select name="country" id="country" required="required">
+      <option value="" selected="selected">Select country</option>
+      <option value="Afghanistan">Afghanistan</option>
+      <option value="Albania">Albania</option>
+      <option value="Algeria">Algeria</option>
+      <option value="American Samoa">American Samoa</option>
+      <option value="Andorra">Andorra</option>
+      <option value="Angola">Angola</option>
+      <option value="Anguilla">Anguilla</option>
+      <option value="Antarctica">Antarctica</option>
+    </select>
+  </div>
+  <div>
+    <span class="question">3. You age range</span>
+    <div class="radio-group">
+      <div class="radio-item">
+        <input type="radio" name="age_range" id="lower" />
+        <label for="lower">18-25</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="age_range" id="middle" />
+        <label for="middle">26-35</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="age_range" id="higher" />
+        <label for="higher">36 or more</label>
+      </div>
+    </div>
+  </div>
+  <div>
+    <span class="question">4. Anything else we should know? </span>
+    <textarea name="message"></textarea>
+  </div>
+  <div>
+    <button class="submit-btn">Submit survey</button>
+  </div>
+</form>
+```
+
+<h3>The CSS</h3>
+
+```
+* {
+  box-sizing: border-box;
 }
 body {
-margin: 30px;
+  margin: 30px;
 }
 form {
-max-width: 400px;
+  max-width: 400px;
 }
-form &gt; div {
-margin-bottom: 20px;
+form > div {
+  margin-bottom: 20px;
 }
 .question {
-font-weight: bold;
-display: block;
-margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
 }
 .radio-group,
 select,
 textarea {
-margin-left: 15px;
-width: 200px;
+  margin-left: 15px;
+  width: 200px;
 }
 textarea {
-padding: 10px;
+  padding: 10px;
 }
 .radio-item {
-display: flex;
-align-items: center;
-margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
 }
 .radio-item label {
-margin-left: 5px;
+  margin-left: 5px;
 }
 .radio-item input {
-margin: 0;
+  margin: 0;
 }
 .submit-btn {
-margin-left: 15px;
-background-color: #555;
-border: 1px solid #555;
-color: white;
-padding: 10px;
-cursor: pointer;
+  margin-left: 15px;
+  background-color: #555;
+  border: 1px solid #555;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
 }
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex14">Example #14</h2>
-
-## 1 Lightbox Modal Element Template
-
-## Template
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Lightbox Modal Element Template</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image015.png" 
+<img src="./images/image014.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.59in;" />
 </p>
-<!-- ![](./images/image015.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
-
+<!-- ![](./images/image014.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex15">Example #15</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image016.png" 
+<img src="./images/image015.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.6in;" />
 </p>
-<!-- ![](./images/image016.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
+<!-- ![](./images/image015.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex16">Example #16</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 16.  (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image017.png" 
+<img src="./images/image016.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.69in;" />
 </p>
-<!-- ![](./images/image017.png){width="5.692708880139983in" height="3.270278871391076in"} -->
+<!-- ![](./images/image016.png){width="5.692708880139983in" height="3.270278871391076in"} -->
 
-### The HTML
-
-```
-&lt;div class=&quot;images&quot;&gt;
-&lt;img onclick=&quot;openModal(0)&quot; id=&quot;image0&quot; /&gt;
-&lt;img onclick=&quot;openModal(1)&quot; id=&quot;image1&quot; /&gt;
-&lt;img onclick=&quot;openModal(2)&quot; id=&quot;image2&quot; /&gt;
-&lt;img onclick=&quot;openModal(3)&quot; id=&quot;image3&quot; /&gt;
-&lt;/div&gt;
-&lt;div id=&quot;lightbox&quot; class=&quot;lightbox&quot;&gt;
-&lt;button onclick=&quot;closeModal()&quot; class=&quot;close-btn&quot;&gt;
-```
-
-#### Close
+<h3>The HTML</h3>
 
 ```
-&lt;/button&gt;
-&lt;div class=&quot;image-preview&quot;&gt;
-&lt;img id=&quot;preview-image&quot; /&gt;
-&lt;/div&gt;
-&lt;div class=&quot;control-btns&quot;&gt;
-&lt;button onclick=&quot;control(-1)&quot; class=&quot;control-left&quot;&gt;
-&lt;
-&lt;/button&gt;
-&lt;button onclick=&quot;control(1)&quot; class=&quot;control-left&quot;&gt;
-&gt;
-&lt;/button&gt;
-&lt;/div&gt;
-&lt;div id=&quot;modal-images-block&quot; class=&quot;lightbox&#95;&#95;images&quot;&gt;
-&lt;img onclick=&quot;openModal(0)&quot; id=&quot;l-image0&quot; /&gt;
-&lt;img onclick=&quot;openModal(1)&quot; id=&quot;l-image1&quot; /&gt;
-&lt;img onclick=&quot;openModal(2)&quot; id=&quot;l-image2&quot; /&gt;
-&lt;img onclick=&quot;openModal(3)&quot; id=&quot;l-image3&quot; /&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="images">
+<img onclick="openModal(0)" id="image0" />
+<img onclick="openModal(1)" id="image1" />
+<img onclick="openModal(2)" id="image2" />
+<img onclick="openModal(3)" id="image3" />
+</div>
+<div id="lightbox" class="lightbox">
+<button onclick="closeModal()" class="close-btn">
 ```
 
-### The CSS
+<h3>Close</h3>
 
 ```
-&ast; {
-box-sizing: border-box;
+  </button>
+  <div class="image-preview">
+    <img id="preview-image" />
+  </div>
+  <div class="control-btns">
+    <button onclick="control(-1)" class="control-left">
+    </button>
+    <button onclick="control(1)" class="control-left">
+    </button>
+  </div>
+  <div id="modal-images-block" class="lightbox__images">
+    <img onclick="openModal(0)" id="l-image0" />
+    <img onclick="openModal(1)" id="l-image1" />
+    <img onclick="openModal(2)" id="l-image2" />
+    <img onclick="openModal(3)" id="l-image3" />
+  </div>
+</div>
+```
+
+<h3>The CSS</h3>
+
+```
+* {
+  box-sizing: border-box;
 }
 .images {
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }
 .images img {
-width: 100%;
-height: 100%;
-cursor: pointer;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 .lightbox {
-position: absolute;
-left: 0;
-top: 0;
-padding: 0 50px 30px;
-width: 100%;
-height: 100vh;
-background-color: rgb(18, 7, 7);
-display: none;
-flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 50px 30px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(18, 7, 7);
+  display: none;
+  flex-direction: column;
 }
 .lightbox.visible {
-display: flex;
+  display: flex;
 }
 .lightbox .close-btn {
-width: 80px;
-align-self: flex-end;
-height: 40px;
-margin: 20px 0;
+  width: 80px;
+  align-self: flex-end;
+  height: 40px;
+  margin: 20px 0;
 }
 .lightbox .image-preview {
-width: 100%;
-margin: 0 auto;
-flex: 1;
-height: 100%;
-overflow: hidden;
-display: flex;
-flex-direction: column;
-align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .image-preview img {
-width: 100%;
-height: 100%;
-object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .control-btns {
-position: relative;
-top: -10px;
-margin: 0 auto;
+  position: relative;
+  top: -10px;
+  margin: 0 auto;
 }
 .control-btns button {
-cursor: pointer;
+  cursor: pointer;
 }
 .control-left {
-margin-right: 50px;
+  margin-right: 50px;
 }
-.lightbox&#95;&#95;images {
-height: 300px;
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-gap: 20px;
-align-items: center;
+.lightbox__images {
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  align-items: center;
 }
-.lightbox&#95;&#95;images img {
-width: 100%;
-opacity: 0.3;
-cursor: pointer;
+.lightbox__images img {
+  width: 100%;
+  opacity: 0.3;
+  cursor: pointer;
 }
-.lightbox&#95;&#95;images img.active {
-width: 100%;
-opacity: 1;
+.lightbox__images img.active {
+  width: 100%;
+  opacity: 1;
 }
 ```
 
-### The JavaScript
+<h3>The JavaScript</h3>
 
 ```
 const IMAGE0 =
-&quot;https://i.picsum.photos/id/229/400/200.jpg?hmac=ULnwo8IFtjR3PshWPNEvFWNU8Xwl_OIeUtVmZIQanhU&quot;
+"https://i.picsum.photos/id/229/400/200.jpg?hmac=ULnwo8IFtjR3PshWPNEvFWNU8Xwl_OIeUtVmZIQanhU"
 const IMAGE1 =
-&quot;https://i.picsum.photos/id/154/400/200.jpg?hmac=uhKcJIPoFcq2xMC16yvZAwA8sTeIbThUr-Njq0DkhSU&quot;
+"https://i.picsum.photos/id/154/400/200.jpg?hmac=uhKcJIPoFcq2xMC16yvZAwA8sTeIbThUr-Njq0DkhSU"
 const IMAGE2 =
-&quot;https://i.picsum.photos/id/690/400/200.jpg?hmac=kOkDXkZEUaSUQviVm67apRu5EPMD_L0rHfKVt32iogQ&quot;
+"https://i.picsum.photos/id/690/400/200.jpg?hmac=kOkDXkZEUaSUQviVm67apRu5EPMD_L0rHfKVt32iogQ"
 const IMAGE3 =
-&quot;https://i.picsum.photos/id/633/400/200.jpg?hmac=-axbA3Zg3r_xPYOy7OdaIb5yTFDBKubd9LYJrnwpHeU&quot;
-const images = &lbrack;IMAGE0, IMAGE1, IMAGE2, IMAGE3&rbrack;
-const image0 = document.getElementById(&quot;image0&quot;)
-const image1 = document.getElementById(&quot;image1&quot;)
-const image2 = document.getElementById(&quot;image2&quot;)
-const image3 = document.getElementById(&quot;image3&quot;)
-const lightbox = document.getElementById(&quot;lightbox&quot;)
-const previewImg = document.getElementById(&quot;preview-image&quot;)
+"https://i.picsum.photos/id/633/400/200.jpg?hmac=-axbA3Zg3r_xPYOy7OdaIb5yTFDBKubd9LYJrnwpHeU"
+const images = [IMAGE0, IMAGE1, IMAGE2, IMAGE3]
+const image0 = document.getElementById("image0")
+const image1 = document.getElementById("image1")
+const image2 = document.getElementById("image2")
+const image3 = document.getElementById("image3")
+const lightbox = document.getElementById("lightbox")
+const previewImg = document.getElementById("preview-image")
 const modalImagesBlock = document.getElementById(
-&quot;modal-images-block&quot;
+  "modal-images-block"
 )
 image0.src = IMAGE0
 image1.src = IMAGE1
 image2.src = IMAGE2
 image3.src = IMAGE3
 let activeId = null
-previewImg.src = images&lbrack;0&rbrack;
+previewImg.src = images[0]
 const modalImagesElements =
-modalImagesBlock.getElementsByTagName(&quot;img&quot;)
+modalImagesBlock.getElementsByTagName("img")
 const modalImages = Object.values(modalImagesElements)
-modalImages.forEach((imageElement, i) =&gt; {
-console.log(imageElement)
-imageElement.src = images&lbrack;i&rbrack;
+modalImages.forEach((imageElement, i) => {
+  console.log(imageElement)
+  imageElement.src = images[i]
 })
 function openModal(imgId) {
-if (activeId !== null) {
-modalImages&lbrack;activeId&rbrack;.classList.remove(&quot;active&quot;)
-}
-activeId = imgId
-lightbox.classList.add(&quot;visible&quot;)
-previewImg.src = images&lbrack;imgId&rbrack;
-modalImages&lbrack;imgId&rbrack;.classList.add(&quot;active&quot;)
+  if (activeId !== null) {
+    modalImages[activeId].classList.remove("active")
+  }
+  activeId = imgId
+  lightbox.classList.add("visible")
+  previewImg.src = images[imgId]
+  modalImages[imgId].classList.add("active")
 }
 function closeModal() {
-lightbox.classList.remove(&quot;visible&quot;)
+  lightbox.classList.remove("visible")
 }
 function control(direction) {
-const prevId = activeId
-if (direction === 1) {
-// next
-activeId =
-activeId + 1 &gt; images.length - 1
-? // then go to the beginning
-(activeId = 0)
-: (activeId = activeId + 1)
-} else {
-// previous
-activeId =
-activeId - 1 &lt; 0
-? // then go to the end
-(activeId = images.length - 1)
-: activeId - 1
-}
-previewImg.src = images&lbrack;activeId&rbrack;
-modalImages&lbrack;activeId&rbrack;.classList.add(&quot;active&quot;)
-modalImages&lbrack;prevId&rbrack;.classList.remove(&quot;active&quot;)
+  const prevId = activeId
+  if (direction === 1) {
+    // next
+    activeId =
+    activeId + 1 > images.length - 1
+    ? // then go to the beginning
+    (activeId = 0)
+    : (activeId = activeId + 1)
+  } else {
+    // previous
+    activeId =
+    activeId - 1 < 0
+    ? // then go to the end
+    (activeId = images.length - 1)
+    : activeId - 1
+  }
+  previewImg.src = images[activeId]
+  modalImages[activeId].classList.add("active")
+  modalImages[prevId].classList.remove("active")
 }
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex17">Example #17</h2>
-
-## Example #1
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 17.  (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image018.png" 
+<img src="./images/image017.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:3.52in;" />
 </p>
-<!-- ![](./images/image018.png){width="3.5208333333333335in" height="1.4479166666666667in"} -->
+<!-- ![](./images/image017.png){width="3.5208333333333335in" height="1.4479166666666667in"} -->
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;div class=&quot;tooltip&quot;&gt;
-&lt;span&gt;Top&lt;/span&gt;
-&lt;div class=&quot;tooltip-text&quot;&gt;This is the top of the tooltip&lt;/div&gt;
-&lt;/div&gt;
+<div class="tooltip">
+  <span>Top</span>
+  <div class="tooltip-text">This is the top of the tooltip</div>
+</div>
 ```
-### The CSS
+
+<h3>The CSS</h3>
 
 ```
 body {
-margin: 60px;
+  margin: 60px;
 }
 .tooltip {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .tooltip-text {
-padding: 6px;
-background-color: #333;
-color: white;
-font-size: 12px;
-position: absolute;
-border-radius: 5px;
-width: 100px;
-text-align: center;
-display: inline-block;
-top: -45px;
-left: -12px;
-visibility: hidden;
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  top: -45px;
+  left: -12px;
+  visibility: hidden;
 }
 .tooltip-text::after {
-content: &quot;&quot;;
-position: absolute;
-left: 10px;
-bottom: -5px;
-width: 0;
-height: 0;
-border-left: 7px solid transparent;
-border-right: 7px solid transparent;
-border-top: 10px solid #333;
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid #333;
 }
 .tooltip:hover .tooltip-text {
-visibility: visible;
+  visibility: visible;
 }
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex18">Example #18</h2>
-
-## Example #2
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 18.  (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image019.png" 
+<img src="./images/image018.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:4.06in;" />
 </p>
+<!-- ![](./images/image018.png){width="4.0625in" height="1.03125in"} -->
 
-![](./images/image019.png){width="4.0625in" height="1.03125in"}
-
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;div class=&quot;tooltip&quot;&gt;
-&lt;span&gt;Right&lt;/span&gt;
-&lt;div class=&quot;tooltip-text&quot;&gt;This is the right of the tooltip&lt;/div&gt;
-&lt;/div&gt;
+<div class="tooltip">
+  <span>Right</span>
+  <div class="tooltip-text">This is the right of the tooltip</div>
+</div>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 .tooltip {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .tooltip-text {
-
-padding: 6px;
-background-color: #333;
-color: white;
-font-size: 12px;
-position: absolute;
-border-radius: 5px;
-width: 100px;
-text-align: center;
-right: -120px;
-bottom: -7px;
-visibility: hidden;
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  right: -120px;
+  bottom: -7px;
+  visibility: hidden;
 }
 .tooltip-text::after {
-content: &quot;&quot;;
-position: absolute;
-left: -5px;
-bottom: 10px;
-width: 0;
-height: 0;
-border-top: 7px solid transparent;
-border-bottom: 7px solid transparent;
-border-right: 10px solid #333;
+  content: "";
+  position: absolute;
+  left: -5px;
+  bottom: 10px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-right: 10px solid #333;
 }
 .tooltip:hover .tooltip-text {
-visibility: visible;
+  visibility: visible;
 }
 ```
 
-## Example #3
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex19">Example #19</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 19.  (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image020.png" 
+<img src="./images/image019.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:3.29in;" />
 </p>
-<!-- ![](./images/image020.png){width="3.2916666666666665in" height="1.4583333333333333in"} -->
+<!-- ![](./images/image019.png){width="3.2916666666666665in" height="1.4583333333333333in"} -->
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;div class=&quot;tooltip&quot;&gt;
-&lt;span&gt;Bottom&lt;/span&gt;
-&lt;div class=&quot;tooltip-text&quot;&gt; This is the bottom of the tooltip
-&lt;/div&gt;
-&lt;/div&gt;
+<div class="tooltip">
+  <span>Bottom</span>
+  <div class="tooltip-text"> This is the bottom of the tooltip
+  </div>
+</div>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 .tooltip {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .tooltip-text {
-padding: 6px;
-background-color: #333;
-color: white;
-font-size: 12px;
-position: absolute;
-border-radius: 5px;
-width: 100px;
-text-align: center;
-display: inline-block;
-bottom: -46px;
-left: -10px;
-visibility: hidden;
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  bottom: -46px;
+  left: -10px;
+  visibility: hidden;
 }
 .tooltip-text::after {
-content: &quot;&quot;;
-position: absolute;
-left: 10px;
-top: -5px;
-width: 0;
-height: 0;
-border-left: 7px solid transparent;
-border-right: 7px solid transparent;
-border-bottom: 10px solid #333;
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 10px solid #333;
 }
 .tooltip:hover .tooltip-text {
-visibility: visible;
+  visibility: visible;
 }
 ```
 
-## Example #4
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex20">Example #20</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 30.  (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image021.png" 
+<img src="./images/image020.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:3.6in;" />
 </p>
-<!-- ![](./images/image021.png){width="3.6041666666666665in" height="0.9166666666666666in"} -->
+<!-- ![](./images/image020.png){width="3.6041666666666665in" height="0.9166666666666666in"} -->
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;div class=&quot;tooltip&quot;&gt;
-&lt;span&gt;Left&lt;/span&gt;
-&lt;div class=&quot;tooltip-text&quot;&gt;This is the left of the tooltip&lt;/div&gt;
-&lt;/div&gt;
+<div class="tooltip">
+<span>Left</span>
+<div class="tooltip-text">This is the left of the tooltip</div>
+</div>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 body {
-margin: 60px 130px;
+  margin: 60px 130px;
 }
 .tooltip {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .tooltip-text {
-padding: 6px;
-background-color: #333;
-color: white;
-font-size: 12px;
-position: absolute;
-border-radius: 5px;
-width: 100px;
-text-align: center;
-left: -120px;
-bottom: -11px;
-visibility: hidden;
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  left: -120px;
+  bottom: -11px;
+  visibility: hidden;
 }
 .tooltip-text::after {
-content: &quot;&quot;;
-position: absolute;
-right: -5px;
-top: 12px;
-width: 0;
-height: 0;
-border-top: 7px solid transparent;
-border-bottom: 7px solid transparent;
-border-left: 10px solid #333;
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 10px solid #333;
 }
 .tooltip:hover .tooltip-text {
-visibility: visible;
+  visibility: visible;
 }
 ```
 
-## 2 Progress Bar Templates
-
-## Example #1
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>2 Progress Bar Templates</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex21">Example #21</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 21.  (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image022.png" 
+<img src="./images/image021.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.375in;" />
 </p>
-<!-- ![](./images/image022.png){width="5.375in" height="0.875in"} -->
+<!-- ![](./images/image021.png){width="5.375in" height="0.875in"} -->
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;progress class=&quot;first&quot; value=&quot;50&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
+<progress class="first" value="50" max="100"></progress>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 .first {
@@ -1409,36 +1367,38 @@ background-color: purple;
 }
 ```
 
-## Example #2
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex22">Example #22</h2>
-
-<h2 id="ex23">Example #23</h2>
-
-### The HTML
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 22.  (xx) ~~~~~~~~~~~~-->
+<h3>The HTML</h3>
 
 <p align="center">
-<img src="./images/image023.png" 
+<img src="./images/image022.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.08in;" />
 </p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ex23">Example #23</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ 23.  (xx) ~~~~~~~~~~~~-->
 <p align="center">
-<img src="./images/image024.png" 
+<img src="./images/image023.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:5.0in;" />
 </p>
 
 ```
-&lt;progress class=&quot;second&quot; value=&quot;40&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
+<progress class="second" value="40" max="100"></progress>
 ![](./images/image023.png){width="5.083333333333333in" height="0.7395833333333334in"}
-&lt;progress class=&quot;second&quot; value=&quot;80&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
+<progress class="second" value="80" max="100"></progress>
 ![](./images/image024.png){width="5.0in" height="0.78125in"}
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
 .second {
@@ -1464,70 +1424,70 @@ border-radius: 15px;
 }
 ```
 
-## 2 CSS Accordian Templates
+<h2>2 CSS Accordian Templates</h2>
 
-## Example #1: Accordion Using Only CSS and HTML
+<h2>Example #1: Accordion Using Only CSS and HTML</h2>
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Document&lt;/title&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;h1&gt;CSS Accordion&lt;/h1&gt;
-&lt;div class=&quot;accordion&quot;&gt;
-&lt;div class=&quot;tab&quot;&gt;
-&lt;input type=&quot;checkbox&quot; id=&quot;tab1&quot; /&gt;
-&lt;label class=&quot;tab-label&quot; for=&quot;tab1&quot;&gt;Lorem ipsum 1&lt;/label&gt;
-&lt;div class=&quot;tab-content&quot;&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<h1>CSS Accordion</h1>
+<div class="accordion">
+<div class="tab">
+<input type="checkbox" id="tab1" />
+<label class="tab-label" for="tab1">Lorem ipsum 1</label>
+<div class="tab-content">
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 perferendis eligendi fugit quaerat consequatur fuga pariatur
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 tempore itaque quas excepturi.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;tab&quot;&gt;
-&lt;input type=&quot;checkbox&quot; id=&quot;tab2&quot; /&gt;
-&lt;label class=&quot;tab-label&quot; for=&quot;tab2&quot;&gt;Lorem ipsum 2&lt;/label&gt;
-&lt;div class=&quot;tab-content&quot;&gt;
+</div>
+</div>
+<div class="tab">
+<input type="checkbox" id="tab2" />
+<label class="tab-label" for="tab2">Lorem ipsum 2</label>
+<div class="tab-content">
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 perferendis eligendi fugit quaerat consequatur fuga pariatur
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 tempore itaque quas excepturi.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;tab&quot;&gt;
-&lt;input type=&quot;checkbox&quot; id=&quot;tab3&quot; /&gt;
-&lt;label class=&quot;tab-label&quot; for=&quot;tab3&quot;&gt;Lorem ipsum 3&lt;/label&gt;
-&lt;div class=&quot;tab-content&quot;&gt;
+</div>
+</div>
+<div class="tab">
+<input type="checkbox" id="tab3" />
+<label class="tab-label" for="tab3">Lorem ipsum 3</label>
+<div class="tab-content">
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 perferendis eligendi fugit quaerat consequatur fuga pariatur
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 tempore itaque quas excepturi.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
-&#64;import
-&quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400&quot;;
+@import
+"https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400";
 body {
 color: #2c3e50;
 background: #ecf0f1;
 width: 100vw;
 padding: 0 1em 1em;
-font-family: &quot;Raleway&quot;, sans-serif;
+font-family: "Raleway", sans-serif;
 }
 h1 {
 margin: 0;
@@ -1539,7 +1499,7 @@ position: absolute;
 opacity: 0;
 z-index: -1;
 }
-/&ast; Accordion styles &ast;/
+/* Accordion styles */
 .accordion {
 border-radius: 8px;
 width: 70vw;
@@ -1567,7 +1527,7 @@ cursor: pointer;
 background: #dce7ea;
 }
 .tab-label::after {
-content: &quot;❯&quot;;
+content: "❯";
 width: 1em;
 height: 1em;
 text-align: center;
@@ -1598,75 +1558,75 @@ background: #dce7ea;
 input:checked + .tab-label::after {
 transform: rotate(90deg);
 }
-input:checked &#126; .tab-content {
+input:checked ~ .tab-content {
 max-height: 100vh;
 padding: 1rem;
 }
 ```
 
-## Example #2: Accordion Using CSS and HTML and JavaScript
+<h2>Example #2: Accordion Using CSS and HTML and JavaScript</h2>
 
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Document&lt;/title&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;h1&gt;CSS Accordion With Javascript&lt;/h1&gt;
-&lt;div class=&quot;accordion&quot;&gt;
-&lt;div class=&quot;tab&quot;&gt;
-&lt;input type=&quot;checkbox&quot; id=&quot;tab1&quot; /&gt;
-&lt;label class=&quot;tab-label&quot; for=&quot;tab1&quot;&gt;Lorem ipsum 1&lt;/label&gt;
-&lt;div class=&quot;tab-content&quot;&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<h1>CSS Accordion With Javascript</h1>
+<div class="accordion">
+<div class="tab">
+<input type="checkbox" id="tab1" />
+<label class="tab-label" for="tab1">Lorem ipsum 1</label>
+<div class="tab-content">
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 perferendis eligendi fugit quaerat consequatur fuga pariatur
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 tempore itaque quas excepturi.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;tab&quot;&gt;
-&lt;input type=&quot;checkbox&quot; id=&quot;tab2&quot; /&gt;
-&lt;label class=&quot;tab-label&quot; for=&quot;tab2&quot;&gt;Lorem ipsum 2&lt;/label&gt;
-&lt;div class=&quot;tab-content&quot;&gt;
+</div>
+</div>
+<div class="tab">
+<input type="checkbox" id="tab2" />
+<label class="tab-label" for="tab2">Lorem ipsum 2</label>
+<div class="tab-content">
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 perferendis eligendi fugit quaerat consequatur fuga pariatur
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 tempore itaque quas excepturi.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;tab&quot;&gt;
-&lt;input type=&quot;checkbox&quot; id=&quot;tab3&quot; /&gt;
-&lt;label class=&quot;tab-label&quot; for=&quot;tab3&quot;&gt;Lorem ipsum 3&lt;/label&gt;
-&lt;div class=&quot;tab-content&quot;&gt;
+</div>
+</div>
+<div class="tab">
+<input type="checkbox" id="tab3" />
+<label class="tab-label" for="tab3">Lorem ipsum 3</label>
+<div class="tab-content">
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
 perferendis eligendi fugit quaerat consequatur fuga pariatur
 ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
 tempore itaque quas excepturi.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</div>
+</div>
+</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
-&#64;import
-&quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400&quot;;
+@import
+"https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400";
 body {
 color: #2c3e50;
 background: #ecf0f1;
 width: 100vw;
 padding: 0 1em 1em;
-font-family: &quot;Raleway&quot;, sans-serif;
+font-family: "Raleway", sans-serif;
 }
 h1 {
 margin: 0;
@@ -1679,7 +1639,7 @@ position: absolute;
 opacity: 0;
 z-index: -1;
 }
-/&ast; Accordion styles &ast;/
+/* Accordion styles */
 .accordion {
 border-radius: 8px;
 width: 70vw;
@@ -1696,696 +1656,864 @@ overflow: hidden;
 margin: 1.4rem 0;
 }
 .tab-label {
-display: flex;
-justify-content: space-between;
-padding: 1rem;
-font-size: 1.2rem;
-color: #ff6873;
-font-weight: bold;
-cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #ff6873;
+  font-weight: bold;
+  cursor: pointer;
 }
 .tab-label::after {
-content: &quot;❯&quot;;
-width: 1em;
-height: 1em;
-color: #ff6873;
-text-align: center;
-transition: all 0.35s;
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  color: #ff6873;
+  text-align: center;
+  transition: all 0.35s;
 }
 .tab-content {
-max-height: 0;
-padding: 0 1em;
-line-height: 2rem;
-color: #1a252f;
-background: white;
-transition: all 0.35s;
+  max-height: 0;
+  padding: 0 1em;
+  line-height: 2rem;
+  color: #1a252f;
+  background: white;
+  transition: all 0.35s;
 }
 .tab-close {
-display: flex;
-justify-content: flex-end;
-padding: 1em;
-font-size: 0.75em;
-background: #2c3e50;
-cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
 }
 .open-tab .tab-label::after {
-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 .open-tab .tab-content {
-max-height: 100vh;
-padding: 1rem;
+  max-height: 100vh;
+  padding: 1rem;
 }
 ```
 
-### The JavaScript
+<h3>The JavaScript</h3>
 
 ```
-const accordions = document.getElementsByClassName(&quot;tab&quot;);
-for (const accordion of accordions) {
-accordion.addEventListener(&quot;click&quot;, function (e) {
-e.preventDefault();
-accordion.classList.toggle(&quot;open-tab&quot;);
-});
-}
+const accordions = document.getElementsByClassName("tab");
+  for (const accordion of accordions) {
+    accordion.addEventListener("click", function (e) {
+      e.preventDefault();
+      accordion.classList.toggle("open-tab");
+    });
+  }
 ```
 
-## 4 CSS Effects Templates
+<h2>4 CSS Effects Templates</h2>
 
-## Template #1: Opacity
+<h2>Template #1: Opacity</h2>
 
-### The HTML
-
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt; &lt;img
-src=&quot;./girl-with-guitar.jpeg&quot;
-alt=&quot;img&quot;
-class=&quot;translucent&quot;
-/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-&ast;,
-&ast;::after,
-&ast;::before {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <img src="./girl-with-guitar.jpeg" alt="img" /> <img
+        src="./girl-with-guitar.jpeg"
+        alt="img"
+        class="translucent"
+        />
+      </div>
+    </div>
+</body>
+</html>
+```
+
+<h3>The CSS</h3>
+
+```
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-display: flex;
-flex-flow: column nowrap;
-justify-content: space-around;
-align-items: center;
-min-height: 100vh;
-width: 100vw;
-background: #c8c7c7;
-font-family: &quot;Roboto&quot;, sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: #c8c7c7;
+  font-family: "Roboto", sans-serif;
 }
 .box {
-width: 90%;
-height: 60%;
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-around;
-align-items: center;
-margin: 1rem 0;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
 }
 .box img {
-width: 48%;
+  width: 48%;
 }
 .translucent {
-filter: opacity(35%);
+  filter: opacity(35%);
 }
 ```
 
-## Template #2: Grayscale
+<h2>Template #2: Grayscale</h2>
 
-### The HTML
-
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt; &lt;img
-src=&quot;./girl-with-guitar.jpeg&quot;
-alt=&quot;img&quot;
-class=&quot;black-white&quot;
-/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-&ast;,
-&ast;::after,
-&ast;::before {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <img src="./girl-with-guitar.jpeg" alt="img" /> <img
+        src="./girl-with-guitar.jpeg"
+        alt="img"
+        class="black-white"
+      />
+    </div>
+  </div>
+</body>
+</html>
+```
+
+<h3>The CSS</h3>
+
+```
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-display: flex;
-flex-flow: column nowrap;
-justify-content: space-around;
-align-items: center;
-min-height: 100vh;
-width: 100vw;
-background: #c8c7c7;
-font-family: &quot;Roboto&quot;, sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: #c8c7c7;
+  font-family: "Roboto", sans-serif;
 }
 .box {
-width: 90%;
-height: 60%;
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-around;
-align-items: center;
-margin: 1rem 0;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
 }
 .box img {
-width: 48%;
+  width: 48%;
 }
 .black-white {
-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 ```
 
-## Template #3: Sepia
+<h2>Template #3: Sepia</h2>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt; &lt;img
-src=&quot;./girl-with-guitar.jpeg&quot;
-alt=&quot;img&quot;
-class=&quot;nineties-effect&quot;
-/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <img src="./girl-with-guitar.jpeg" alt="img" /> <img
+        src="./girl-with-guitar.jpeg"
+        alt="img"
+        class="nineties-effect"
+      />
+    </div>
+  </div>
+</body>
+</html>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
-&ast;,
-&ast;::after,
-&ast;::before {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-display: flex;
-flex-flow: column nowrap;
-justify-content: space-around;
-align-items: center;
-min-height: 100vh;
-width: 100vw;
-background: #c8c7c7;
-font-family: &quot;Roboto&quot;, sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: #c8c7c7;
+  font-family: "Roboto", sans-serif;
 }
 .box {
-width: 90%;
-height: 60%;
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-around;
-align-items: center;
-margin: 1rem 0;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
 }
 .box img {
-width: 48%;
+  width: 48%;
 }
 .nineties-effect {
-filter: sepia(100%);
+  filter: sepia(100%);
 }
 ```
 
-## Template #4: Hover
+<h2>Template #4: Hover</h2>
 
-### The HTML
-
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;box&quot;&gt;
-&lt;img src=&quot;./girl-with-guitar.jpeg&quot; alt=&quot;img&quot; /&gt; &lt;img
-src=&quot;./girl-with-guitar.jpeg&quot;
-alt=&quot;img&quot;
-class=&quot;hover-effect&quot;
-/&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-&ast;,
-&ast;::after,
-&ast;::before {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <img src="./girl-with-guitar.jpeg" alt="img" /> <img
+        src="./girl-with-guitar.jpeg"
+        alt="img"
+        class="hover-effect"
+        />
+    </div>
+  </div>
+</body>
+</html>
+```
+
+<h3>The CSS</h3>
+
+```
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-display: flex;
-flex-flow: column nowrap;
-justify-content: space-around;
-align-items: center;
-min-height: 100vh;
-width: 100vw;
-background: #fafafa;
-/&ast; background: #c8c7c7; &ast;/
-font-family: &quot;Roboto&quot;, sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: #fafafa;
+  /* background: #c8c7c7; */
+  font-family: "Roboto", sans-serif;
 }
 .box {
-width: 90%;
-height: 60%;
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-around;
-align-items: center;
-margin: 1rem 0;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
 }
 .box img {
-width: 48%;
+  width: 48%;
 }
 .hover-effect:hover {
-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 ```
 
-## 2 CSS Tab Navigation Templates
+<h2>2 CSS Tab Navigation Templates</h2>
 
-## Template #1: CSS Tab Navigation with Animation Effects
+<h2>Template #1: CSS Tab Navigation with Animation Effects</h2>
 
-### The HTML
-
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Document&lt;/title&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!&dash;- Tabbed image gallery &dash;-&gt;
-&lt;div class=&quot;tabbed-gallery&quot;&gt;
-&lt;div class=&quot;btn-row&quot;&gt;
-&lt;button class=&quot;btn active-btn&quot;&gt;New York&lt;/button&gt;
-&lt;button class=&quot;btn&quot;&gt;Honolulu&lt;/button&gt;
-&lt;button class=&quot;btn&quot;&gt;Seoul&lt;/button&gt;
-&lt;/div&gt;
-&lt;div id=&quot;New York&quot; class=&quot;city&quot;&gt;
-&lt;img src=&quot;./img/new-york.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;New York City&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;Honolulu&quot; class=&quot;city hidden-city&quot;&gt;
-&lt;img src=&quot;./img/honolulu.jpeg&quot; alt=&quot;Honolulu&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;Honolulu&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;Seoul&quot; class=&quot;city hidden-city&quot;&gt;
-&lt;img src=&quot;./img/seoul.jpeg&quot; alt=&quot;Seoul&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;Seoul&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-&#64;import
-url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
-&ast; {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Tabbed image gallery -->
+  <div class="tabbed-gallery">
+    <div class="btn-row">
+      <button class="btn active-btn">New York</button>
+      <button class="btn">Honolulu</button>
+      <button class="btn">Seoul</button>
+    </div>
+    <div id="New York" class="city">
+      <img src="./img/new-york.jpeg" alt="New York" class="" />
+      <p>New York City</p>
+    </div>
+    <div id="Honolulu" class="city hidden-city">
+      <img src="./img/honolulu.jpeg" alt="Honolulu" class="" />
+      <p>Honolulu</p>
+    </div>
+    <div id="Seoul" class="city hidden-city">
+      <img src="./img/seoul.jpeg" alt="Seoul" class="" />
+      <p>Seoul</p>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+```
+
+<h3>The CSS</h3>
+
+```
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
-width: 100vw;
+  width: 100vw;
 }
 .tabbed-gallery {
-width: 80vw;
-margin: 6rem auto 0;
+  width: 80vw;
+  margin: 6rem auto 0;
 }
 .btn-row {
-display: grid;
-grid-template-columns: repeat(3, 8rem);
-grid-template-rows: 3.5rem;
-column-gap: 8rem;
-justify-content: center;
-padding: 2rem auto;
-background-color: #1d1d27;
+  display: grid;
+  grid-template-columns: repeat(3, 8rem);
+  grid-template-rows: 3.5rem;
+  column-gap: 8rem;
+  justify-content: center;
+  padding: 2rem auto;
+  background-color: #1d1d27;
 }
 .btn {
-padding: 4px 2px;
-font-size: 1.2rem;
-border: none;
-outline: none;
-transition: all 300ms ease;
+  padding: 4px 2px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  transition: all 300ms ease;
 }
 .btn:hover {
-cursor: pointer;
+  cursor: pointer;
 }
 .active-btn {
-color: #fafafa;
-background-color: #4343f5;
+  color: #fafafa;
+  background-color: #4343f5;
 }
 .city {
-width: 100%;
-height: 75vh;
-position: relative;
-display: block;
-transition: all 400ms ease;
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  display: block;
+  transition: all 400ms ease;
 }
 .hidden-city {
-display: none;
+  display: none;
 }
 .city img {
-width: 100%;
-height: 100%;
-image-rendering: optimizeQuality;
+  width: 100%;
+  height: 100%;
+  image-rendering: optimizeQuality;
 }
 .city p {
-position: absolute;
-bottom: 15%;
-left: 50%;
-transform: translate(-50%);
-text-align: center;
-color: #fafafa;
-font-size: 3.5rem;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: #fafafa;
+  font-size: 3.5rem;
 }
 ```
 
-### The JavaScript
+<h3>The JavaScript</h3>
 
 ```
-const buttons = document.querySelectorAll(&quot;.btn&quot;);
-const cities = document.querySelectorAll(&quot;.city&quot;);
+const buttons = document.querySelectorAll(".btn");
+const cities = document.querySelectorAll(".city");
 function showCity(e, index) {
-// adds the hidden-city class to all image element and removes the
-// active-btn class from all buttons
-for (let i = 0; i &lt; cities.length; i++) {
-cities&lbrack;i&rbrack;.classList.add(&quot;hidden-city&quot;);
-buttons&lbrack;i&rbrack;.classList.remove(&quot;active-btn&quot;);
+  // adds the hidden-city class to all image element and removes the
+  // active-btn class from all buttons
+  for (let i = 0; i < cities.length; i++) {
+    cities[i].classList.add("hidden-city");
+    buttons[i].classList.remove("active-btn");
+  }
+  // add the active-btn class to the clicked button
+  e.target.classList.add("active-btn");
+  // pick the right city and make it visible
+  cities[index].classList.remove("hidden-city");
 }
-// add the active-btn class to the clicked button
-e.target.classList.add(&quot;active-btn&quot;);
-// pick the right city and make it visible
-cities&lbrack;index&rbrack;.classList.remove(&quot;hidden-city&quot;);
-}
-buttons.forEach((button, index) =&gt; {
-button.addEventListener(&quot;click&quot;, (e) =&gt; {
-showCity(e, index);
-});
+buttons.forEach((button, index) => {
+  button.addEventListener("click", (e) => {
+    showCity(e, index);
+  });
 });
 ```
 
-## Template #2: CSS Tab Navigation with a Simple Tabbed Image Gallery
+<h2>Template #2: CSS Tab Navigation with a Simple Tabbed Image Gallery</h2>
 
-### The HTML
-
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Document&lt;/title&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;!&dash;- Tabbed image gallery &dash;-&gt;
-&lt;div class=&quot;tabbed-gallery&quot;&gt;
-&lt;div class=&quot;btn-row&quot;&gt;
-&lt;button class=&quot;btn active-btn&quot;&gt;
-&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;
-&lt;path
-d=&quot;M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
-3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06
-12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88
-20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69
-22,10.96L21,11.54V16.5C21,16.88 20.79,17.21
-20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94
-11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V10.96C2.7,11.13
-2.32,11.14
-2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77
-13.3,15.76
-13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z&quot;
-/&gt;
-&lt;/svg&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn&quot;&gt;
-&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;
-&lt;path
-d=&quot;M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
-18,20A3,3 0 0,0
-21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5
-0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1
-6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0 0,1
-16.5,17A1.5,1.5 0 0,1 18,15.5Z&quot;
-/&gt;
-&lt;/svg&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn&quot;&gt;
-&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;
-&lt;path
-d=&quot;M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4
-20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0
-12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z&quot;
-/&gt;
-&lt;/svg&gt;
-&lt;/button&gt;
-&lt;/div&gt;
-&lt;div class=&quot;card&quot;&gt;
-&lt;h2 class=&quot;&quot;&gt;Delivery&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;card hidden-card&quot;&gt;
-&lt;h2 class=&quot;&quot;&gt;Shipping&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;card hidden-card&quot;&gt;
-&lt;h2 class=&quot;&quot;&gt;Policy&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-&#64;import
-&quot;https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400&quot;;
-&ast; {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: &quot;Raleway&quot;, sans-serif;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Tabbed image gallery -->
+  <div class="tabbed-gallery">
+    <div class="btn-row">
+      <button class="btn active-btn">
+        <svg viewBox="0 0 24 24">
+          <path
+          d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
+          3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06
+          12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88
+          20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69
+          22,10.96L21,11.54V16.5C21,16.88 20.79,17.21
+          20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94
+          11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V10.96C2.7,11.13
+          2.32,11.14
+          2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77
+          13.3,15.76
+          13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z"
+          />
+        </svg>
+      </button>
+      <button class="btn">
+        <svg viewBox="0 0 24 24">
+          <path
+          d="M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
+          18,20A3,3 0 0,0
+          21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5
+          0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1
+          6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0 0,1
+          16.5,17A1.5,1.5 0 0,1 18,15.5Z"
+          />
+        </svg>
+      </button>
+      <button class="btn">
+        <svg viewBox="0 0 24 24">
+          <path
+          d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4
+          20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0
+          12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="card">
+      <h2 class="">Delivery</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="card hidden-card">
+      <h2 class="">Shipping</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="card hidden-card">
+      <h2 class="">Policy</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+```
+
+<h3>The CSS</h3>
+
+```
+@import
+"https://fonts.googleapis.com/css?family=Montserrat:400,700&vert;Raleway:300,400";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 body {
-width: 100vw;
-background: #fff;
+  width: 100vw;
+  background: #fff;
 }
 .tabbed-gallery {
-width: 80vw;
-height: 75vh;
-background-color: #e7e7e7;
-color: #1d1d27;
-margin: 6rem auto 0;
+  width: 80vw;
+  height: 75vh;
+  background-color: #e7e7e7;
+  color: #1d1d27;
+  margin: 6rem auto 0;
 }
 .btn-row {
-display: grid;
-grid-template-columns: repeat(3, 8rem);
-grid-template-rows: 3.5rem;
-column-gap: 10rem;
-justify-content: center;
-padding: 4rem auto !important;
-border-bottom: 2px solid #1d1d27;
+  display: grid;
+  grid-template-columns: repeat(3, 8rem);
+  grid-template-rows: 3.5rem;
+  column-gap: 10rem;
+  justify-content: center;
+  padding: 4rem auto !important;
+  border-bottom: 2px solid #1d1d27;
 }
 .btn {
-border: none;
-outline: none;
-background-color: #fff;
+  border: none;
+  outline: none;
+  background-color: #fff;
 }
 .btn svg {
-width: 3rem;
-height: 2.2rem;
+  width: 3rem;
+  height: 2.2rem;
 }
 .btn:hover {
-cursor: pointer;
+  cursor: pointer;
 }
 .active-btn svg {
-fill: #4343f5;
+  fill: #4343f5;
 }
 .card {
-width: 100%;
-height: 70vh;
-position: relative;
-display: block;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  display: block;
 }
 h2 {
-text-align: center;
-color: #4343f5;
-padding: 40px 0 20px 0;
-margin-top: 10rem;
-font-size: 4rem;
+  text-align: center;
+  color: #4343f5;
+  padding: 40px 0 20px 0;
+  margin-top: 10rem;
+  font-size: 4rem;
 }
 .card p {
-/&ast; position: absolute;
-top: 30%;
-left: 50%;
-transform: translate(-50%); &ast;/
-margin: 0 auto;
-width: 60%;
-text-align: center;
-color: #1d1d27;
-font-size: 1.5rem;
+  /* position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%); */
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  color: #1d1d27;
+  font-size: 1.5rem;
 }
 .animate h2,
 .animate p {
--webkit-animation-name: content;
-animation-name: content;
--webkit-animation-direction: normal;
-animation-direction: normal;
--webkit-animation-duration: 0.5s;
-animation-duration: 0.5s;
--webkit-animation-timing-function: ease-in-out;
-animation-timing-function: ease-in-out;
--webkit-animation-iteration-count: 1;
-animation-iteration-count: 1;
-line-height: 1.4;
+  -webkit-animation-name: content;
+  animation-name: content;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  line-height: 1.4;
 }
 .hidden-card {
-display: none;
+  display: none;
 }
-/&ast; text slide up animation &ast;/
+/* text slide up animation */
 @-webkit-keyframes content {
-from {
-opacity: 0;
-transform: translateY(30%);
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
-to {
-opacity: 1;
-transform: translateY(0%);
-}
-}
-&#64;keyframes content {
-from {
-opacity: 0;
-transform: translateY(30%);
-}
-to {
-opacity: 1;
-transform: translateY(0%);
-}
+@keyframes content {
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 ```
 
-### The JavaScript
+<h3>The JavaScript</h3>
 
 ```
-const buttons = document.querySelectorAll(&quot;.btn&quot;);
-const cards = document.querySelectorAll(&quot;.card&quot;);
+const buttons = document.querySelectorAll(".btn");
+const cards = document.querySelectorAll(".card");
 function showCard(e, index) {
-// adds the hidden-city class to all city element and removes the
-// active-btn class from all buttons.
-for (let i = 0; i &lt; cards.length; i++) {
-cards&lbrack;i&rbrack;.classList.add(&quot;hidden-card&quot;);
-cards&lbrack;i&rbrack;.classList.remove(&quot;animate&quot;);
-buttons&lbrack;i&rbrack;.classList.remove(&quot;active-btn&quot;);
+  // adds the hidden-city class to all city element and removes the
+  // active-btn class from all buttons.
+  for (let i = 0; i < cards.length; i++) {
+    cards[i].classList.add("hidden-card");
+    cards[i].classList.remove("animate");
+    buttons[i].classList.remove("active-btn");
+  }
+  // adding the active-btn class to the clicked button.
+  e.target.classList.add("active-btn");
+  // picking the right card and make it visible.
+  cards[index].classList.remove("hidden-card");
+  cards[index].classList.add("animate");
 }
-// adding the active-btn class to the clicked button.
-e.target.classList.add(&quot;active-btn&quot;);
-// picking the right card and make it visible.
-cards&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
-cards&lbrack;index&rbrack;.classList.add(&quot;animate&quot;);
+buttons.forEach((button, index) => {
+  button.addEventListener("click", (e) => {
+    showCard(e, index);
+  });
+});
+```
+
+<h2>2 CSS and JavaScript Slideshow Templates</h2>
+
+<h2>Template #1: Slideshow That Progresses Manually</h2>
+
+<h3>The HTML</h3>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="carousel">
+    <!-- Photo 1 -->
+    <div class="card">
+    <img src="./img/1.jpeg" alt="New York" class="" />
+    <p>1/4</p>
+  </div>
+<!-- Photo 2 -->
+<div class="card hidden-card">
+  <img src="./img/2.jpeg" alt="New York" class="" />
+  <p>2/4</p>
+</div>
+<!-- Photo 3 -->
+<div class="card hidden-card">
+  <img src="./img/3.jpeg" alt="New York" class="" />
+  <p>3/4</p>
+</div>
+  <!-- Photo 4 -->
+  <div class="card hidden-card">
+    <img src="./img/4.jpeg" alt="New York" class="" />
+    <p>4/4</p>
+  </div>
+  <div class="navigation">
+    <button class="prev nav-btn"><</button>
+    <button class="next nav-btn">></button>
+  </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
+```
+
+<h3>The CSS</h3>
+
+```
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
-buttons.forEach((button, index) =&gt; {
-button.addEventListener(&quot;click&quot;, (e) =&gt; {
-showCard(e, index);
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3c3c3c;
+}
+.carousel {
+  width: 80%;
+  height: 75vh;
+  position: relative;
+  display: block;
+  transition: all 400ms ease;
+}
+.card {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.card p {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: #fafafa;
+  font-size: 3.5rem;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  image-rendering: optimizeQuality;
+  transition: all 0.3s ease;
+  border: 8px solid white;
+}
+.hidden-card {
+  display: none;
+}
+.carousel img {
+  width: 100%;
+  transition: all 0.3s ease;
+  border: 8px solid white;
+}
+.navigation .prev {
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 40%;
+  left: 20px;
+  font-weight: 700;
+}
+.navigation .next {
+  right: 20px;
+  position: absolute;
+  font-size: 25px;
+  z-index: 10;
+  top: 40%;
+}
+.navigation .nav-btn {
+  background: rgba(255, 255, 255, 0.55);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.navigation .nav-btn:hover {
+  background: white;
+}
+```
+
+<h3>The JavaScript</h3>
+
+```
+const prev = document.querySelector(".prev");
+const next = document.querySelector(".next");
+const images = document.querySelectorAll(".card");
+const totalImages = images.length;
+let index = 0;
+prev.addEventListener("click", () => {
+  nextImage("prev");
 });
+next.addEventListener("click", () => {
+  nextImage("next");
 });
+function nextImage(direction) {
+  if (direction === "next") {
+    index++;
+    if (index === totalImages) {
+      index = 0;
+    }
+  } else if (direction === "prev") {
+    if (index == 0) {
+      index = totalImages - 1;
+    } else {
+      index--;
+    }
+  }
+  for (let i = 0; i < images.length; i++) {
+    images[i].classList.add("hidden-card");
+  }
+    images[index].classList.remove("hidden-card");
+}
 ```
 
-## 2 CSS and JavaScript Slideshow Templates
+<h2>Template #2: Slideshow That Progresses Automatically</h2>
 
-## Template #1: Slideshow That Progresses Manually
-
-### The HTML
+<h3>The HTML</h3>
 
 ```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;carousel&quot;&gt;
-&lt;!&dash;- Photo 1 &dash;-&gt;
-&lt;div class=&quot;card&quot;&gt;
-&lt;img src=&quot;./img/1.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;1/4&lt;/p&gt;
-&lt;/div&gt;
-&lt;!&dash;- Photo 2 &dash;-&gt;
-&lt;div class=&quot;card hidden-card&quot;&gt;
-&lt;img src=&quot;./img/2.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;2/4&lt;/p&gt;
-&lt;/div&gt;
-&lt;!&dash;- Photo 3 &dash;-&gt;
-&lt;div class=&quot;card hidden-card&quot;&gt;
-&lt;img src=&quot;./img/3.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;3/4&lt;/p&gt;
-&lt;/div&gt;
-&lt;!&dash;- Photo 4 &dash;-&gt;
-&lt;div class=&quot;card hidden-card&quot;&gt;
-&lt;img src=&quot;./img/4.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;4/4&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;navigation&quot;&gt;
-&lt;button class=&quot;prev nav-btn&quot;&gt;&lt;&lt;/button&gt;
-&lt;button class=&quot;next nav-btn&quot;&gt;&gt;&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="carousel">
+<!-- Photo 1 -->
+<div class="card">
+<img src="./img/1.jpeg" alt="New York" class="" />
+<p>1/4</p>
+</div>
+<!-- Photo 2 -->
+<div class="card hidden-card">
+<img src="./img/2.jpeg" alt="New York" class="" />
+<p>2/4</p>
+</div>
+<!-- Photo 3 -->
+<div class="card hidden-card">
+<img src="./img/3.jpeg" alt="New York" class="" />
+<p>3/4</p>
+</div>
+<!-- Photo 4 -->
+<div class="card hidden-card">
+<img src="./img/4.jpeg" alt="New York" class="" />
+<p>4/4</p>
+</div>
+<div class="navigation">
+<button class="prev nav-btn"><</button>
+<button class="next nav-btn">></button>
+</div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
 ```
 
-### The CSS
+<h3>The CSS</h3>
 
 ```
-&#64;import
-url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
-&ast; {
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+* {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
+font-family: "DynaPuff", cursive, sans-serif;
 }
 html,
 body {
@@ -2467,244 +2595,76 @@ background: white;
 }
 ```
 
-### The JavaScript
+<h3>The JavaScript</h3>
 
 ```
-const prev = document.querySelector(&quot;.prev&quot;);
-const next = document.querySelector(&quot;.next&quot;);
-const images = document.querySelectorAll(&quot;.card&quot;);
+const prev = document.querySelector(".prev");
+const next = document.querySelector(".next");
+const images = document.querySelectorAll(".card");
 const totalImages = images.length;
 let index = 0;
-prev.addEventListener(&quot;click&quot;, () =&gt; {
-nextImage(&quot;prev&quot;);
+prev.addEventListener("click", () => {
+nextImage("prev");
 });
-next.addEventListener(&quot;click&quot;, () =&gt; {
-nextImage(&quot;next&quot;);
+next.addEventListener("click", () => {
+nextImage("next");
 });
 function nextImage(direction) {
-if (direction === &quot;next&quot;) {
+if (direction === "next") {
 index++;
 if (index === totalImages) {
 index = 0;
 }
-} else if (direction === &quot;prev&quot;) {
+} else if (direction === "prev") {
 if (index == 0) {
 index = totalImages - 1;
 } else {
-index&dash;-;
+index--;
 }
 }
-for (let i = 0; i &lt; images.length; i++) {
-images&lbrack;i&rbrack;.classList.add(&quot;hidden-card&quot;);
+for (let i = 0; i < images.length; i++) {
+images[i].classList.add("hidden-card");
 }
-images&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
+images[index].classList.remove("hidden-card");
 }
-```
-
-## Template #2: Slideshow That Progresses Automatically
-
-### The HTML
-
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Document&lt;/title&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;carousel&quot;&gt;
-&lt;!&dash;- Photo 1 &dash;-&gt;
-&lt;div class=&quot;card&quot;&gt;
-&lt;img src=&quot;./img/1.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;1/4&lt;/p&gt;
-&lt;/div&gt;
-&lt;!&dash;- Photo 2 &dash;-&gt;
-&lt;div class=&quot;card hidden-card&quot;&gt;
-&lt;img src=&quot;./img/2.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;2/4&lt;/p&gt;
-&lt;/div&gt;
-&lt;!&dash;- Photo 3 &dash;-&gt;
-&lt;div class=&quot;card hidden-card&quot;&gt;
-&lt;img src=&quot;./img/3.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;3/4&lt;/p&gt;
-&lt;/div&gt;
-&lt;!&dash;- Photo 4 &dash;-&gt;
-&lt;div class=&quot;card hidden-card&quot;&gt;
-&lt;img src=&quot;./img/4.jpeg&quot; alt=&quot;New York&quot; class=&quot;&quot; /&gt;
-&lt;p&gt;4/4&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;navigation&quot;&gt;
-&lt;button class=&quot;prev nav-btn&quot;&gt;&lt;&lt;/button&gt;
-&lt;button class=&quot;next nav-btn&quot;&gt;&gt;&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-&lt;/html&gt;
-```
-
-### The CSS
-
-```
-&#64;import
-url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap&quot;);
-&ast; {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
-}
-html,
-body {
-display: flex;
-align-items: center;
-justify-content: center;
-align-items: center;
-width: 100vw;
-height: 100vh;
-background-color: #3c3c3c;
-}
-.carousel {
-width: 80%;
-height: 75vh;
-position: relative;
-display: block;
-transition: all 400ms ease;
-}
-.card {
-display: block;
-height: 100%;
-width: 100%;
-}
-.card p {
-position: absolute;
-bottom: 12%;
-left: 50%;
-transform: translate(-50%);
-text-align: center;
-color: #fafafa;
-font-size: 3.5rem;
-}
-.card img {
-width: 100%;
-height: 100%;
-image-rendering: optimizeQuality;
-transition: all 0.3s ease;
-border: 8px solid white;
-}
-.hidden-card {
-display: none;
-}
-.carousel img {
-width: 100%;
-transition: all 0.3s ease;
-border: 8px solid white;
-}
-.navigation .prev {
-position: absolute;
-z-index: 10;
-font-size: 25px;
-top: 40%;
-left: 20px;
-font-weight: 700;
-}
-.navigation .next {
-right: 20px;
-position: absolute;
-font-size: 25px;
-z-index: 10;
-top: 40%;
-}
-.navigation .nav-btn {
-background: rgba(255, 255, 255, 0.55);
-border: none;
-outline: none;
-cursor: pointer;
-border-radius: 50%;
-width: 40px;
-height: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px;
-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
-}
-.navigation .nav-btn:hover {
-background: white;
-}
-```
-
-### The JavaScript
-
-```
-const prev = document.querySelector(&quot;.prev&quot;);
-const next = document.querySelector(&quot;.next&quot;);
-const images = document.querySelectorAll(&quot;.card&quot;);
-const totalImages = images.length;
-let index = 0;
-prev.addEventListener(&quot;click&quot;, () =&gt; {
-nextImage(&quot;prev&quot;);
-});
-next.addEventListener(&quot;click&quot;, () =&gt; {
-nextImage(&quot;next&quot;);
-});
-function nextImage(direction) {
-if (direction === &quot;next&quot;) {
-index++;
-if (index === totalImages) {
-index = 0;
-}
-} else if (direction === &quot;prev&quot;) {
-if (index == 0) {
-index = totalImages - 1;
-} else {
-index&dash;-;
-}
-}
-for (let i = 0; i &lt; images.length; i++) {
-images&lbrack;i&rbrack;.classList.add(&quot;hidden-card&quot;);
-}
-images&lbrack;index&rbrack;.classList.remove(&quot;hidden-card&quot;);
-}
-setInterval(() =&gt; {
-nextImage(&quot;next&quot;);
+setInterval(() => {
+nextImage("next");
 }, 5000);
 ```
 
-## 3 JavaScript onClick with CSS Templates
+<h2>3 JavaScript onClick with CSS Templates</h2>
 
-##  Template #1: Display a Hidden Element
+<h2>Template #1: Display a Hidden Element</h2>
 
-### The HTML
-
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Document&lt;/title&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container hidden-container&quot;&gt;
-&lt;img src=&quot;./honolulu.jpeg&quot; alt=&quot;Honolulu&quot; class=&quot;img&quot; /&gt;
-&lt;button class=&quot;fixed-btn&quot;&gt;Toggle image&lt;/button&gt;
-&lt;/div&gt;
-&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-&#64;import
-url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400&quot;);
-&ast; {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="container hidden-container">
+<img src="./honolulu.jpeg" alt="Honolulu" class="img" />
+<button class="fixed-btn">Toggle image</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+```
+
+<h3>The CSS</h3>
+
+```
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400");
+* {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
+font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
 width: 100vw;
@@ -2748,47 +2708,47 @@ transition: all 400ms ease;
 }
 ```
 
-### The JavaScript
+<h3>The JavaScript</h3>
 
 ```
-const toggleBtn = document.querySelector(&quot;.fixed-btn&quot;);
-const hiddenImage = document.querySelector(&quot;.hidden-container img&quot;);
-toggleBtn.addEventListener(&quot;click&quot;, (e) =&gt; {
-hiddenImage.classList.toggle(&quot;hidden&quot;);
+const toggleBtn = document.querySelector(".fixed-btn");
+const hiddenImage = document.querySelector(".hidden-container img");
+toggleBtn.addEventListener("click", (e) => {
+hiddenImage.classList.toggle("hidden");
 });
 ```
 
-## Template #2: Update a Field
+<h2>Template #2: Update a Field</h2>
 
-### The HTML
-
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Document&lt;/title&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;textarea id=&quot;text-area&quot; cols=&quot;50&quot; rows=&quot;20&quot;&gt; &lt;/textarea&gt;
-&lt;button class=&quot;fill-btn&quot;&gt;Fill text&lt;/button&gt;
-&lt;/div&gt;
-&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-&#64;import
-url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400&quot;);
-&ast; {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="container">
+<textarea id="text-area" cols="50" rows="20"> </textarea>
+<button class="fill-btn">Fill text</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+```
+
+<h3>The CSS</h3>
+
+```
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400");
+* {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
+font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
 width: 100vw;
@@ -2824,51 +2784,51 @@ letter-spacing: 0.1rem;
 }
 ```
 
-### The JavaScript
+<h3>The JavaScript</h3>
 
 ```
-const fillBtn = document.querySelector(&quot;.fill-btn&quot;);
-const textarea = document.getElementById(&quot;text-area&quot;);
-fillBtn.addEventListener(&quot;click&quot;, () =&gt; {
+const fillBtn = document.querySelector(".fill-btn");
+const textarea = document.getElementById("text-area");
+fillBtn.addEventListener("click", () => {
 textarea.innerHTML =
-&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic a
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic a
 vel perspiciatis asperiores, repudiandae rem nemo velit doloribus odit
 fugit, sed recusandae, minus voluptatem possimus autem molestias non
 aperiam\\n\\nLorem ipsum dolor sit amet consectetur adipisicing elit.
-Magnam hic a vel perspiciatis asperiores&quot;;
+Magnam hic a vel perspiciatis asperiores";
 });
 ```
 
-## Template #3: Change Colors or Other Visual Effects
+<h2>Template #3: Change Colors or Other Visual Effects</h2>
 
-### The HTML
-
-```
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Document&lt;/title&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container bg-container&quot;&gt;
-&lt;button class=&quot;fixed-btn&quot;&gt;New Color!&lt;/button&gt;
-&lt;/div&gt;
-&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-```
-
-### The CSS
+<h3>The HTML</h3>
 
 ```
-&#64;import
-url(&quot;https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400&quot;);
-&ast; {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="container bg-container">
+<button class="fixed-btn">New Color!</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+```
+
+<h3>The CSS</h3>
+
+```
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700&vert;Raleway:300,400");
+* {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-font-family: &quot;DynaPuff&quot;, cursive, sans-serif;
+font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
 width: 100vw;
@@ -2900,113 +2860,113 @@ background-color: #4343f5;
 }
 ```
 
-### The JavaScript
+<h3>The JavaScript</h3>
 
 ```
-const toggleBtn = document.querySelector(&quot;.bg-container .fixed-btn&quot;);
-const container = document.querySelector(&quot;.bg-container&quot;);
-const colors = &lbrack;
-&quot;#cdb4db&quot;,
-&quot;#ffc8dd&quot;,
-&quot;#ffafcc&quot;,
-&quot;#bde0fe&quot;,
-&quot;#a2d2ff&quot;,
-&quot;#00b4d8&quot;,
-&quot;#6f2dbd&quot;,
-&quot;#f27059&quot;,
-&rbrack;;
-toggleBtn.addEventListener(&quot;click&quot;, (e) =&gt; {
+const toggleBtn = document.querySelector(".bg-container .fixed-btn");
+const container = document.querySelector(".bg-container");
+const colors = [
+"#cdb4db",
+"#ffc8dd",
+"#ffafcc",
+"#bde0fe",
+"#a2d2ff",
+"#00b4d8",
+"#6f2dbd",
+"#f27059",
+];
+toggleBtn.addEventListener("click", (e) => {
 e.preventDefault();
 container.style.backgroundColor =
-colors&lbrack;Math.floor(Math.random() &ast; colors.length)&rbrack;;
+colors[Math.floor(Math.random() * colors.length)];
 });
 ```
 
-## HTML Video & Audio Templates
+<h2>HTML Video & Audio Templates</h2>
 
 ```
-&lt;!&dash;- Basic video element &dash;-&gt;
-&lt;video src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
-&lt;!&dash;- Features standard controls to user &dash;-&gt;
-&lt;video controls src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
-&lt;!&dash;- Width and height in pixels &dash;-&gt;
-&lt;video width=&quot;500&quot; height=&quot;500&quot;
-src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
-&lt;!&dash;- Autoplay video &dash;-&gt;
-&lt;video autoplay src=&quot;./media/example-video.mp4&quot;&gt;&lt;/video&gt;
-&lt;style&gt;
-/&ast; Stylized video element &ast;/
-video { /&ast; Give video elements a red border &ast;/
+<!-- Basic video element -->
+<video src="./media/example-video.mp4"></video>
+<!-- Features standard controls to user -->
+<video controls src="./media/example-video.mp4"></video>
+<!-- Width and height in pixels -->
+<video width="500" height="500"
+src="./media/example-video.mp4"></video>
+<!-- Autoplay video -->
+<video autoplay src="./media/example-video.mp4"></video>
+<style>
+/* Stylized video element */
+video { /* Give video elements a red border */
 border-width: 5px;
 border-color: red;
 }
-&lt;/style&gt;
-&lt;!&dash;- Audio element with controls &dash;-&gt;
-&lt;audio controls src=&quot;./media/example-audio.mp3&quot;&gt;&lt;/audio&gt;
-&lt;style&gt;
-/&ast; Stylized audio element. Note: Only applicable if controls are
-visible &ast;/
+</style>
+<!-- Audio element with controls -->
+<audio controls src="./media/example-audio.mp3"></audio>
+<style>
+/* Stylized audio element. Note: Only applicable if controls are
+visible */
 audio {
 border-width: 5px;
 border-radius: green;
 }
-&lt;/style&gt;
+</style>
 ```
 
-## CSS Background Template
+<h2>CSS Background Template</h2>
 
 ### Template
 
 <h2 id="ex24">Example #24</h2>
 
 <p align="center">
-<img src="./images/image025.png" 
+<img src="./images/image024.png" 
   title=""
   alt="."
   style="border: 2px solid #000000; width:4.88in;" />
 </p>
 
-<!-- ![](./images/image025.jpg){width="4.880208880139983in" height="3.2534722222222223in"} -->
+<!-- ![](./images/image024.jpg){width="4.880208880139983in" height="3.2534722222222223in"} -->
 
 [Example](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
 
 ```
-/&ast; Set entire page background to a color &ast;/
+/* Set entire page background to a color */
 body {
 background: red;
 }
-/&ast; To an image URL &ast;/
+/* To an image URL */
 body {
-background: url(&quot;./images/image.png&quot;);
+background: url("./images/image.png");
 }
-/&ast;multiple backgrounds&ast;/
+/*multiple backgrounds*/
 body {
 background-image: url(rose.png), url(Android-Logo.png);
 background-position: right bottom, left top;
 background-repeat: no-repeat, repeat;
 }
-/&ast; Transparent background &ast;/
+/* Transparent background */
 body {
 background: green;
-opacity: 0.5; /&ast; 50% opacity &ast;/
+opacity: 0.5; /* 50% opacity */
 }
-/&ast; Position image in center &ast;/
+/* Position image in center */
 body {
-background: center url(&quot;./images/image.png&quot;);
+background: center url("./images/image.png");
 }
-/&ast; Repeat an image &ast;/
+/* Repeat an image */
 body {
-background: repeat-x url(&quot;./images/image.png&quot;);
+background: repeat-x url("./images/image.png");
 }
-/&ast; Don&apos;t repeat an image &ast;/
+/* Don't repeat an image */
 body {
-background: no-repeat url(&quot;./images/image.png&quot;);
+background: no-repeat url("./images/image.png");
 }
-/&ast; Set background for particular element with id &apos;my-element&apos; &ast;/
+/* Set background for particular element with id 'my-element' */
 #my-element {
 background: red;
 }
-/&ast; background-blend-mode &ast;/
+/* background-blend-mode */
 body{
 background:
 radial-gradient(
@@ -3028,7 +2988,7 @@ background-blend-mode: multiply;
 background-size: 100px 100px;
 background-position: 0 0, 33px 33px, -33px -33px;
 }
-/&ast; This demonstrates how a background image filter can be added &ast;/
+/* This demonstrates how a background image filter can be added */
 body{
 background-image:
 conic-gradient(red, white, green, yellow, brown),
@@ -3037,42 +2997,42 @@ background-blend-mode: color-burn;
 }
 ```
 
-## CSS Gradient Templates
+<h2>CSS Gradient Templates</h2>
 
 ```
-&lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;square left-gradient&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;square right-gradient&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;square diagonal-gradient&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;square angled-gradient&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;square rainbow-gradient&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;square transparent-gradient&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;square repeating-gradient&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;square conic-gradient&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;square radial-gradient&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;square multiple-gradient&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;style&gt;
+<div class="container">
+<div class="square left-gradient"></div>
+<div class="square right-gradient"></div>
+<div class="square diagonal-gradient"></div>
+<div class="square angled-gradient"></div>
+<div class="square rainbow-gradient"></div>
+<div class="square transparent-gradient"></div>
+<div class="square repeating-gradient"></div>
+<div class="square conic-gradient"></div>
+<div class="square radial-gradient"></div>
+<div class="square multiple-gradient"></div>
+</div>
+<style>
 .left-gradient {
 background: linear-gradient(to left, red, green);
 }
-/&ast; Right-to-left gradient &ast;/
+/* Right-to-left gradient */
 .right-gradient {
 background: linear-gradient(to right, red, green);
 }
-/&ast; Diagonal gradient &ast;/
+/* Diagonal gradient */
 .diagonal-gradient {
 background: linear-gradient(to top left, red, green);
 }
-/&ast; Angled (33 degree) gradient &ast;/
+/* Angled (33 degree) gradient */
 .angled-gradient {
 background: linear-gradient(33deg, red, green);
 }
-/&ast; Multi-colored gradient &ast;/
+/* Multi-colored gradient */
 .rainbow-gradient {
 background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
 }
-/&ast; Partially transparent gradient &ast;/
+/* Partially transparent gradient */
 .transparent-gradient {
 background: linear-gradient(to left, red, green);
 opacity: 0.5;
@@ -3094,14 +3054,14 @@ background-image: repeating-linear-gradient(white, yellow, brown);
 background-image:
 linear-gradient(to left, red, green), radial-gradient(white, yellow, brown);
 }
-&lt;/style&gt;
+</style>
 ```
 
-## CSS overflow templates
+<h2>CSS overflow templates</h2>
 
 ```
-&lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;square hidden-overflow&quot;&gt;
+<div class="container">
+<div class="square hidden-overflow">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 eniam,
@@ -3109,98 +3069,98 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/div&gt;
-&lt;div class=&quot;square scroll-overflow&quot;&gt;
+</div>
+<div class="square scroll-overflow">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/div&gt;
-&lt;div class=&quot;square auto-overflow&quot;&gt;
+</div>
+<div class="square auto-overflow">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/div&gt;
-&lt;div class=&quot;square visible-overflow&quot;&gt;
+</div>
+<div class="square visible-overflow">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/div&gt;
-&lt;div class=&quot;square visible-overflow-x&quot;&gt;
-&lt;ol&gt;
-&lt;li&gt;John&lt;/li&gt;
-&lt;li&gt;Doe&lt;/li&gt;
-&lt;li&gt;Mike&lt;/li&gt;
-&lt;li&gt;Gee&lt;/li&gt;
-&lt;li&gt;Stella&lt;/li&gt;
-&lt;li&gt;Jane&lt;/li&gt;
-&lt;li&gt;Mary&lt;/li&gt;
-&lt;li&gt;Lawrence&lt;/li&gt;
-&lt;li&gt;Nancy&lt;/li&gt;
-&lt;li&gt;Kennedy&lt;/li&gt;
-&lt;li&gt;Stanely&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&quot;square hidden-overflow-y&quot;&gt;
-&lt;ol&gt;
-&lt;li&gt;John&lt;/li&gt;
-&lt;li&gt;Doe&lt;/li&gt;
-&lt;li&gt;Mike&lt;/li&gt;
-&lt;li&gt;Gee&lt;/li&gt;
-&lt;li&gt;Stella&lt;/li&gt;
-&lt;li&gt;Jane&lt;/li&gt;
-&lt;li&gt;Mary&lt;/li&gt;
-&lt;li&gt;Lawrence&lt;/li&gt;
-&lt;li&gt;Nancy&lt;/li&gt;
-&lt;li&gt;Kennedy&lt;/li&gt;
-&lt;li&gt;Stanely&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;container&quot; style=&quot;margin-top: 10%&quot;&gt;
-&lt;div class=&quot;rectangle overflow-wrap-normal&quot;&gt;
+</div>
+<div class="square visible-overflow-x">
+<ol>
+<li>John</li>
+<li>Doe</li>
+<li>Mike</li>
+<li>Gee</li>
+<li>Stella</li>
+<li>Jane</li>
+<li>Mary</li>
+<li>Lawrence</li>
+<li>Nancy</li>
+<li>Kennedy</li>
+<li>Stanely</li>
+</ol>
+</div>
+<div class="square hidden-overflow-y">
+<ol>
+<li>John</li>
+<li>Doe</li>
+<li>Mike</li>
+<li>Gee</li>
+<li>Stella</li>
+<li>Jane</li>
+<li>Mary</li>
+<li>Lawrence</li>
+<li>Nancy</li>
+<li>Kennedy</li>
+<li>Stanely</li>
+</ol>
+</div>
+</div>
+<div class="container" style="margin-top: 10%">
+<div class="rectangle overflow-wrap-normal">
 ```
 
 ### This is the longest English word,
 ### Pneumonoultramicroscopicsilicovolcanoconiosis
 
 ```
-&lt;/div&gt;
-&lt;div class=&quot;rectangle overflow-wrap-break&quot;&gt;
+</div>
+<div class="rectangle overflow-wrap-break">
 ```
 
 ### This is the longest English word,
 ### Pneumonoultramicroscopicsilicovolcanoconiosis
 
 ```
-&lt;/div&gt;
-&lt;div class=&quot;rectangle-max-height visible-overflow-x&quot;&gt;
+</div>
+<div class="rectangle-max-height visible-overflow-x">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;rectangle-max-width visible-overflow&quot;&gt;
+</div>
+</div>
+<div class="rectangle-max-width visible-overflow">
 ```
 
 ### This is the longest English word,
 ### Pneumonoultramicroscopicsilicovolcanoconiosis
 
 ```
-&lt;/div&gt;
-&lt;style type=&quot;text/css&quot;&gt;
-/&ast; visible overflow &ast;/
+</div>
+<style type="text/css">
+/* visible overflow */
 .container {
 display: flex;
 }
@@ -3263,31 +3223,31 @@ overflow-wrap: normal;
 .overflow-wrap-break {
 overflow-wrap: break-word;
 }
-&lt;/style&gt;
+</style>
 ```
 
-## CSS Animation Template
+<h2>CSS Animation Template</h2>
 
 ```
-&lt;html&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;!&dash;- Example 1: Changing Color &dash;-&gt;
-&lt;div class=&quot;green-square green-red-alternate&quot;&gt;&lt;/div&gt;
-&lt;!&dash;- Example 2: Moving across the screen &dash;-&gt;
-&lt;div class=&quot;black-circle vertical-alternate-fast&quot;&gt;&lt;/div&gt;
-&lt;!&dash;- Example 3: On hover, changing color&dash;-&gt;
-&lt;div class=&quot;green-rounded-square color-transition&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-&lt;style&gt;
+<html>
+<body>
+<div class="container">
+<!-- Example 1: Changing Color -->
+<div class="green-square green-red-alternate"></div>
+<!-- Example 2: Moving across the screen -->
+<div class="black-circle vertical-alternate-fast"></div>
+<!-- Example 3: On hover, changing color-->
+<div class="green-rounded-square color-transition"></div>
+</div>
+</body>
+</html>
+<style>
 .container {
 display: flex;
 flex-direction: row;
 overflow: hidden;
 }
-/&ast; Example 1: Changing Color &ast;/
+/* Example 1: Changing Color */
 .green-square {
 width: 200px;
 height: 200px;
@@ -3299,7 +3259,7 @@ animation-duration: 3s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 }
-&#64;keyframes to-red {
+@keyframes to-red {
 from {
 background-color: green;
 }
@@ -3307,21 +3267,21 @@ to {
 background-color: red;
 }
 }
-/&ast; Example 2: Moving across the screen &ast;/
+/* Example 2: Moving across the screen */
 .black-circle {
 width: 200px;
 height: 200px;
 border-radius: 100%;
 background-color: black;
 }
-/&ast; Example 2a: Moving horizontal slowly &ast;/
+/* Example 2a: Moving horizontal slowly */
 .horizontal-alternate {
 animation-name: left-to-right;
 animation-duration: 3s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 }
-&#64;keyframes left-to-right {
+@keyframes left-to-right {
 from {
 margin-left: 0%;
 }
@@ -3329,14 +3289,14 @@ to {
 margin-left: 100%;
 }
 }
-/&ast; Example 2b: Moving vertically quickly &ast;/
+/* Example 2b: Moving vertically quickly */
 .vertical-alternate-fast {
 animation-name: top-to-bottom;
 animation-duration: 1s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 }
-&#64;keyframes top-to-bottom {
+@keyframes top-to-bottom {
 from {
 margin-top: 0%;
 }
@@ -3344,7 +3304,7 @@ to {
 margin-top: 100%;
 }
 }
-/&ast; Example 3: Animation on hover &ast;/
+/* Example 3: Animation on hover */
 .green-rounded-square {
 width: 200px;
 height: 200px;
@@ -3357,7 +3317,7 @@ animation-duration: 3s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 }
-&lt;/style&gt;
+</style>
 ```
 
 <h2 id="ex36">36. Email Signature Gallery Templates</h2>
@@ -3368,6 +3328,7 @@ animation-direction: alternate;
 <h2 id="ex38">38. GitHub Full-On Readme Template</h2>
 
 <h2 id="ex39">39. GitHub Skeleton Template</h2>
+
 <h3>Skeleton is a simple, responsive boilerplate to kickstart any responsive project.</h3>
 
 <h2 id="ex40">40. Table of Contents Template</h2>
