@@ -82,6 +82,7 @@ optimized site, you're encouraged to do so.</p>
 <h2 id="ex1">Example #1: Menu: 4 horizontal options, 3rd active</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 01. menu; four horizontal options with 3rd one active (01) ~~~~~~~~~~~~~~~~~-->
+
 <p align="center">
 <img src="./images/image001.png" 
   title="Menu; four horizontal options with 3rd one active"
@@ -345,9 +346,9 @@ color: rgb(176, 115, 0);
 
 <h2 id="ex5">Example #5</h2>
 
-<h2>3 Button Transition Templates
+<h2>3 Button Transition Templates</h2>
 
-<h2>Example #1
+<h2>Example #1</h2>
 
 <p align="center">
 <img src="./images/image005.png" 
@@ -433,7 +434,7 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 }
 ```
 
-<h2>Example #3
+<h2>Example #3</h2>
 
 <h2 id="ex8">Example #8</h2>
 <p align="center">
@@ -503,11 +504,11 @@ bottom: 0;
 }
 ```
 
-<h2>3 Web Form & Search Bar Templates
+<h2>3 Web Form & Search Bar Templates</h2>
 
 <h2 id="ex11">Example #11</h2>
 
-<h2>Template #1
+<h2>Template #1</h2>
 
 <p align="center">
 <img src="./images/image011.png" 
@@ -614,7 +615,7 @@ margin: 0 3px 0 10px;
 }
 ```
 
-<h2>Template #2
+<h2>Template #2</h2>
 
 <h2 id="ex12">Example #12</h2>
 
@@ -734,7 +735,7 @@ border-radius: 5px;
 
 <h2 id="ex13">Example #13</h2>
 
-<h2>Template #2
+<h2>Template #2</h2>
 
 <p align="center">
 <img src="./images/image013.png" 
@@ -858,9 +859,10 @@ cursor: pointer;
 
 <h2 id="ex14">Example #14</h2>
 
-<h2>1 Lightbox Modal Element Template
+<h2>1 Lightbox Modal Element Template</h2>
 
-<h2>Template
+<h2>Template</h2>
+
 <p align="center">
 <img src="./images/image014.png" 
   title=""
@@ -870,6 +872,7 @@ cursor: pointer;
 <!-- ![](./images/image014.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
 
 <h2 id="ex15">Example #15</h2>
+
 <p align="center">
 <img src="./images/image015.png" 
   title=""
@@ -879,6 +882,7 @@ cursor: pointer;
 <!-- ![](./images/image015.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
 
 <h2 id="ex16">Example #16</h2>
+
 <p align="center">
 <img src="./images/image016.png" 
   title=""
@@ -1246,8 +1250,6 @@ visibility: visible;
 }
 ```
 
-<h2>Example #4
-
 <h2 id="ex20">Example #20</h2>
 
 <p align="center">
@@ -1306,7 +1308,7 @@ visibility: visible;
 }
 ```
 
-<h2>2 Progress Bar Templates
+<h2>2 Progress Bar Templates</h2>
 
 <h2 id="ex21">Example #21</h2>
 
@@ -1394,9 +1396,9 @@ border-radius: 15px;
 }
 ```
 
-<h2>2 CSS Accordian Templates
+<h2>2 CSS Accordian Templates</h2>
 
-<h2>Example #1: Accordion Using Only CSS and HTML
+<h2>Example #1: Accordion Using Only CSS and HTML</h2>
 
 <h3>The HTML</h3>
 
@@ -1534,7 +1536,7 @@ padding: 1rem;
 }
 ```
 
-<h2>Example #2: Accordion Using CSS and HTML and JavaScript
+<h2>Example #2: Accordion Using CSS and HTML and JavaScript</h2>
 
 <h3>The HTML</h3>
 
@@ -1742,7 +1744,7 @@ class="translucent"
 }
 ```
 
-<h2>Template #2: Grayscale
+<h2>Template #2: Grayscale</h2>
 
 <h3>The HTML</h3>
 
@@ -1803,7 +1805,7 @@ class="translucent"
 }
 ```
 
-<h2>Template #3: Sepia
+<h2>Template #3: Sepia</h2>
 
 ```
 <!DOCTYPE html>
@@ -1862,7 +1864,7 @@ filter: sepia(100%);
 }
 ```
 
-<h2>Template #4: Hover
+<h2>Template #4: Hover</h2>
 
 <h3>The HTML</h3>
 
@@ -1924,9 +1926,9 @@ filter: grayscale(100%);
 }
 ```
 
-<h2>2 CSS Tab Navigation Templates
+<h2>2 CSS Tab Navigation Templates</h2>
 
-<h2>Template #1: CSS Tab Navigation with Animation Effects
+<h2>Template #1: CSS Tab Navigation with Animation Effects</h2>
 
 <h3>The HTML</h3>
 
@@ -2054,7 +2056,7 @@ showCity(e, index);
 });
 ```
 
-<h2>Template #2: CSS Tab Navigation with a Simple Tabbed Image Gallery
+<h2>Template #2: CSS Tab Navigation with a Simple Tabbed Image Gallery</h2>
 
 <h3>The HTML</h3>
 
@@ -2262,9 +2264,9 @@ showCard(e, index);
 });
 ```
 
-<h2>2 CSS and JavaScript Slideshow Templates
+<h2>2 CSS and JavaScript Slideshow Templates</h2>
 
-<h2>Template #1: Slideshow That Progresses Manually
+<h2>Template #1: Slideshow That Progresses Manually</h2>
 
 <h3>The HTML</h3>
 
@@ -2431,7 +2433,7 @@ images[index].classList.remove("hidden-card");
 }
 ```
 
-<h2>Template #2: Slideshow That Progresses Automatically
+<h2>Template #2: Slideshow That Progresses Automatically</h2>
 
 <h3>The HTML</h3>
 
@@ -2688,9 +2690,9 @@ hiddenImage.classList.toggle("hidden");
 });
 ```
 
-<h2>Template #2: Update a Field
+<h2>Template #2: Update a Field</h2>
 
-<h3>The HTML
+<h3>The HTML</h3>
 
 ```
 <!DOCTYPE html>
@@ -2769,7 +2771,7 @@ Magnam hic a vel perspiciatis asperiores";
 });
 ```
 
-<h2>Template #3: Change Colors or Other Visual Effects
+<h2>Template #3: Change Colors or Other Visual Effects</h2>
 
 <h3>The HTML</h3>
 
@@ -2852,7 +2854,7 @@ colors[Math.floor(Math.random() * colors.length)];
 });
 ```
 
-<h2>HTML Video & Audio Templates
+<h2>HTML Video & Audio Templates</h2>
 
 ```
 <!-- Basic video element -->
@@ -2883,7 +2885,7 @@ border-radius: green;
 </style>
 ```
 
-<h2>CSS Background Template
+<h2>CSS Background Template</h2>
 
 ### Template
 
@@ -2967,7 +2969,7 @@ background-blend-mode: color-burn;
 }
 ```
 
-<h2>CSS Gradient Templates
+<h2>CSS Gradient Templates</h2>
 
 ```
 <div class="container">
@@ -3027,7 +3029,7 @@ linear-gradient(to left, red, green), radial-gradient(white, yellow, brown);
 </style>
 ```
 
-<h2>CSS overflow templates
+<h2>CSS overflow templates</h2>
 
 ```
 <div class="container">
@@ -3196,7 +3198,7 @@ overflow-wrap: break-word;
 </style>
 ```
 
-<h2>CSS Animation Template
+<h2>CSS Animation Template</h2>
 
 ```
 <html>
