@@ -3455,6 +3455,7 @@ body{
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex40">40. Table of Contents Template</h2>
 <a href="https://github.com/ekalinin/github-markdown-toc">GitHub TOC Template</a>
+<a href="https://afeld.github.io/bootstrap-toc/">More TOC</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex41">41. Bootstrap Templates</h2>
 <ul>
