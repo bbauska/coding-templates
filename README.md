@@ -3455,12 +3455,13 @@ body{
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex40">40. Table of Contents Template</h2>
 <a href="https://github.com/ekalinin/github-markdown-toc">GitHub TOC Template</a>
-<a href="https://afeld.github.io/bootstrap-toc/">More TOC</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex41">41. Bootstrap Templates</h2>
 <ul>
   <li><a href="https://afeld.github.io/bootstrap-toc/">GitHub Bootstrap TOC</li>
+  <li><a href="https://afeld.github.io/bootstrap-toc/">More TOC</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex42">42. Login Form Template</h2>
+    <a href="https://cssauthor.com/bootstrap-form-templates/">Login Form</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
