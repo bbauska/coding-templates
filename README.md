@@ -47,7 +47,7 @@ to be completely customizable.</p>
 <p>As such, if you need to make any adjustments to these code snippets for a more 
 optimized site, you're encouraged to do so.</p>
 
-<p>Jump to a Template</p>
+<p id="toc">Jump to a Template</p>
 
 <h3><a href="#ex1">01. Navigation Menus &amp; Breadcrumbs</a></h3>
 <h3><a href="#ex2">02. Button Transition Templates</a></h3>
@@ -141,6 +141,10 @@ optimized site, you're encouraged to do so.</p>
 }
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div align="right">
+  <b><a href="#toc">↥ back to top</a></b>
+</div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a name="ex2">Example #2: Menu: 4 vertical options, 4th active</a></h2>
 <!--~~~~~~~~~~~~~~~~~ 02. menu: four vertical options with 4th one active (01) ~~~~~~~~~~~~~~~~~-->
@@ -206,6 +210,10 @@ optimized site, you're encouraged to do so.</p>
 }
 ```
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div align="right">
+  <b><a href="#toc">↥ back to top</a></b>
+</div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a name="ex3">Example #3: Menu: four horizontal options with 2 dropdowns, 1st is active</a></h2>
 <!--~~~~~~~~~~ 03. menu: four horizontal options with 2 dropdowns, 1st option active ~~~~~~~~~~~-->
