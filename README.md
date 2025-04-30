@@ -82,7 +82,7 @@ optimized site, you're encouraged to do so.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a name="ex1">Example #1: Menu: 4 horizontal options, 3rd active</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~ 01. menu; four horizontal options with 3rd one active (01) ~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 01. menu: four horizontal options with 3rd one active (01) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image001.png" 
   title="Menu; four horizontal options with 3rd one active"
@@ -350,7 +350,6 @@ box-sizing: border-box;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>The CSS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <details open>
   <summary>The CSS</summary>
 
@@ -393,8 +392,8 @@ box-sizing: border-box;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image005.png" 
-  title=""
-  alt="."
+  title="Example 5:"
+  alt="Example 5:."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 <!-- ![](./images/image005.png){width="6.5in" height="1.5138888888888888in"} -->
@@ -410,7 +409,6 @@ box-sizing: border-box;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>The CSS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <details open>
   <summary>The CSS</summary>
 
@@ -438,8 +436,8 @@ box-sizing: border-box;
 
 <p align="center">
 <img src="./images/image006.png" 
-  title=""
-  alt="."
+  title="Example 6:"
+  alt="Example 6:."
   style="border: 2px solid #000000; width:2.5in;" />
 </p>
 <!-- ![](./images/image006.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
@@ -447,11 +445,10 @@ box-sizing: border-box;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a name="ex7">Example #7</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p align="center">
 <img src="./images/image007.png" 
-  title=""
-  alt="."
+  title="Example 7:"
+  alt="Example 7:."
   style="border: 2px solid #000000; width:4.07in;" />
 </p>
 <!-- ![](./images/image007.png){width="4.078125546806649in" height="1.9507917760279965in"} -->
@@ -498,8 +495,8 @@ box-sizing: border-box;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image008.png" 
-  title=""
-  alt="."
+  title="Example 8:"
+  alt="Example 8:."
   style="border: 2px solid #000000; width:2.08in;" />
 </p>
 <!-- ![](./images/image008.png){width="2.0833333333333335in" height="0.53125in"} -->
@@ -508,8 +505,8 @@ box-sizing: border-box;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image009.png" 
-  title=""
-  alt="."
+  title="Example 9:"
+  alt="Example 9:."
   style="border: 2px solid #000000; width:2.26in; height: .729" />
 </p>
 <!-- ![](./images/image009.png){width="2.2604166666666665in" height="0.7291666666666666in"} -->
@@ -518,8 +515,8 @@ box-sizing: border-box;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image010.png" 
-  title=""
-  alt="."
+  title="Example 10:"
+  alt="Example 10:."
   style="border: 2px solid #000000; width:1.88in; height: .635" />
 </p>
 <!-- ![](./images/image010.png){width="1.8854166666666667in" height="0.6354166666666666in"} -->
@@ -588,7 +585,7 @@ box-sizing: border-box;
 <h3>The HTML</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <details open>
-  <summary>The CSS</summary>
+  <summary>The HTML</summary>
 
 ```
 <form>
@@ -698,8 +695,8 @@ form {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image012.png" 
-  title=""
-  alt="."
+  title="Example 12:"
+  alt="Example 12:."
   style="border: 2px solid #000000; width:6.5in;" />
 </p>
 <!-- ![](./images/image012.png){width="6.5in" height="4.513888888888889in"} -->
@@ -707,7 +704,7 @@ form {
 <h3>The HTML</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <details open>
-  <summary>The CSS</summary>
+  <summary>The HTML</summary>
 
 ```
 <form>
@@ -826,8 +823,8 @@ button {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image013.png" 
-  title=""
-  alt="."
+  title="Example 13: "
+  alt="Example 13: ."
   style="border: 2px solid #000000; width:3.72in;" />
 </p>
 <!-- ![](./images/image13.png){width="3.7226859142607176in" height="5.776042213473316in"} -->
@@ -960,8 +957,8 @@ textarea {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image014.png" 
-  title=""
-  alt="."
+  title="Example 14:"
+  alt="Example 14: ."
   style="border: 2px solid #000000; width:5.59in;" />
 </p>
 <!-- ![](./images/image014.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
@@ -970,8 +967,8 @@ textarea {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image015.png" 
-  title=""
-  alt="."
+  title="Example 15: "
+  alt="Example 15: ."
   style="border: 2px solid #000000; width:5.6in;" />
 </p>
 <!-- ![](./images/image015.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
@@ -980,8 +977,8 @@ textarea {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image016.png" 
-  title=""
-  alt="."
+  title="Example 16: "
+  alt="Example 16: ."
   style="border: 2px solid #000000; width:5.69in;" />
 </p>
 <!-- ![](./images/image016.png){width="5.692708880139983in" height="3.270278871391076in"} -->
@@ -1194,8 +1191,8 @@ function control(direction) {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image017.png" 
-  title=""
-  alt="."
+  title="Example 17:"
+  alt="Example 17:."
   style="border: 2px solid #000000; width:3.52in;" />
 </p>
 <!-- ![](./images/image017.png){width="3.5208333333333335in" height="1.4479166666666667in"} -->
@@ -1263,8 +1260,8 @@ body {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image018.png" 
-  title=""
-  alt="."
+  title="Example 18:"
+  alt="Example 18:."
   style="border: 2px solid #000000; width:4.06in;" />
 </p>
 <!-- ![](./images/image018.png){width="4.0625in" height="1.03125in"} -->
@@ -1325,8 +1322,8 @@ body {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image019.png" 
-  title=""
-  alt="."
+  title="Example 19:"
+  alt="Example 19:."
   style="border: 2px solid #000000; width:3.29in;" />
 </p>
 <!-- ![](./images/image019.png){width="3.2916666666666665in" height="1.4583333333333333in"} -->
@@ -1389,8 +1386,8 @@ body {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image020.png" 
-  title=""
-  alt="."
+  title="Example 20:"
+  alt="Example 20:."
   style="border: 2px solid #000000; width:3.6in;" />
 </p>
 <!-- ![](./images/image020.png){width="3.6041666666666665in" height="0.9166666666666666in"} -->
@@ -1456,8 +1453,8 @@ body {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image021.png" 
-  title=""
-  alt="."
+  title="Example 21:"
+  alt="Example 21:."
   style="border: 2px solid #000000; width:5.375in;" />
 </p>
 <!-- ![](./images/image021.png){width="5.375in" height="0.875in"} -->
@@ -1495,21 +1492,20 @@ body {
 <h2 id="ex22">Example #22</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>The HTML</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image022.png" 
-  title=""
-  alt="."
+  title="Example 22:"
+  alt="Example 22:."
   style="border: 2px solid #000000; width:5.08in;" />
 </p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2><a name="ex23">Example #23</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image023.png" 
-  title=""
-  alt="."
+  title="Example 23:"
+  alt="Example 23:."
   style="border: 2px solid #000000; width:5.0in;" />
 </p>
 
@@ -3216,15 +3212,12 @@ toggleBtn.addEventListener("click", (e) => {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ex24">Example #24</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-```
 <p align="center">
 <img src="./images/image024.jpg"
-  title=""
-  alt="."
+  title="Example: 24:"
+  alt="Example: 24:."
   style="border: 2px solid #000000; width:4.88in;" />
 </p>
-```
 
 <!-- ![](./images/image024.jpg){width="4.880208880139983in" height="3.2534722222222223in"} -->
 
