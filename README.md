@@ -392,9 +392,9 @@ box-sizing: border-box;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image005.png" 
-  title="Example 5:"
-  alt="Example 5:."
-  style="border: 2px solid #000000; width:6.5in;" />
+  title="Example 5: Hover Button"
+  alt="Example 5: Hover Button."
+  style="border: 2px solid #000000; width:6.5in; height:1.5in;" />
 </p>
 <!-- ![](./images/image005.png){width="6.5in" height="1.5138888888888888in"} -->
 
@@ -407,7 +407,7 @@ box-sizing: border-box;
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3>The CSS</h3>
+<h3>The CSS (Hover Button)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <details open>
   <summary>The CSS</summary>
@@ -431,25 +431,23 @@ box-sizing: border-box;
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex6">Example #6</a></h2>
+<h2><a name="ex6">Example #6: Click me Button</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <p align="center">
 <img src="./images/image006.png" 
   title="Example 6:"
   alt="Example 6:."
-  style="border: 2px solid #000000; width:2.5in;" />
+  style="border: 2px solid #000000; width:2.5in; height: 1.1in;" />
 </p>
 <!-- ![](./images/image006.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex7">Example #7</a></h2>
+<h2><a name="ex7">Example #7: Another Click me Button</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image007.png" 
   title="Example 7:"
   alt="Example 7:."
-  style="border: 2px solid #000000; width:4.07in;" />
+  style="border: 2px solid #000000; width:4.0in; height: 1.9in;" />
 </p>
 <!-- ![](./images/image007.png){width="4.078125546806649in" height="1.9507917760279965in"} -->
 
@@ -491,33 +489,33 @@ box-sizing: border-box;
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex8">Example #8</a></h2>
+<h2><a name="ex8">Example #8: Hover over me </a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image008.png" 
   title="Example 8:"
   alt="Example 8:."
-  style="border: 2px solid #000000; width:2.08in;" />
+  style="border: 2px solid #000000; width:2.0in; height:0.5in;" />
 </p>
 <!-- ![](./images/image008.png){width="2.0833333333333335in" height="0.53125in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex9">Example #9</a></h2>
+<h2><a name="ex9">Example #9: Hover over me shadow</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image009.png" 
   title="Example 9:"
   alt="Example 9:."
-  style="border: 2px solid #000000; width:2.26in; height: .729" />
+  style="border: 2px solid #000000; width:2.2in; height:0.7" />
 </p>
 <!-- ![](./images/image009.png){width="2.2604166666666665in" height="0.7291666666666666in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex10">Example #10</a></h2>
+<h2><a name="ex10">Example #10: Hover over me (white on black)</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image010.png" 
   title="Example 10:"
   alt="Example 10:."
-  style="border: 2px solid #000000; width:1.88in; height: .635" />
+  style="border: 2px solid #000000; width:1.8in; height:0.6" />
 </p>
 <!-- ![](./images/image010.png){width="1.8854166666666667in" height="0.6354166666666666in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -570,7 +568,7 @@ box-sizing: border-box;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>3 Web Form & Search Bar Templates</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex11">Example #11</a></h2>
+<h2><a name="ex11">Example #11: Search form w/Check boxes</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Template #1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -578,7 +576,7 @@ box-sizing: border-box;
 <img src="./images/image011.png" 
   title=""
   alt="."
-  style="border: 2px solid #000000; width:6.5in;" />
+  style="border: 2px solid #000000; width:6.5in; height:1.7in;" />
 </p>
 <!-- ![](./images/image011.png){width="6.5in" height="1.7916666666666667in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -691,13 +689,13 @@ form {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Template #2</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex12">Example #12</a></h2>
+<h2><a name="ex12">Example #12: Submit form</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image012.png" 
   title="Example 12:"
   alt="Example 12:."
-  style="border: 2px solid #000000; width:6.5in;" />
+  style="border: 2px solid #000000; width:6.5in; height:4.5in;" />
 </p>
 <!-- ![](./images/image012.png){width="6.5in" height="4.513888888888889in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -817,7 +815,7 @@ button {
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex13">Example #13</a></h2>
+<h2><a name="ex13">Example #13: Submit survey radio buttons, dropdown, textarea</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Template #2</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -825,7 +823,7 @@ button {
 <img src="./images/image013.png" 
   title="Example 13: "
   alt="Example 13: ."
-  style="border: 2px solid #000000; width:3.72in;" />
+  style="border: 2px solid #000000; width:3.7in; height:5.7in;" />
 </p>
 <!-- ![](./images/image13.png){width="3.7226859142607176in" height="5.776042213473316in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -951,35 +949,35 @@ textarea {
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex14">Example #14</a></h2>
+<h2><a name="ex14">Example #14: CSS Background images (4)</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Lightbox Modal Element Template</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image014.png" 
-  title="Example 14:"
-  alt="Example 14: ."
-  style="border: 2px solid #000000; width:5.59in;" />
+  title="Example 14: CSS Background images (4)"
+  alt="Example 14: CSS Background images (4)."
+  style="border: 2px solid #000000; width:5.5in; height:0.7in;" />
 </p>
 <!-- ![](./images/image014.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex15">Example #15</a></h2>
+<h2><a name="ex15">Example #15: </a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image015.png" 
   title="Example 15: "
   alt="Example 15: ."
-  style="border: 2px solid #000000; width:5.6in;" />
+  style="border: 2px solid #000000; width:5.6in; height:3.2in;" />
 </p>
 <!-- ![](./images/image015.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex16">Example #16</a></h2>
+<h2><a name="ex16">Example #16: </a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image016.png" 
-  title="Example 16: "
-  alt="Example 16: ."
-  style="border: 2px solid #000000; width:5.69in;" />
+  title="Example 16: CSS"
+  alt="Example 16: CSS ."
+  style="border: 2px solid #000000; width:5.6in; height:3.2in;" />
 </p>
 <!-- ![](./images/image016.png){width="5.692708880139983in" height="3.270278871391076in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1187,13 +1185,13 @@ function control(direction) {
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex17">Example #17</a></h2>
+<h2><a name="ex17">Example #17: Top Tooltip</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image017.png" 
-  title="Example 17:"
-  alt="Example 17:."
-  style="border: 2px solid #000000; width:3.52in;" />
+  title="Example 17: CSS Top tooltip"
+  alt="Example 17: CSS Top tooltip."
+  style="border: 2px solid #000000; width:3.5in; height:1.4in;" />
 </p>
 <!-- ![](./images/image017.png){width="3.5208333333333335in" height="1.4479166666666667in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1256,13 +1254,13 @@ body {
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex18">Example #18</a></h2>
+<h2><a name="ex18">Example #18: Right tooltip</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image018.png" 
-  title="Example 18:"
-  alt="Example 18:."
-  style="border: 2px solid #000000; width:4.06in;" />
+  title="Example 18: Right tooltip"
+  alt="Example 18: Right tooltip."
+  style="border: 2px solid #000000; width:4.0in; height:1.0in;" />
 </p>
 <!-- ![](./images/image018.png){width="4.0625in" height="1.03125in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1318,13 +1316,13 @@ body {
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex19">Example #19</a></h2>
+<h2><a name="ex19">Example #19: Bottom tooltip</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image019.png" 
-  title="Example 19:"
-  alt="Example 19:."
-  style="border: 2px solid #000000; width:3.29in;" />
+  title="Example 19: Bottom tooltip"
+  alt="Example 19: Bottom tooltip."
+  style="border: 2px solid #000000; width:3.2in; height:1.4in;" />
 </p>
 <!-- ![](./images/image019.png){width="3.2916666666666665in" height="1.4583333333333333in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1382,13 +1380,13 @@ body {
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex20">Example #20</a></h2>
+<h2><a name="ex20">Example #20: Left tooltip</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image020.png" 
-  title="Example 20:"
-  alt="Example 20:."
-  style="border: 2px solid #000000; width:3.6in;" />
+  title="Example 20: Left tooltip"
+  alt="Example 20: Left tooltip."
+  style="border: 2px solid #000000; width:3.6in; height:0.9in;" />
 </p>
 <!-- ![](./images/image020.png){width="3.6041666666666665in" height="0.9166666666666666in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1449,13 +1447,13 @@ body {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>2 Progress Bar Templates</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex21">Example #21</a></h2>
+<h2><a name="ex21">Example #21: Progress bar (50%)</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image021.png" 
-  title="Example 21:"
-  alt="Example 21:."
-  style="border: 2px solid #000000; width:5.375in;" />
+  title="Example 21: Progress bar (50%)"
+  alt="Example 21: Progress bar (50%)."
+  style="border: 2px solid #000000; width:5.3in; height:0.8in" />
 </p>
 <!-- ![](./images/image021.png){width="5.375in" height="0.875in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1489,24 +1487,24 @@ body {
 
 </detials>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ex22">Example #22</h2>
+<h2 id="ex22">Example #22: Colored Progress bar (40%)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>The HTML</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image022.png" 
-  title="Example 22:"
-  alt="Example 22:."
-  style="border: 2px solid #000000; width:5.08in;" />
+  title="Example 22: Colored Progress bar (40%)"
+  alt="Example 22: Colored Progress bar (40%)."
+  style="border: 2px solid #000000; width:5.0in; height:0.7in;" />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex23">Example #23</a></h2>
+<h2><a name="ex23">Example #23: Colored Progress bar (80%)</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image023.png" 
-  title="Example 23:"
-  alt="Example 23:."
-  style="border: 2px solid #000000; width:5.0in;" />
+  title="Example 23: Colored Progress bar (80%)"
+  alt="Example 23: Colored Progress bar (80%)."
+  style="border: 2px solid #000000; width:5.0in; height:0.7in;" />
 </p>
 
 ```
@@ -3210,13 +3208,13 @@ toggleBtn.addEventListener("click", (e) => {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Template</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ex24">Example #24</h2>
+<h2 id="ex24">Example #24: Assorted color stripes illustration</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image024.jpg"
-  title="Example: 24:"
-  alt="Example: 24:."
-  style="border: 2px solid #000000; width:4.88in;" />
+  title="Example: 24: Assorted color stripes illustration"
+  alt="Example: 24: Assorted color stripes illustration."
+  style="border: 2px solid #000000; width:4.8in; height: 3.2in;" />
 </p>
 
 <!-- ![](./images/image024.jpg){width="4.880208880139983in" height="3.2534722222222223in"} -->
@@ -3226,7 +3224,7 @@ Example: Assorted Color Stripe Illustration</a></p>
 
 
 <details open>
-  <summary>The HTML</summary>
+  <summary>The HTML/CSS</summary>
 
 ```
 /* Set entire page background to a color */
@@ -3361,7 +3359,7 @@ body{
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>CSS overflow templates</h2>
+<h2>CSS Overflow Templates</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <details open>
   <summary>The HTML</summary>
