@@ -2316,16 +2316,43 @@ This can, for instance, be used to draw graphs, combine photos, or create animat
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>1. Colors, Styles, and Shadows:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-|  Property    |    Description                                                                 |
-|--------------|--------------------------------------------------------------------------------|
-|<mark>fillStyle</mark>       | Sets or returns the color, gradient, or pattern used to fill the drawing. |
-|<mark>strokeStyle</mark>   | Sets or returns the color, gradient, or pattern used for strokes.     |
-|<mark>shadowColor</mark>   | Sets or returns the color to use for shadows.                         |
-|<mark>shadowBlur</mark>       | Sets or returns the blur level for shadows.                        |
-|<mark>shadowOffsetX</mark> | Sets or returns the horizontal distance of the shadow from the shape. |
-|<mark>shadowOffsetY</mark> | Sets or returns the vertical distance of the shadow from the shape.   |
-
+<div role="region" tabindex="0">
+  <table>
+    <caption>Colors, Styles, and Shadows:</caption>
+    <thead>
+      <tr>
+        <th><b><mark>Property</mark></b></th>
+        <th><b><mark>Description</mark></b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b><mark>fillStyle</mark></b></td>
+        <td>Sets or returns the color, gradient, or pattern used to fill the drawing.</td>
+      </tr>
+      <tr>
+        <td><b><mark>strokeStyle</mark></b></td>
+        <td>Sets or returns the color, gradient, or pattern used for strokes.</td>
+      </tr>
+      <tr>
+        <td><b><mark>shadowColor</mark></b></td>
+        <td>Sets or returns the color to use for shadows.</td>
+      </tr>
+      <tr>
+        <td><b><mark>shadowBlur</mark></b></td>
+        <td>Sets or returns the blur level for shadows.</td>
+      </tr>
+      <tr>
+        <td><b><mark>shadowOffsetX</mark></b></td>
+        <td>Sets or returns the horizontal distance of the shadow from the shape.</td>
+      </tr>
+      <tr>
+        <td><b><mark>shadowOffsetY</mark></b></td>
+        <td>Sets or returns the vertical distance of the shadow from the shape.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>2. Line Styles:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4675,22 +4702,63 @@ The &lt;input&gt; element, on the other hand, is versatile and can be used to ca
 various types of input data such as text, password, email, and more, simply by 
 altering its type attribute. Now, let’s all the list of HTML Form Elements one 
 by one:</p>
-
-
-| Elements     | Descriptions |
-|------------|------------------------------------------------------------------------------------|
-| <mark>&lt;label&gt;</mark>    | It defines labels for &lt;form&gt; elements. |
-| <mark>&lt;input&gt;</mark>    | It is used to get input data from the form in various types such as text, password, email, etc by changing its type. |
-| <mark>&lt;button&gt;</mark>   | It defines a clickable button to control other elements or execute a functionality. |
-| <mark>&lt;select&gt;</mark>   | It is used to create a drop-down list. |
-| <mark>&lt;textarea&gt;</mark> | It is used to get input long text content. |
-| <mark>&lt;fieldset&gt;</mark> | It is used to draw a box around other form elements and group the related data. |
-| <mark>&lt;legend&gt;</mark>   | It defines a caption for fieldset elements. |
-| <mark>&lt;datalist&gt;</mark> | It is used to specify pre-defined list options for input controls. |
-| <mark>&lt;output&gt;</mark>   | It displays the output of performed calculations. |
-| <mark>&lt;option&gt;</mark>   | It is used to define options in a drop-down list. |
-| <mark>&lt;optgroup&gt;</mark> | It is used to define group-related options in a drop-down list. |
-
+<div role="region" tabindex="0">
+  <table>
+    <caption>Form Elements</caption>
+    <thead>
+      <tr>
+        <th><b><mark>Elements</mark></b></th>
+        <th><b><mark>Description</mark></b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b><mark>&lt;label&gt;</mark></b></td>
+        <td>It defines labels for &lt;form&gt; elements.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;input&gt;</mark></b></td>
+        <td>It is used to get input data from the form in various types such as text, password, email, etc by changing its type.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;button&gt;</mark></b></td>
+        <td>It defines a clickable button to control other elements or execute a functionality.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;select&gt;</mark></b></td>
+        <td>It is used to create a drop-down list.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;textarea&gt;</mark></b></td>
+        <td>It is used to get input long text content.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;fieldset&gt;</mark></b></td>
+        <td>It is used to draw a box around other form elements and group the related data.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;legend&gt;</mark></b></td>
+        <td>It defines a caption for fieldset elements.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;datalist&gt;</mark></b></td>
+        <td>It is used to specify pre-defined list options for input controls.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;output&gt;</mark></b></td>
+        <td>It displays the output of performed calculations.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;option&gt;</mark></b></td>
+        <td>It is used to define options in a drop-down list.</td>
+      </tr>
+      <tr>
+        <td><b><mark>&lt;optgroup&gt;</mark></b></td>
+        <td>It is used to define group-related options in a drop-down list.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Commonly Used Input Types in HTML Forms</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9803,7 +9871,6 @@ Response.Flush()
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="15-html-access">15. HTML Accessibility</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <div align="right">
   <b><a href="#toc">↥ back to top</a></b>
 </div>
@@ -9817,6 +9884,7 @@ Response.Flush()
   <h6>Last editted: 5/4/2025 +12pm</h6>
   <h6>Last editted: 5/6/2025 +12pm</h6>
   <h6>Last editted: 5/9/2025 +9am</h6>
+  <h6>Last editted: 5/11/2025 +3pm</h6>
   <p>The End...</p>
   
 <div align="right">
