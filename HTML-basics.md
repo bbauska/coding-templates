@@ -3552,24 +3552,24 @@ future versions of Windows Internet Explorer.</i></p>
 |<b>&lt;html&gt;</b>       | The &lt;html&gt; tag is the root element of an HTML document. It encapsulates the entire content of the page.|
 |<b>&lt;img&gt;</b>        | The HTML &lt;img&gt; tag is used to embed images in a web page. |
 |<b>&lt;input&gt;</b>      | The &lt;input&gt; tag in HTML is used to collect user input in web forms. It supports various input types such as text, password, checkboxes, radio buttons, and more. |
-|<b>&lt;li&gt;</b>         |             |
-|<b>&lt;link&gt;</b>       |             |
-|<b>&lt;meta&gt;</b>       |             |  
-|<b>&lt;optgroup&gt;</b>   |             |
-|<b>&lt;option&gt;</b>     |             |
-|<b>&lt;p&gt;</b>          |             |
-|<b>&lt;param&gt;</b>      |             |
-|<b>&lt;rp&gt;</b>         |             |
-|<b>&lt;rt&gt;</b>         |             |
-|<b>&lt;source&gt;</b>     |             |
-|<b>&lt;tbody&gt;</b>      |             |
-|<b>&lt;td&gt;</b>         |             |
-|<b>&lt;tfoot&gt;</b>      |             |
-|<b>&lt;th&gt;</b>         |             |
-|<b>&lt;thead&gt;</b>      |             |
-|<b>&lt;tr&gt;</b>         |             |
-|<b>&lt;track&gt;</b>      |             |
-|<b>&lt;wbr&gt;</b>        |             |
+|<b>&lt;li&gt;</b>         | The &lt;li&gt; tag is used inside ordered lists(&lt;ol&gt;), unordered lists (&lt;ul&gt;), and in menu lists (&lt;menu&gt;). |
+|<b>&lt;link&gt;</b>       | HTML &lt;link&gt; tags help define relationships between resources on your website. |
+|<b>&lt;meta&gt;</b>       | The &lt;meta&gt; tag defines metadata about an HTML document. Metadata is data (information) about data. |
+|<b>&lt;optgroup&gt;</b>   | The &lt;optgroup&gt; tag defines a group of options within a dropdown list defined by the &lt;select&gt; element. |
+|<b>&lt;option&gt;</b>     | The &lt;option&gt; tag defines an option in a select list. &lt;option&gt; elements go inside a &lt;select&gt;, &lt;optgroup&gt;, or &lt;datalist&gt; element. |
+|<b>&lt;p&gt;</b>          | The &lt;p&gt; tag defines a paragraph. |
+|<b>&lt;param&gt;</b>      | The &lt;param&gt; tag is used to define parameters for an &lt;object&gt; element.            |
+|<b>&lt;rp&gt;</b>         | The &lt;rp&gt; tag can be used to provide parentheses around a ruby text, to be shown by browsers that do not support ruby annotations.            |
+|<b>&lt;rt&gt;</b>         | The &lt;rt&gt; tag defines an explanation or pronunciation of characters (for East Asian typography) in a ruby annotation.            |
+|<b>&lt;source&gt;</b>     | The &lt;source&gt; tag is used to specify multiple media resources for media elements, such as &lt;video&gt;, &lt;audio&gt;, and &lt;picture&gt;. |
+|<b>&lt;tbody&gt;</b>      | The &lt;tbody&gt; tag is used to group the body content in an HTML table. |
+|<b>&lt;td&gt;</b>         | The &lt;td&gt; tag defines a standard data cell in an HTML table. |
+|<b>&lt;tfoot&gt;</b>      | The &lt;tfoot&gt; tag is used to group footer content in an HTML table.            |
+|<b>&lt;th&gt;</b>         | The &lt;th&gt; tag defines a header cell in an HTML table.            |
+|<b>&lt;thead&gt;</b>      | The &lt;thead&gt; tag is used to group header content in an HTML table. |
+|<b>&lt;tr&gt;</b>         | The &lt;tr&gt; tag defines a row in an HTML table.            |
+|<b>&lt;track&gt;</b>      | The &lt;track&gt; tag specifies text tracks for <audio> or <video> elements. |
+|<b>&lt;wbr&gt;</b>        | The &lt;wbr&gt; (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.  |
 
 <div align="right">
   <b><a href="#toc">↥ back to top</a></b>
