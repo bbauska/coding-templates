@@ -1,10 +1,10 @@
 ---
 title: "Coding Templates"
 author: "bbauska"
-date created: "MM/DD/20YY XX+pm"
-date prior editted: "11/24/2024 10+pm"
+date created: "11/24/2024 8+pm"
 date last editted: "11/24/2024 10+pm"
 date last editted: "5/10/2025 8+pm"
+date last editted: "5/26/2025 1+pm"
 output: 
   markdown:
     with some style
@@ -50,15 +50,15 @@ optimized site, you're encouraged to do so.</p>
 
 <p id="toc">Jump to a Template</p>
 
-<h3><a href="#ex1">01. Navigation Menus &amp; Breadcrumbs</a></h3>
-<h3><a href="#ex2">02. Button Transition Templates</a></h3>
-<h3><a href="#ex3">03. Web Form &amp; Search Bar Templates</a></h3>
-<h3><a href="#ex4">04. Lightbox Modal Element Templates</a></h3>
-<h3><a href="#ex5">05. Tooltip Templates</a></h3>
-<h3><a href="#ex6">06. Progress Bar Templates</a></h3>
-<h3><a href="#ex7">07. CSS Accordion Templates</a></h3>
-<h3><a href="#ex8">08. CSS Effects Templates</a></h3>
-<h3><a href="#ex9">09. CSS Tab Navigation</a></h3>
+<h3><a href="#ex01">01. Navigation Menus &amp; Breadcrumbs</a></h3>
+<h3><a href="#ex02">02. Button Transition Templates</a></h3>
+<h3><a href="#ex03">03. Web Form &amp; Search Bar Templates</a></h3>
+<h3><a href="#ex04">04. Lightbox Modal Element Templates</a></h3>
+<h3><a href="#ex05">05. Tooltip Templates</a></h3>
+<h3><a href="#ex06">06. Progress Bar Templates</a></h3>
+<h3><a href="#ex07">07. CSS Accordion Templates</a></h3>
+<h3><a href="#ex08">08. CSS Effects Templates</a></h3>
+<h3><a href="#ex09">09. CSS Tab Navigation</a></h3>
 <h3><a href="#ex10">10. CSS and JavaScript Slideshow Templates</a></h3>
 <h3><a href="#ex11">11. Templates</a></h3>
 <h3><a href="#ex12">12. JavaScript onClick With CSS</a></h3>
@@ -80,7 +80,7 @@ optimized site, you're encouraged to do so.</p>
 <h3><a href="#ex41">41. Bootstrap Templates</a></h3>
 <h3><a href="#ex42">42. Login Form Template</a></h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex1">Example #1: Menu: 4 horizontal options, 3rd active</a></h2>
+<h2><a name="ex01">Example #1: Menu: 4 horizontal options, 3rd active</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 01. menu: four horizontal options with 3rd one active (01) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -150,7 +150,7 @@ optimized site, you're encouraged to do so.</p>
   <b><a href="#toc">↥ back to top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex2">Example #2: Menu: 4 vertical options, 4th active</a></h2>
+<h2><a name="ex02">Example #2: Menu: 4 vertical options, 4th active</a></h2>
 <!--~~~~~~~~~~~~~~~~~ 02. menu: four vertical options with 4th one active (01) ~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image002.png" 
@@ -222,7 +222,7 @@ optimized site, you're encouraged to do so.</p>
   <b><a href="#toc">↥ back to top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex3">Example #3: Menu: four horizontal options with 2 dropdowns, 1st is active</a></h2>
+<h2><a name="ex03">Example #3: Menu: four horizontal options with 2 dropdowns, 1st is active</a></h2>
 <!--~~~~~~~~~~ 03. menu: four horizontal options with 2 dropdowns, 1st option active ~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image003.png" 
@@ -323,7 +323,7 @@ box-sizing: border-box;
   <b><a href="#toc">↥ back to top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex4">Example #4: Menu: four horizontal options, 4th unique, 1st active</a></h2>
+<h2><a name="ex04">Example #4: Menu: four horizontal options, 4th unique, 1st active</a></h2>
 <!--~~~~~~~~~~~~ 04. menu: four horizontal options, 4th one unique, 1st active (01) ~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image004.png" 
@@ -392,7 +392,7 @@ box-sizing: border-box;
   <b><a href="#toc">↥ back to top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex5">Example #5</a></h2>
+<h2><a name="ex05">Example #5</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>3 Button Transition Templates</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -443,7 +443,7 @@ box-sizing: border-box;
   <b><a href="#toc">↥ back to top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex6">Example #6: Click me Button</a></h2>
+<h2><a name="ex06">Example #6: Click me Button</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image006.png" 
@@ -453,7 +453,7 @@ box-sizing: border-box;
 </p>
 <!-- ![](./images/image006.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex7">Example #7: Another Click me Button</a></h2>
+<h2><a name="ex07">Example #7: Another Click me Button</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image007.png" 
@@ -504,7 +504,7 @@ box-sizing: border-box;
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex8">Example #8: Hover over me </a></h2>
+<h2><a name="ex08">Example #8: Hover over me </a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image008.png" 
@@ -518,7 +518,7 @@ box-sizing: border-box;
   <b><a href="#toc">↥ back to top</a></b>
 </div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2><a name="ex9">Example #9: Hover over me shadow</a></h2>
+<h2><a name="ex09">Example #9: Hover over me shadow</a></h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image009.png" 
@@ -864,8 +864,8 @@ button {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
 <img src="./images/image013.png" 
-  title="Example 13: "
-  alt="Example 13: ."
+  title="Example 13: Submit survey radio buttons, dropdown, textarea"
+  alt="Example 13: Submit survey radio buttons, dropdown, textarea."
   style="border: 2px solid #000000; width:3.7in; height:5.7in;" />
 </p>
 <!-- ![](./images/image13.png){width="3.7226859142607176in" height="5.776042213473316in"} -->
