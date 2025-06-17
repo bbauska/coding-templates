@@ -177,7 +177,7 @@ pre[href]:hover  {
   text-decoration: none;
 }
 pre:hover, pre:focus {
-  width: 25%;  /* last: 50%, was: fit-content; before that; width: min-content */
+  width: 50%;  /* last: 50%, was: fit-content; before that; width: min-content */
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
